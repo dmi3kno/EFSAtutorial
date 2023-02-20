@@ -7,6 +7,20 @@
     "text": "START HERE\n\n \n\nLearn more about principles, methods of uncertainty analysis at EFSA, as well as the practical examples of applying these in scientific opinions."
   },
   {
+    "objectID": "uaguidance/dividing.html",
+    "href": "uaguidance/dividing.html",
+    "title": "Dividing the assessment into parts",
+    "section": "",
+    "text": "Often an assessment will comprise a number of main parts (e.g. exposure and hazard in a chemical risk assessment) and smaller, subsidiary parts (e.g. individual parameters, studies, or lines of evidence within the exposure or hazard assessment).\nThe uncertainty analysis may also be divided into parts. Assessors should choose at what level to conduct it:\n\nEvaluate all uncertainties collectively, for the assessment as a whole.\nDivide the uncertainty analysis into parts, which evaluate uncertainties separately in major parts of the scientific assessment (e.g. exposure and hazard in a risk assessment). Then, combine the parts of the uncertainty analysis and include also any other identified uncertainties that relate to other parts of the scientific assessment as a whole, so as to characterise the overall uncertainty.\nDivide the uncertainty analysis into still smaller parts, corresponding to still smaller parts of the scientific assessment (e.g. every input of a calculation or model). Evaluate uncertainty collectively within each of the smaller parts, combine them into the main parts, and combine those to characterise overall uncertainty for the whole assessment.\n\nIf the uncertainty analysis will be divided into parts, assessors will need to combine them to characterise overall uncertainty. Assessors should define in advance how the parts will be combined, as this will increase transparency and rigour. It is recommended to use a conceptual model diagram (see glossary for explanation) to show how the parts will be combined. The parts may be combined by expert judgement (Section 12.6), or by calculation (Sections 13, 14 or 15) if assessors quantify the uncertainty for each part and can specify an appropriate quantitative or logical model to combine them. Calculation is likely to give more reliable results, but should be weighed against the additional work involved.\nAssessors should judge what is best suited to the needs of each assessment. For example, it may be more efficient to evaluate uncertainty for different parts separately if they require different expertise (e.g. toxicity and exposure). Evaluating all uncertainties collectively (first option in point (2) above) is generally quicker and superficially simpler but requires integrating them all subjectively by expert judgement, which may be less reliable than evaluating different parts of the uncertainty analysis separately, if they are then combined by calculation. For this reason, it is recommended to treat separately those parts of the assessment that are affected by larger uncertainties (identified by a simple initial prioritisation, see Section 8).\nWhen a part of the scientific assessment is treated separately in the uncertainty analysis, it is not necessary to evaluate immediately all of the uncertainties affecting it; some of them can be set to one side and considered later as part of the overall characterisation of uncertainty, if this is more convenient for the assessor. However, it is recommended that only the lesser uncertainties are deferred to the overall characterisation, since it will be more reliable to combine the larger uncertainties by calculation.\nWhen the scientific assessment includes a quantitative or logical model, assessors may find it convenient to quantify uncertainty separately for every parameter of the model. In such cases, it will still be necessary to identify additional uncertainties that are not quantified within the model, e.g. uncertainties relating to the structure of the model (see Section 7.2) and take them into account in the characterisation of overall uncertainty (Section 16). In other cases, assessors might find it sufficient to analyse all the uncertainties affecting a model collectively (simplest option in point (2) above), or for major parts of the model without separating the individual parameters (intermediate option in point (2))."
+  },
+  {
+    "objectID": "uaguidance/reporting.html",
+    "href": "uaguidance/reporting.html",
+    "title": "Reporting uncertainty analysis",
+    "section": "",
+    "text": "Section 17"
+  },
+  {
     "objectID": "uaguidance/figure7.html",
     "href": "uaguidance/figure7.html",
     "title": "Uncertainty analysis for case-specific assessments",
@@ -21,6 +35,13 @@
     "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] \n  B --> C[Do you want</br>to try the simpler</br>option of</br>using only bounded</br>probabilities?]\n  C --Yes-->D[Quantify uncertainty</br>for each part of</br>the uncertainty analysis,</br>using probability bounds for</br>both uncertainty and variability]\n  D--> F[Combine the parts</br>by probability bounds</br> calculation]\n  C --No -->E[Quantify uncertainty</br>for each part of</br>the uncertainty analysis,</br>using 2D distributions</br>for variable quantities]\n  E --> G[Combine the parts</br>by 2D Monte Carlo</br>simulation]\n    subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    H[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> I[Check for</br>and describe any</br>unquantified uncertainties]\n  end\n  F & G --> ov\n  ov--> J[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  click A \"figure5.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
   },
   {
+    "objectID": "uaguidance/prioritizing.html",
+    "href": "uaguidance/prioritizing.html",
+    "title": "Prioritizing uncertainties",
+    "section": "",
+    "text": "Prioritising sources of uncertainty may be useful at different stages of the assessment and uncertainty analysis. In the early stages, it can be used to select more important uncertainties to be analysed by more refined methods, e.g. to be evaluated individually rather than collectively, to be expressed with probabilities or distributions rather than bounds, to be elicited by more rather than less formal methods, etc. Prioritisation can also be used during the course of an assessment, to identify parts of the assessment where it might be beneficial to search for more data, use more complex models, or invite additional experts. At the end of the assessment, it may be useful to prioritise uncertainties to identify potential areas for further research.\nPrioritisation, at any stage of the assessment, should be based on the contribution of individual sources of uncertainty to the uncertainty of the assessment as a whole. This is determined by a combination of the magnitude of each uncertainty and how much it affects the result of the assessment, both of which need to be taken into account [SO5.7].\nThe relative influence of different uncertainties can be assessed in a simple and approximate way using qualitative methods based on expert judgement. An ordinal scale can be used to express expert judgements of the magnitude and/or direction of impact of each uncertainty on the question or quantity of interest, as in ‘uncertainty tables’ [SO10.5 and 10.6]. Or separate ordinal scales could be used to express judgements of the magnitude of each uncertainty and its influence, as in the Numeral, Unit, Spread, Assessment and Pedigree (NUSAP) approach [SO10.4].\nWhen the assessment involves a calculation or quantitative model, the contributions of uncertainties about the model inputs can be assessed rigorously by sensitivity analysis. These range from simple ‘what if’ calculations and ‘minimal assessment’ (EFSA, 2014a) to sophisticated sensitivity analyses [see SO12] for which specialist help might be required (Section 1.7). The influence of uncertainties relating to choices regarding the structure of the model or assessment may need to be addressed by repeating the assessment with alternative choices. Prioritisation at the early stages of an assessment must necessarily be done by expert judgement or by sensitivity analysis using a preliminary model, as the assessment model is still under development."
+  },
+  {
     "objectID": "uaguidance/figure1.html",
     "href": "uaguidance/figure1.html",
     "title": "Uncertainty analysis for standardised assessments",
@@ -28,11 +49,46 @@
     "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TD\n  A([< BACK]) --> B{Check every part</br>of assessment</br>for nonstandard</br>uncertainties}\n  B -- None identified --> C[[Document in the opinion that</br>non-standard uncertainties</br>were checked for</br>and none were identified]]\n  B --One or more identified --> Z([NEXT >])\n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure2.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
   },
   {
+    "objectID": "uaguidance/overall.html",
+    "href": "uaguidance/overall.html",
+    "title": "Characterising overall uncertainty",
+    "section": "",
+    "text": "Section 16"
+  },
+  {
     "objectID": "uaguidance/figure11.html",
     "href": "uaguidance/figure11.html",
     "title": "Uncertainty analysis for urgent assessments",
     "section": "",
     "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Conduct the assessment,</br>listing uncertainties</br>you identify] \n  B --> C[Ensure the question</br>or quantity of interest</br>is well-defined]\n  C --> D[Decide how to</br>express the uncertainty]\n  D --> E[Quickly check</br>the assessment for</br>additional uncertainties]\n  E --> ov\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n F[Elicit</br>a probability judgement</br>for the overall</br>uncertainty] --> G[Check for</br>and describe</br>any unquantified</br>uncertainties]\n  end\n    ov --> H[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  \n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/identifying.html",
+    "href": "uaguidance/identifying.html",
+    "title": "Identifying uncertainties",
+    "section": "",
+    "text": "Standard uncertainties are those that are considered (implicitly or explicitly) to be addressed by the provisions of a standardised procedure or standardised assessment element. For example, uncertainties due to within and between species differences in toxicity are often addressed by a default factor of 100 in chemical risk assessment.\nAll other uncertainties are non-standard uncertainties. These include any deviations from a standardised procedure or standardised assessment element that lead to uncertainty regarding the result of the procedure.\n\nBoth standard and non-standard uncertainties may be found in any type of assessment, but the proportions vary. It is recommended that EFSA’s Panels include lists of standard uncertainties within the documentation for standard procedures, as this will help assessors to distinguish standard and non-standard uncertainties."
+  },
+  {
+    "objectID": "uaguidance/identifying.html#procedure-for-identifying-uncertainties",
+    "href": "uaguidance/identifying.html#procedure-for-identifying-uncertainties",
+    "title": "Identifying uncertainties",
+    "section": "Procedure for identifying uncertainties",
+    "text": "Procedure for identifying uncertainties\n\nEvery assessment must say what sources of uncertainty have been identified.\nAssessors should systematically examine every part of their assessment for uncertainties, including both the inputs to the assessment (e.g. data, estimates, other evidence) and the methods used in the assessment (e.g. statistical methods, calculations or models, reasoning, expert judgement), to minimise the risk that important uncertainties are overlooked.\nUncertainties affecting assessment inputs are identified when appraising the evidence retrieved from literature or from existing databases.\nUncertainties affecting the methods used in the assessment are generally not addressed by existing frameworks for evidence appraisal. It is therefore recommended that assessors use the right column of Table 1 (referring to [SO8.1] for details and explanation) as a guide to what types of uncertainty to look for in the methods of their assessment.\nAssessors are advised to avoid spending excessive time trying to match uncertainties to the types listed in Table 1 or other frameworks: the purpose of the lists is to facilitate identification of uncertainties, not to classify them.\nAssessors should determine which of the uncertainties they identify in an assessment are standard and which are non-standard (Section 7.1), as this will affect their treatment in subsequent stages of the uncertainty analysis."
+  },
+  {
+    "objectID": "uaguidance/futureinvestigation.html",
+    "href": "uaguidance/futureinvestigation.html",
+    "title": "Prioritising uncertainties for future investigation",
+    "section": "",
+    "text": "Section 8"
+  },
+  {
+    "objectID": "uaguidance/characterizing.html",
+    "href": "uaguidance/characterizing.html",
+    "title": "Characterising uncertainty for parts of the uncertainty analysis",
+    "section": "",
+    "text": "Section 11-12"
   },
   {
     "objectID": "uaguidance/figure2.html",
@@ -63,6 +119,13 @@
     "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Ensure the inputs,</br>methods and outputs</br>of the standard procedure</br>are well-defined] \n  B --> C[Define the class</br>of problems or applications</br>this procedure</br>will be used for]\n  C --> D[Agree the management</br>objective for the</br>standard procedure]\n  D --> E[Design and perform</br>a scientific assessment</br>and uncertainty analysis</br>of the extent to which</br>the standard procedure</br>will achieve the management objective]\n  E --> F{Is there</br>sufficient probability</br>of achieving</br>the management objective</br>to an acceptable extent?}\n  F -- Yes --> G[Document the assessment</br>and uncertainty analysis</br>of the standard procedure]\n  F -- No --> H[Modify the standard</br>procedure in ways that</br>you expect to achieve</br>the management objective]\n  H --> I[Redo the assessment</br>and uncertainty analysis</br>for the modified procedure]\n  I -.-> E\n  G --> J[[Make the standard</br>procedure available</br>for use]]\n  \n  \n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
   },
   {
+    "objectID": "uaguidance/welldefined.html",
+    "href": "uaguidance/welldefined.html",
+    "title": "Ensuring that the questions or quantities of interest are well-defined",
+    "section": "",
+    "text": "In order to evaluate uncertainty, the questions and/or quantities of interest for the assessment must be well-defined. This applies both to the assessment as a whole and to different parts of the uncertainty analysis, if it is separated into parts. Any ambiguity in the definition of questions or quantities of interest will add extra uncertainty and make the evaluation more difficult. When a question or quantity of interest is not already well-defined for the purpose of scientific assessment, assessors should define it well for the purpose of uncertainty analysis.\nA quantity or question of interest is well-defined if, at least in principle, it could be determined in such a way that assessors would be sure to agree on the answer. A practical way to achieve this is by specifying an experiment, study or procedure that could be undertaken, at least in principle, and which would determine the true answer for the question or quantity with certainty [see SO5.1 for more discussion]. For example:\n\na well-defined measure for a quantity of interest, and the time, population or location, and conditions (e.g. status quo or with specified management actions) for which the measure will be considered;\nfor a question of interest, the presence or absence of one or more clearly-defined states, conditions, mechanisms, etc., of interest for the assessment, and the time, population or location, and conditions (e.g. status quo or with specified management actions) for which this will be considered;\nthe result of a clearly-defined scientific study, procedure or calculation, which is established (e.g. in legislation or guidance) as being relevant for the assessment.\n\nWhen drafting the definition of each question or quantity of interest, check each word in turn. Identify words that are ambiguous (e.g. high), or imply a risk management judgement (e.g. negligible, safe). Replace or define them with words that are, as far as possible, unambiguous and free of risk management connotations or, where appropriate, with numbers.\nSometimes the Terms of Reference for an assessment are very open, e.g. requesting a review of the literature on an area of science. In such cases, assessors should seek to ensure the conclusions they produce either refer to well-defined quantities, or contain welldefined statements that can be considered as answers to well-defined questions, in one of the three forms listed above (point 2, options a–c). This is necessary both for transparency and so that assessors can evaluate and express the uncertainty associated with their conclusions."
+  },
+  {
     "objectID": "uaguidance/figure6.html",
     "href": "uaguidance/figure6.html",
     "title": "Uncertainty analysis for case-specific assessments",
@@ -82,6 +145,13 @@
     "title": "Standardized Assessments",
     "section": "",
     "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Take account</br>of the contribution</br>of any additional uncertainties] --> E[Check for and</br>describe any </br>unquantified uncertainties]\n  end\n  A([< BACK]) --> B[Obtain a probability</br> or a distribution</br> for each part of the</br> uncertainty analysis]\n  B --> C[Combine the parts</br> using the calculation</br> chosen earlier]\n  C --> ov\n  ov --> G[[Report conclusion</br>in form needed by</br>decision-makers,</br>and detailed analysis</br>in opinion or annex]]\n  \n  click A \"figure3.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C \"figure3.html\" \"See Section 17 regarding reporting.\"\n  click Z \"figure4.html\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/combining.html",
+    "href": "uaguidance/combining.html",
+    "title": "Combining uncertainty from different parts of the uncertainty analysis",
+    "section": "",
+    "text": "Section 13-15"
   },
   {
     "objectID": "methods.html",
@@ -123,6 +193,6 @@
     "href": "uncertaintyanalysis.html",
     "title": "Uncertainty Analysis Guidance",
     "section": "",
-    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Standardized</br>Assessments])\n  B([Case-specific</br>assessments])\n  C([Urgent</br>assessments])\n  D([Development or revision</br>of guidance documents])\n  click A \"uaguidance/figure1.html\" \"Go Forward\"\n  click B \"uaguidance/figure5.html\" \"Go Forward\"\n  click C \"uaguidance/figure11.html\" \"Go Forward\"\n  click D \"uaguidance/figure12.html\" \"Go Forward\""
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Standardized</br>Assessments])\n  B([Case-specific</br>assessments])\n  click A \"uaguidance/figure1.html\" \"A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment\"\n  click B \"uaguidance/figure5.html\" \"Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches\"\n\n\n\n\n\n\n\n\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  C([Urgent</br>assessments])\n  D([Development or revision</br>of guidance documents])\n  click C \"uaguidance/figure11.html\" \"Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis\"\n  click D \"uaguidance/figure12.html\" \"Especially (but not only) those that describe existing standardised procedures or establish new ones\"\n\n\n\n\n\n\n\n\nLearn more about\n\nIdentifying uncertainties affecting the assessment\nPrioritizing uncertainties within the assessment\nDividing the uncertainty analysis into parts\nEnsuring that the questions or quantities of interest are well-defined\nCharacterising uncertainty for parts of the uncertainty analysis\nCombining uncertainty from different parts of the uncertainty analysis\nCharacterising overall uncertainty\nPrioritising uncertainties for future investigation\nReporting uncertainty analysis"
   }
 ]

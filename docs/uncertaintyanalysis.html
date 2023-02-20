@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,20 +112,84 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Uncertainty Analysis Guidance</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertaintyanalysis.html" class="sidebar-item-text sidebar-link active">Uncertainty Analysis Guidance</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/identifying.html" class="sidebar-item-text sidebar-link">Identifying uncertainties</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/prioritizing.html" class="sidebar-item-text sidebar-link">Prioritizing uncertainties</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/dividing.html" class="sidebar-item-text sidebar-link">Dividing the assessment into parts</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/welldefined.html" class="sidebar-item-text sidebar-link">Ensuring that the questions or quantities of interest are well-defined</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/characterizing.html" class="sidebar-item-text sidebar-link">Characterising uncertainty for parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/combining.html" class="sidebar-item-text sidebar-link">Combining uncertainty from different parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/overall.html" class="sidebar-item-text sidebar-link">Characterising overall uncertainty</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/futureinvestigation.html" class="sidebar-item-text sidebar-link">Prioritising uncertainties for future investigation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uaguidance/reporting.html" class="sidebar-item-text sidebar-link">Reporting uncertainty analysis</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Uncertainty Analysis Guidance</h1>
+<h1 class="title d-none d-lg-block">Uncertainty Analysis Guidance</h1>
 </div>
 
 
@@ -140,7 +204,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Please chose the process</p>
-<div class="column-page-inset">
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -149,12 +212,8 @@ ul.task-list li input[type="checkbox"] {
 flowchart TB
   A([Standardized&lt;/br&gt;Assessments])
   B([Case-specific&lt;/br&gt;assessments])
-  C([Urgent&lt;/br&gt;assessments])
-  D([Development or revision&lt;/br&gt;of guidance documents])
-  click A "uaguidance/figure1.html" "Go Forward"
-  click B "uaguidance/figure5.html" "Go Forward"
-  click C "uaguidance/figure11.html" "Go Forward"
-  click D "uaguidance/figure12.html" "Go Forward"
+  click A "uaguidance/figure1.html" "A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment"
+  click B "uaguidance/figure5.html" "Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches"
 </pre>
 <div id="mermaid-tooltip-1" class="mermaidTooltip">
 
@@ -163,7 +222,36 @@ flowchart TB
 </div>
 </div>
 </div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-2">%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  C([Urgent&lt;/br&gt;assessments])
+  D([Development or revision&lt;/br&gt;of guidance documents])
+  click C "uaguidance/figure11.html" "Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis"
+  click D "uaguidance/figure12.html" "Especially (but not only) those that describe existing standardised procedures or establish new ones"
+</pre>
+<div id="mermaid-tooltip-2" class="mermaidTooltip">
+
 </div>
+<p></p>
+</div>
+</div>
+</div>
+<p>Learn more about</p>
+<ul>
+<li><strong>Identifying</strong> uncertainties affecting the assessment</li>
+<li><strong>Prioritizing</strong> uncertainties within the assessment</li>
+<li><strong>Dividing</strong> the uncertainty analysis into parts</li>
+<li>Ensuring that the questions or quantities of interest are <strong>well-defined</strong></li>
+<li><strong>Characterising</strong> uncertainty for parts of the uncertainty analysis</li>
+<li><strong>Combining</strong> uncertainty from different parts of the uncertainty analysis</li>
+<li>Characterising <strong>overall</strong> uncertainty</li>
+<li>Prioritising uncertainties for <strong>future investigation</strong></li>
+<li><strong>Reporting</strong> uncertainty analysis</li>
+</ul>
 
 
 

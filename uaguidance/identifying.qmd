@@ -1,0 +1,22 @@
+---
+title: "Identifying uncertainties"
+---
+
+## Standard and non-standard uncertainties
+
+1. Standard uncertainties are those that are considered (implicitly or explicitly) to be addressed by the provisions of a standardised procedure or standardised assessment element. For example, uncertainties due to within and between species differences in toxicity are often addressed by a default factor of 100 in chemical risk assessment.
+
+1. All other uncertainties are non-standard uncertainties. These include any deviations from a standardised procedure or standardised assessment element that lead to uncertainty regarding the result of the procedure.
+
+Both standard and non-standard uncertainties may be found in any type of assessment, but the proportions vary. It is recommended that EFSA’s Panels include lists of standard uncertainties within the documentation for standard procedures, as this will help assessors to distinguish standard and non-standard uncertainties.
+
+## Procedure for identifying uncertainties
+
+1. Every assessment must say what sources of uncertainty have been identified. 
+2. Assessors should systematically examine every part of their assessment for uncertainties, including both the inputs to the assessment (e.g. data, estimates, other evidence) and the methods used in the assessment (e.g. statistical methods, calculations or models, reasoning, expert judgement), to minimise the risk that important uncertainties are overlooked. 
+3. Uncertainties affecting assessment inputs are identified when appraising the evidence retrieved from literature or from existing databases. 
+4. Uncertainties affecting the methods used in the assessment are generally not addressed by existing frameworks for evidence appraisal. It is therefore recommended that assessors use the right column of Table 1 (referring to [SO8.1] for details and explanation) as a guide to what types of uncertainty to look for in the methods of their assessment. 
+5. Assessors are advised to avoid spending excessive time trying to match uncertainties to the types listed in Table 1 or other frameworks: the purpose of the lists is to facilitate identification of uncertainties, not to classify them. 
+6. Assessors should determine which of the uncertainties they identify in an assessment are standard and which are non-standard (Section 7.1), as this will affect their treatment in subsequent stages of the uncertainty analysis.
+
+

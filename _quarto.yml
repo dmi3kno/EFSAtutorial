@@ -13,20 +13,39 @@ website:
         href: https://twitter.com/EFSA_EU
   navbar:
     left:
-      - href: index.qmd
-        text: "Home"
-      - href: intro.qmd
-        text: "Introduction"
+      - text: "Home"
+        file: index.qmd
+      - text: "Introduction"
+        file: intro.qmd
       - text: "Principles and Methods"
         menu: 
           - principles.qmd
           - methods.qmd
-      - href: uncertaintyanalysis.qmd
-        text: "Uncertainty Analysis"
-      - href: communication.qmd
-        text: "Communication of Uncertainty"
-      - href: about.qmd
-        text: "About"
+      - text: "Uncertainty Analysis"
+        file: uncertaintyanalysis.qmd
+      - text: "Communication of Uncertainty"
+        file: communication.qmd
+      - text: "About"
+        file: about.qmd
+
+  sidebar:
+    - title: "Uncertainty Analysis"
+      contents:
+        - uncertaintyanalysis.qmd
+        - uaguidance/identifying.qmd
+        - uaguidance/prioritizing.qmd
+        - uaguidance/dividing.qmd
+        - uaguidance/welldefined.qmd
+        - uaguidance/characterizing.qmd
+        - uaguidance/combining.qmd
+        - uaguidance/overall.qmd
+        - uaguidance/futureinvestigation.qmd
+        - uaguidance/reporting.qmd
+    - title: "Communication of Uncertainty"
+      contents:
+        - communication.qmd
+        - level1.qmd
+        - level2.qmd
 
 format:
   html:
