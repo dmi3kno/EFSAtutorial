@@ -1,0 +1,32 @@
+---
+title: "Uncertainty analysis for case-specific assessments"
+---
+
+## Combining multiple yes/no questions by expert judgement or calculation
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] 
+  B --> K[Quantify uncertainty</br>for each part of</br>the uncertainty analysis]
+  B --> C[Evaluate uncertainty</br>for each part,</br>qualitatively or quantitatively]
+  K --> L[Combine the parts</br>using a suitable</br>logic model]
+  subgraph ov [Characterisation of overall uncertainty]
+    direction LR
+    D[Decide how</br>to express</br>the uncertainty] --> E[Elicit</br>a probability judgement</br>for the overall</br>uncertainty]
+    E --> F[Check for</br>and describe</br>any unquantified</br>uncertainties]
+    M[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> N[Check for</br>and describe any</br>unquantified uncertainties]
+  end
+  L-->M
+    C --> D
+    F --> G[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]
+    N --> G  
+  click A "figure5.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  click Z "figure3.html" "Go Forward" _self
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

@@ -1,0 +1,25 @@
+---
+layout: full
+---
+
+::: {#main-title style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center; font-size: 2.5rem; font-weight: lighter;"}
+Welcome to the  
+EFSA tutorial on Uncertainty analysis!
+:::
+
+&nbsp;<br>
+
+![](img/EFSA_logo.svg){.preview-image fig-align="center"}
+
+&nbsp;<br>
+
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[START HERE](intro.qmd){.btn .btn-primary .btn-lg role="button"}
+:::
+
+&nbsp;<br>
+
+::: {#main-text style="font-size: 1.25rem; font-weight: lighter; text-align: center;"}
+Learn more about principles, methods of uncertainty analysis at EFSA, as well as the practical examples of applying these in scientific opinions.
+:::
+

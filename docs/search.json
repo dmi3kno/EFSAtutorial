@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EFSA Tutorial",
+    "section": "",
+    "text": "START HERE\n\n \n\nLearn more about principles, methods of uncertainty analysis at EFSA, as well as the practical examples of applying these in scientific opinions."
+  },
+  {
+    "objectID": "uaguidance/figure7.html",
+    "href": "uaguidance/figure7.html",
+    "title": "Uncertainty analysis for case-specific assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] \n  B --> K[Quantify uncertainty</br>for each part of</br>the uncertainty analysis]\n  B --> C[Evaluate uncertainty</br>for each part,</br>qualitatively or quantitatively]\n  K --> L[Combine the parts</br>using a suitable</br>logic model]\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Decide how</br>to express</br>the uncertainty] --> E[Elicit</br>a probability judgement</br>for the overall</br>uncertainty]\n    E --> F[Check for</br>and describe</br>any unquantified</br>uncertainties]\n    M[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> N[Check for</br>and describe any</br>unquantified uncertainties]\n  end\n  L-->M\n    C --> D\n    F --> G[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n    N --> G  \n  click A \"figure5.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure3.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure10.html",
+    "href": "uaguidance/figure10.html",
+    "title": "Uncertainty analysis for case-specific assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] \n  B --> C[Do you want</br>to try the simpler</br>option of</br>using only bounded</br>probabilities?]\n  C --Yes-->D[Quantify uncertainty</br>for each part of</br>the uncertainty analysis,</br>using probability bounds for</br>both uncertainty and variability]\n  D--> F[Combine the parts</br>by probability bounds</br> calculation]\n  C --No -->E[Quantify uncertainty</br>for each part of</br>the uncertainty analysis,</br>using 2D distributions</br>for variable quantities]\n  E --> G[Combine the parts</br>by 2D Monte Carlo</br>simulation]\n    subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    H[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> I[Check for</br>and describe any</br>unquantified uncertainties]\n  end\n  F & G --> ov\n  ov--> J[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  click A \"figure5.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure1.html",
+    "href": "uaguidance/figure1.html",
+    "title": "Uncertainty analysis for standardised assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TD\n  A([< BACK]) --> B{Check every part</br>of assessment</br>for nonstandard</br>uncertainties}\n  B -- None identified --> C[[Document in the opinion that</br>non-standard uncertainties</br>were checked for</br>and none were identified]]\n  B --One or more identified --> Z([NEXT >])\n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure2.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure11.html",
+    "href": "uaguidance/figure11.html",
+    "title": "Uncertainty analysis for urgent assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Conduct the assessment,</br>listing uncertainties</br>you identify] \n  B --> C[Ensure the question</br>or quantity of interest</br>is well-defined]\n  C --> D[Decide how to</br>express the uncertainty]\n  D --> E[Quickly check</br>the assessment for</br>additional uncertainties]\n  E --> ov\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n F[Elicit</br>a probability judgement</br>for the overall</br>uncertainty] --> G[Check for</br>and describe</br>any unquantified</br>uncertainties]\n  end\n    ov --> H[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  \n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure2.html",
+    "href": "uaguidance/figure2.html",
+    "title": "Standardized Assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B{Are assessors able</br>to evaluate</br>the non-standard</br> uncertainties</br> collectively?}\n      B -- Yes --> C[Define the question</br>or quantity of interest]\n      C --> ov\n  B -- No --> Z([NEXT >])\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Decide</br>how to express</br>the uncertainty] --> E[Elicit</br>a probability judgement</br>for the overall</br>uncertainty]\n    E --> F[Check for</br>and describe</br>any unquantified</br>uncertainties]\n  end\n    ov --> G[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  \n  click A \"figure1.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure3.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure3.html",
+    "href": "uaguidance/figure3.html",
+    "title": "Standardized Assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Take account</br>of the contribution</br>of any additional uncertainties] --> E[Check for and</br>describe any </br>unquantified uncertainties]\n  end\n  A([< BACK]) --> B[Divide the uncertainty analysis</br>into convenient parts,</br>define the question or</br>quantity of interest </br>for each part, and</br>an appropriate calculation</br>for combining the parts]\n  B --> C[Elicit probability</br> bounds for each part,</br> and combine probability</br>bounds by calculation]\n  C --> ov\n  ov --> F{Is the result</br>expected to be sufficient</br>for decision-making?}\n  F -- Yes--> G[[Report conclusion</br>in form needed by</br>decision-makers,</br>and detailed analysis</br>in opinion or annex]]\n  F -- No --> Z([NEXT >])\n  click A \"figure2.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure4.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure5.html",
+    "href": "uaguidance/figure5.html",
+    "title": "Uncertainty analysis for case-specific assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TD\n  A([< BACK]) -->  B[Plan your</br>scientific assessment</br>in your usual manner]\n  B --> C[Identify uncertainties</br>systematically in all</br>parts of your assessment]\n  C --> D{Do you want</br>to evaluate</br>all uncertainties</br>collectively in</br>a single step?}\n  D--Yes--> E([NEXT >])\n  D--No--> F[Divide the uncertainty analysis</br>into convenient parts,</br>define the question</br>or quantity of interest</br>for each part,</br>and an appropriate conceptual</br>model for combining the parts]\n  F-->G{Do all parts</br>relate to</br>yes/no questions?}\n  G--Yes-->H([NEXT >])\n  G--No--> I{Do any part</br>relate to</br>variable quantities}\n  I --Yes--> K([NEXT >])\n  I --No--> L([NEXT >])\n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click E \"figure6.html\" \"Go Forward\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click H \"figure7.html\" \"Go Forward\" _self\n  click L \"figure9.html\" \"Go Forward\" _self\n  click K \"figure10.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,E,H,L,K dark"
+  },
+  {
+    "objectID": "uaguidance/figure12.html",
+    "href": "uaguidance/figure12.html",
+    "title": "Uncertainty analysis for urgent assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Ensure the inputs,</br>methods and outputs</br>of the standard procedure</br>are well-defined] \n  B --> C[Define the class</br>of problems or applications</br>this procedure</br>will be used for]\n  C --> D[Agree the management</br>objective for the</br>standard procedure]\n  D --> E[Design and perform</br>a scientific assessment</br>and uncertainty analysis</br>of the extent to which</br>the standard procedure</br>will achieve the management objective]\n  E --> F{Is there</br>sufficient probability</br>of achieving</br>the management objective</br>to an acceptable extent?}\n  F -- Yes --> G[Document the assessment</br>and uncertainty analysis</br>of the standard procedure]\n  F -- No --> H[Modify the standard</br>procedure in ways that</br>you expect to achieve</br>the management objective]\n  H --> I[Redo the assessment</br>and uncertainty analysis</br>for the modified procedure]\n  I -.-> E\n  G --> J[[Make the standard</br>procedure available</br>for use]]\n  \n  \n  click A \"../uncertaintyanalysis.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure6.html",
+    "href": "uaguidance/figure6.html",
+    "title": "Uncertainty analysis for case-specific assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Conduct the assessment</br>as planned, noting</br>any further</br>uncertainties you identify] \n  B --> C[Ensure the question</br>or quantity of interest</br>is well-defined]\n  C --> ov\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Decide</br>how to express</br>the uncertainty] --> E[Elicit</br>a probability judgement</br>for the overall</br>uncertainty]\n    E --> F[Check for</br>and describe</br>any unquantified</br>uncertainties]\n  end\n    ov --> G[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  \n  click A \"figure5.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure3.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure9.html",
+    "href": "uaguidance/figure9.html",
+    "title": "Uncertainty analysis for case-specific assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] \n  B --> C[Do you want</br>to try the simpler</br>option of</br>using only bounded</br>probabilities?]\n  C --Yes-->D[Obtain probability</br>bounds for each</br>part of the</br>uncertainty analysis]\n  D--> F[Combine the parts</br>by probability bounds</br> calculation]\n  C --No -->E[Obtain a probability</br>or distribution for</br>each part of the</br>uncertainty analysis]\n  E --> G[Combine the parts</br>by 1D Monte Carlo</br>simulation]\n    subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    H[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> I[Check for</br>and describe any</br>unquantified uncertainties]\n  end\n  F & G --> ov\n  ov--> J[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]\n  click A \"figure5.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C callback \"See Section 17 regarding reporting.\"\n  click Z \"figure3.html\" \"Go Forward\" _self\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "uaguidance/figure4.html",
+    "href": "uaguidance/figure4.html",
+    "title": "Standardized Assessments",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  subgraph ov [Characterisation of overall uncertainty]\n    direction LR\n    D[Take account</br>of the contribution</br>of any additional uncertainties] --> E[Check for and</br>describe any </br>unquantified uncertainties]\n  end\n  A([< BACK]) --> B[Obtain a probability</br> or a distribution</br> for each part of the</br> uncertainty analysis]\n  B --> C[Combine the parts</br> using the calculation</br> chosen earlier]\n  C --> ov\n  ov --> G[[Report conclusion</br>in form needed by</br>decision-makers,</br>and detailed analysis</br>in opinion or annex]]\n  \n  click A \"figure3.html\" \"Go Back\" _self\n  click B callback \"See Section 7.1.\"\n  click C \"figure3.html\" \"See Section 17 regarding reporting.\"\n  click Z \"figure4.html\"\n  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff\n  class A,Z dark"
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Methods",
+    "section": "",
+    "text": "Methods page"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Welcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.\nIdentifying and characterizing uncertainties, and explaining their implications for assessment conclusions, is an important element of EFSA’s risk assessment process.\nThis tutorial is designed to help you get access the two EFSA cross-cutting guidances on uncertainty - the Guidance on Uncertainty Analysis in Scientific Assessmenst and the Guidance on Communication of Uncertainty.\nAs part of EFSA’s commitment to transparency,.\nThe EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way.\nThis online tutorial will enhance the understanding and enable the practical implementation of the guidance document on uncertainty analysis in scientific assessments. It offers a strong link between the theory and practice by including the recent scientific opinions as case studies demonstrating how the uncertainty analysis can be applied across the various EFSA scientific areas and across various conditions. Aspects of uncertainty communication and the impact of uncertainty information on risk managers’ decision-making are also included.\nBy the end of the course, participants should be able to understand and describe:\n\nWhy uncertainty analysis is helpful in scientific assessments\nThe general principles of uncertainty analysis\nTerminology used in uncertainty analysis\nMain steps in uncertainty analysis and, in particular:\n\nPlanning the assessment strategy\nIdentifying sources of uncertainty\nEvaluating individual sources of uncertainty, both in qualitative and quantitative ways\nEvaluating combined uncertainty, both in qualitative and quantitative ways\nDescribing the unquantified uncertainties\nCommunicating the uncertainty information to their main target audience\n\n\nThe training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this tutorial"
+  },
+  {
+    "objectID": "communication.html",
+    "href": "communication.html",
+    "title": "Communication of Uncertainty",
+    "section": "",
+    "text": "The introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
+  },
+  {
+    "objectID": "principles.html",
+    "href": "principles.html",
+    "title": "Principles",
+    "section": "",
+    "text": "Principles page"
+  },
+  {
+    "objectID": "uncertaintyanalysis.html",
+    "href": "uncertaintyanalysis.html",
+    "title": "Uncertainty Analysis Guidance",
+    "section": "",
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Standardized</br>Assessments])\n  B([Case-specific</br>assessments])\n  C([Urgent</br>assessments])\n  D([Development or revision</br>of guidance documents])\n  click A \"uaguidance/figure1.html\" \"Go Forward\"\n  click B \"uaguidance/figure5.html\" \"Go Forward\"\n  click C \"uaguidance/figure11.html\" \"Go Forward\"\n  click D \"uaguidance/figure12.html\" \"Go Forward\""
+  }
+]

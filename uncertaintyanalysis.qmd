@@ -1,0 +1,20 @@
+---
+title: "Uncertainty Analysis Guidance"
+---
+
+Please chose the process
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([Standardized</br>Assessments])
+  B([Case-specific</br>assessments])
+  C([Urgent</br>assessments])
+  D([Development or revision</br>of guidance documents])
+  click A "uaguidance/figure1.html" "Go Forward"
+  click B "uaguidance/figure5.html" "Go Forward"
+  click C "uaguidance/figure11.html" "Go Forward"
+  click D "uaguidance/figure12.html" "Go Forward"
+```
+:::

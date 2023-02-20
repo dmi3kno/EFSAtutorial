@@ -1,0 +1,29 @@
+---
+title: "Uncertainty analysis for case-specific assessments"
+---
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TD
+  A([< BACK]) -->  B[Plan your</br>scientific assessment</br>in your usual manner]
+  B --> C[Identify uncertainties</br>systematically in all</br>parts of your assessment]
+  C --> D{Do you want</br>to evaluate</br>all uncertainties</br>collectively in</br>a single step?}
+  D--Yes--> E([NEXT >])
+  D--No--> F[Divide the uncertainty analysis</br>into convenient parts,</br>define the question</br>or quantity of interest</br>for each part,</br>and an appropriate conceptual</br>model for combining the parts]
+  F-->G{Do all parts</br>relate to</br>yes/no questions?}
+  G--Yes-->H([NEXT >])
+  G--No--> I{Do any part</br>relate to</br>variable quantities}
+  I --Yes--> K([NEXT >])
+  I --No--> L([NEXT >])
+  click A "../uncertaintyanalysis.html" "Go Back" _self
+  click E "figure6.html" "Go Forward" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  click H "figure7.html" "Go Forward" _self
+  click L "figure9.html" "Go Forward" _self
+  click K "figure10.html" "Go Forward" _self
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,E,H,L,K dark
+```
+:::

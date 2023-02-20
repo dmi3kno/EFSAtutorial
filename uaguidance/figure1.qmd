@@ -1,0 +1,19 @@
+---
+title: "Uncertainty analysis for standardised assessments"
+---
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TD
+  A([< BACK]) --> B{Check every part</br>of assessment</br>for nonstandard</br>uncertainties}
+  B -- None identified --> C[[Document in the opinion that</br>non-standard uncertainties</br>were checked for</br>and none were identified]]
+  B --One or more identified --> Z([NEXT >])
+  click A "../uncertaintyanalysis.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  click Z "figure2.html" "Go Forward" _self
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

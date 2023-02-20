@@ -1,0 +1,30 @@
+---
+title: "Uncertainty analysis for case-specific assessments"
+---
+
+## Evaluating uncertainties separately for different parts of an assessment involving nonvariable quantities
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([< BACK]) --> B[Perform the</br>scientific assessment</br>and uncertainty analysis</br>together] 
+  B --> C[Do you want</br>to try the simpler</br>option of</br>using only bounded</br>probabilities?]
+  C --Yes-->D[Obtain probability</br>bounds for each</br>part of the</br>uncertainty analysis]
+  D--> F[Combine the parts</br>by probability bounds</br> calculation]
+  C --No -->E[Obtain a probability</br>or distribution for</br>each part of the</br>uncertainty analysis]
+  E --> G[Combine the parts</br>by 1D Monte Carlo</br>simulation]
+    subgraph ov [Characterisation of overall uncertainty]
+    direction LR
+    H[Take account</br>of the contribution</br>of any additional</br>uncertainties] --> I[Check for</br>and describe any</br>unquantified uncertainties]
+  end
+  F & G --> ov
+  ov--> J[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]
+  click A "figure5.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  click Z "figure3.html" "Go Forward" _self
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

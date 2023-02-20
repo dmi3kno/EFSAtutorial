@@ -1,0 +1,29 @@
+---
+title: "Uncertainty analysis for urgent assessments"
+---
+
+## Urgent assessments
+
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([< BACK]) --> B[Conduct the assessment,</br>listing uncertainties</br>you identify] 
+  B --> C[Ensure the question</br>or quantity of interest</br>is well-defined]
+  C --> D[Decide how to</br>express the uncertainty]
+  D --> E[Quickly check</br>the assessment for</br>additional uncertainties]
+  E --> ov
+  subgraph ov [Characterisation of overall uncertainty]
+    direction LR
+ F[Elicit</br>a probability judgement</br>for the overall</br>uncertainty] --> G[Check for</br>and describe</br>any unquantified</br>uncertainties]
+  end
+    ov --> H[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]
+  
+  click A "../uncertaintyanalysis.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

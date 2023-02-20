@@ -1,0 +1,17 @@
+---
+title: "Communication of Uncertainty"
+---
+
+The page for Uncertainty Communication Guidance contains a video introducing the outline of the document and providing general tips for how to interact with the page and how to go back to the Guidance document overview.
+
+The introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed
+
+The rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.
+
+Finally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)
+
+Each of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).
+
+We will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16).
+
+

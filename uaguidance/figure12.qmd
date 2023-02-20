@@ -1,0 +1,30 @@
+---
+title: "Uncertainty analysis for urgent assessments"
+---
+
+## Urgent assessments
+
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([< BACK]) --> B[Ensure the inputs,</br>methods and outputs</br>of the standard procedure</br>are well-defined] 
+  B --> C[Define the class</br>of problems or applications</br>this procedure</br>will be used for]
+  C --> D[Agree the management</br>objective for the</br>standard procedure]
+  D --> E[Design and perform</br>a scientific assessment</br>and uncertainty analysis</br>of the extent to which</br>the standard procedure</br>will achieve the management objective]
+  E --> F{Is there</br>sufficient probability</br>of achieving</br>the management objective</br>to an acceptable extent?}
+  F -- Yes --> G[Document the assessment</br>and uncertainty analysis</br>of the standard procedure]
+  F -- No --> H[Modify the standard</br>procedure in ways that</br>you expect to achieve</br>the management objective]
+  H --> I[Redo the assessment</br>and uncertainty analysis</br>for the modified procedure]
+  I -.-> E
+  G --> J[[Make the standard</br>procedure available</br>for use]]
+  
+  
+  click A "../uncertaintyanalysis.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

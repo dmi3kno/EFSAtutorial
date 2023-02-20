@@ -1,0 +1,27 @@
+---
+title: "Standardized Assessments"
+---
+
+## Assessing non-standard uncertainties for separate parts of the uncertainty analysis using probabilities or distributions
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  subgraph ov [Characterisation of overall uncertainty]
+    direction LR
+    D[Take account</br>of the contribution</br>of any additional uncertainties] --> E[Check for and</br>describe any </br>unquantified uncertainties]
+  end
+  A([< BACK]) --> B[Obtain a probability</br> or a distribution</br> for each part of the</br> uncertainty analysis]
+  B --> C[Combine the parts</br> using the calculation</br> chosen earlier]
+  C --> ov
+  ov --> G[[Report conclusion</br>in form needed by</br>decision-makers,</br>and detailed analysis</br>in opinion or annex]]
+  
+  click A "figure3.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C "figure3.html" "See Section 17 regarding reporting."
+  click Z "figure4.html"
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

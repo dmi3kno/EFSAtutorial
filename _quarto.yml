@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EFSA Tutorial"
+  page-footer:
+    left: "Copyright 2023, EFSA"
+    right:
+      - icon: github
+        href: https://github.com/dmi3kno/EFSAtutorial
+      - icon: twitter
+        href: https://twitter.com/EFSA_EU
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: intro.qmd
+        text: "Introduction"
+      - text: "Principles and Methods"
+        menu: 
+          - principles.qmd
+          - methods.qmd
+      - href: uncertaintyanalysis.qmd
+        text: "Uncertainty Analysis"
+      - href: communication.qmd
+        text: "Communication of Uncertainty"
+      - href: about.qmd
+        text: "About"
+
+format:
+  html:
+    theme: 
+      - zephyr
+      - special.scss
+    mainfont: "Roboto"
+    anchor-sections: true
+    email-obfuscation: javascript
+    toc: true
+
+
+

@@ -1,0 +1,29 @@
+---
+title: "Standardized Assessments"
+---
+
+## Assessing non-standard uncertainties collectively
+
+:::{.column-page-inset}
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([< BACK]) --> B{Are assessors able</br>to evaluate</br>the non-standard</br> uncertainties</br> collectively?}
+      B -- Yes --> C[Define the question</br>or quantity of interest]
+      C --> ov
+  B -- No --> Z([NEXT >])
+  subgraph ov [Characterisation of overall uncertainty]
+    direction LR
+    D[Decide</br>how to express</br>the uncertainty] --> E[Elicit</br>a probability judgement</br>for the overall</br>uncertainty]
+    E --> F[Check for</br>and describe</br>any unquantified</br>uncertainties]
+  end
+    ov --> G[[Report conclusion</br>in form needed</br>by decision makers,</br>and detailed analysis</br>in opinion</br>or annex]]
+  
+  click A "figure1.html" "Go Back" _self
+  click B callback "See Section 7.1."
+  click C callback "See Section 17 regarding reporting."
+  click Z "figure3.html" "Go Forward" _self
+  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  class A,Z dark
+```
+:::

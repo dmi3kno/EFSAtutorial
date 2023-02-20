@@ -1,0 +1,33 @@
+---
+title: "Introduction"
+---
+
+**Narrator**:
+
+Welcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.
+
+Identifying and characterizing uncertainties, and explaining their implications for assessment conclusions, is an important element of EFSA’s risk assessment process.
+
+This tutorial is designed to help you get access the two EFSA cross-cutting guidances on uncertainty - the Guidance on Uncertainty Analysis in Scientific Assessmenst and the Guidance on Communication of Uncertainty. 
+
+As part of EFSA’s commitment to transparency,. 
+
+The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way. 
+
+This online tutorial will enhance the understanding and enable the practical implementation of the guidance document on uncertainty analysis in scientific assessments. It offers a strong link between the theory and practice by including the recent scientific opinions as case studies demonstrating how the uncertainty analysis can be applied across the various EFSA scientific areas and across various conditions. Aspects of uncertainty communication and the impact of uncertainty information on risk managers’ decision-making are also included. 
+
+By the end of the course, participants should be able to understand and describe:
+
+- Why uncertainty analysis is helpful in scientific assessments
+- The general principles of uncertainty analysis
+- Terminology used in uncertainty analysis
+- Main steps in uncertainty analysis and, in particular:
+     - Planning the assessment strategy
+     - Identifying sources of uncertainty
+     - Evaluating individual sources of uncertainty, both in qualitative and quantitative ways
+     - Evaluating combined uncertainty, both in qualitative and quantitative ways
+     - Describing the unquantified uncertainties
+     - Communicating the uncertainty information to their main target audience
+
+The training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments.
+

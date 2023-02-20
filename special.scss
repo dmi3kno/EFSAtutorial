@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+$dark-blue:    #004494 !default;
+$blue: #0d5caa !default;
+$green: #238500 !default;
+$orange: #bf5512 !default;
+$yellow:  #eab03b !default;
+$dark-gray:  #262626 !default;
+$light-gray: #f0f2f5 !default;
+$snow: #FFF9FB !default;
+
+$highlight-blue: #239fc4 !important;
+$highlight-green:   #36af8b !important;
+$highlight-pink: #ad4c9b !important;
+$highlight-yellow: #f9bd00 !important;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+mermaidTooltip {
+  font-family: 'Roboto Condensed', Roboto, sans-serif;
+  white-space: pre;
+}
+
+
