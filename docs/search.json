@@ -161,18 +161,18 @@
     "text": "Section 13-15"
   },
   {
-    "objectID": "pmguidance/communicator.html",
-    "href": "pmguidance/communicator.html",
+    "objectID": "comguidance/communicator.html",
+    "href": "comguidance/communicator.html",
     "title": "Communication of Uncertainty",
     "section": "",
     "text": "The page for communicators"
   },
   {
-    "objectID": "pmguidance/assessor.html",
-    "href": "pmguidance/assessor.html",
-    "title": "Communication of Uncertainty",
+    "objectID": "comguidance/assessor.html",
+    "href": "comguidance/assessor.html",
+    "title": "Communication of Uncertainty for Assessors",
     "section": "",
-    "text": "The page for assessors"
+    "text": "Is this message the outcome of/based on a standardized procedure?\n\n\n\n\n\nThe content of Box 1\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoes the scientific output list or describe the sources or causes of any uncertainties affecting this message?\n\n\n\n\n\nThe content of Box 2\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs the direction and/or degree of uncertainty expressed verbally (i.e. with terms like ‘low’, ‘medium’, ‘high’) or with symbols (e.g. ‘+’ or ‘-’)?\n\n\n\n\n\nThe content of Box 3\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoes this message report an inconclusive assessment outcome?\n\n\n\n\n\nThe content of Box 4\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo risk managers expect or does legislation require that this message should be expressed as an unqualified conclusion, without any expression of uncertainty?\n\n\n\n\n\nThe content of Box 5\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs the uncertainty described with numbers as a precise probability?\n\n\n\n\n\nThe content of Box 6\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs the uncertainty described with numbers as an approximate probability?\n\n\n\n\n\nThe content of Box 7\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs the uncertainty described with numbers as a one-dimensional probability distribution?\n\n\n\n\n\nThe content of Box 8\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs the uncertainty described with numbers as a two-dimensional probability distribution?\n\n\n\n\n\nThe content of Box 9\n\nEntryInformedTechnical\n\n\nEntry level\n\n\nInformed level\n\n\nTechnical level"
   },
   {
     "objectID": "methods.html",
@@ -200,7 +200,7 @@
     "href": "communication.html",
     "title": "Communication of Uncertainty",
     "section": "",
-    "text": "I am:\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Communicator])\n  B([Assessor])\n  click A \"pmguidance/communicator.html\" \"Go to Communicator page\"\n  click B \"pmguidance/assessor.html\" \"Go to Assessor page\"\n\n\n\n\n\n\n\n\nThe introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
+    "text": "I am:\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Communicator])\n  B([Assessor])\n  click A \"comguidance/communicator.html\" \"Go to Communicator page\"\n  click B \"comguidance/assessor.html\" \"Go to Assessor page\"\n\n\n\n\n\n\n\n\nThe introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
   },
   {
     "objectID": "principles.html",

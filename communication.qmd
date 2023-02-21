@@ -12,8 +12,8 @@ I am:
 flowchart TB
   A([Communicator])
   B([Assessor])
-  click A "pmguidance/communicator.html" "Go to Communicator page"
-  click B "pmguidance/assessor.html" "Go to Assessor page"
+  click A "comguidance/communicator.html" "Go to Communicator page"
+  click B "comguidance/assessor.html" "Go to Assessor page"
 ```
 
 

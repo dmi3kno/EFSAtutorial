@@ -46,8 +46,8 @@ website:
     - title: "Communication of Uncertainty"
       contents:
         - communication.qmd
-        - level1.qmd
-        - level2.qmd
+        - comguidance/communicator.qmd
+        - comguidance/assessor.qmd
 
 format:
   html:
