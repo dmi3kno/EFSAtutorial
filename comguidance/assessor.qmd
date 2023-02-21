@@ -11,9 +11,6 @@ Template for identifying messages with associated uncertainty expressions, and s
 The content of Box 1
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 

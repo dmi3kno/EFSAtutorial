@@ -2,7 +2,11 @@
 title: "Uncertainty Analysis Guidance"
 ---
 
-Please chose the process
+The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. The video below introduces the different kinds of assessments and the associated process.
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.
 
 ```{mermaid}
 %%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
@@ -10,7 +14,7 @@ flowchart TB
   A([Standardized</br>Assessments])
   B([Case-specific</br>assessments])
   click A "uaguidance/figure1.html" "A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment"
-  click B "uaguidance/figure5.html" "Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches"
+  click B "uaguidance/figure5.html" "Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."
 ```
 
 
@@ -23,8 +27,8 @@ flowchart TB
   click D "uaguidance/figure12.html" "Especially (but not only) those that describe existing standardised procedures or establish new ones"
 ```
 
-
-Learn more about
+:::{.callout-tip}
+## Learn more about:
 
 - [Identifying](uaguidance/identifying.qmd) uncertainties affecting the assessment
 - [Prioritizing](uaguidance/prioritizing.qmd) uncertainties within the assessment
@@ -35,4 +39,4 @@ Learn more about
 - Characterising [overall](uaguidance/overall.qmd) uncertainty
 - Prioritising uncertainties for [future investigation](uaguidance/futureinvestigation.qmd).
 - [Reporting](uaguidance/reporting.qmd) uncertainty analysis
-
+:::

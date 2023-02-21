@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EFSA Tutorial - Uncertainty Analysis Guidance</title>
+<title>EFSA Tutorial - Principles of Uncertainty Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,9 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -71,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EFSA Tutorial</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -80,35 +77,35 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./intro.html">Introduction</a>
+    <a class="nav-link" href="../intro.html">Introduction</a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-principles-and-methods" role="button" data-bs-toggle="dropdown" aria-expanded="false">Principles and Methods</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-principles-and-methods">    
         <li>
-    <a class="dropdown-item" href="./principles.html">
+    <a class="dropdown-item" href="../principles.html">
  <span class="dropdown-text">Principles</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./methods.html">
+    <a class="dropdown-item" href="../methods.html">
  <span class="dropdown-text">Methods</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./uncertaintyanalysis.html" aria-current="page">Uncertainty Analysis</a>
+    <a class="nav-link" href="../uncertaintyanalysis.html">Uncertainty Analysis</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./communication.html">Communication of Uncertainty</a>
+    <a class="nav-link" href="../communication.html">Communication of Uncertainty</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./implementation.html">Implementation</a>
+    <a class="nav-link" href="../implementation.html">Implementation</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="../about.html">About</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -117,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Uncertainty Analysis Guidance</h1>
+      <h1 class="quarto-secondary-nav-title">Principles of Uncertainty Analysis</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -132,52 +129,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertaintyanalysis.html" class="sidebar-item-text sidebar-link active">Uncertainty Analysis Guidance</a>
+  <a href="../principles.html" class="sidebar-item-text sidebar-link">Principles</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uaguidance/identifying.html" class="sidebar-item-text sidebar-link">Identifying uncertainties</a>
+  <a href="../pmguidance/pmcommunication.html" class="sidebar-item-text sidebar-link">Principles of Uncertainty Communication</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uaguidance/prioritizing.html" class="sidebar-item-text sidebar-link">Prioritizing uncertainties</a>
+  <a href="../pmguidance/pmanalysis.html" class="sidebar-item-text sidebar-link active">Principles of Uncertainty Analysis</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uaguidance/dividing.html" class="sidebar-item-text sidebar-link">Dividing the assessment into parts</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/welldefined.html" class="sidebar-item-text sidebar-link">Ensuring that the questions or quantities of interest are well-defined</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/characterizing.html" class="sidebar-item-text sidebar-link">Characterising uncertainty for parts of the uncertainty analysis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/combining.html" class="sidebar-item-text sidebar-link">Combining uncertainty from different parts of the uncertainty analysis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/overall.html" class="sidebar-item-text sidebar-link">Characterising overall uncertainty</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/futureinvestigation.html" class="sidebar-item-text sidebar-link">Prioritising uncertainties for future investigation</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./uaguidance/reporting.html" class="sidebar-item-text sidebar-link">Reporting uncertainty analysis</a>
+  <a href="../methods.html" class="sidebar-item-text sidebar-link">Methods</a>
   </div>
 </li>
     </ul>
@@ -192,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Uncertainty Analysis Guidance</h1>
+<h1 class="title d-none d-lg-block">Principles of Uncertainty Analysis</h1>
 </div>
 
 
@@ -206,68 +173,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. The video below introduces the different kinds of assessments and the associated process.</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
-<p>Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TB
-  A([Standardized&lt;/br&gt;Assessments])
-  B([Case-specific&lt;/br&gt;assessments])
-  click A "uaguidance/figure1.html" "A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment"
-  click B "uaguidance/figure5.html" "Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."
-</pre>
-<div id="mermaid-tooltip-1" class="mermaidTooltip">
-
-</div>
-<p></p>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-2">%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TB
-  C([Urgent&lt;/br&gt;assessments])
-  D([Development or revision&lt;/br&gt;of guidance documents])
-  click C "uaguidance/figure11.html" "Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis"
-  click D "uaguidance/figure12.html" "Especially (but not only) those that describe existing standardised procedures or establish new ones"
-</pre>
-<div id="mermaid-tooltip-2" class="mermaidTooltip">
-
-</div>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Learn more about:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><a href="./uaguidance/identifying.html">Identifying</a> uncertainties affecting the assessment</li>
-<li><a href="./uaguidance/prioritizing.html">Prioritizing</a> uncertainties within the assessment</li>
-<li><a href="./uaguidance/dividing.html">Dividing</a> the uncertainty analysis into parts</li>
-<li>Ensuring that the questions or quantities of interest are <a href="./uaguidance/welldefined.html">well-defined</a>.</li>
-<li><a href="./uaguidance/characterizing.html">Characterizing</a> uncertainty for parts of the uncertainty analysis</li>
-<li><a href="./uaguidance/combining.html">Combining</a> uncertainty from different parts of the uncertainty analysis</li>
-<li>Characterising <a href="./uaguidance/overall.html">overall</a> uncertainty</li>
-<li>Prioritising uncertainties for <a href="./uaguidance/futureinvestigation.html">future investigation</a>.</li>
-<li><a href="./uaguidance/reporting.html">Reporting</a> uncertainty analysis</li>
-</ul>
-</div>
-</div>
+<p>About this tutorial</p>
 
 
 

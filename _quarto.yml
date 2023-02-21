@@ -31,6 +31,12 @@ website:
         file: about.qmd
 
   sidebar:
+    - title: "Principles and Methods"
+      contents:
+        - principles.qmd
+        - pmguidance/pmcommunication.qmd
+        - pmguidance/pmanalysis.qmd
+        - methods.qmd
     - title: "Uncertainty Analysis"
       contents:
         - uncertaintyanalysis.qmd
@@ -48,7 +54,6 @@ website:
         - communication.qmd
         - comguidance/communicator.qmd
         - comguidance/assessor.qmd
-
 format:
   html:
     theme: 

@@ -4,7 +4,7 @@ layout: full
 
 ::: {#main-title style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center; font-size: 2.5rem; font-weight: lighter;"}
 Welcome to the  
-EFSA tutorial on Uncertainty analysis!
+EFSA tutorial on Uncertainty!
 :::
 
 &nbsp;<br>
@@ -20,6 +20,6 @@ EFSA tutorial on Uncertainty analysis!
 &nbsp;<br>
 
 ::: {#main-text style="font-size: 1.25rem; font-weight: lighter; text-align: center;"}
-Learn more about principles, methods of uncertainty analysis at EFSA, as well as the practical examples of applying these in scientific opinions.
+Learn more about principles and methods for uncertainty analysis and communication of uncertainty in scientific assessments.
 :::
 
