@@ -25,6 +25,8 @@ website:
         file: uncertaintyanalysis.qmd
       - text: "Communication of Uncertainty"
         file: communication.qmd
+      - text: "Implementation"
+        file: implementation.qmd
       - text: "About"
         file: about.qmd
 

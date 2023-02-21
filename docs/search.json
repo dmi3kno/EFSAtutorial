@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "implementation.html",
+    "href": "implementation.html",
+    "title": "Implementation of Uncertainty Guidance",
+    "section": "",
+    "text": "The page for implementation examples"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EFSA Tutorial",
@@ -154,6 +161,20 @@
     "text": "Section 13-15"
   },
   {
+    "objectID": "pmguidance/communicator.html",
+    "href": "pmguidance/communicator.html",
+    "title": "Communication of Uncertainty",
+    "section": "",
+    "text": "The page for communicators"
+  },
+  {
+    "objectID": "pmguidance/assessor.html",
+    "href": "pmguidance/assessor.html",
+    "title": "Communication of Uncertainty",
+    "section": "",
+    "text": "The page for assessors"
+  },
+  {
     "objectID": "methods.html",
     "href": "methods.html",
     "title": "Methods",
@@ -179,7 +200,7 @@
     "href": "communication.html",
     "title": "Communication of Uncertainty",
     "section": "",
-    "text": "The introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
+    "text": "I am:\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Communicator])\n  B([Assessor])\n  click A \"pmguidance/communicator.html\" \"Go to Communicator page\"\n  click B \"pmguidance/assessor.html\" \"Go to Assessor page\"\n\n\n\n\n\n\n\n\nThe introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
   },
   {
     "objectID": "principles.html",
@@ -193,6 +214,6 @@
     "href": "uncertaintyanalysis.html",
     "title": "Uncertainty Analysis Guidance",
     "section": "",
-    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Standardized</br>Assessments])\n  B([Case-specific</br>assessments])\n  click A \"uaguidance/figure1.html\" \"A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment\"\n  click B \"uaguidance/figure5.html\" \"Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches\"\n\n\n\n\n\n\n\n\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  C([Urgent</br>assessments])\n  D([Development or revision</br>of guidance documents])\n  click C \"uaguidance/figure11.html\" \"Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis\"\n  click D \"uaguidance/figure12.html\" \"Especially (but not only) those that describe existing standardised procedures or establish new ones\"\n\n\n\n\n\n\n\n\nLearn more about\n\nIdentifying uncertainties affecting the assessment\nPrioritizing uncertainties within the assessment\nDividing the uncertainty analysis into parts\nEnsuring that the questions or quantities of interest are well-defined\nCharacterising uncertainty for parts of the uncertainty analysis\nCombining uncertainty from different parts of the uncertainty analysis\nCharacterising overall uncertainty\nPrioritising uncertainties for future investigation\nReporting uncertainty analysis"
+    "text": "%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Standardized</br>Assessments])\n  B([Case-specific</br>assessments])\n  click A \"uaguidance/figure1.html\" \"A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment\"\n  click B \"uaguidance/figure5.html\" \"Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches\"\n\n\n\n\n\n\n\n\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  C([Urgent</br>assessments])\n  D([Development or revision</br>of guidance documents])\n  click C \"uaguidance/figure11.html\" \"Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis\"\n  click D \"uaguidance/figure12.html\" \"Especially (but not only) those that describe existing standardised procedures or establish new ones\"\n\n\n\n\n\n\n\n\nLearn more about\n\nIdentifying uncertainties affecting the assessment\nPrioritizing uncertainties within the assessment\nDividing the uncertainty analysis into parts\nEnsuring that the questions or quantities of interest are well-defined.\nCharacterizing uncertainty for parts of the uncertainty analysis\nCombining uncertainty from different parts of the uncertainty analysis\nCharacterising overall uncertainty\nPrioritising uncertainties for future investigation.\nReporting uncertainty analysis"
   }
 ]

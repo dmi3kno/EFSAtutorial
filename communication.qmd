@@ -4,6 +4,19 @@ title: "Communication of Uncertainty"
 
 The page for Uncertainty Communication Guidance contains a video introducing the outline of the document and providing general tips for how to interact with the page and how to go back to the Guidance document overview.
 
+
+I am:
+
+```{mermaid}
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+flowchart TB
+  A([Communicator])
+  B([Assessor])
+  click A "pmguidance/communicator.html" "Go to Communicator page"
+  click B "pmguidance/assessor.html" "Go to Assessor page"
+```
+
+
 The introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed
 
 The rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.
