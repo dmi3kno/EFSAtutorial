@@ -1,5 +1,186 @@
 ---
-title: "Communication of Uncertainty"
+title: "Communication of Uncertainty for Communicators"
 ---
-  
-The page for communicators
+
+Template for identifying messages with associated uncertainty expressions, and specific guidance for their communication:
+
+<!-- ######################## Section 1 ###################### -->
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Is this message the outcome of/based on a standardized procedure?
+
+The content of Box 1
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+<!-- ######################## Section 2 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Does the scientific output list or describe the sources or causes of any uncertainties affecting this message?
+
+The content of Box 2
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 3 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Is the direction and/or degree of uncertainty expressed verbally (i.e. with terms like 'low', 'medium', 'high') or with symbols (e.g. '+' or '-')?
+
+The content of Box 3
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 4 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Does this message report an inconclusive assessment outcome?
+
+The content of Box 4
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+<!-- ######################## Section 5 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Do risk managers expect or does legislation require that this message should be expressed as an unqualified conclusion, without any expression of uncertainty?
+
+The content of Box 5
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 6 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Is the uncertainty described with numbers as a precise probability?
+
+The content of Box 6
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 7 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Is the uncertainty described with numbers as an approximate probability?
+
+The content of Box 7
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 8 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Is the uncertainty described with numbers as a one-dimensional probability distribution?
+
+The content of Box 8
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+<!-- ######################## Section 9 ###################### -->
+:::{.callout-tip collapse="true" appearance="minimal"}
+
+# Is the uncertainty described with numbers as a two-dimensional probability distribution?
+
+The content of Box 9
+
+:::: {.panel-tabset}
+## Entry
+
+Entry level
+
+## Informed
+
+Informed level
+
+::::
+:::
+
+
+
+
+

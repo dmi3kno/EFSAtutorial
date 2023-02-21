@@ -34,9 +34,6 @@ Technical level
 The content of Box 2
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -58,9 +55,6 @@ Technical level
 The content of Box 3
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -82,9 +76,6 @@ Technical level
 The content of Box 4
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -105,9 +96,6 @@ Technical level
 The content of Box 5
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -129,9 +117,6 @@ Technical level
 The content of Box 6
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -153,9 +138,6 @@ Technical level
 The content of Box 7
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -177,9 +159,6 @@ Technical level
 The content of Box 8
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
@@ -201,9 +180,6 @@ Technical level
 The content of Box 9
 
 :::: {.panel-tabset}
-## Entry
-
-Entry level
 
 ## Informed
 
