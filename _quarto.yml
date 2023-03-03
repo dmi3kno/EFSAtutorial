@@ -18,24 +18,19 @@ website:
       - text: "Introduction"
         file: intro.qmd
       - text: "Principles and Methods"
-        menu: 
-          - principles.qmd
-          - methods.qmd
+        file: pmguidance/pmanalysis.qmd 
       - text: "Uncertainty Analysis"
         file: uncertaintyanalysis.qmd
       - text: "Communication of Uncertainty"
         file: communication.qmd
       - text: "Implementation"
-        file: implementation.qmd
-      - text: "About"
-        file: about.qmd
+        file: implementationmethods.qmd
 
   sidebar:
     - title: "Principles and Methods"
       contents:
-        - principles.qmd
-        - pmguidance/pmcommunication.qmd
         - pmguidance/pmanalysis.qmd
+        - pmguidance/pmcommunication.qmd
         - methods.qmd
     - title: "Uncertainty Analysis"
       contents:
@@ -54,6 +49,11 @@ website:
         - communication.qmd
         - comguidance/communicator.qmd
         - comguidance/assessor.qmd
+    - title: "Implementation"
+      contents:
+        - implementationmethods.qmd
+        - implementationexpressions.qmd
+
 format:
   html:
     theme: 

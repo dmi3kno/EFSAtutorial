@@ -7,6 +7,10 @@ Welcome to the
 EFSA tutorial on Uncertainty!
 :::
 
+:::{.callout-warning}
+THIS PAGE IS CURRENTLY UNDER CONSTRUCTION
+:::
+
 &nbsp;<br>
 
 ![](img/EFSA_logo.svg){.preview-image fig-align="center"}

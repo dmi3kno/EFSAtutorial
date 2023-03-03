@@ -31,3 +31,6 @@ By the end of the course, participants should be able to understand and describe
 
 The training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments.
 
+## About
+
+This page was created by Ullrika Sahlin, Dmytro Perepolkin.

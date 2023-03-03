@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "implementation.html",
-    "href": "implementation.html",
-    "title": "Implementation of Uncertainty Guidance",
-    "section": "",
-    "text": "Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:\n\nTitle\nDOI\nPanel\nExpression of uncertainty (from the nine expressions)\nQuantitative method for uncertainty analysis\nQualitative method for uncertainty analysis\nDescription\n\nThe dataframe below is provided as a placeholder."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EFSA Tutorial",
     "section": "",
-    "text": "START HERE\n\n \n\nLearn more about principles and methods for uncertainty analysis and communication of uncertainty in scientific assessments."
+    "text": "Warning\n\n\n\nTHIS PAGE IS CURRENTLY UNDER CONSTRUCTION\n\n\n \n\n\n\n\n\n \n\nSTART HERE\n\n \n\nLearn more about principles and methods for uncertainty analysis and communication of uncertainty in scientific assessments."
+  },
+  {
+    "objectID": "implementationexpressions.html",
+    "href": "implementationexpressions.html",
+    "title": "Expressions of Uncertainty",
+    "section": "",
+    "text": "Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:\n\nTitle\nDOI\nPanel\nExpression of uncertainty (from the nine expressions)\nQuantitative method for uncertainty analysis\nQualitative method for uncertainty analysis\nDescription\n\nThe dataframe below is provided as a placeholder."
   },
   {
     "objectID": "uaguidance/dividing.html",
@@ -191,7 +191,7 @@
   {
     "objectID": "methods.html",
     "href": "methods.html",
-    "title": "Methods",
+    "title": "Methods for Uncertainty Analysis",
     "section": "",
     "text": "Methods page"
   },
@@ -200,14 +200,14 @@
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "Welcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.\nIdentifying and characterizing uncertainties, and explaining their implications for assessment conclusions, is an important element of EFSA’s risk assessment process.\nThis tutorial is designed to help you get access the two EFSA cross-cutting guidances on uncertainty - the Guidance on Uncertainty Analysis in Scientific Assessmenst and the Guidance on Communication of Uncertainty.\nAs part of EFSA’s commitment to transparency,.\nThe EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way.\nThis online tutorial will enhance the understanding and enable the practical implementation of the guidance document on uncertainty analysis in scientific assessments. It offers a strong link between the theory and practice by including the recent scientific opinions as case studies demonstrating how the uncertainty analysis can be applied across the various EFSA scientific areas and across various conditions. Aspects of uncertainty communication and the impact of uncertainty information on risk managers’ decision-making are also included.\nBy the end of the course, participants should be able to understand and describe:\n\nWhy uncertainty analysis is helpful in scientific assessments\nThe general principles of uncertainty analysis\nTerminology used in uncertainty analysis\nMain steps in uncertainty analysis and, in particular:\n\nPlanning the assessment strategy\nIdentifying sources of uncertainty\nEvaluating individual sources of uncertainty, both in qualitative and quantitative ways\nEvaluating combined uncertainty, both in qualitative and quantitative ways\nDescribing the unquantified uncertainties\nCommunicating the uncertainty information to their main target audience\n\n\nThe training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments."
+    "text": "Narrator:\nWelcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.\nIdentifying and characterizing uncertainties, and explaining their implications for assessment conclusions, is an important element of EFSA’s risk assessment process.\nThis tutorial is designed to help you get access the two EFSA cross-cutting guidances on uncertainty - the Guidance on Uncertainty Analysis in Scientific Assessmenst and the Guidance on Communication of Uncertainty.\nAs part of EFSA’s commitment to transparency,.\nThe EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way.\nThis online tutorial will enhance the understanding and enable the practical implementation of the guidance document on uncertainty analysis in scientific assessments. It offers a strong link between the theory and practice by including the recent scientific opinions as case studies demonstrating how the uncertainty analysis can be applied across the various EFSA scientific areas and across various conditions. Aspects of uncertainty communication and the impact of uncertainty information on risk managers’ decision-making are also included.\nBy the end of the course, participants should be able to understand and describe:\nThe training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this tutorial"
+    "objectID": "intro.html#about",
+    "href": "intro.html#about",
+    "title": "Introduction",
+    "section": "About",
+    "text": "About\nAbout this page"
   },
   {
     "objectID": "communication.html",
@@ -215,6 +215,13 @@
     "title": "Communication of Uncertainty",
     "section": "",
     "text": "I am:\n\n\n\n\n%%{init:{\"theme\":\"base\", \"themeVariables\": {\"primaryColor\":\"white\", \"secondaryColor\":\"white\", \"tertiaryColor\":\"white\", \"mainBkg\":\"#f2f2f2\", \"nodeBorder\":\"#7F7F7F\", \"clusterBkg\":\"#FFF9FB\"}}}%%\nflowchart TB\n  A([Communicator])\n  B([Assessor])\n  click A \"comguidance/communicator.html\" \"Go to Communicator page\"\n  click B \"comguidance/assessor.html\" \"Go to Assessor page\"\n\n\n\n\n\n\n\n\nThe introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed\nThe rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.\nFinally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)\nEach of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).\nWe will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16)."
+  },
+  {
+    "objectID": "implementationmethods.html",
+    "href": "implementationmethods.html",
+    "title": "Methods for Uncertainty Analysis",
+    "section": "",
+    "text": "Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:\n\nTitle\nDOI\nPanel\nExpression of uncertainty (from the nine expressions)\nQuantitative method for uncertainty analysis\nQualitative method for uncertainty analysis\nDescription\n\nThe dataframe below is provided as a placeholder."
   },
   {
     "objectID": "principles.html",
