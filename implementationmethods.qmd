@@ -10,6 +10,9 @@ library(DT)
 ```
 
 
+> Introduction to the page. Information about this page collects examples of implementation of the UA and UC GDs. Instructions on how to explore the page. How we have chosen the examples. A reminder that this is an extraction of examples and that there are more on EFSA website. 
+
+
 Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:
 
 - Title

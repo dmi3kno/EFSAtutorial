@@ -2,34 +2,56 @@
 title: "Introduction"
 ---
 
-**Narrator**:
+
+
+**Video transcript**
+
+::: {style="font-size:12px"}
 
 Welcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.
 
-Identifying and characterizing uncertainties, and explaining their implications for assessment conclusions, is an important element of EFSA’s risk assessment process.
+As part of EFSA’s commitment to transparency, identifying and characterising uncertainties and explaining their implications for assessment conclusions is an important element of EFSA’s risk assessment process. Uncertainty analysis is not new, as consideration of scientific uncertainty has always been a part of EFSA’s assessments. The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way. 
 
-This tutorial is designed to help you get access the two EFSA cross-cutting guidances on uncertainty - the Guidance on Uncertainty Analysis in Scientific Assessmenst and the Guidance on Communication of Uncertainty. 
+This tutorial is designed to help you get access to the two EFSA cross-cutting guidances on uncertainty 
 
-As part of EFSA’s commitment to transparency,. 
+ - the Guidance on Uncertainty Analysis in Scientific Assessment and 
+ - the Guidance on Communication of Uncertainty.
 
-The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way. 
+The aim of this tutorial is to enhance the understanding and enable the practical implementation of the two guidance documents. The material presented in this tutorial will help you 
 
-This online tutorial will enhance the understanding and enable the practical implementation of the guidance document on uncertainty analysis in scientific assessments. It offers a strong link between the theory and practice by including the recent scientific opinions as case studies demonstrating how the uncertainty analysis can be applied across the various EFSA scientific areas and across various conditions. Aspects of uncertainty communication and the impact of uncertainty information on risk managers’ decision-making are also included. 
+ - plan your assessment strategy, 
+ - identify and evaluate the sources of uncertainty, (both qualitatively and quantitatively)
+ - describe the uncertainties that have not been quantified, and
+ - communicate the uncertainty to your target audience with confidence.
 
-By the end of the course, participants should be able to understand and describe:
+The tutorial is set up as an interactive website where you can explore different topics and learn more by watching, reading and interacting with the material, as well as be referred to other resources on EFSA website, including the past case studies, scientific opinions and reports which showcase how the principles of uncertainty analysis and communication can be applied in practice!
 
-- Why uncertainty analysis is helpful in scientific assessments
-- The general principles of uncertainty analysis
-- Terminology used in uncertainty analysis
-- Main steps in uncertainty analysis and, in particular:
-     - Planning the assessment strategy
-     - Identifying sources of uncertainty
-     - Evaluating individual sources of uncertainty, both in qualitative and quantitative ways
-     - Evaluating combined uncertainty, both in qualitative and quantitative ways
-     - Describing the unquantified uncertainties
-     - Communicating the uncertainty information to their main target audience
+Look carefully on your screen now. Just above me and across your screen you see the top menu with the sections named
 
-The training materials will be a mixture of theory and applied real case studies taken from different EFSA contexts, including regulatory and non-regulatory assessments.
+- Home
+- Introduction
+- Principles and Methods
+- Uncertainty Analysis
+- Communication of Uncertainty and finally
+- Implementation. 
+
+Right now you are in the **Introduction** section, were you find me and the text I am reading underneath the video (**points down**). 
+
+**Principles and Methods** menu item takes you to the section dedicated to this (*poining right*) very important document called "The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment". This document describes the rationale behind the guidances and contains in-depth discussion of the strategy adopted by EFSA in handling the uncertainty in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about the details of, well, "the principles and methods".
+
+The **Uncertainty Analysis** section is dedicated to the respective guidance document (**points to the right**). It contains the workflows EFSA suggests to be followed for Standardized, Case-Specific and Urgent asessments, as well as when developing or revising the exiting guidance documents.
+Check out the flowcharts and learn the details of the suggested process by interacting with them!
+
+The **Communication of Uncertainty** is dedicated to the second governance document (**points to the right**) and contains the materials for communicators and the assessors presented as checklists for ensuring quality and transparency in communication of uncertainty tailored for various audiences at the Entry level, as well as the Informed and Technical levels. 
+
+The *Implementation* section contains references to the previously published scientific opinions and reports produced by EFSA panels, applying the principles and methods of uncertainty analysis. The goal is to simplify the search and navigation in the body of published documents and highlight some work which corresponds well to the concepts you learn from the guidances. 
+
+The **search** button all the way to the right can help you get to the required page quickly. The *Home* button on the left get you to the top of the website from wherever you are.
+ 
+Again, welcome to the tutorial and hope you will find your learning journey fun!
+
+Good luck!
+:::
 
 ## About
 
