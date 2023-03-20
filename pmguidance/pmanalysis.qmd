@@ -7,23 +7,38 @@ In this sections you can learn more about the underlying concepts behind the unc
 ## Definition of uncertainty and uncertainty analysis
 <!-- SO p11 -->
 Uncertainty refers to all types of limitations in available knowledge that affect the range and probability of possible answers to an assessment question. 
+
 Available knowledge refers here to the knowledge (evidence, data, etc.) available to assessors at the time the assessment is conducted and within the time and resources agreed for the assessment.
+
 Uncertainty analysis is defined as the process of identifying and characterising uncertainty about questions of interest and/or quantities of interest in a scientific assessment. 
+
 A question or quantity of interest may be the subject of the assessment as a whole, i.e. that which is required by the ToR for the assessment, or it may be the subject of a subsidiary part of the assessment which contributes to addressing the ToR (e.g. exposure and hazard assessment are subsidiary parts of risk assessment).
 
 ## Roles of assessors aand decision-makers
 <!-- SO p14 -->
 Basic principles for addressing uncertainty in risk analysis are stated in the Codex Working Principles for Risk Analysis:
-‘Constraints, uncertainties and assumptions having an impact on the risk assessment should be explicitly considered at each step in the risk assessment and documented in a transparent manner’
-‘Responsibility for resolving the impact of uncertainty on the risk management decision lies with the risk manager, not the risk assessors’
+
+- ‘Constraints, uncertainties and assumptions having an impact on the risk assessment should be explicitly considered at each step in the risk assessment and documented in a transparent manner’
+
+- ‘Responsibility for resolving the impact of uncertainty on the risk management decision lies with the risk manager, not the risk assessors’
 
 These principles apply equally to the treatment of uncertainty in all areas of science and decisionmaking.
 
-In general, assessors are responsible for characterising uncertainty and decision-makers are responsible for resolving the impact of uncertainty on decisions. Resolving the impact on decisions means deciding whether and in what way decision-making should be altered to take account of the uncertainty.
+In general, 
 
-The rational for this division of roles is: assessing scientific uncertainty requires scientific expertise, while resolving the impact of uncertainty on decision-making involves weighing the scientific assessment against other considerations, such as economics, law and societal values, which require different expertise and are also subject to uncertainty.
+- assessors are responsible for characterising uncertainty and 
 
-Although risk assessment and risk management are conceptually distinct activities, interaction between assessors and risk managers with regard to the specification of the question for assessment and expression of uncertainty in conclusions is useful.
+- decision-makers are responsible for resolving the impact of uncertainty on decisions. Resolving the impact on decisions means deciding whether and in what way decision-making should be altered to take account of the uncertainty.
+
+The rational for this division of roles is: 
+
+- assessing scientific uncertainty requires scientific expertise, while 
+
+- resolving the impact of uncertainty on decision-making involves weighing the scientific assessment against other considerations, such as economics, law and societal values, which require different expertise and are also subject to uncertainty.
+
+Although risk assessment and risk management are conceptually distinct activities, 
+
+- interaction between assessors and risk managers with regard to the specification of the question for assessment and expression of uncertainty in conclusions is useful.
 
 ### Information required for decision-making
 <!-- SO p14 -->
@@ -32,14 +47,25 @@ Uncertainty refers to limitations in knowledge, which are always present to some
 Decision-makers need to know the range of possible answers, so they can consider whether any of them would imply risk of undesirable management consequences (e.g. adverse effects).
 
 <!-- SO p15 -->
-For some types of assessment, e.g. for regulated products, decision-makers need EFSA to provide an unqualified positive or negative conclusion to comply with the requirements of legislation, or of procedures established to implement legislation. In general, the underlying assessment will be subject to at least some uncertainty, as is all scientific assessment. In such cases, therefore, the positive or negative conclusion refers to whether the level of certainty is sufficient for the purpose of decision-making, i.e. whether the assessment provides ‘practical certainty’
+For some types of assessment, e.g. for regulated products, decision-makers need EFSA to provide an unqualified positive or negative conclusion to comply with the requirements of legislation, or of procedures established to implement legislation. 
+
+In general, the underlying assessment will be subject to at least some uncertainty, as is all scientific assessment. In such cases, therefore, the positive or negative conclusion refers to whether the level of certainty is sufficient for the purpose of decision-making, i.e. whether the assessment provides ‘practical certainty’
 
 <!-- SO p15 -->
 Information on the magnitude of uncertainty and the main sources of uncertainty is also important to inform decisions about whether it would be worthwhile to invest in obtaining further data or conducting more analysis, with the aim of reducing uncertainty.
 
 <!-- SO p15 -->
-All EFSA scientific assessments require at least a basic analysis of uncertainty. Questions are posed to EFSA because the requestor does not know or is uncertain of the answer and that the amount of uncertainty affects decisions or actions they need to take. The requestor seeks scientific advice from EFSA because they anticipate that this may reduce the uncertainty, or at least provide a more expert assessment of it. If the uncertainty of the answer did not matter, then it would not be rational or economically justified for the requestor to pose the question to EFSA – the requestor would simply use their own judgement, or even a random guess. So the fact that the question was asked implies that the amount of uncertainty matters for decision-making, and it follows that information about uncertainty is a necessary part of EFSA’s response. 
-This logic applies regardless of the nature or subject of the question, therefore providing information on uncertainty is relevant in all cases. 
+All EFSA scientific assessments require at least a basic analysis of uncertainty. 
+
+- Questions are posed to EFSA because the requestor does not know or is uncertain of the answer and that the amount of uncertainty affects decisions or actions they need to take. 
+
+- The requestor seeks scientific advice from EFSA because they anticipate that this may reduce the uncertainty, or at least provide a more expert assessment of it. 
+
+- If the uncertainty of the answer did not matter, then it would not be rational or economically justified for the requestor to pose the question to EFSA – the requestor would simply use their own judgement, or even a random guess. 
+
+ - So the fact that the question was asked implies that the amount of uncertainty matters for decision-making, and it follows that information about uncertainty is a necessary part of EFSA’s response. 
+
+ - This logic applies regardless of the nature or subject of the question, therefore providing information on uncertainty is relevant in all cases. 
 
 It follows that uncertainty analysis is needed in all EFSA scientific assessments, though the form and extent of that analysis and the form in which the conclusions are expressed should be adapted to the needs of each case, in consultation with decision-makers.
 
@@ -162,7 +188,7 @@ This recommended approach is thus consistent with the requirement of the FAO/WHO
 The recommended approach does not imply a requirement to quantify ‘unknown unknowns’ or ignorance. These type of sources of uncertainty are always potentially present, but cannot be included in assessment, as the assessors are unaware of them
 
 
-## Common concerns and objections to quantitative expression of uncertainty
+### Common concerns and objections to quantitative expression of uncertainty
 <!-- Box 2 SO p21 -->
 Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
 
@@ -268,7 +294,7 @@ no model is entirely correct. Model uncertainty is better expressed by making a 
 # Uncertainty should be addressed by conservative assumptions:
 :::: {.panel-tabset}
  choosing a conservative assumption involves two judgements – the probability that the assumption is valid, and the acceptability of that probability. The Guidance improves the rigour and transparency of the first judgement, providing a better basis for the second (which is part of risk management).
--::::
+::::
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
@@ -344,17 +370,168 @@ actually many do, and as a matter of principle, decision-makers need information
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-#Communicating uncertainty will undermine public confidence in scientific assessment: 
+# Communicating uncertainty will undermine public confidence in scientific assessment: 
 :::: {.panel-tabset}
 some evidence supports this, but other evidence suggests communicating uncertainty can increase confidence. EFSA’s approach on communicating uncertainty is designed to achieve the latter. 
 ::::
 :::
 
+## The role of qualitative expressions of uncertainty
 
+<!-- SO p22 -->
+Qualitative methods in uncertainty analysis are specifically recommended for the following purposes: 
+
+ - As a simple approach for prioritising uncertainties. 
+ 
+ - At intermediate points in an uncertainty analysis, to characterise individual sources of uncertainty qualitatively, as an aid to quantifying their combined impact by probability judgement. This may be useful either for individual parts of the uncertainty analysis, or as a preliminary step when characterising the overall uncertainty of the conclusion.
+ 
+ - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an approximate probability scale with accompanying qualitative descriptors  
+<!-- added by tutors -->
+(verbal expressions).
+ 
+ - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation. 
+ 
+ - When reporting the assessment, for expressing the assessment conclusion in qualitative terms when this is required by decision-makers or legislation.
+ 
 # Key concepts
 
+## Well-defined questions and quantities of interest
+
+## Conditional nature of uncertainty
+
+## Uncertainty and variability
+
+## Dependencies
+
+## Models and model uncertainty
+
+## Evidence, agreement, confidence and weight of evidence
+
+## Influence, sensitivity and prioritisation of uncertainties
+
+## Conservative assessments
+
+## Expert judgement
+
+## Probability
+
+## Overall uncertainty
 
 <!-- SO p20, last bullet point -->
 It is therefore important to quantify the overall impact of as many as possible of the identified uncertainties, and identify any that cannot be quantified. The most direct way to achieve this is to try to quantify the overall impact of all identified uncertainties, as this will reveal any that cannot be quantified.
-# Glossary
+
+## Unquantified uncertainties
+
+## Conditionality of assessments
+
+<!-- Move Types of assessment distinguished for uncertainty analysis to the U GD page -->
+# Main elements of uncertainty analysis
+
+<!-- Box 3 SO p38 -->
+Some assessments require only some elements, and each element can be implemented in various ways with various methods. 
+
+<!-- SO p37 -->
+What is needed depends in part on the general type of the assessment (standardised assessment, case-specific assessment, development, review of a standardised procedure or urgent assessment), and partly on the specific needs of the individual assessment, which need to be decided by assessors.
+
+<!-- Box 3 SO p38 -->
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Identifying uncertainties affecting the assessment.
+:::: {.panel-tabset}
+This is necessary in every assessment, and should be done in a structured way to minimise the chance of overlooking relevant uncertainties. In assessments that follow standardised procedures, it is only necessary to identify non-standard uncertainties.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Prioritising uncertainties within the assessment 
+:::: {.panel-tabset}
+plays an important role in the planning the uncertainty analysis, enabling the assessor to focus detailed analysis on the most important uncertainties and address others collectively when evaluating overall uncertainty. Often prioritisation will be done by expert judgement during the planning process, but in more complex assessments it may be done explicitly, using influence or sensitivity analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Dividing the uncertainty analysis into parts (when appropriate). 
+:::: {.panel-tabset}
+In some assessments, it may be sufficient to characterise overall uncertainty for the whole assessment directly, by expert judgement. In other cases, it may be preferable to evaluate uncertainty for some or all parts of the assessment separately and then combine them, either by calculation or expert judgement.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Ensuring the questions or quantities of interest are well-defined. 
+:::: {.panel-tabset}
+This is necessary in every assessment. Some assessments follow standardised procedures, within which the questions and/or quantities of interest should be predefined. In other assessments, the assessors will need to identify and define the questions and/or quantities of interest case by case.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Characterising uncertainty for parts of the uncertainty analysis. 
+:::: {.panel-tabset}
+This is needed for assessments where the assessors choose to divide the uncertainty analysis into parts, but may only be done for some of the parts, with the other parts being considered when characterising overall uncertainty.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Combining uncertainty from different parts of the uncertainty analysis.  
+:::: {.panel-tabset}
+This is needed for assessments where the assessors quantify uncertainty separately for two or more parts of the uncertainty analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Characterising overall uncertainty. 
+:::: {.panel-tabset}
+Expressing quantitatively the overall impact of as many as possible of the identified uncertainties, and describing qualitatively any that remain unquantified. This is necessary in all assessments except standardised assessments where no non-standard uncertainties are identified.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Prioritising uncertainties for future investigation. 
+:::: {.panel-tabset}
+This is implicit or explicit in any assessment where recommendations are made for future data collection or research, and may be informed by influence or sensitivity analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Reporting uncertainty analysis. 
+:::: {.panel-tabset}
+Required for all assessments, but extremely brief in standardised assessments where no non-standard uncertainties are identified.
+::::
+:::
+
+# Key principles
+
+## Key principles when conducting case-specific assessments
+<!-- SO p39 -->
+:::{.callout-tip}
+# What is a case-specific assessment?
+A case-specific assessment is needed when there is no standardised procedure for the type of assessment in hand, and when parts of the assessment use standardised procedure but other parts are case-specific or deviate from the standardised procedure (e.g. for refinement or urgency), and for calibrating standardised procedures when they are first established or revised. 
+:::
+
+- The uncertainty analysis should start at a level that is appropriate to the assessment in hand. For assessments where data to quantify uncertainty is available and/or where suitable quantitative methods are already established, this may be included in the initial assessment. In other assessments, it may be best to start with a simple approach, unless it is evident at the outset that more complex approaches are needed.
+
+- Uncertainty analysis should be refined as far as is needed to inform decision-making. 
+  -- This point is reached either when there is sufficient certainty about the question or quantity of interest for the decision-makers to make a decision with the level of certainty they require, or 
+  -- if it becomes apparent that achieving the desired level of uncertainty is unfeasible or too costly and the decision-makers decide instead to manage the uncertainty without further refinement of the analysis.
+
+- Refinements of the uncertainty analysis using more complex or resource-intensive methods and options should be targeted on those sources of uncertainty where they will contribute most efficiently to improving the characterisation of uncertainty, taking account of their influence on the assessment conclusion and the cost and feasibility of the refinement. 
+
+- The characterisation of overall uncertainty must integrate the contributions of identified sources of uncertainties that have been expressed in different ways.
+
+## Key principles when using standardise procedures 
+<!-- SO p40 -->
+:::{.callout-tip}
+# What is a standardised assessment procedure?
+Standardised assessment procedures with accepted provision for uncertainty are common in many areas of EFSA’s work, especially for regulated products, and are subject to periodic review. 
+ULLRIKA TO PUT MORE HERE
+:::
+
+
+## Key principles for urgent assessments 
+<!-- SO p41 -->
+:::{.callout-tip}
+# What is an urgent assessment?
+TO BE TUNED _ TAKE FRO GLOSSARY? 
+
+In some situations, e.g. emergencies, EFSA may be required to provide an urgent assessment in very limited time and the approach taken must be adapted accordingly. Uncertainty is generally increased in such situations, and may be a major driver for decision-making. Characterisation of uncertainty is therefore still necessary, despite the urgency of the assessment. However, the approach to providing it must be scaled to fit within the time and resources available.
+:::
 
