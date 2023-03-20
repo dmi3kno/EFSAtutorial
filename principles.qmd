@@ -1,5 +1,20 @@
 ---
-title: "Principles"
+title: "Principles and methods behind the guidances"
 ---
 
-Principles page
+
+**Video transcript**
+
+::: {style="font-size:12px"}
+
+Welcome to the page on Principles and Methods for the Uncertainty Analysis and Communication of Uncertainty guidances! 
+
+In this sections you can learn more about the underlying concepts behind the two main guidance documents. 
+
+The concepts described on this page are primarily coming from the Principles and Methods Document (**pointing to the right**), as well as the Section 3 in the Communication Guidance (**pointing to the right**). 
+
+On the left hand side you can see the side menu which contains the links to the pages for respective sections. The methods for uncertainty analysis are discussed separately. You might want to check that page out when you are unsure about certain method or want to identify an appropriate method of handling uncertainty appropriate for your situation.
+
+Look around and make yourself at home here, because you might come back here after you've explored the rest of the tutorial for some in-depth insights! See you!
+
+:::

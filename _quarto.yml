@@ -18,7 +18,7 @@ website:
       - text: "Introduction"
         file: intro.qmd
       - text: "Principles and Methods"
-        file: pmguidance/pmanalysis.qmd 
+        file: principles.qmd 
       - text: "Uncertainty Analysis"
         file: uncertaintyanalysis.qmd
       - text: "Communication of Uncertainty"
@@ -29,6 +29,7 @@ website:
   sidebar:
     - title: "Principles and Methods"
       contents:
+        - principles.qmd
         - pmguidance/pmanalysis.qmd
         - pmguidance/pmcommunication.qmd
         - methods.qmd

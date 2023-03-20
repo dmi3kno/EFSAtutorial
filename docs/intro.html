@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,7 +12,7 @@
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: 1;}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -68,31 +68,39 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">EFSA Tutorial</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./intro.html" aria-current="page">Introduction</a>
+    <a class="nav-link active" href="./intro.html" aria-current="page">
+ <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pmguidance/pmanalysis.html">Principles and Methods</a>
+    <a class="nav-link" href="./principles.html">
+ <span class="menu-text">Principles and Methods</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uncertaintyanalysis.html">Uncertainty Analysis</a>
+    <a class="nav-link" href="./uncertaintyanalysis.html">
+ <span class="menu-text">Uncertainty Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./communication.html">Communication of Uncertainty</a>
+    <a class="nav-link" href="./communication.html">
+ <span class="menu-text">Communication of Uncertainty</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./implementationmethods.html">Implementation</a>
+    <a class="nav-link" href="./implementationmethods.html">
+ <span class="menu-text">Implementation</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -126,15 +134,17 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
 <p><strong>Video transcript</strong></p>
 <div style="font-size:12px">
-<p>Welcome to this tutorial on how to identify, characterize and communicate uncertainties in EFSA’s scientific assessments.</p>
+<p>Welcome to this tutorial on how to identify, characterize and communicate uncertainty in EFSA’s scientific assessments.</p>
 <p>As part of EFSA’s commitment to transparency, identifying and characterising uncertainties and explaining their implications for assessment conclusions is an important element of EFSA’s risk assessment process. Uncertainty analysis is not new, as consideration of scientific uncertainty has always been a part of EFSA’s assessments. The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way.</p>
 <p>This tutorial is designed to help you get access to the two EFSA cross-cutting guidances on uncertainty</p>
 <ul>
@@ -144,9 +154,9 @@ ul.task-list li input[type="checkbox"] {
 <p>The aim of this tutorial is to enhance the understanding and enable the practical implementation of the two guidance documents. The material presented in this tutorial will help you</p>
 <ul>
 <li>plan your assessment strategy,</li>
-<li>identify and evaluate the sources of uncertainty, (both qualitatively and quantitatively)</li>
-<li>describe the uncertainties that have not been quantified, and</li>
-<li>communicate the uncertainty to your target audience with confidence.</li>
+<li>identify and evaluate sources of uncertainty, (both qualitatively and quantitatively)</li>
+<li>describe uncertainties that have not been quantified, and</li>
+<li>communicate uncertainty to your target audience with confidence.</li>
 </ul>
 <p>The tutorial is set up as an interactive website where you can explore different topics and learn more by watching, reading and interacting with the material, as well as be referred to other resources on EFSA website, including the past case studies, scientific opinions and reports which showcase how the principles of uncertainty analysis and communication can be applied in practice!</p>
 <p>Look carefully on your screen now. Just above me and across your screen you see the top menu with the sections named</p>
@@ -156,12 +166,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Principles and Methods</li>
 <li>Uncertainty Analysis</li>
 <li>Communication of Uncertainty and finally</li>
-<li>Implementation.</li>
+<li>Implementation</li>
 </ul>
 <p>Right now you are in the <strong>Introduction</strong> section, were you find me and the text I am reading underneath the video (<strong>points down</strong>).</p>
-<p><strong>Principles and Methods</strong> menu item takes you to the section dedicated to this (<em>poining right</em>) very important document called “The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment”. This document describes the rationale behind the guidances and contains in-depth discussion of the strategy adopted by EFSA in handling the uncertainty in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about the details of, well, “the principles and methods”.</p>
+<p><strong>Principles and Methods</strong> menu item takes you to the section dedicated to this (<em>pointing right</em>) very important document called “The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment”. This document describes the rationale behind the guidances and contains in-depth discussion of the strategy adopted by EFSA in handling the uncertainty in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about the details of, well, “the principles and methods”.</p>
 <p>The <strong>Uncertainty Analysis</strong> section is dedicated to the respective guidance document (<strong>points to the right</strong>). It contains the workflows EFSA suggests to be followed for Standardized, Case-Specific and Urgent asessments, as well as when developing or revising the exiting guidance documents. Check out the flowcharts and learn the details of the suggested process by interacting with them!</p>
-<p>The <strong>Communication of Uncertainty</strong> is dedicated to the second governance document (<strong>points to the right</strong>) and contains the materials for communicators and the assessors presented as checklists for ensuring quality and transparency in communication of uncertainty tailored for various audiences at the Entry level, as well as the Informed and Technical levels.</p>
+<p>The <strong>Communication of Uncertainty</strong> is dedicated to the second guidance document (<strong>points to the right</strong>) and contains the materials for communicators and the assessors presented as checklists for ensuring quality and transparency in communication of uncertainty tailored for various audiences at the Entry level, as well as the Informed and Technical levels.</p>
 <p>The <em>Implementation</em> section contains references to the previously published scientific opinions and reports produced by EFSA panels, applying the principles and methods of uncertainty analysis. The goal is to simplify the search and navigation in the body of published documents and highlight some work which corresponds well to the concepts you learn from the guidances.</p>
 <p>The <strong>search</strong> button all the way to the right can help you get to the required page quickly. The <em>Home</em> button on the left get you to the top of the website from wherever you are.</p>
 <p>Again, welcome to the tutorial and hope you will find your learning journey fun!</p>
@@ -169,7 +179,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This page was created by Ullrika Sahlin, Dmytro Perepolkin.</p>
+<p>This tutorial is provided within OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training.</p>
+<p>This page was created by Ullrika Sahlin and Dmytro Perepolkin.</p>
 
 
 </section>
@@ -216,7 +227,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -245,31 +273,49 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
       // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href');
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
