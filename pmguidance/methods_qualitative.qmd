@@ -1,0 +1,9 @@
+---
+title: "Qualitative methods"
+---
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# :::: {.panel-tabset}
+::::
+:::

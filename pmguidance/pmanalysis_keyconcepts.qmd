@@ -2,33 +2,119 @@
 title: "Key concepts"
 ---
 
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Well-defined questions and quantities of interest
+:::: {.panel-tabset}
 
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Conditional nature of uncertainty
+:::: {.panel-tabset}
 
-# Uncertainty and variability
+::::
+:::
 
-# Dependencies
 
-# Models and model uncertainty
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Uncertainty and variability 
+:::: {.panel-tabset}
 
+::::
+:::
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Dependencies 
+:::: {.panel-tabset}
+
+::::
+:::
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Models and model uncertainty 
+:::: {.panel-tabset}
+
+::::
+:::
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Evidence, agreement, confidence and weight of evidence
+:::: {.panel-tabset}
 
+::::
+:::
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Influence, sensitivity and prioritisation of uncertainties
+ 
+:::: {.panel-tabset}
 
+::::
+:::
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Conservative assessments
+:::: {.panel-tabset}
 
-# Expert judgement
+::::
+:::
 
-# Probability
 
-# Overall uncertainty
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Expert judgement 
+:::: {.panel-tabset}
+
+::::
+:::
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Probability 
+:::: {.panel-tabset}
+
+::::
+:::
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Overall uncertainty 
+:::: {.panel-tabset}
+
+::::
+:::
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Unquantified uncertainties 
+:::: {.panel-tabset}
+
+::::
+:::
 
 <!-- SO p20, last bullet point -->
 It is therefore important to quantify the overall impact of as many as possible of the identified uncertainties, and identify any that cannot be quantified. The most direct way to achieve this is to try to quantify the overall impact of all identified uncertainties, as this will reveal any that cannot be quantified.
 
-# Unquantified uncertainties
 
+
+::: {.callout-tip collapse="true" appearance="minimal"}
 # Conditionality of assessments
+:::: {.panel-tabset}
+
+::::
+:::
+
+
 
 <!-- Move Types of assessment distinguished for uncertainty analysis to the U GD page -->

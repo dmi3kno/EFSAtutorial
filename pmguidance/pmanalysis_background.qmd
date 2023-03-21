@@ -8,6 +8,11 @@ Uncertainty refers to all types of limitations in available knowledge that affec
 
 Available knowledge refers here to the knowledge (evidence, data, etc.) available to assessors at the time the assessment is conducted and within the time and resources agreed for the assessment.
 
+:::{.callout-tip}
+<!-- Glossary -->
+Sometimes ‘uncertainty’ is used to refer to a source of uncertainty, and sometimes to its impact on the conclusion of an assessment.
+:::
+
 ## Uncertainty analysis
 Uncertainty analysis is defined as the process of identifying and characterising uncertainty about questions of interest and/or quantities of interest in a scientific assessment. 
 

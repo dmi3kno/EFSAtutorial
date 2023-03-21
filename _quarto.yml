@@ -44,7 +44,8 @@ website:
           - pmguidance/pmcommunication.qmd
         - section: "Methods for Uncertainty Analysis"
           contents:
-          - methods.qmd
+          - pmguidance/methods.qmd
+        
     - title: "Uncertainty Analysis"
       contents:
         - uncertaintyanalysis.qmd

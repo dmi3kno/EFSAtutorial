@@ -1,0 +1,70 @@
+---
+title: "Questions to identify sources of uncertainty affecting inputs"
+---
+
+General types of uncertainty affecting inputs to scientific assessment, together with questions that may help to identify them in specific assessments
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 1. Ambiguity
+:::: {.panel-tabset}
+Are all necessary aspects of any data, evidence, assumptions or scenarios used in the assessment (including the quantities measured, the subjects or objects on which measurements are made, and the time and location of measurements) adequately described, or are multiple interpretations possible?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 2. Accuracy and precision of the measures
+:::: {.panel-tabset}
+How accurate and precise are methods/tools used to measure data (e.g. analytical methods, questionnaire). How adequate are any data quality assurance procedures and data validation that were followed?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 3. Sampling uncertainty
+:::: {.panel-tabset}
+Is the input based on measurements or observations on a sample from a larger population? If yes: How was the sample collected? Was stratification needed or applied? Was the sampling biased in any way, e.g. by intentional or unintentional targeting of sampling? How large was the sample? How does this affect the uncertainty of the estimates used in the assessment?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 4. Missing data within studies
+:::: {.panel-tabset}
+What is the frequency of missing data within the studies that are available? Is the mechanism causing the missing data random, or may it have introduced bias or imbalance among experimental groups (if any)? Was imputation of missing data performed, and did it use sound methodologies?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 5. Missing studies
+:::: {.panel-tabset}
+Is all the evidence needed to answer the assessment question available? Are the published studies reflecting all the available evidence? Where required studies are specified in guidance or legislation, are they all provided?
+
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 6. Assumptions about inputs
+:::: {.panel-tabset}
+Is the input partly or wholly based on assumptions, such standard scenarios or default values? If so, what is the nature, quantity, relevance, reliability and quality of data or evidence available to support those assumptions?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 7. Statistical estimates
+:::: {.panel-tabset}
+Does the input include a statistical measure of uncertainty (e.g. confidence interval)? If so, what uncertainties does this quantify, and what other uncertainties need to be considered? Is the statistical analysis used to produce the evidence appropriate and adequate? Are the implicit and explicit assumptions done in the statistical analysis expected to influence the results. 
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 8. Extrapolation uncertainty (e.g. limitations in external validity)
+:::: {.panel-tabset}
+Are any data, evidence, assumptions and scenarios used in the assessment (including the quantities they address, and the subjects or objects, time and location to which that quantity refers) directly relevant to what is needed for the assessment, or is some extrapolation or read across required? If the input is based on measurements or observations on a sample from a population, how closely relevant is the sampled population to the population or subpopulation of interest for the assessment? Is some extrapolation implied?
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# 9. Other uncertainties
+:::: {.panel-tabset}
+Is the input affected by any other sources of uncertainty that you can identify, or other reasons why the input might differ from the real quantity or effect it represents?
+::::
+:::
