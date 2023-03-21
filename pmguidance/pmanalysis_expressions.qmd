@@ -1,0 +1,308 @@
+---
+title: "Expressing uncertainty"
+---
+
+<!-- SO p17 -->
+Expression of uncertainty requires two components: expression of the range of possible true answers to a question of interest, or a range of possible true values for a quantity of interest, and some expression of the probabilities of the different answers or values. 
+Quantitative approaches express one or both of these components on a numerical scale. 
+Qualitative approaches express them using words, categories or labels. They may rank the magnitudes of different uncertainties, and are sometimes given numeric labels, but they do not quantify the magnitudes of the uncertainties nor their impact on an assessment conclusion.
+
+<!-- SO p18 -->
+A complete quantitative expression of uncertainty would specify all the answers or values that are considered possible and probabilities for them all. Partial quantitative expression provides only partial information on the probabilities and in some cases partial information on the possibilities (specifying a selection of possible answers or values). Partial quantitative expression requires less information or judgements but may be sufficient for decision-making in some assessments, whereas other cases may require fuller quantitative expression.
+
+```{r}
+#| label: tbl-approx-probscale
+#| tbl-cap: "Approximate probability scale"
+#| echo: false
+#| message: false
+#| warning: false
+
+# update rvest
+# install.packages("rvest")
+# install the latest version
+# remotes::install_github("haozhu233/kableExtra")
+
+library(kableExtra)
+library(magrittr)
+ptbl <- data.frame(
+  term=c("Almost certain", "Extremely likely", "Very likely", "Likely", "About as likely as", "Unlikely", "Very unlikely", "Extremely unlikely", "Almost impossible"),
+  range=c("99-100%", "95-99%", "90-95%", "66-90%", "33-66%", "10-33%", "5-10%", "1-5%", "0-1%"),
+  addopt=c(rep("More likely than not: >50%", 4), rep(" ", 5)),
+  addopt2=rep("Unable to give any probability: range is 0-100%. Report as 'inconclusive', 'cannot conclude' or 'unknown'", 9)
+) 
+tbl_col_names <- c("Probability term", "Subjective probability range", "Additional options", "")
+ptbl %>% 
+  kbl(col.names =tbl_col_names ) %>% 
+  kable_paper(full_width = FALSE) %>%
+  column_spec(1:3, width = "10em") %>% 
+  collapse_rows(columns = 3:4, valign = "top")
+
+```
+
+
+### Qualitative expressions
+<!-- Box 1 SO p18 -->
+*Descriptive expression:* Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition (@tbl-approx-probscale). 
+
+*Ordinal scale:* Uncertainty described by ordered categories, where the magnitude of the difference between categories is not quantified.
+
+### Quantitative expressions
+<!-- Box 1 SO p18 -->
+*Individual values:* Uncertainty partially quantified by specifying some possible values, without specifying what other values are possible or setting upper or lower limits.
+
+*Bound:* Uncertainty partially quantified by specifying either an upper limit or a lower limit on a quantitative scale, but not both. 
+
+*Range:* Uncertainty partially quantified by specifying both a lower and upper limit on a quantitative scale, without expressing the probabilities of different values within the limits. 
+
+*Probability:* Uncertainty about a binary outcome (including the answer to a yes/no question) fully quantified by specifying the probability or approximate probability of both possible outcomes. 
+
+*Probability bound:* Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability.
+
+*Distribution:* Uncertainty about a non-variable quantity fully quantified by specifying the probability of all possible values on a quantitative scale.
+
+## The role of quantitative expressions of uncertainty
+The principal reasons for preferring quantitative expressions of uncertainty are as follows:
+
+ - Qualitative expressions are ambiguous.
+
+ - Decision-making often depends on quantitative comparisons, for example, whether a risk exceeds some acceptable level, or whether benefits outweigh costs.
+
+  - If assessors provide only a single answer or estimate and a qualitative expression of the uncertainty, decision-makers will have to make their own quantitative interpretation of how different the real answer or value might be. This judgement is better made by assessors, since they are better placed to understand the sources of uncertainty affecting the assessment and judge their effect on its conclusion.
+
+  - Qualitative expressions often imply, or may be interpreted as implying, judgements about the implications of uncertainty for decision-making, which are outside the remit of EFSA.
+
+  - Assessors may assess uncertainty differently yet agree on a single qualitative expression, because they interpret it differently.
+
+  - Expressing uncertainties in terms of their quantitative impact on the assessment conclusion will reveal differences of opinion between experts working together on an assessment, enabling a more rigorous discussion and hence improving the quality of the final conclusion.
+
+  - It has been demonstrated that people often perform poorly at judging combinations of probabilities. This implies they may perform poorly at judging how multiple uncertainties in an assessment combine. It may therefore be more reliable to divide the uncertainty analysis into parts and quantify uncertainty separately for those parts containing important sources of uncertainty, so that they can be combined by calculation.
+
+  - Quantifying uncertainty enables decision-makers to weigh the probabilities of different consequences against other relevant considerations.
+  
+### Concerns and objections to quantitative expressions of uncertainty
+  Many concerns and objections to quantitative expression of uncertainty have been raised by various parties during the public consultation and trial period for this document and in the literature. These are listed in Box 2; many, not all, relate to the role of expert judgement in quantifying uncertainty. The Scientific Committee has considered these concerns carefully and concludes that all of them can be addressed, either by improved explanation of the principles involved or through the use of appropriate methods for obtaining and using quantitative expressions.
+  
+  BOX 2
+
+### Assessors should express uncertainty in quantitative terms
+<!-- SO p20 -->
+Having considered the advantages of quantitative expression, and addressed the concerns, the Scientific Committee concludes that assessors should express in quantitative terms the combined effect of as many as possible of the identified sources of uncertainty, while recognising that how this is reported must be compatible with the requirements of decision-makers and legislation.
+
+Any sources of uncertainty that assessors are unable to include in their quantitative expression, for whatever reason, must be documented qualitatively and reported alongside it, because they will have significant implications for decision-making.
+
+Together, the quantified uncertainty and the description of unquantified uncertainties provide the overall characterisation of uncertainty, and express it as unambiguously as is possible.
+
+This recommended approach is thus consistent with the requirement of the FAO/WHO Codex Working Principles for Risk Analysis and the EFSA Guidance on Transparency from 2010, which state that uncertainty be ‘quantified to the extent that is scientifically achievable’.
+
+ - ‘scientifically achievable’ should be interpreted as referring to including as many as possible of the identified sources of uncertainty within the quantitative assessment of overall uncertainty, and omitting only those which the assessors are unable to quantify.
+ - ‘scientifically achievable’ does **not** mean that uncertainties should be quantified using the most sophisticated scientific methods available.
+
+The recommended approach does not imply a requirement to quantify ‘unknown unknowns’ or ignorance. These type of sources of uncertainty are always potentially present, but cannot be included in assessment, as the assessors are unaware of them
+
+
+### Common concerns and objections to quantitative expression of uncertainty
+<!-- Box 2 SO p21 -->
+Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Quantifying uncertainty requires complex computations, or excessive time or resource: 
+:::: {.panel-tabset}
+most of the options in the Guidance do not require complex computations, and the methods are scalable to any time and resource limitation, including urgent situations.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Quantifying uncertainty requires extensive data: 
+:::: {.panel-tabset}
+uncertainty can be quantified by expert judgement for any well-defined question or quantity, provided there is at least some relevant evidence.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Data are preferable to expert judgement: 
+:::: {.panel-tabset}
+the Guidance recommends use of relevant data where available.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Subjectivity is unscientific: 
+:::: {.panel-tabset}
+All judgement is subjective, and judgement is a necessary part of all scientific assessment. Even when good data are available, expert judgement is involved in evaluating and analysing them, and when using them in risk assessment.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Subjective judgements are guesswork and speculation: 
+:::: {.panel-tabset}
+all judgements in EFSA assessments will be based on evidence and reasoning, which will be documented transparently.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Expert judgement is subject to psychological biases: 
+:::: {.panel-tabset}
+EFSA’s guidance on uncertainty analysis and expert knowledge elicitation use methods designed to counter those biases.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Quantitative judgements are over-precise: 
+:::: {.panel-tabset}
+EFSA’s methods produce judgements that reflect the experts’ uncertainty – if they feel they are over-precise, they should adjust them accordingly.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Uncertainty is exaggerated: 
+:::: {.panel-tabset}
+identify your reasons for thinking the uncertainty is exaggerated, and revise your judgements to take them into account.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# There are too many uncertainties: 
+:::: {.panel-tabset}
+whenever experts draw conclusions, they are necessarily making judgements about all the uncertainties they are aware of. The Guidance provides methods for assessing uncertainties collectively that increase the rigour and transparency of those judgements.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Probability judgements are themselves uncertain: 
+:::: {.panel-tabset}
+take the uncertainty of your judgement into account as part of the judgement, e.g. by giving a range, or making it wider.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Giving precise quantiles for uncertainty is over-confident: 
+:::: {.panel-tabset}
+the quantiles will not be treated as precise, but as a step in deriving a distribution for you to review and adjust. If there is concern about the choice of distribution, its impact on the analysis can be assessed by sensitivity analysis. Alternatively, approximate probabilities could be used.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# There are some uncertainties I cannot make a probability judgement for: 
+:::: {.panel-tabset}
+in principle, probability judgements can be given for all well-defined questions or quantities. However, the Guidance recognises that experts may be unable to make probability judgements for some uncertainties, and provides options for dealing with this.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Different experts will make different judgements: 
+:::: {.panel-tabset}
+this is expected and inevitable, whether the judgements are quantitative or not. An advantage of quantitative expression is that those differences are made explicit and can be discussed, leading to better conclusions. These points apply to experts working on the same assessment, and also to different assessments of the same question by different experts or institutions.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# I cannot give a probability for whether a model is correct: 
+:::: {.panel-tabset}
+no model is entirely correct. Model uncertainty is better expressed by making a probability judgement for how different the model result might be from the real value.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Uncertainty should be addressed by conservative assumptions:
+:::: {.panel-tabset}
+ choosing a conservative assumption involves two judgements – the probability that the assumption is valid, and the acceptability of that probability. The Guidance improves the rigour and transparency of the first judgement, providing a better basis for the second (which is part of risk management).
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Probabilities cannot be given for qualitative conclusions:
+:::: {.panel-tabset}
+ Probability judgements can be made for any well-defined conclusion, and all EFSA conclusions should be well-defined.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# You cannot make judgements about unknown unknowns:
+:::: {.panel-tabset}
+no such judgements are implied. All scientific advice is conditional on assumptions about unknown unknowns.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Uncertainty is unquantifiable by definition: 
+:::: {.panel-tabset}
+this is the Knightian view. The Guidance uses subjective probability, which Knight recognised as an option.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Probabilities cannot be given unless all the possibilities can be specified: 
+:::: {.panel-tabset}
+provided an answer to a question is well-defined, a probability judgement can be made for it without specifying or knowing all possible alternative answers. However, assessors should guard against a tendency to underestimate the probability of other answers when they are not differentiated.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# None of the ranges in the approximate probability scale properly represent my judgement: 
+:::: {.panel-tabset}
+specify a range that does.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Lack of evidence: 
+:::: {.panel-tabset}
+if there really is no evidence, no probability judgement can be made – and no scientific conclusion can be drawn. 
+<!-- This was added by the tutors:  -->
+Another way to see it, is that if the experts can make a conclusion (that is not inconclusive), they should also be able to express their level of certainty about it. 
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# It is not valid to combine probabilities derived from data with probabilities derived by expert judgement: 
+:::: {.panel-tabset}
+there is a well-established theoretical basis for using probability calculations to combine probability judgements elicited from experts (including probability judgements informed by non Bayesian statistical analysis) with probabilities obtained from Bayesian statistical analysis of data.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# The result of the uncertainty analysis is incompatible with, or undermines, our conclusion: 
+:::: {.panel-tabset}
+reconsider both the uncertainty analysis and the conclusion, and revise one or both so they (a) match and (b) properly represent what the science supports. A justifiable conclusion takes account of uncertainty, so there should be no inconsistency.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Decision-makers require us to say whether a thing is safe or not safe, not give a probability for being safe: 
+:::: {.panel-tabset}
+‘safe’ implies some acceptable level of certainty, so if that is defined then positive or negative conclusion may be given without qualification.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Risk managers and the public do not want to know about uncertainty: 
+:::: {.panel-tabset}
+actually many do, and as a matter of principle, decision-makers need information on uncertainty to make rational decisions.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Communicating uncertainty will undermine public confidence in scientific assessment: 
+:::: {.panel-tabset}
+some evidence supports this, but other evidence suggests communicating uncertainty can increase confidence. EFSA’s approach on communicating uncertainty is designed to achieve the latter. 
+::::
+:::
+
+## The role of qualitative expressions of uncertainty
+
+<!-- SO p22 -->
+Qualitative methods in uncertainty analysis are specifically recommended for the following purposes: 
+
+ - As a simple approach for prioritising uncertainties. 
+ 
+ - At intermediate points in an uncertainty analysis, to characterise individual sources of uncertainty qualitatively, as an aid to quantifying their combined impact by probability judgement. This may be useful either for individual parts of the uncertainty analysis, or as a preliminary step when characterising the overall uncertainty of the conclusion.
+ 
+ - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an approximate probability scale with accompanying qualitative descriptors  
+<!-- added by tutors -->
+(verbal expressions).
+ 
+ - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation. 
+ 
+ - When reporting the assessment, for expressing the assessment conclusion in qualitative terms when this is required by decision-makers or legislation.
+ 
+

@@ -1,0 +1,34 @@
+---
+title: "Key concepts"
+---
+
+# Well-defined questions and quantities of interest
+
+# Conditional nature of uncertainty
+
+# Uncertainty and variability
+
+# Dependencies
+
+# Models and model uncertainty
+
+# Evidence, agreement, confidence and weight of evidence
+
+# Influence, sensitivity and prioritisation of uncertainties
+
+# Conservative assessments
+
+# Expert judgement
+
+# Probability
+
+# Overall uncertainty
+
+<!-- SO p20, last bullet point -->
+It is therefore important to quantify the overall impact of as many as possible of the identified uncertainties, and identify any that cannot be quantified. The most direct way to achieve this is to try to quantify the overall impact of all identified uncertainties, as this will reveal any that cannot be quantified.
+
+# Unquantified uncertainties
+
+# Conditionality of assessments
+
+<!-- Move Types of assessment distinguished for uncertainty analysis to the U GD page -->

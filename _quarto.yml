@@ -29,10 +29,22 @@ website:
   sidebar:
     - title: "Principles and Methods"
       contents:
-        - principles.qmd
-        - pmguidance/pmanalysis.qmd
-        - pmguidance/pmcommunication.qmd
-        - methods.qmd
+        - section: "Introduction"
+          contents:
+          - principles.qmd
+        - section: "Principles of Uncertainty Analysis"
+          contents:
+          - pmguidance/pmanalysis_background.qmd
+          - pmguidance/pmanalysis_expressions.qmd
+          - pmguidance/pmanalysis_keyconcepts.qmd
+          - pmguidance/pmanalysis_mainelements.qmd
+          - pmguidance/pmanalysis_keyprinciples.qmd
+        - section: "Principles of Uncertainty Communication"
+          contents:
+          - pmguidance/pmcommunication.qmd
+        - section: "Methods for Uncertainty Analysis"
+          contents:
+          - methods.qmd
     - title: "Uncertainty Analysis"
       contents:
         - uncertaintyanalysis.qmd
