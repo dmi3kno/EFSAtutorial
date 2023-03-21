@@ -2,12 +2,13 @@
 title: "Uncertainty expressions"
 ---
 
+# Quantitative and qualitative expression
 <!-- SO p17 -->
-Expression of uncertainty requires two components:
+An expression of uncertainty requires two components:
 
-- expression of the **range of possible true answers** to a question of interest, or a **range of possible true values** for a quantity of interest, and 
+- expression of the **range of possible true answers** to a question of interest, or a **range of possible true values** for a quantity of interest, and
 
-- some expression of **the probabilities** of the different answers or values. 
+- expression of **the probabilities** of the different answers or values. 
 
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
@@ -84,7 +85,7 @@ ptbl %>%
 
 # The role of quantitative expressions of uncertainty
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Assessors should express uncertainty in quantitative terms 
+## Assessors should express uncertainty in quantitative terms 
 :::: {.panel-tabset}
 <!-- SO p20 -->
 Having considered the advantages of quantitative expression, and addressed the concerns (presented below), the Scientific Committee concludes that **assessors should express in quantitative terms the combined effect of as many as possible of the identified sources of uncertainty**, while recognising that how this is reported must be compatible with the requirements of decision-makers and legislation.
@@ -96,7 +97,7 @@ Having considered the advantages of quantitative expression, and addressed the c
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# ...to the extent that is scientific achievable
+## ...to the extent that is scientific achievable
 :::: {.panel-tabset}
 This recommended approach is thus consistent with the requirement of the FAO/WHO Codex Working Principles for Risk Analysis and the EFSA Guidance on Transparency from 2010, which state that uncertainty be ‘quantified to the extent that is scientifically achievable’.
 
@@ -107,13 +108,13 @@ This recommended approach is thus consistent with the requirement of the FAO/WHO
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# ...leaving unknown unknowns
+## ...leaving unknown unknowns
 :::: {.panel-tabset}
 The recommended approach does not imply a requirement to quantify ‘unknown unknowns’ or ignorance. These type of sources of uncertainty are always potentially present, but cannot be included in assessment, as the assessors are unaware of them
 ::::
 :::
 
-# The principal reasons for preferring quantitative expressions of uncertainty
+## The principal reasons for preferring quantitative expressions of uncertainty
 
  - Qualitative expressions are ambiguous.
 
@@ -131,8 +132,11 @@ The recommended approach does not imply a requirement to quantify ‘unknown unk
 
   - Quantifying uncertainty enables decision-makers to weigh the probabilities of different consequences against other relevant considerations.
 
+## Common concerns and objections to quantitative expression of uncertainty
+Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
+
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Common concerns](pmguidance/pmanalysis_concerns.qmd){.btn .btn-primary .btn-lg role="button"}
+[Common concerns](pmanalysis_concerns.qmd){.btn .btn-primary .btn-lg role="button"}
 :::
 
 # The role of qualitative expressions of uncertainty
@@ -146,7 +150,7 @@ Qualitative methods in uncertainty analysis are specifically recommended for the
  
  - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an approximate probability scale with accompanying qualitative descriptors.
  
- - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation. 
+ - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation.
  
  - When reporting the assessment, for expressing the assessment conclusion in qualitative terms when this is required by decision-makers or legislation.
  
