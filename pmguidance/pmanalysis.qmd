@@ -421,7 +421,6 @@ Qualitative methods in uncertainty analysis are specifically recommended for the
  
  - When reporting the assessment, for expressing the assessment conclusion in qualitative terms when this is required by decision-makers or legislation.
  
->>>>>>> ef1d0f43000f91535a0df8f8da30f176634eb690
 # Key concepts
 
 ## Well-defined questions and quantities of interest
