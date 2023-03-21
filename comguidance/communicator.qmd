@@ -6,18 +6,16 @@ Template for identifying messages with associated uncertainty expressions, and s
 
 <!-- ######################## Section 1 ###################### -->
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Is this message the outcome of/based on a standardized procedure?
-
-The content of Box 1
+# 1. Did the scientific assessment for this message identify any non-standard uncertainties?
 
 :::: {.panel-tabset}
-## Entry
+## Yes
 
-Entry level
+If an **unqualified conclusion is required**, follow the guidance for unqualified conclusions (see Question 5 here). If an **unqualified conclusion is not required**, state the result of the standardised procedure in the form expressed by the assessors. Also communicate the uncertainty expressions for this message, consulting the respective guidance boxes.
 
-## Informed
+## No
 
-Informed level
+Report the conclusion as expressed by assessors and state that a standardised assessment procedure was followed that takes account of standard uncertainties, and no non-standard uncertainties were identified.
 
 ::::
 :::
@@ -25,18 +23,23 @@ Informed level
 <!-- ######################## Section 2 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Does the scientific output list or describe the sources or causes of any uncertainties affecting this message?
-
-The content of Box 2
+# 2. Does the scientific output list or describe the sources or causes of any uncertainties affecting this message? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- State that uncertainties exist, using the wording in the scientific output.
+
+> **Example:**
+> *"The experts identified limitations in the data on exposure and toxic effects of ZEN and its modified forms"* [Based on EFSA 2017;15(7):4851](https://doi.org/10.2903/j.efsa.2017.4851)
 
 ## Informed
 
-Informed level
+- State that uncertainties exist, using the wording in the scientific output. 
+- Include in the message a brief description of the sources of uncertainty that have the biggest impact on the respective key messages. (If necessary, consult the assessors to identify these.)
+
+> **Example:**
+> *"The experts identified limitations in the data on exposure and toxic effects of ZEN and its modified forms, for example (...)"* [Based on EFSA 2017;15(7):4851](https://doi.org/10.2903/j.efsa.2017.4851)
 
 ::::
 :::
@@ -45,18 +48,28 @@ Informed level
 <!-- ######################## Section 3 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Is the direction and/or degree of uncertainty expressed verbally (i.e. with terms like 'low', 'medium', 'high') or with symbols (e.g. '+' or '-')?
-
-The content of Box 3
+# 3. Is the direction and/or degree of uncertainty expressed verbally (i.e. with terms like 'low', 'medium', 'high') or with symbols (e.g. '+' or '-')? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- Avoid altering the wordings used by assessors to describe the direction and/or degree of uncertainty, or factors contributing to uncertainty (Box 2). Always check the rewording with the assessors if you do. 
+- State clearly what outcomes and conditions this expression of uncertainty refers to (see Box 1). 
+- Make clear that any uncertainty referred to in the communication has been taken into account in the assessment conclusion.
+
+> **Example:**
+> *"The Panel noted that there was very high uncertainty about the exposure estimates and took this into account in its conclusion that there is no health concern"* [Based on EFSA 2017;15(7):4851](https://doi.org/10.2903/j.efsa.2017.4851)
 
 ## Informed
 
-Informed level
+As for entry level, with the following differences:
+- Before communicating the uncertainty expression, describe a few examples of the evidence/data that were considered and the uncertainties affecting the assessment. 
+– Optionally, mention specific methods that were used in evaluating the uncertainty. 
+– Optionally, mention factors contributing to the overall uncertainty, including the relative importance of individual sources of uncertainty and things like the relevance and reliability of evidence (e.g. in weight of evidence assessments, see EFSA Scientific Committee 2017). 
+– Clearly distinguish individual sources of uncertainty from overall uncertainty about the assessment conclusions
+
+> **Example:**
+> *"The Panel noted that a high proportion of measurements of ZEN and its modified forms in feed were below the limit of detection, leading to very high uncertainty when estimating exposure"* [Based on EFSA 2017;15(7):4851](https://doi.org/10.2903/j.efsa.2017.4851)
 
 ::::
 :::
@@ -65,18 +78,17 @@ Informed level
 <!-- ######################## Section 4 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Does this message report an inconclusive assessment outcome?
-
-The content of Box 4
+# 4. Does this message report an inconclusive assessment outcome? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- Communicate clearly that EFSA is unable to give any conclusion on the quantity or question of interest to which this message refers. If the assessment is inconclusive, this implies that nothing further can be said and therefore the communication should avoid using language that might suggest otherwise. 
+-  Indicate very briefly the sources of uncertainty that contribute most to this outcome (e.g. lack of data, poor quality or limited relevance of data).
 
 ## Informed
 
-Informed level
+- Describe the main sources of uncertainty in more detail, but concisely, following the guidance in Box 2. - Inconclusive assessments are especially likely to include options or requirements for obtaining further data. Communicate these as instructed in Section 3.1.5 on ‘Addressing the uncertainties’.
 
 ::::
 :::
@@ -84,18 +96,21 @@ Informed level
 <!-- ######################## Section 5 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Do risk managers expect or does legislation require that this message should be expressed as an unqualified conclusion, without any expression of uncertainty?
-
-The content of Box 5
+# 5. Do risk managers expect or does legislation require that this message should be expressed as an unqualified conclusion, without any expression of uncertainty? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- Report the unqualified conclusion for this message using the same wording as the assessors.
 
 ## Informed
 
-Informed level
+- As for the entry level. 
+- Optionally, describe briefly how the assessment was made (i.e. what evidence and methods were used to arrive at the conclusions). 
+- Briefly describe some examples of uncertainties affecting the assessment for this message, as identified in your completed template, consulting Box 4 for guidance on how to communicate this. 
+- If the assessment contains any verbal or numerical expression of the impact of the uncertainties as identified in your template, follow the respective guidance in Boxes 6–9 below. 
+- Say that the assessors took the uncertainties into account when reaching their conclusion(s) for this message.
+
 
 ::::
 :::
@@ -104,18 +119,18 @@ Informed level
 <!-- ######################## Section 6 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Is the uncertainty described with numbers as a precise probability?
-
-The content of Box 6
+# 6. Is the uncertainty described with numbers as a precise probability? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- State clearly what the probability refers to, including whether it refers to a numerical estimate or a qualitative conclusion. When the probability refers to a numerical estimate, also state the range of the quantity that the probability refers to (see example below).
 
 ## Informed
 
-Informed level
+- State clearly what the probability refers to, including whether it refers to a numerical estimate or a qualitative conclusion. When the probability refers to a numerical estimate, also state the range of the quantity that the probability refers to (see example below).
+- Before giving the probability, describe a few examples of the evidence/data that were considered and the uncertainties affecting the assessment, and state that the experts took these into account when assessing their level of certainty. 
+– Optionally, mention specific methods that were used in quantifying the uncertainty, e.g. modelling, statistical analysis, expert knowledge elicitation (EKE), or a combination of these.
 
 ::::
 :::
@@ -124,19 +139,22 @@ Informed level
 <!-- ######################## Section 7 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Is the uncertainty described with numbers as an approximate probability?
-
-The content of Box 7
+# 7. Is the uncertainty described with numbers as an approximate probability? 
 
 :::: {.panel-tabset}
 ## Entry
 
-Entry level
+- State clearly what the probability refers to, including whether it refers to a numerical estimate or a qualitative conclusion. When the probability refers to a numerical estimate, also state the range of the quantity that the probability refers to. - An approximate probability may comprise a range of probabilities chosen by the assessors from the approximate probability scale (Table 4), or a different range of probabilities specified by the assessors. 
+- Always communicate the quantitative range of probabilities because this expresses the assessors’ conclusion without ambiguity. If a verbal expression is also used, present the quantitative probability first (e.g. ‘66–90% certain (likely)’) because it has been shown that this order leads to more consistent understanding than if the verbal expression is presented first (see Section 3.1) 
+- To avoid inconsistency and misunderstanding, do not use the verbal terms in Table 4 to refer to any probabilities or ranges of probabilities other than those shown in this table.
 
 ## Informed
 
-Informed level
-
+- State clearly what the probability refers to, including whether it refers to a numerical estimate or a qualitative conclusion. When the probability refers to a numerical estimate, also state the range of the quantity that the probability refers to. - An approximate probability may comprise a range of probabilities chosen by the assessors from the approximate probability scale (Table 4), or a different range of probabilities specified by the assessors. 
+- Always communicate the quantitative range of probabilities because this expresses the assessors’ conclusion without ambiguity. If a verbal expression is also used, present the quantitative probability first (e.g. ‘66–90% certain (likely)’) because it has been shown that this order leads to more consistent understanding than if the verbal expression is presented first (see Section 3.1) 
+- To avoid inconsistency and misunderstanding, do not use the verbal terms in Table 4 to refer to any probabilities or ranges of probabilities other than those shown in this table.
+- Before giving the probability, describe a few examples of the evidence/data that were considered and the uncertainties affecting the assessment, and state that the experts took these into account when assessing their level of certainty. 
+- Optionally, mention specific methods that were used in quantifying the uncertainty, e.g. modelling, statistical analysis, expert knowledge elicitation (EKE), or a combination of these.
 ::::
 :::
 
@@ -144,9 +162,7 @@ Informed level
 <!-- ######################## Section 8 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Is the uncertainty described with numbers as a one-dimensional probability distribution?
-
-The content of Box 8
+# 8. Is the uncertainty described with numbers as a one-dimensional probability distribution? 
 
 :::: {.panel-tabset}
 ## Entry
@@ -164,9 +180,7 @@ Informed level
 <!-- ######################## Section 9 ###################### -->
 :::{.callout-tip collapse="true" appearance="minimal"}
 
-# Is the uncertainty described with numbers as a two-dimensional probability distribution?
-
-The content of Box 9
+# 9. Is the uncertainty described with numbers as a two-dimensional probability distribution? 
 
 :::: {.panel-tabset}
 ## Entry
