@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-99.9.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>EFSA Tutorial - Uncertainty expressions</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">EFSA Tutorial</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../intro.html">Introduction</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../principles.html" aria-current="page">Principles and Methods</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../uncertaintyanalysis.html">Uncertainty Analysis</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../communication.html">Communication of Uncertainty</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../implementationmethods.html">Implementation</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Uncertainty expressions</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Introduction</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../principles.html" class="sidebar-item-text sidebar-link">Principles and methods behind the guidances</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Principles of Uncertainty Analysis</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmanalysis_background.html" class="sidebar-item-text sidebar-link">Background</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmanalysis_expressions.html" class="sidebar-item-text sidebar-link active">Uncertainty expressions</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmanalysis_keyconcepts.html" class="sidebar-item-text sidebar-link">Key concepts</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmanalysis_mainelements.html" class="sidebar-item-text sidebar-link">Main elements of uncertainty analysis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmanalysis_keyprinciples.html" class="sidebar-item-text sidebar-link">Key principles</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Principles of Uncertainty Communication</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmcommunication.html" class="sidebar-item-text sidebar-link">Principles of Uncertainty Communication</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Methods for Uncertainty Analysis</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  methods.qmd
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quantitative-and-qualitative-expression" id="toc-quantitative-and-qualitative-expression" class="nav-link active" data-scroll-target="#quantitative-and-qualitative-expression">Quantitative and qualitative expression</a></li>
+  <li><a href="#the-role-of-quantitative-expressions-of-uncertainty" id="toc-the-role-of-quantitative-expressions-of-uncertainty" class="nav-link" data-scroll-target="#the-role-of-quantitative-expressions-of-uncertainty">The role of quantitative expressions of uncertainty</a>
+  <ul class="collapse">
+  <li><a href="#the-principal-reasons-for-preferring-quantitative-expressions-of-uncertainty" id="toc-the-principal-reasons-for-preferring-quantitative-expressions-of-uncertainty" class="nav-link" data-scroll-target="#the-principal-reasons-for-preferring-quantitative-expressions-of-uncertainty">The principal reasons for preferring quantitative expressions of uncertainty</a></li>
+  <li><a href="#common-concerns-and-objections-to-quantitative-expression-of-uncertainty" id="toc-common-concerns-and-objections-to-quantitative-expression-of-uncertainty" class="nav-link" data-scroll-target="#common-concerns-and-objections-to-quantitative-expression-of-uncertainty">Common concerns and objections to quantitative expression of uncertainty</a></li>
+  </ul></li>
+  <li><a href="#the-role-of-qualitative-expressions-of-uncertainty" id="toc-the-role-of-qualitative-expressions-of-uncertainty" class="nav-link" data-scroll-target="#the-role-of-qualitative-expressions-of-uncertainty">The role of qualitative expressions of uncertainty</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Uncertainty expressions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="quantitative-and-qualitative-expression" class="level1">
+<h1>Quantitative and qualitative expression</h1>
+<!-- SO p17 -->
+<p>An expression of uncertainty requires two components:</p>
+<ul>
+<li><p>expression of the <strong>range of possible true answers</strong> to a question of interest, or a <strong>range of possible true values</strong> for a quantity of interest, and</p></li>
+<li><p>expression of <strong>the probabilities</strong> of the different answers or values.</p></li>
+</ul>
+<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Quantitative approaches express one or both of these components on a numerical scale.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">General</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Examples</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<!-- SO p18 -->
+<p>A complete quantitative expression of uncertainty would specify all the answers or values that are considered possible and probabilities for them all.</p>
+<p>Partial quantitative expression provides only partial information on the probabilities and in some cases partial information on the possibilities (specifying a selection of possible answers or values).</p>
+<p>Partial quantitative expression requires less information or judgements but may be sufficient for decision-making in some assessments, whereas other cases may require fuller quantitative expression.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<!-- Box 1 SO p18 -->
+<p><em>Descriptive expression:</em> Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition (<a href="#tbl-approx-probscale">Table&nbsp;1</a>).</p>
+<p><em>Ordinal scale:</em> Uncertainty described by ordered categories, where the magnitude of the difference between categories is not quantified.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Qualitative approaches express them using words, categories or labels.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">General</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Examples</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<!-- SO p18 -->
+<p>They may rank the magnitudes of different uncertainties, and are sometimes given numeric labels, but they do not quantify the magnitudes of the uncertainties nor their impact on an assessment conclusion.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<!-- Box 1 SO p18 -->
+<p><em>Individual values:</em> Uncertainty partially quantified by specifying some possible values, without specifying what other values are possible or setting upper or lower limits.</p>
+<p><em>Bound:</em> Uncertainty partially quantified by specifying either an upper limit or a lower limit on a quantitative scale, but not both.</p>
+<p><em>Range:</em> Uncertainty partially quantified by specifying both a lower and upper limit on a quantitative scale, without expressing the probabilities of different values within the limits.</p>
+<p><em>Probability:</em> Uncertainty about a binary outcome (including the answer to a yes/no question) fully quantified by specifying the probability or approximate probability of both possible outcomes.</p>
+<p><em>Probability bound:</em> Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability.</p>
+<p><em>Distribution:</em> Uncertainty about a non-variable quantity fully quantified by specifying the probability of all possible values on a quantitative scale.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-approx-probscale" class="anchored">
+
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;"><caption>Table 1:  Approximate probability scale </caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Probability term </th>
+   <th style="text-align:left;"> Subjective probability range </th>
+   <th style="text-align:left;"> Additional options </th>
+   <th style="text-align:left;">  </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Almost certain </td>
+   <td style="text-align:left;width: 10em; "> 99-100% </td>
+   <td style="text-align:left;width: 10em; vertical-align: top !important;" rowspan="4"> More likely than not: &gt;50% </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="9"> Unable to give any probability: range is 0-100%. Report as 'inconclusive', 'cannot conclude' or 'unknown' </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Extremely likely </td>
+   <td style="text-align:left;width: 10em; "> 95-99% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Very likely </td>
+   <td style="text-align:left;width: 10em; "> 90-95% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Likely </td>
+   <td style="text-align:left;width: 10em; "> 66-90% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> About as likely as </td>
+   <td style="text-align:left;width: 10em; "> 33-66% </td>
+   <td style="text-align:left;width: 10em; vertical-align: top !important;" rowspan="5">  </td>
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Unlikely </td>
+   <td style="text-align:left;width: 10em; "> 10-33% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Very unlikely </td>
+   <td style="text-align:left;width: 10em; "> 5-10% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Extremely unlikely </td>
+   <td style="text-align:left;width: 10em; "> 1-5% </td>
+   
+   
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 10em; "> Almost impossible </td>
+   <td style="text-align:left;width: 10em; "> 0-1% </td>
+   
+   
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="the-role-of-quantitative-expressions-of-uncertainty" class="level1">
+<h1>The role of quantitative expressions of uncertainty</h1>
+<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Assessors should express uncertainty in quantitative terms
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="panel-tabset">
+<!-- SO p20 -->
+<p>Having considered the advantages of quantitative expression, and addressed the concerns (presented below), the Scientific Committee concludes that <strong>assessors should express in quantitative terms the combined effect of as many as possible of the identified sources of uncertainty</strong>, while recognising that how this is reported must be compatible with the requirements of decision-makers and legislation.</p>
+<ul>
+<li><p>Any sources of uncertainty that assessors are unable to include in their quantitative expression, for whatever reason, must be documented qualitatively and reported alongside it, because they will have significant implications for decision-making.</p></li>
+<li><p>Together, the quantified uncertainty and the description of unquantified uncertainties provide the overall characterisation of uncertainty, and express it as unambiguously as is possible.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+…to the extent that is scientific achievable
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="panel-tabset">
+<p>This recommended approach is thus consistent with the requirement of the FAO/WHO Codex Working Principles for Risk Analysis and the EFSA Guidance on Transparency from 2010, which state that uncertainty be ‘quantified to the extent that is scientifically achievable’.</p>
+<ul>
+<li>‘scientifically achievable’ should be interpreted as referring to including as many as possible of the identified sources of uncertainty within the quantitative assessment of overall uncertainty, and omitting only those which the assessors are unable to quantify.</li>
+<li>‘scientifically achievable’ does <strong>not</strong> mean that uncertainties should be quantified using the most sophisticated scientific methods available.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+…leaving unknown unknowns
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="panel-tabset">
+<p>The recommended approach does not imply a requirement to quantify ‘unknown unknowns’ or ignorance. These type of sources of uncertainty are always potentially present, but cannot be included in assessment, as the assessors are unaware of them</p>
+</div>
+</div>
+</div>
+</div>
+<section id="the-principal-reasons-for-preferring-quantitative-expressions-of-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="the-principal-reasons-for-preferring-quantitative-expressions-of-uncertainty">The principal reasons for preferring quantitative expressions of uncertainty</h2>
+<ul>
+<li><p>Qualitative expressions are ambiguous.</p></li>
+<li><p>Decision-making often depends on quantitative comparisons, for example, whether a risk exceeds some acceptable level, or whether benefits outweigh costs.</p></li>
+<li><p>If assessors provide only a single answer or estimate and a qualitative expression of the uncertainty, decision-makers will have to make their own quantitative interpretation of how different the real answer or value might be. This judgement is better made by assessors, since they are better placed to understand the sources of uncertainty affecting the assessment and judge their effect on its conclusion.</p></li>
+<li><p>Qualitative expressions often imply, or may be interpreted as implying, judgements about the implications of uncertainty for decision-making, which are outside the remit of EFSA.</p></li>
+<li><p>Assessors may assess uncertainty differently yet agree on a single qualitative expression, because they interpret it differently.</p></li>
+<li><p>Expressing uncertainties in terms of their quantitative impact on the assessment conclusion will reveal differences of opinion between experts working together on an assessment, enabling a more rigorous discussion and hence improving the quality of the final conclusion.</p></li>
+<li><p>It has been demonstrated that people often perform poorly at judging combinations of probabilities. This implies they may perform poorly at judging how multiple uncertainties in an assessment combine. It may therefore be more reliable to divide the uncertainty analysis into parts and quantify uncertainty separately for those parts containing important sources of uncertainty, so that they can be combined by calculation.</p></li>
+<li><p>Quantifying uncertainty enables decision-makers to weigh the probabilities of different consequences against other relevant considerations.</p></li>
+</ul>
+</section>
+<section id="common-concerns-and-objections-to-quantitative-expression-of-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="common-concerns-and-objections-to-quantitative-expression-of-uncertainty">Common concerns and objections to quantitative expression of uncertainty</h2>
+<p>Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.</p>
+<div id="start-btn" style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;">
+<p><a href="../pmguidance/pmanalysis_concerns.html" class="btn btn-primary btn-lg" role="button">Common concerns</a></p>
+</div>
+</section>
+</section>
+<section id="the-role-of-qualitative-expressions-of-uncertainty" class="level1">
+<h1>The role of qualitative expressions of uncertainty</h1>
+<!-- SO p22 -->
+<p>Qualitative methods in uncertainty analysis are specifically recommended for the following purposes:</p>
+<ul>
+<li><p>As a simple approach for prioritising uncertainties.</p></li>
+<li><p>At intermediate points in an uncertainty analysis, to characterise individual sources of uncertainty qualitatively, as an aid to quantifying their combined impact by probability judgement. This may be useful either for individual parts of the uncertainty analysis, or as a preliminary step when characterising the overall uncertainty of the conclusion.</p></li>
+<li><p>When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an approximate probability scale with accompanying qualitative descriptors.</p></li>
+<li><p>At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation.</p></li>
+<li><p>When reporting the assessment, for expressing the assessment conclusion in qualitative terms when this is required by decision-makers or legislation.</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, EFSA</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/dmi3kno/EFSAtutorial">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/EFSA_EU">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

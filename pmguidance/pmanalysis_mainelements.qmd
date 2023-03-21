@@ -1,0 +1,75 @@
+---
+title: "Main elements of uncertainty analysis"
+---
+
+<!-- Box 3 SO p38 -->
+Some assessments require only some elements, and each element can be implemented in various ways with various methods. 
+
+<!-- SO p37 -->
+What is needed depends in part on the general type of the assessment (standardised assessment, case-specific assessment, development, review of a standardised procedure or urgent assessment), and partly on the specific needs of the individual assessment, which need to be decided by assessors.
+
+<!-- Box 3 SO p38 -->
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Identifying uncertainties affecting the assessment.
+:::: {.panel-tabset}
+This is necessary in every assessment, and should be done in a structured way to minimise the chance of overlooking relevant uncertainties. In assessments that follow standardised procedures, it is only necessary to identify non-standard uncertainties.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Prioritising uncertainties within the assessment 
+:::: {.panel-tabset}
+plays an important role in the planning the uncertainty analysis, enabling the assessor to focus detailed analysis on the most important uncertainties and address others collectively when evaluating overall uncertainty. Often prioritisation will be done by expert judgement during the planning process, but in more complex assessments it may be done explicitly, using influence or sensitivity analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Dividing the uncertainty analysis into parts (when appropriate). 
+:::: {.panel-tabset}
+In some assessments, it may be sufficient to characterise overall uncertainty for the whole assessment directly, by expert judgement. In other cases, it may be preferable to evaluate uncertainty for some or all parts of the assessment separately and then combine them, either by calculation or expert judgement.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Ensuring the questions or quantities of interest are well-defined. 
+:::: {.panel-tabset}
+This is necessary in every assessment. Some assessments follow standardised procedures, within which the questions and/or quantities of interest should be predefined. In other assessments, the assessors will need to identify and define the questions and/or quantities of interest case by case.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Characterising uncertainty for parts of the uncertainty analysis. 
+:::: {.panel-tabset}
+This is needed for assessments where the assessors choose to divide the uncertainty analysis into parts, but may only be done for some of the parts, with the other parts being considered when characterising overall uncertainty.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Combining uncertainty from different parts of the uncertainty analysis.  
+:::: {.panel-tabset}
+This is needed for assessments where the assessors quantify uncertainty separately for two or more parts of the uncertainty analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Characterising overall uncertainty. 
+:::: {.panel-tabset}
+Expressing quantitatively the overall impact of as many as possible of the identified uncertainties, and describing qualitatively any that remain unquantified. This is necessary in all assessments except standardised assessments where no non-standard uncertainties are identified.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Prioritising uncertainties for future investigation. 
+:::: {.panel-tabset}
+This is implicit or explicit in any assessment where recommendations are made for future data collection or research, and may be informed by influence or sensitivity analysis.
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+## Reporting uncertainty analysis. 
+:::: {.panel-tabset}
+Required for all assessments, but extremely brief in standardised assessments where no non-standard uncertainties are identified.
+::::
+:::
+

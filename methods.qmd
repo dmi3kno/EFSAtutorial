@@ -1,5 +1,0 @@
----
-title: "Methods for Uncertainty Analysis"
----
-
-Methods page

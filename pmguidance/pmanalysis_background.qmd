@@ -1,0 +1,144 @@
+---
+title: "Background"
+---
+# Definitions
+## Uncertainty
+<!-- SO p11 -->
+Uncertainty refers to all types of limitations in available knowledge that affect the range and probability of possible answers to an assessment question. 
+
+Available knowledge refers here to the knowledge (evidence, data, etc.) available to assessors at the time the assessment is conducted and within the time and resources agreed for the assessment.
+
+## Uncertainty analysis
+Uncertainty analysis is defined as the process of identifying and characterising uncertainty about questions of interest and/or quantities of interest in a scientific assessment. 
+
+A question or quantity of interest may be the subject of the assessment as a whole, i.e. that which is required by the ToR for the assessment, or it may be the subject of a subsidiary part of the assessment which contributes to addressing the ToR (e.g. exposure and hazard assessment are subsidiary parts of risk assessment).
+
+# Roles of assessors and decision-makers
+## Questions for assessment by EFSA
+<!-- SO p16 -->
+Questions for assessment by EFSA may be posed by the European Commission, the European Parliament, and EU Member State or by EFSA itself.
+
+Many questions to EFSA request assessment of consequences or current policy, conditions, practice or of consequences in alternative scenarios, e.g. under different risk management options. 
+
+It is important that the scenarios and consequences of interest are well-defined.
+## Basic principles
+<!-- SO p14 -->
+Basic principles for addressing uncertainty in risk analysis are stated in the Codex Working Principles for Risk Analysis:
+
+- ‘Constraints, uncertainties and assumptions having an impact on the risk assessment should be explicitly considered at each step in the risk assessment and documented in a transparent manner’
+
+- ‘Responsibility for resolving the impact of uncertainty on the risk management decision lies with the risk manager, not the risk assessors’
+
+These principles apply equally to the treatment of uncertainty in all areas of science and decision-making.
+
+## Responsibilities
+In general, 
+
+- assessors are responsible for characterising uncertainty and 
+
+- decision-makers are responsible for resolving the impact of uncertainty on decisions. Resolving the impact on decisions means deciding whether and in what way decision-making should be altered to take account of the uncertainty.
+
+## Rational
+The rational for this division of roles is: 
+
+- assessing scientific uncertainty requires scientific expertise, while 
+
+- resolving the impact of uncertainty on decision-making involves weighing the scientific assessment against other considerations, such as economics, law and societal values, which require different expertise and are also subject to uncertainty.
+
+## Interaction
+Although risk assessment and risk management are conceptually distinct activities, 
+
+- interaction between assessors and risk managers with regard to the specification of the question for assessment and expression of uncertainty in conclusions is useful.
+
+# Information required for decision-making
+## Uncertainty is always present
+<!-- SO p14 -->
+Uncertainty refers to limitations in knowledge, which are always present to some degree.
+
+Decision-makers need to know the range of possible answers, so they can consider whether any of them would imply risk of undesirable management consequences (e.g. adverse effects).
+
+## Uncertainty analysis is always required
+### Why?
+<!-- SO p15 -->
+All EFSA scientific assessments require at least a basic analysis of uncertainty. 
+
+- Questions are posed to EFSA because the requestor does not know or is uncertain of the answer and that the amount of uncertainty affects decisions or actions they need to take. 
+
+- The requestor seeks scientific advice from EFSA because they anticipate that this may reduce the uncertainty, or at least provide a more expert assessment of it. 
+
+- If the uncertainty of the answer did not matter, then it would not be rational or economically justified for the requestor to pose the question to EFSA – the requestor would simply use their own judgement, or even a random guess. 
+
+ - So the fact that the question was asked implies that the amount of uncertainty matters for decision-making, and it follows that information about uncertainty is a necessary part of EFSA’s response. 
+
+ - This logic applies regardless of the nature or subject of the question, therefore providing information on uncertainty is relevant in all cases. 
+
+### Implication
+It follows that uncertainty analysis is needed in all EFSA scientific assessments, though the form and extent of that analysis and the form in which the conclusions are expressed should be adapted to the needs of each case, in consultation with decision-makers.
+
+## Acceptable level of uncertainty
+<!-- SO p16 -->
+Complete certainty is never possible. 
+
+Deciding how much certainty is required or, equivalently, what level of uncertainty would warrant precautionary action, is the responsibility of decision-makers, not assessors.
+
+It may be helpful if the decision-makers can specify in advance how much uncertainty is acceptable for a particular question because it has implications for what outputs should be produced from uncertainty analysis.
+
+Often, however, the decision-makers may not be able to specify in advance the level of certainty that is sought or the level of uncertainty that is acceptable, e.g. because this may vary from case to case depending on the costs and benefits involved. Another option is for assessors to provide results for multiple levels of certainty, so that decision-makers can consider at a later stage what level of uncertainty to accept.
+
+## "Practical certainty"
+<!-- SO p16 -->
+Alternatively, partial information on uncertainty may be sufficient for the decision-makers provided it meets or exceeds their required level of certainty.
+
+<!-- SO p15 -->
+For some types of assessment, e.g. for regulated products, decision-makers need EFSA to provide an unqualified positive or negative conclusion to comply with the requirements of legislation, or of procedures established to implement legislation. 
+
+In general, the underlying assessment will be subject to at least some uncertainty, as is all scientific assessment. In such cases, therefore, the positive or negative conclusion refers to whether the level of certainty is sufficient for the purpose of decision-making, i.e. whether the assessment provides ‘practical certainty’
+
+## Main sources of uncertainty
+<!-- SO p15 -->
+Information on the magnitude of uncertainty and the main sources of uncertainty is also important to inform decisions about whether it would be worthwhile to invest in obtaining further data or conducting more analysis, with the aim of reducing uncertainty.
+
+
+# Time and resource constraints
+<!-- SO p15 -->
+<!-- Consideration of uncertainty is always required. -->
+## Fit-for-purpose
+To be fit for purpose, EFSA’s guidance on uncertainty analysis includes options for different levels of resource and different timescales, and methods that can be implemented at different levels of detail/refinement, to fit different timescales and levels of resource.
+
+## Refine or reduce
+Decisions on how far to refine the assessment and whether to obtain additional data may be taken by assessors when they fall within the time and resources agreed for the assessment.
+
+## Suffient for decision-making
+Ultimately, it is for decision-makers to decide when the characterisation of uncertainty is sufficient for decision-making and when further refinement is needed, taking into account the time and costs involved.
+
+# Expression of uncertainty in assessment conclusions
+## Ranges and probabilities when question well-defined
+<!-- SO p16 -->
+Ranges and probabilities are the natural metric for quantifying uncertainty and can be applied to any well-defined question or quantity of interest.
+
+The question for assessment, or at least the eventual conclusion, needs to be well-defined, in order for its uncertainty to be assessed.
+
+## Qualitative terms defined by quantitative expression
+<!-- SO p17 -->
+If qualitative terms are used to describe the degree of uncertainty, they should be clearly defined with objective scientific criteria.
+
+Specifically, the definition should identify the quantitative expression of uncertainty associated with the qualitative term as is done, for example, in the EFSA approximate probability scale @tbl-approx-probscale
+
+## "Firm" conclusion
+<!-- SO p17 -->
+For some types of assessment, decision-makers need EFSA to provide an unqualified positive or negative conclusion. The positive or negative conclusion does not imply that there is complete certainty, since this is never achieved, but that the level of certainty is sufficient for the purpose of decision-making.
+
+In such cases, the assessment conclusion and summary may simply report the positive or negative conclusion but, for transparency, the justification for the conclusion should be documented somewhere, e.g. in the body of the assessment or an annex.
+
+## Inconclusive
+If the level of certainty is not sufficient, then either the uncertainty should be expressed quantitatively, or assessors should report that their assessment is inconclusive and that they ‘cannot conclude’ on the question.
+
+## Language of no quantification
+<!-- SO p17 -->
+When assessors do not quantify uncertainty, they must report that the probability of different answers is unknown and avoid using any language that could be interpreted as implying a probability statement as this would be misleading. 
+
+## Avoid value expressions
+<!-- SO p17 -->
+The assessors should avoid any verbal expressions that have risk management connotations in everyday language, such us ‘negligible’ and ‘concern’. When used without further definition, such expressions imply two simultaneous judgements: a judgement about the probability (or approximate probability) of adverse effects, and a judgement about the acceptability of that probability. The first of these judgements is within the remit of assessors, but the latter is not.
+
+
