@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pmguidance/pmanalysis_expressions.html" class="sidebar-item-text sidebar-link">Expressing uncertainty</a>
+  <a href="../pmguidance/pmanalysis_expressions.html" class="sidebar-item-text sidebar-link">Uncertainty expressions</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -209,14 +209,44 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#definition-of-uncertainty-and-uncertainty-analysis" id="toc-definition-of-uncertainty-and-uncertainty-analysis" class="nav-link active" data-scroll-target="#definition-of-uncertainty-and-uncertainty-analysis">Definition of uncertainty and uncertainty analysis</a></li>
-  <li><a href="#roles-of-assessors-aand-decision-makers" id="toc-roles-of-assessors-aand-decision-makers" class="nav-link" data-scroll-target="#roles-of-assessors-aand-decision-makers">Roles of assessors aand decision-makers</a>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link active" data-scroll-target="#definitions">Definitions</a>
   <ul class="collapse">
-  <li><a href="#information-required-for-decision-making" id="toc-information-required-for-decision-making" class="nav-link" data-scroll-target="#information-required-for-decision-making">Information required for decision-making</a></li>
-  <li><a href="#time-and-resource-constraints" id="toc-time-and-resource-constraints" class="nav-link" data-scroll-target="#time-and-resource-constraints">Time and resource constraints</a></li>
+  <li><a href="#uncertainty" id="toc-uncertainty" class="nav-link" data-scroll-target="#uncertainty">Uncertainty</a></li>
+  <li><a href="#uncertainty-analysis" id="toc-uncertainty-analysis" class="nav-link" data-scroll-target="#uncertainty-analysis">Uncertainty analysis</a></li>
+  </ul></li>
+  <li><a href="#roles-of-assessors-and-decision-makers" id="toc-roles-of-assessors-and-decision-makers" class="nav-link" data-scroll-target="#roles-of-assessors-and-decision-makers">Roles of assessors and decision-makers</a>
+  <ul class="collapse">
   <li><a href="#questions-for-assessment-by-efsa" id="toc-questions-for-assessment-by-efsa" class="nav-link" data-scroll-target="#questions-for-assessment-by-efsa">Questions for assessment by EFSA</a></li>
+  <li><a href="#responsibilities" id="toc-responsibilities" class="nav-link" data-scroll-target="#responsibilities">Responsibilities</a></li>
+  <li><a href="#rational" id="toc-rational" class="nav-link" data-scroll-target="#rational">Rational</a></li>
+  <li><a href="#interaction" id="toc-interaction" class="nav-link" data-scroll-target="#interaction">Interaction</a></li>
+  </ul></li>
+  <li><a href="#information-required-for-decision-making" id="toc-information-required-for-decision-making" class="nav-link" data-scroll-target="#information-required-for-decision-making">Information required for decision-making</a>
+  <ul class="collapse">
+  <li><a href="#uncertainty-is-always-present" id="toc-uncertainty-is-always-present" class="nav-link" data-scroll-target="#uncertainty-is-always-present">Uncertainty is always present</a></li>
+  <li><a href="#uncertainty-analysis-is-always-required" id="toc-uncertainty-analysis-is-always-required" class="nav-link" data-scroll-target="#uncertainty-analysis-is-always-required">Uncertainty analysis is always required</a>
+  <ul class="collapse">
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
+  <li><a href="#implication" id="toc-implication" class="nav-link" data-scroll-target="#implication">Implication</a></li>
+  </ul></li>
   <li><a href="#acceptable-level-of-uncertainty" id="toc-acceptable-level-of-uncertainty" class="nav-link" data-scroll-target="#acceptable-level-of-uncertainty">Acceptable level of uncertainty</a></li>
-  <li><a href="#expression-of-uncertainty-in-assessment-conclusions" id="toc-expression-of-uncertainty-in-assessment-conclusions" class="nav-link" data-scroll-target="#expression-of-uncertainty-in-assessment-conclusions">Expression of uncertainty in assessment conclusions</a></li>
+  <li><a href="#practical-certainty" id="toc-practical-certainty" class="nav-link" data-scroll-target="#practical-certainty">“Practical certainty”</a></li>
+  <li><a href="#main-sources-of-uncertainty" id="toc-main-sources-of-uncertainty" class="nav-link" data-scroll-target="#main-sources-of-uncertainty">Main sources of uncertainty</a></li>
+  </ul></li>
+  <li><a href="#time-and-resource-constraints" id="toc-time-and-resource-constraints" class="nav-link" data-scroll-target="#time-and-resource-constraints">Time and resource constraints</a>
+  <ul class="collapse">
+  <li><a href="#fit-for-purpose" id="toc-fit-for-purpose" class="nav-link" data-scroll-target="#fit-for-purpose">Fit-for-purpose</a></li>
+  <li><a href="#refine-or-reduce" id="toc-refine-or-reduce" class="nav-link" data-scroll-target="#refine-or-reduce">Refine or reduce</a></li>
+  <li><a href="#suffient-for-decision-making" id="toc-suffient-for-decision-making" class="nav-link" data-scroll-target="#suffient-for-decision-making">Suffient for decision-making</a></li>
+  </ul></li>
+  <li><a href="#expression-of-uncertainty-in-assessment-conclusions" id="toc-expression-of-uncertainty-in-assessment-conclusions" class="nav-link" data-scroll-target="#expression-of-uncertainty-in-assessment-conclusions">Expression of uncertainty in assessment conclusions</a>
+  <ul class="collapse">
+  <li><a href="#ranges-and-probabilities-when-question-well-defined" id="toc-ranges-and-probabilities-when-question-well-defined" class="nav-link" data-scroll-target="#ranges-and-probabilities-when-question-well-defined">Ranges and probabilities when question well-defined</a></li>
+  <li><a href="#qualitative-terms-defined-by-quantitative-expression" id="toc-qualitative-terms-defined-by-quantitative-expression" class="nav-link" data-scroll-target="#qualitative-terms-defined-by-quantitative-expression">Qualitative terms defined by quantitative expression</a></li>
+  <li><a href="#firm-conclusion" id="toc-firm-conclusion" class="nav-link" data-scroll-target="#firm-conclusion">“Firm” conclusion</a></li>
+  <li><a href="#inconclusive" id="toc-inconclusive" class="nav-link" data-scroll-target="#inconclusive">Inconclusive</a></li>
+  <li><a href="#language-of-no-quantification" id="toc-language-of-no-quantification" class="nav-link" data-scroll-target="#language-of-no-quantification">Language of no quantification</a></li>
+  <li><a href="#avoid-value-expressions" id="toc-avoid-value-expressions" class="nav-link" data-scroll-target="#avoid-value-expressions">Avoid value expressions</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -241,47 +271,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="definition-of-uncertainty-and-uncertainty-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="definition-of-uncertainty-and-uncertainty-analysis">Definition of uncertainty and uncertainty analysis</h2>
+<section id="definitions" class="level1">
+<h1>Definitions</h1>
+<section id="uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainty">Uncertainty</h2>
 <!-- SO p11 -->
 <p>Uncertainty refers to all types of limitations in available knowledge that affect the range and probability of possible answers to an assessment question.</p>
 <p>Available knowledge refers here to the knowledge (evidence, data, etc.) available to assessors at the time the assessment is conducted and within the time and resources agreed for the assessment.</p>
+</section>
+<section id="uncertainty-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainty-analysis">Uncertainty analysis</h2>
 <p>Uncertainty analysis is defined as the process of identifying and characterising uncertainty about questions of interest and/or quantities of interest in a scientific assessment.</p>
 <p>A question or quantity of interest may be the subject of the assessment as a whole, i.e.&nbsp;that which is required by the ToR for the assessment, or it may be the subject of a subsidiary part of the assessment which contributes to addressing the ToR (e.g.&nbsp;exposure and hazard assessment are subsidiary parts of risk assessment).</p>
 </section>
-<section id="roles-of-assessors-aand-decision-makers" class="level2">
-<h2 class="anchored" data-anchor-id="roles-of-assessors-aand-decision-makers">Roles of assessors aand decision-makers</h2>
-<!-- SO p14 -->
-<p>Basic principles for addressing uncertainty in risk analysis are stated in the Codex Working Principles for Risk Analysis:</p>
+</section>
+<section id="roles-of-assessors-and-decision-makers" class="level1">
+<h1>Roles of assessors and decision-makers</h1>
+<section id="questions-for-assessment-by-efsa" class="level2">
+<h2 class="anchored" data-anchor-id="questions-for-assessment-by-efsa">Questions for assessment by EFSA</h2>
+<!-- SO p16 -->
+<p>Questions for assessment by EFSA may be posed by the European Commission, the European Parliament, and EU Member State or by EFSA itself.</p>
+<p>Many questions to EFSA request assessment of consequences or current policy, conditions, practice or of consequences in alternative scenarios, e.g.&nbsp;under different risk management options.</p>
+<p>It is important that the scenarios and consequences of interest are well-defined. ## Basic principles <!-- SO p14 --> Basic principles for addressing uncertainty in risk analysis are stated in the Codex Working Principles for Risk Analysis:</p>
 <ul>
 <li><p>‘Constraints, uncertainties and assumptions having an impact on the risk assessment should be explicitly considered at each step in the risk assessment and documented in a transparent manner’</p></li>
 <li><p>‘Responsibility for resolving the impact of uncertainty on the risk management decision lies with the risk manager, not the risk assessors’</p></li>
 </ul>
-<p>These principles apply equally to the treatment of uncertainty in all areas of science and decisionmaking.</p>
+<p>These principles apply equally to the treatment of uncertainty in all areas of science and decision-making.</p>
+</section>
+<section id="responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="responsibilities">Responsibilities</h2>
 <p>In general,</p>
 <ul>
 <li><p>assessors are responsible for characterising uncertainty and</p></li>
 <li><p>decision-makers are responsible for resolving the impact of uncertainty on decisions. Resolving the impact on decisions means deciding whether and in what way decision-making should be altered to take account of the uncertainty.</p></li>
 </ul>
+</section>
+<section id="rational" class="level2">
+<h2 class="anchored" data-anchor-id="rational">Rational</h2>
 <p>The rational for this division of roles is:</p>
 <ul>
 <li><p>assessing scientific uncertainty requires scientific expertise, while</p></li>
 <li><p>resolving the impact of uncertainty on decision-making involves weighing the scientific assessment against other considerations, such as economics, law and societal values, which require different expertise and are also subject to uncertainty.</p></li>
 </ul>
+</section>
+<section id="interaction" class="level2">
+<h2 class="anchored" data-anchor-id="interaction">Interaction</h2>
 <p>Although risk assessment and risk management are conceptually distinct activities,</p>
 <ul>
 <li>interaction between assessors and risk managers with regard to the specification of the question for assessment and expression of uncertainty in conclusions is useful.</li>
 </ul>
-<section id="information-required-for-decision-making" class="level3">
-<h3 class="anchored" data-anchor-id="information-required-for-decision-making">Information required for decision-making</h3>
+</section>
+</section>
+<section id="information-required-for-decision-making" class="level1">
+<h1>Information required for decision-making</h1>
+<section id="uncertainty-is-always-present" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainty-is-always-present">Uncertainty is always present</h2>
 <!-- SO p14 -->
 <p>Uncertainty refers to limitations in knowledge, which are always present to some degree.</p>
 <p>Decision-makers need to know the range of possible answers, so they can consider whether any of them would imply risk of undesirable management consequences (e.g.&nbsp;adverse effects).</p>
-<!-- SO p15 -->
-<p>For some types of assessment, e.g.&nbsp;for regulated products, decision-makers need EFSA to provide an unqualified positive or negative conclusion to comply with the requirements of legislation, or of procedures established to implement legislation.</p>
-<p>In general, the underlying assessment will be subject to at least some uncertainty, as is all scientific assessment. In such cases, therefore, the positive or negative conclusion refers to whether the level of certainty is sufficient for the purpose of decision-making, i.e.&nbsp;whether the assessment provides ‘practical certainty’</p>
-<!-- SO p15 -->
-<p>Information on the magnitude of uncertainty and the main sources of uncertainty is also important to inform decisions about whether it would be worthwhile to invest in obtaining further data or conducting more analysis, with the aim of reducing uncertainty.</p>
+</section>
+<section id="uncertainty-analysis-is-always-required" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainty-analysis-is-always-required">Uncertainty analysis is always required</h2>
+<section id="why" class="level3">
+<h3 class="anchored" data-anchor-id="why">Why?</h3>
 <!-- SO p15 -->
 <p>All EFSA scientific assessments require at least a basic analysis of uncertainty.</p>
 <ul>
@@ -291,42 +344,82 @@ ul.task-list li input[type="checkbox"] {
 <li><p>So the fact that the question was asked implies that the amount of uncertainty matters for decision-making, and it follows that information about uncertainty is a necessary part of EFSA’s response.</p></li>
 <li><p>This logic applies regardless of the nature or subject of the question, therefore providing information on uncertainty is relevant in all cases.</p></li>
 </ul>
+</section>
+<section id="implication" class="level3">
+<h3 class="anchored" data-anchor-id="implication">Implication</h3>
 <p>It follows that uncertainty analysis is needed in all EFSA scientific assessments, though the form and extent of that analysis and the form in which the conclusions are expressed should be adapted to the needs of each case, in consultation with decision-makers.</p>
 </section>
-<section id="time-and-resource-constraints" class="level3">
-<h3 class="anchored" data-anchor-id="time-and-resource-constraints">Time and resource constraints</h3>
-<!-- SO p15 -->
-<p>Consideration of uncertainty is always required.</p>
-<p>To be fit for purpose, EFSA’s guidance on uncertainty analysis includes options for different levels of resource and different timescales, and methods that can be implemented at different levels of detail/refinement, to fit different timescales and levels of resource.</p>
-<p>Decisions on how far to refine the assessment and whether to obtain additional data may be taken by assessors when they fall within the time and resources agreed for the assessment.</p>
-<p>Ultimately, it is for decision-makers to decide when the characterisation of uncertainty is sufficient for decision-making and when further refinement is needed, taking into account the time and costs involved.</p>
 </section>
-<section id="questions-for-assessment-by-efsa" class="level3">
-<h3 class="anchored" data-anchor-id="questions-for-assessment-by-efsa">Questions for assessment by EFSA</h3>
-<!-- SO p16 -->
-<p>Questions for assessment by EFSA may be posed by the European Commission, the European Parliament, and EU Member State or by EFSA itself. Many questions to EFSA request assessment of consequences or current policy, conditions, practice or of consequences in alternative scenarios, e.g.&nbsp;under different risk management options.</p>
-<p>It is important that the scenarios and consequences of interest are well-defined.</p>
-</section>
-<section id="acceptable-level-of-uncertainty" class="level3">
-<h3 class="anchored" data-anchor-id="acceptable-level-of-uncertainty">Acceptable level of uncertainty</h3>
+<section id="acceptable-level-of-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="acceptable-level-of-uncertainty">Acceptable level of uncertainty</h2>
 <!-- SO p16 -->
 <p>Complete certainty is never possible.</p>
 <p>Deciding how much certainty is required or, equivalently, what level of uncertainty would warrant precautionary action, is the responsibility of decision-makers, not assessors.</p>
 <p>It may be helpful if the decision-makers can specify in advance how much uncertainty is acceptable for a particular question because it has implications for what outputs should be produced from uncertainty analysis.</p>
 <p>Often, however, the decision-makers may not be able to specify in advance the level of certainty that is sought or the level of uncertainty that is acceptable, e.g.&nbsp;because this may vary from case to case depending on the costs and benefits involved. Another option is for assessors to provide results for multiple levels of certainty, so that decision-makers can consider at a later stage what level of uncertainty to accept.</p>
-<p>Alternatively, partial information on uncertainty may be sufficient for the decision-makers provided it meets or exceeds their required level of certainty.</p>
 </section>
-<section id="expression-of-uncertainty-in-assessment-conclusions" class="level3">
-<h3 class="anchored" data-anchor-id="expression-of-uncertainty-in-assessment-conclusions">Expression of uncertainty in assessment conclusions</h3>
+<section id="practical-certainty" class="level2">
+<h2 class="anchored" data-anchor-id="practical-certainty">“Practical certainty”</h2>
+<!-- SO p16 -->
+<p>Alternatively, partial information on uncertainty may be sufficient for the decision-makers provided it meets or exceeds their required level of certainty.</p>
+<!-- SO p15 -->
+<p>For some types of assessment, e.g.&nbsp;for regulated products, decision-makers need EFSA to provide an unqualified positive or negative conclusion to comply with the requirements of legislation, or of procedures established to implement legislation.</p>
+<p>In general, the underlying assessment will be subject to at least some uncertainty, as is all scientific assessment. In such cases, therefore, the positive or negative conclusion refers to whether the level of certainty is sufficient for the purpose of decision-making, i.e.&nbsp;whether the assessment provides ‘practical certainty’</p>
+</section>
+<section id="main-sources-of-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="main-sources-of-uncertainty">Main sources of uncertainty</h2>
+<!-- SO p15 -->
+<p>Information on the magnitude of uncertainty and the main sources of uncertainty is also important to inform decisions about whether it would be worthwhile to invest in obtaining further data or conducting more analysis, with the aim of reducing uncertainty.</p>
+</section>
+</section>
+<section id="time-and-resource-constraints" class="level1">
+<h1>Time and resource constraints</h1>
+<!-- SO p15 -->
+<!-- Consideration of uncertainty is always required. -->
+<section id="fit-for-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="fit-for-purpose">Fit-for-purpose</h2>
+<p>To be fit for purpose, EFSA’s guidance on uncertainty analysis includes options for different levels of resource and different timescales, and methods that can be implemented at different levels of detail/refinement, to fit different timescales and levels of resource.</p>
+</section>
+<section id="refine-or-reduce" class="level2">
+<h2 class="anchored" data-anchor-id="refine-or-reduce">Refine or reduce</h2>
+<p>Decisions on how far to refine the assessment and whether to obtain additional data may be taken by assessors when they fall within the time and resources agreed for the assessment.</p>
+</section>
+<section id="suffient-for-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="suffient-for-decision-making">Suffient for decision-making</h2>
+<p>Ultimately, it is for decision-makers to decide when the characterisation of uncertainty is sufficient for decision-making and when further refinement is needed, taking into account the time and costs involved.</p>
+</section>
+</section>
+<section id="expression-of-uncertainty-in-assessment-conclusions" class="level1">
+<h1>Expression of uncertainty in assessment conclusions</h1>
+<section id="ranges-and-probabilities-when-question-well-defined" class="level2">
+<h2 class="anchored" data-anchor-id="ranges-and-probabilities-when-question-well-defined">Ranges and probabilities when question well-defined</h2>
 <!-- SO p16 -->
 <p>Ranges and probabilities are the natural metric for quantifying uncertainty and can be applied to any well-defined question or quantity of interest.</p>
 <p>The question for assessment, or at least the eventual conclusion, needs to be well-defined, in order for its uncertainty to be assessed.</p>
+</section>
+<section id="qualitative-terms-defined-by-quantitative-expression" class="level2">
+<h2 class="anchored" data-anchor-id="qualitative-terms-defined-by-quantitative-expression">Qualitative terms defined by quantitative expression</h2>
 <!-- SO p17 -->
-<p>If qualitative terms are used to describe the degree of uncertainty, they should be clearly defined with objective scientific criteria. Specifically, the definition should identify the quantitative expression of uncertainty associated with the qualitative term as is done, for example, in the EFSA approximate probability scale <strong>?@tbl-approx-probscale</strong></p>
+<p>If qualitative terms are used to describe the degree of uncertainty, they should be clearly defined with objective scientific criteria.</p>
+<p>Specifically, the definition should identify the quantitative expression of uncertainty associated with the qualitative term as is done, for example, in the EFSA approximate probability scale <strong>?@tbl-approx-probscale</strong></p>
+</section>
+<section id="firm-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="firm-conclusion">“Firm” conclusion</h2>
 <!-- SO p17 -->
-<p>For some types of assessment, decision-makers need EFSA to provide an unqualified positive or negative conclusion. The positive or negative conclusion does not imply that there is complete certainty, since this is never achieved, but that the level of certainty is sufficient for the purpose of decision-making. In such cases, the assessment conclusion and summary may simply report the positive or negative conclusion but, for transparency, the justification for the conclusion should be documented somewhere, e.g.&nbsp;in the body of the assessment or an annex. If the level of certainty is not sufficient, then either the uncertainty should be expressed quantitatively, or assessors should report that their assessment is inconclusive and that they ‘cannot conclude’ on the question.</p>
+<p>For some types of assessment, decision-makers need EFSA to provide an unqualified positive or negative conclusion. The positive or negative conclusion does not imply that there is complete certainty, since this is never achieved, but that the level of certainty is sufficient for the purpose of decision-making.</p>
+<p>In such cases, the assessment conclusion and summary may simply report the positive or negative conclusion but, for transparency, the justification for the conclusion should be documented somewhere, e.g.&nbsp;in the body of the assessment or an annex.</p>
+</section>
+<section id="inconclusive" class="level2">
+<h2 class="anchored" data-anchor-id="inconclusive">Inconclusive</h2>
+<p>If the level of certainty is not sufficient, then either the uncertainty should be expressed quantitatively, or assessors should report that their assessment is inconclusive and that they ‘cannot conclude’ on the question.</p>
+</section>
+<section id="language-of-no-quantification" class="level2">
+<h2 class="anchored" data-anchor-id="language-of-no-quantification">Language of no quantification</h2>
 <!-- SO p17 -->
 <p>When assessors do not quantify uncertainty, they must report that the probability of different answers is unknown and avoid using any language that could be interpreted as implying a probability statement as this would be misleading.</p>
+</section>
+<section id="avoid-value-expressions" class="level2">
+<h2 class="anchored" data-anchor-id="avoid-value-expressions">Avoid value expressions</h2>
 <!-- SO p17 -->
 <p>The assessors should avoid any verbal expressions that have risk management connotations in everyday language, such us ‘negligible’ and ‘concern’. When used without further definition, such expressions imply two simultaneous judgements: a judgement about the probability (or approximate probability) of adverse effects, and a judgement about the acceptability of that probability. The first of these judgements is within the remit of assessors, but the latter is not.</p>
 
