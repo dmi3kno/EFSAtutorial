@@ -24,7 +24,7 @@ Partial quantitative expression requires less information or judgements but may 
 
 ## Examples
 <!-- Box 1 SO p18 -->
-*Descriptive expression:* Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition (@tbl-approx-probscale). 
+*Descriptive expression:* Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition. 
 
 *Ordinal scale:* Uncertainty described by ordered categories, where the magnitude of the difference between categories is not quantified.
 ::::
@@ -53,35 +53,6 @@ Partial quantitative expression requires less information or judgements but may 
 
 ::::
 :::
-
-```{r}
-#| label: tbl-approx-probscale
-#| tbl-cap: "Approximate probability scale"
-#| echo: false
-#| message: false
-#| warning: false
-
-# update rvest
-# install.packages("rvest")
-# install the latest version
-# remotes::install_github("haozhu233/kableExtra")
-
-library(kableExtra)
-library(magrittr)
-ptbl <- data.frame(
-  term=c("Almost certain", "Extremely likely", "Very likely", "Likely", "About as likely as", "Unlikely", "Very unlikely", "Extremely unlikely", "Almost impossible"),
-  range=c("99-100%", "95-99%", "90-95%", "66-90%", "33-66%", "10-33%", "5-10%", "1-5%", "0-1%"),
-  addopt=c(rep("More likely than not: >50%", 4), rep(" ", 5)),
-  addopt2=rep("Unable to give any probability: range is 0-100%. Report as 'inconclusive', 'cannot conclude' or 'unknown'", 9)
-) 
-tbl_col_names <- c("Probability term", "Subjective probability range", "Additional options", "")
-ptbl %>% 
-  kbl(col.names =tbl_col_names ) %>% 
-  kable_paper(full_width = FALSE) %>%
-  column_spec(1:3, width = "10em") %>% 
-  collapse_rows(columns = 3:4, valign = "top")
-
-```
 
 # The role of quantitative expressions of uncertainty
 ::: {.callout-tip collapse="true" appearance="minimal"}
@@ -148,7 +119,7 @@ Qualitative methods in uncertainty analysis are specifically recommended for the
  
  - At intermediate points in an uncertainty analysis, to characterise individual sources of uncertainty qualitatively, as an aid to quantifying their combined impact by probability judgement. This may be useful either for individual parts of the uncertainty analysis, or as a preliminary step when characterising the overall uncertainty of the conclusion.
  
- - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an approximate probability scale with accompanying qualitative descriptors.
+ - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an [approximate probability scale with accompanying qualitative descriptors](pmcommunication.qmd#tbl-approx-probscale).
  
  - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation.
  

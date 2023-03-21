@@ -68,6 +68,9 @@ website:
         - implementationmethods.qmd
         - implementationexpressions.qmd
 
+execute: 
+  freeze: auto
+
 format:
   html:
     theme: 

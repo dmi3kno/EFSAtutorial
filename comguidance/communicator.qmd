@@ -1,5 +1,5 @@
 ---
-title: "Communication of Uncertainty for Communicators"
+title: "for Communicators"
 ---
 
 Template for identifying messages with associated uncertainty expressions, and specific guidance for their communication:
