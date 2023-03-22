@@ -2,119 +2,82 @@
 title: "Key concepts"
 ---
 
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Well-defined questions and quantities of interest
+<!-- SO p22 -->
+The purpose of most EFSA scientific assessments is to determine what science can say about a quantity, event, proposition or state of the world that is of interest for decision-makers.
+
+In order to express uncertainty about a question or quantity of interest in a clear and unambiguous way, it is necessary that the question or quantity itself is well-defined, so that it is interpreted in the same way by different people.
+
+This applies both to the uncertainty analysis as a whole and to its parts.
+
+
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+**Quantities of interest** can take one of two forms:
+
 :::: {.panel-tabset}
+
+# Non-variable quantities that have a single real value
+e.g. the total number of animals infected with a specified disease entering the EU in a given year. Many non-variable quantities in scientific assessment are parameters that describe variable quantities, which is potentially confusing. A common example of this is the mean body weight for a specified population at a specified time. The term non-variable is used in preference to ‘fixed’, to avoid giving the impression that the value is known with certainty. 
+
+# Variable quantities that take multiple values
+such the body weights in a population. 
 
 ::::
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
+**Categorical questions of interest**: it is useful to distinguish between: 
+
+:::: {.panel-tabset}
+
+## Yes/no questions
+e.g. questions referring to the presence or absence of some condition or state of the world, the occurrence or not of some event, or the exceedance or not of some quantitative threshold.
+
+## Questions with more than two categories of answer
+e.g. different types of effect.
+:::
+::::
+
+
+::: {.callout-tip}
+## Qualitative questions?
+<!-- SO p24 -->
+Readers may be surprised that the list of types of questions of interest does not include ‘qualitative’. This is because if a question of interest is well-defined, which it should always be for the reasons discussed above, then it can be treated as a yes/no question.
+:::
+
+::: {.callout-tip}
+## Challenging questions or quantities of interest
+<!-- SO p23 -->
+The questions or quantities of interest in some EFSA assessments refer to things that may seem challenging to define in terms of the result of a hypothetical experiment or study. Examples include the condition or property of being genotoxic, and calculated quantities such as a Margin of Exposure, neither of which can be directly measured or observed. In practice, however, such questions or quantities can be defined by the procedures for determining them, as established in legislation or official guidance, i.e. the data that are required, and the criteria for interpreting those data.
+:::
+
 # Conditional nature of uncertainty
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Uncertainty and variability 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Dependencies 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Models and model uncertainty 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Evidence, agreement, confidence and weight of evidence
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Influence, sensitivity and prioritisation of uncertainties
- 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Conservative assessments
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Expert judgement 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Probability 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Overall uncertainty 
-:::: {.panel-tabset}
 
-::::
-:::
-
-
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Unquantified uncertainties 
-:::: {.panel-tabset}
-
-::::
-:::
 
 <!-- SO p20, last bullet point -->
 It is therefore important to quantify the overall impact of as many as possible of the identified uncertainties, and identify any that cannot be quantified. The most direct way to achieve this is to try to quantify the overall impact of all identified uncertainties, as this will reveal any that cannot be quantified.
 
 
-
-::: {.callout-tip collapse="true" appearance="minimal"}
 # Conditionality of assessments
-:::: {.panel-tabset}
-
-::::
-:::
-
-
 
 <!-- Move Types of assessment distinguished for uncertainty analysis to the U GD page -->
