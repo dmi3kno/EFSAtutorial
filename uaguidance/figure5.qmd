@@ -2,6 +2,18 @@
 title: "Uncertainty analysis for case-specific assessments"
 ---
 
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> [In prep] Reminder that the UA GD is designed for different types of assessments, where case-specific is one of them. Give a general outline of the UA process for a case-specific assessment, including options to break into parts before combining. 
+
+::::
+
 :::{.column-page-inset}
 ```{mermaid}
 %%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%

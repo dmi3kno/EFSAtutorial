@@ -24,14 +24,12 @@ website:
       - text: "Communication of Uncertainty"
         file: communication.qmd
       - text: "Implementation"
-        file: implementationmethods.qmd
+        file: implementation.qmd
 
   sidebar:
     - title: "Principles and Methods"
       contents:
-        - section: "Introduction"
-          contents:
-          - principles.qmd
+        - principles.qmd
         - section: "Principles of Uncertainty Analysis"
           contents:
           - pmguidance/pmanalysis_background.qmd
@@ -62,9 +60,9 @@ website:
         - uaguidance/reporting.qmd
     - title: "Communication of Uncertainty"
       contents:
+        - communication.qmd
         - section: "Communication Checklists"
           contents:
-          - communication.qmd
           - comguidance/communicator.qmd
           - comguidance/assessor.qmd
         - section: "Principles of Uncertainty Communication"
@@ -74,8 +72,9 @@ website:
           - pmguidance/pmcommunication_audience.qmd
     - title: "Implementation"
       contents:
-        - implementationmethods.qmd
-        - implementationexpressions.qmd
+        - implementation.qmd
+        - implementation/implementationmethods.qmd
+        - implementation/implementationexpressions.qmd
 
 execute: 
   freeze: auto

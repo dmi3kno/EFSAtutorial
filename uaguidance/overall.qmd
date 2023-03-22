@@ -2,5 +2,19 @@
 title: "Characterising overall uncertainty"
 ---
 
-Section 16
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+>[In prep] Explanation of what is meant by an AOU and what role it plays in a UA
+
+::::
+
+
+More text to be added here
 

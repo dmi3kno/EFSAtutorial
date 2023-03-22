@@ -2,11 +2,35 @@
 title: "Uncertainty Analysis Guidance"
 ---
 
-> Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment. 
+:::: {.panel-tabset}
 
-The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. The video below introduces the different kinds of assessments and the associated process.
+## Introduction video
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Introduction transcript
+
+> [in prep] Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment. 
+
+::::
+
+
+# Types of assessment
+
+The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. 
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+>[In prep] Explanation that to make uncertainty analysis fit for purpose, the UA GD is designed for different types of assessments. Go through the types with associated explanations of what they are and a general outline of the UA for each of them.
+
+::::
+
 
 Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.
 

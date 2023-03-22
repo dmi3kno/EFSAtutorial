@@ -2,13 +2,16 @@
 title: "Introduction"
 ---
 
+:::: {.panel-tabset}
+
+## Introduction video
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
 
-**Video transcript**
+## Introduction transcript
 
-::: {style="font-size:12px"}
 
+[in prep] 
 Welcome to this tutorial on how to identify, characterize and communicate uncertainty in EFSA’s scientific assessments.
 
 As part of EFSA’s commitment to transparency, identifying and characterising uncertainties and explaining their implications for assessment conclusions is an important element of EFSA’s risk assessment process. Uncertainty analysis is not new, as consideration of scientific uncertainty has always been a part of EFSA’s assessments. The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way. 
@@ -52,7 +55,7 @@ The **search** button all the way to the right can help you get to the required 
 Again, welcome to the tutorial and hope you will find your learning journey fun!
 
 Good luck!
-:::
+::::
 
 ## About
 

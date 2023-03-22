@@ -2,19 +2,26 @@
 title: "Guidance on Communication of Uncertainty"
 ---
 
-**Video transcript**
+:::: {.panel-tabset}
 
-::: {style="font-size:12px"}
+## Introduction video
 
-Welcome to the page on Uncertainty Communication! 
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
 
-The pupose of the section is to introduce you to the "Guidance on Communication of Uncertainty in Scientific Assessments". The material for this page is heavy based on the [Principles of Uncertainty Communication](pmguidance/pmcommunication_principles.qmd) and we strongly recomend that you start your journey into the world of uncertainty communication there.
+## Introduction transcript
 
-We divided the material on this page into two sections: there's a section for uncertainty communicators and another one for the assessors. The presentation of the material also varies by the preparation level of the target audience. The material for the Communicators covers the Entry and Informed levels, while the Assessors are encouraged to refer to guidance for communication on the Informed and Technical levels. 
+>[in prep]
+>Welcome to the page on Uncertainty Communication! 
 
-Use one of the buttons below to proceed to the next page, where you will be presented with a communication checklist and the corresponding recommendations addressing the various aspects of uncertainty communication for the different audience levels.
+>The pupose of the section is to introduce you to the "Guidance on Communication of Uncertainty in Scientific Assessments". The material for this page is heavy based on the [Principles of Uncertainty Communication](pmguidance/pmcommunication_principles.qmd) and we strongly recomend that you start your journey into the world of uncertainty communication there.
 
-:::
+>We divided the material on this page into two sections: there's a section for uncertainty communicators and another one for the assessors. The presentation of the material also varies by the preparation level of the target audience. The material for the Communicators covers the Entry and Informed levels, while the Assessors are encouraged to refer to guidance for communication on the Informed and Technical levels. 
+
+>Use one of the buttons below to proceed to the next page, where you will be presented with a communication checklist and the corresponding recommendations addressing the various aspects of uncertainty communication for the different audience levels.
+
+::::
+
+Use one of the buttons below to proceed to communication checklists!
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
 [I AM A COMMUNICATOR](comguidance/communicator.qmd){.btn .btn-primary .btn role="button"}

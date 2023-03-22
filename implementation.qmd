@@ -1,0 +1,15 @@
+---
+title: "Implementation of uncertainty analysis"
+---
+:::: {.panel-tabset}
+
+## Introduction video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Introduction transcript
+
+> [in prep] 
+> Introduction to the page. Information about this page collects examples of implementation of the UA and UC GDs. Instructions on how to explore the page. How we have chosen the examples. A reminder that this is an extraction of examples and that there are more on EFSA website. 
+
+::::

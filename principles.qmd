@@ -3,9 +3,15 @@ title: "Principles and methods behind the guidances"
 ---
 
 
-**Video transcript**
+:::: {.panel-tabset}
 
-::: {style="font-size:12px"}
+## Introduction video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Introduction transcript
+
+[in prep] 
 
 Welcome to the page on Principles and Methods for the Uncertainty Analysis and Communication of Uncertainty guidances! 
 
@@ -17,4 +23,4 @@ On the left hand side you can see the side menu which contains the links to the 
 
 Look around and make yourself at home here, because you might come back here after you've explored the rest of the tutorial for some in-depth insights! See you!
 
-:::
+::::
