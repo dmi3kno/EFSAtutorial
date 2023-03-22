@@ -70,6 +70,8 @@ website:
           - pmguidance/pmcommunication_principles.qmd
           - pmguidance/pmcommunication_communicating.qmd
           - pmguidance/pmcommunication_audience.qmd
+        - comguidance/additional_videos_conclusions.qmd
+         
     - title: "Implementation"
       contents:
         - implementation.qmd

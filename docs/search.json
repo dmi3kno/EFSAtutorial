@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "comguidance/additional_videos_conclusions.html",
+    "href": "comguidance/additional_videos_conclusions.html",
+    "title": "Additional advice on communicating uncertainty in conclusions",
+    "section": "",
+    "text": "Communicating uncertainty in the answer to a Yes/No question by an approximate probability\n\nVideoText\n\n\n\n\n\n\nRemind that implementing UA GD results in different expressions of uncertainty, where approximate probability is one of them. Explain what is an approx prob. Give examples when used. Go through some of the recommendations given by the UC GD.\n\n\n\n\n\n\nCommunicating uncertainty about a quantity of interest by a probability distribution\n\nVideoText\n\n\n\n\n\n\nRemind that implementing UA GD results in different expressions of uncertainty, where a probability distribution is one of them. Explain what is a probability distribution. Give examples when used. Go through some of the recommendations given by the UC GD.\n\n\n\n\n\n\nCommunicating a list of sources of uncertainty\n\nVideoText\n\n\n\n\n\n\nExplain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD.\n\n\n\n\n\n\nCommunicating an inconclusive assessment\n\nVideoText\n\n\n\n\n\n\nExplain that when the experts are not able to conclude, the conclusion of an assessment is inconclusive and that this is a way to express uncertainty. Go through the recommendations given by the UC GD on how to report an inconclusive assessment."
+  },
+  {
     "objectID": "comguidance/assessor.html",
     "href": "comguidance/assessor.html",
     "title": "for Assessors",

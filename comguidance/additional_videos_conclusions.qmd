@@ -1,0 +1,63 @@
+---
+title: "Additional advice on communicating uncertainty in conclusions"
+---
+
+# Communicating uncertainty in the answer to a Yes/No question by an approximate probability 
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Remind that implementing UA GD results in different expressions of uncertainty, where approximate probability is one of them. Explain what is an approx prob. Give examples when used. Go through some of the recommendations given by the UC GD. 
+
+::::
+
+# Communicating uncertainty about a quantity of interest by a probability distribution  
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Remind that implementing UA GD results in different expressions of uncertainty, where a probability distribution is one of them. Explain what is a probability distribution. Give examples when used. Go through some of the recommendations given by the UC GD. 
+
+::::
+
+# Communicating a list of sources of uncertainty 
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD. 
+
+::::
+
+# Communicating an inconclusive assessment 
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Explain that when the experts are not able to conclude, the conclusion of an assessment is inconclusive and that this is a way to express uncertainty. Go through the recommendations given by the UC GD on how to report an inconclusive assessment.  
+
+:::: 
+ 
+
+
+
+
+
