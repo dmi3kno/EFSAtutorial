@@ -10,15 +10,17 @@ In order to express uncertainty about a question or quantity of interest in a cl
 
 This applies both to the uncertainty analysis as a whole and to its parts.
 
-**Quantities of interest** can take one of two forms:
+
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
+**Quantities of interest** can take one of two forms:
+
 :::: {.panel-tabset}
 
-## Non-variable quantities that have a single real value
+# Non-variable quantities that have a single real value
 e.g. the total number of animals infected with a specified disease entering the EU in a given year. Many non-variable quantities in scientific assessment are parameters that describe variable quantities, which is potentially confusing. A common example of this is the mean body weight for a specified population at a specified time. The term non-variable is used in preference to ‘fixed’, to avoid giving the impression that the value is known with certainty. 
 
-## Variable quantities that take multiple values
+# Variable quantities that take multiple values
 such the body weights in a population. 
 
 ::::

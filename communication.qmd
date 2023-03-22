@@ -15,10 +15,9 @@ We divided the material on this page into two sections: there's a section for un
 
 Use one of the buttons below to proceed to the next page, where you will be presented with a communication checklist and the corresponding recommendations addressing the various aspects of uncertainty communication for the different audience levels.
 
-
 :::
 
-> Introduction to the page. Information about the UC GD and that this is the GD based on the principles from the UC GD and that we recommend looking at those before going through the UC GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment. 
+# Uncertainty Communication Checklists
 
 I am:
 
@@ -31,15 +30,9 @@ flowchart TB
   click B "comguidance/assessor.html" "Go to Assessor page"
 ```
 
+# Overview of Risk Communication at EFSA
 
-The introduction section also provides an overview of risk communication in EFSA, covering the main strategies and the criteria for proper audience targeting. We introduce the expressions of uncertainty used at EFSA and invite the user to select one of the two sections to proceed
-
-The rest of the content on the page is split between the communicator, and the assessor role. The user has the opportunity to select the other role and explore the content in the respective section. The Communicator section provides guidance for communication on the entry-level and the informed level, while the Assessor section provides guidance for the technical level.
-
-Finally, both the Communicator and the Assessor roles share the section for the Specific Guidances, consisting of the 9 types of expressions of uncertainty as shown in Figure 4. The content of the Specific Guidances varies depending on the role (the Communicator is shows the entry and informed level and the Assessor is shown the technical level)
-
-Each of the specific guidances (for assessors) is accompanied by a short text and links to best-practice examples (i.e. where these Specific Guidances were followed) in the implementation section (below).
-
-We will also refer to additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16).
+- main strategies and the criteria for proper audience targeting.
+- additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16).
 
 
