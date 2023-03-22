@@ -79,12 +79,14 @@ Qualitative methods may provide a useful aid for experts when making quantitativ
 # Methods for quantifying uncertainty
 <!-- Ch 11 SO -->
 :::: {.panel-tabset}
-## Use of qualitative methods
+## Use 
+text
 
 ## Examples
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Quantitative methods](methods_quantitative.qmd){.btn .btn-primary .btn-lg role="button"}
+[Methods to quantify](methods_quantitative.qmd){.btn .btn-primary .btn-lg role="button"}
 :::
+
 ::::
 :::
 
@@ -92,6 +94,8 @@ Qualitative methods may provide a useful aid for experts when making quantitativ
 # Investigating influence and sensitivity
 <!-- Ch 12 SO -->
 :::: {.panel-tabset}
+
+Sensitivity analysis (Annex B.17)
 
 ::::
 :::
@@ -117,5 +121,6 @@ There are three options for quantifying the overall uncertainty, depending on th
 <!-- Ch 15 SO -->
 :::: {.panel-tabset}
 
+add text
 ::::
 :::

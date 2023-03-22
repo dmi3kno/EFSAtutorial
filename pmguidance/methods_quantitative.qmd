@@ -1,9 +1,85 @@
 ---
-title: "Quantitative methods"
+title: "Methods to quantify uncertainty"
 ---
 
+# Expressing uncertainty using probability and alternatives to probability
 
-::: {.callout-tip collapse="true" appearance="minimal"}
-# :::: {.panel-tabset}
+including adressing variability
+
+
+# Obtaining probabilities by statistical analysis of data
+:::{.callout-tip collapse="true" appearance="minimal"}
+## Confidence intervals
+:::: {.panel-tabset}
+Text here
+
+[SO Annex B.10](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#)
 ::::
 :::
+
+:::{.callout-tip collapse="true" appearance="minimal"}
+## The Bootstrap
+:::: {.panel-tabset}
+Text here
+
+[SO Annex B.11](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#)
+::::
+:::
+
+:::{.callout-tip collapse="true" appearance="minimal"}
+## Bayesian inference
+:::: {.panel-tabset}
+Text here
+
+[SO Annex B.12](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#)
+::::
+:::
+
+# Obtaining probabilities by expert judgement
+
+:::{.callout-tip collapse="true" appearance="minimal"}
+## Semi-formal EKE
+:::: {.panel-tabset}
+Text here
+
+[SO Annex B.8](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#)
+::::
+:::
+
+:::{.callout-tip collapse="true" appearance="minimal"}
+## Formal EKE
+:::: {.panel-tabset}
+Text here
+
+[SO Annex B.9](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#)
+::::
+:::
+
+<!-- approx prob scale is mentioned elsewhere -->
+
+# Combining uncertainties for model inputs by probability calculations
+
+Logic models
+
+Deterministic models (calculations)
+
+Probabilistic models
+
+Probability calculations for logic models (Annex B.18)
+
+Probability Bounds Analysis (Annex B.13)
+
+Monte Carlo simulation for uncertainty analysis (1D-MC and 2D-MC) (Annex B.14)
+
+Approximate probability calculations (Annex B.15)
+
+Advanced statistical and probabilistic modelling methodologies
+
+# Deterministic methods for quantifying uncertainty
+
+Quantitative uncertainty tables (Annex B.5)
+
+Interval analysis (Annex B.7)
+
+Calculations with conservative assumptions (Annex B.16)
+
