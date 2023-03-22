@@ -1,0 +1,22 @@
+---
+title: "Communicating scientific uncertainties"
+---
+
+## EFSA’s risk communication mandate
+
+The European Food Safety Authority (EFSA) is responsible for providing independent scientific advice, information, and risk communication to improve consumer confidence. The quality, independence, and transparency of EFSA's scientific advice and information are critical for effective risk communication and ensuring public confidence. EFSA communicates the results of its scientific assessments to decision-makers, stakeholders, and the public at large through various communication channels. To be effective, EFSA's risk communication must be tailored to the characteristics of the target audience and the perceived sensitivities of the topic.
+
+## Risk perception and uncertainty
+
+EFSA's risk communication plays a crucial role in how audiences perceive the risks and benefits of its assessments, and how they act upon the results. The level of technical knowledge of the target audience affects their understanding of the type and degree of uncertainties identified in the assessment, which is essential for informed decision-making. Communication contextualizes uncertainties in relation to perceived risks, emphasizes the transparency of the process, and explains how scientists can address information gaps in the future. While increased awareness of scientific uncertainties may reduce confidence in decision-making for non-technical audiences, in some cultural contexts, it can increase trust due to greater transparency. The primary roles of risk communication are to contextualize uncertainties, emphasize transparency, and explain how to address information gaps in the future.
+
+## Challenges of communicating uncertainty in scientific assessments
+
+While there are arguments for and against communicating uncertainty, EFSA sees it as crucial to their mandate of being open and transparent. Communicating uncertainty helps decision-makers make informed decisions and increases transparency in the assessment process. However, communicating uncertainty in qualitative or quantitative terms is equivocal and can be understood differently by different people. EFSA has identified a need to differentiate the level of technicality in communication messages for different target audiences.
+
+## Towards best practice for communicating uncertainty
+
+The IPCC recommends reciprocal statements to avoid value-laden interpretations. The European Food Safety Authority (EFSA) conducted two studies to evaluate the understanding and use of different types of uncertainty expressions by different audiences and developed a Companion Guidance document on Communicating Uncertainty in Scientific Assessments to provide practical advice and tools for communicators to explain uncertainty to different target audiences. The Companion Guidance will be implemented simultaneously with the implementation of the Guidance document in EFSA's scientific assessments.
+
+
+

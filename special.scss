@@ -8,10 +8,12 @@ $dark-gray:  #262626 !default;
 $light-gray: #f0f2f5 !default;
 $snow: #FFF9FB !default;
 
-$highlight-blue: #239fc4 !important;
-$highlight-green:   #36af8b !important;
-$highlight-pink: #ad4c9b !important;
-$highlight-yellow: #f9bd00 !important;
+$highlight-blue: #239fc4 !default;
+$highlight-green:   #36af8b !default;
+$highlight-pink: #ad4c9b !default;
+$highlight-yellow: #f9bd00 !default;
+
+$secondary: $highlight-blue;
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {

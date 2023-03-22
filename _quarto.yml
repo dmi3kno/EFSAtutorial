@@ -41,7 +41,9 @@ website:
           - pmguidance/pmanalysis_keyprinciples.qmd
         - section: "Principles of Uncertainty Communication"
           contents:
-          - pmguidance/pmcommunication.qmd
+          - pmguidance/pmcommunication_principles.qmd
+          - pmguidance/pmcommunication_communicating.qmd
+          - pmguidance/pmcommunication_audience.qmd
         - section: "Methods for Uncertainty Analysis"
           contents:
           - pmguidance/methods.qmd
@@ -60,9 +62,16 @@ website:
         - uaguidance/reporting.qmd
     - title: "Communication of Uncertainty"
       contents:
-        - communication.qmd
-        - comguidance/communicator.qmd
-        - comguidance/assessor.qmd
+        - section: "Communication Checklists"
+          contents:
+          - communication.qmd
+          - comguidance/communicator.qmd
+          - comguidance/assessor.qmd
+        - section: "Principles of Uncertainty Communication"
+          contents:
+          - pmguidance/pmcommunication_principles.qmd
+          - pmguidance/pmcommunication_communicating.qmd
+          - pmguidance/pmcommunication_audience.qmd
     - title: "Implementation"
       contents:
         - implementationmethods.qmd

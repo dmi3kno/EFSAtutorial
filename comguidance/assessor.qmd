@@ -15,7 +15,7 @@ library(ggbrace)
 ```
 
 
-Template for identifying messages with associated uncertainty expressions, and specific guidance for their communication:
+Checklist for identifying messages with associated uncertainty expressions, and specific guidance for their communication:
 
 <!-- ######################## Section 1 ###################### -->
 ::: {.callout-tip collapse="true" appearance="minimal"}

@@ -10,24 +10,15 @@ The recommended approach to uncertainty analysis depends on the nature of the sc
 
 Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.
 
-```{mermaid}
-%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TB
-  A([Standardized</br>Assessments])
-  B([Case-specific</br>assessments])
-  click A "uaguidance/figure1.html" "A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment"
-  click B "uaguidance/figure5.html" "Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."
-```
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[Standardised Assessments](uaguidance/figure1.qmd){.btn .btn-primary .btn role="button" data-toggle="tooltip" title="A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment."}
+[Case-specific assessments](uaguidance/figure5.qmd){.btn .btn-primary .btn role="button"  data-toggle="tooltip" title="Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."}
+</br>
+</br>
+[Urgent assessments](uaguidance/figure11.qmd){.btn .btn-primary .btn role="button"  data-toggle="tooltip" title="Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis."}
+[Development or revision of guidance documents](uaguidance/figure12.qmd){.btn .btn-primary .btn role="button"  data-toggle="tooltip" title="Especially (but not only) those that describe existing standardised procedures or establish new ones."}
+:::
 
-
-```{mermaid}
-%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TB
-  C([Urgent</br>assessments])
-  D([Development or revision</br>of guidance documents])
-  click C "uaguidance/figure11.html" "Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis"
-  click D "uaguidance/figure12.html" "Especially (but not only) those that describe existing standardised procedures or establish new ones"
-```
 
 :::{.callout-tip}
 ## Learn more about:

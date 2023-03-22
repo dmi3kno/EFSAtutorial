@@ -113,6 +113,14 @@ There are three options for quantifying the overall uncertainty, depending on th
 
 - Option 3: Quantify uncertainty separately in some parts of the assessment and combine them by calculation, as in Option 2. Then quantify the contribution of the additional uncertainties separately, by expert judgement, and combine it with the previously quantified uncertainty by calculation.
 
+```{r}
+#| label: fig-overall-options
+#| fig-cap: "Options for characterising overall uncertainty"
+#| echo: false
+knitr::include_graphics("../img/options_for_characterising_overall_uncertainty.png")
+```
+
+
 ::::
 :::
 

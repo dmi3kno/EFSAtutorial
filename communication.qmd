@@ -1,7 +1,6 @@
 ---
-title: "Communication of Uncertainty"
+title: "Guidance on Communication of Uncertainty"
 ---
-
 
 **Video transcript**
 
@@ -9,7 +8,7 @@ title: "Communication of Uncertainty"
 
 Welcome to the page on Uncertainty Communication! 
 
-The pupose of the section is to introduce you to the "Guidance on Communication of Uncertainty in Scientific Assessments". The material for this page is heavy based on the [Principles of Uncertainty Communication](pmguidance/pmcommunication.qmd) and we strongly recomend that you start your journey into the world of uncertainty communication there.
+The pupose of the section is to introduce you to the "Guidance on Communication of Uncertainty in Scientific Assessments". The material for this page is heavy based on the [Principles of Uncertainty Communication](pmguidance/pmcommunication_principles.qmd) and we strongly recomend that you start your journey into the world of uncertainty communication there.
 
 We divided the material on this page into two sections: there's a section for uncertainty communicators and another one for the assessors. The presentation of the material also varies by the preparation level of the target audience. The material for the Communicators covers the Entry and Informed levels, while the Assessors are encouraged to refer to guidance for communication on the Informed and Technical levels. 
 
@@ -17,22 +16,7 @@ Use one of the buttons below to proceed to the next page, where you will be pres
 
 :::
 
-# Uncertainty Communication Checklists
-
-I am:
-
-```{mermaid}
-%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TB
-  A([Communicator])
-  B([Assessor])
-  click A "comguidance/communicator.html" "Go to Communicator page"
-  click B "comguidance/assessor.html" "Go to Assessor page"
-```
-
-# Overview of Risk Communication at EFSA
-
-- main strategies and the criteria for proper audience targeting.
-- additional information in the Principles and Methods opinion on reporting and communicating uncertainties (Ch 15 and 16).
-
-
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[I AM A COMMUNICATOR](comguidance/communicator.qmd){.btn .btn-primary .btn role="button"}
+[I AM AN ASSESSOR](comguidance/assessor.qmd){.btn .btn-primary .btn role="button"}
+:::
