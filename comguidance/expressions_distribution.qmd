@@ -1,0 +1,24 @@
+---
+title: "Probability distribution"
+---
+
+# Communicating uncertainty about a quantity of interest by a probability distribution  
+
+A graph showing probabilities for different values of an uncertain quantity that has a single true value (e.g. the average exposure for a population). The graph can be plotted in various formats, most commonly a probability density function (PDF), cumulative distribution function (CDF) or complementary cumulative distribution function (CCDF) (see [Section 4.1.4.2 in UC](https://doi.org/10.2903/j.efsa.2019.5520))
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Remind that implementing UA GD results in different expressions of uncertainty, where a probability distribution is one of them. Explain what is a probability distribution. Give examples when used. Go through some of the recommendations given by the UC GD. 
+
+::::
+
+
+
+
+

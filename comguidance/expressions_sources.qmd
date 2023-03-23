@@ -1,0 +1,19 @@
+---
+title: "Sources of uncertainty"
+---
+
+# Communicating a list of sources of uncertainty 
+
+Verbal description of a source or cause of uncertainty. In some areas of EFSA’s work, there are standard terminologies for describing some types of uncertainties, but often descriptions are specific to the assessment in hand (see [SO](https://doi.org/10.2903/j.efsa.2018.5122))
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD. 
+
+::::

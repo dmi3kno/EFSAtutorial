@@ -27,3 +27,19 @@ Use one of the buttons below to proceed to communication checklists!
 [I AM A COMMUNICATOR](comguidance/communicator.qmd){.btn .btn-primary .btn role="button"}
 [I AM AN ASSESSOR](comguidance/assessor.qmd){.btn .btn-primary .btn role="button"}
 :::
+
+:::{.callout-tip}
+## Expressions of uncertainty
+
+Messages about uncertainty need to be based on information that is provided in EFSA’s scientific assessments. Therefore, this section describes the main types of expressions of uncertainty that are expected to result from uncertainty analyses following EFSA’s Uncertainty Analysis GD.
+
+- [Unqualified conclusion](comguidance/expressions_unqualified.qmd), with no expression of uncertainty
+- Description of a [source of uncertainty](comguidance/expressions_sources.qmd) 
+- Qualitative description of the [direction and/or magnitude](comguidance/expressions_direction.qmd) of uncertainty using words or symbols
+- [Inconclusive assessment](comguidance/expressions_inconclusive.qmd)
+- A [precise probability](comguidance/expressions_precise.qmd)
+- An [approximate probability](comguidance/expressions_approximate.qmd)
+- A [probability distribution](comguidance/expressions_distribution.qmd)
+- A [two-dimensional probability](comguidance/expressions_2d.qmd) distribution
+:::
+

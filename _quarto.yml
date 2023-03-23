@@ -70,8 +70,16 @@ website:
           - pmguidance/pmcommunication_principles.qmd
           - pmguidance/pmcommunication_communicating.qmd
           - pmguidance/pmcommunication_audience.qmd
-        - comguidance/additional_videos_conclusions.qmd
-         
+        - section: "Expressions of Uncertainty"
+          contents:
+          - comguidance/expressions_unqualified.qmd
+          - comguidance/expressions_sources.qmd
+          - comguidance/expressions_direction.qmd
+          - comguidance/expressions_inconclusive.qmd
+          - comguidance/expressions_precise.qmd
+          - comguidance/expressions_approximate.qmd
+          - comguidance/expressions_distribution.qmd
+          - comguidance/expressions_2d.qmd
     - title: "Implementation"
       contents:
         - implementation.qmd

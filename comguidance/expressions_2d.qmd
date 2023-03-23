@@ -1,0 +1,10 @@
+---
+title: "Two-dimensional probability distribution"
+---
+
+#  A two-dimensional probability distribution. 
+
+In this guidance, the term ‘two-dimensional (or 2D) probability distribution’ refers to a distribution that quantifies the uncertainty of a quantity that is variable, i.e. takes multiple true values (e.g. the exposure of different individuals in a population). This is most often plotted as a CDF or CCDF representing the median estimate of the variability, with confidence or probability intervals quantifying the uncertainty around the CDF or CCDF.
+
+
+

@@ -1,0 +1,14 @@
+---
+title: "Unqualified conclusion"
+---
+
+# Unqualified conclusion, with no expression of uncertainty
+
+This occurs in two situations: 
+  - When a standardised assessment procedure only takes into account standard uncertainties, its outcome may be reported as an unqualified conclusion, without any expression of uncertainty (see [UA](https://doi.org/10.2903/j.efsa.2018.5123), [SO](https://doi.org/10.2903/j.efsa.2018.5122) for more explanation) 
+  - When uncertainty is present in an assessment, but decision-makers or legislation requires an unqualified conclusion (e.g. safe, not safe or 'cannot conclude'), without any expression of uncertainty. In some of these cases, uncertainty expressions may be included elsewhere in the assessment report, e.g. in the detailed results or in an annex
+
+
+
+
+

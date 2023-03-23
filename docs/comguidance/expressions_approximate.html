@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EFSA Tutorial - Uncertainty analysis for case-specific assessments</title>
+<title>EFSA Tutorial - Approximate probability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,14 +58,11 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../uncertaintyanalysis.html">Uncertainty Analysis</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../communication.html">Communication of Uncertainty</a>
+    <a class="nav-link active" href="../communication.html" aria-current="page">Communication of Uncertainty</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../implementation.html">Implementation</a>
@@ -102,20 +99,140 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Approximate probability</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../communication.html" class="sidebar-item-text sidebar-link">Guidance on Communication of Uncertainty</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Communication Checklists</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/communicator.html" class="sidebar-item-text sidebar-link">for Communicators</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/assessor.html" class="sidebar-item-text sidebar-link">for Assessors</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Principles of Uncertainty Communication</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmcommunication_principles.html" class="sidebar-item-text sidebar-link">Principles of Uncertainty Communication</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmcommunication_communicating.html" class="sidebar-item-text sidebar-link">Communicating scientific uncertainties</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pmguidance/pmcommunication_audience.html" class="sidebar-item-text sidebar-link">Proper audience targeting</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Expressions of Uncertainty</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_unqualified.html" class="sidebar-item-text sidebar-link">Unqualified conclusion</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_sources.html" class="sidebar-item-text sidebar-link">Sources of uncertainty</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_direction.html" class="sidebar-item-text sidebar-link">Description of the direction</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_inconclusive.html" class="sidebar-item-text sidebar-link">Inconclusive assessment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_precise.html" class="sidebar-item-text sidebar-link">Precise probability</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_approximate.html" class="sidebar-item-text sidebar-link active">Approximate probability</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_distribution.html" class="sidebar-item-text sidebar-link">Probability distribution</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../comguidance/expressions_2d.html" class="sidebar-item-text sidebar-link">Two-dimensional probability distribution</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#communicating-uncertainty-in-the-answer-to-a-yesno-question-by-an-approximate-probability" id="toc-communicating-uncertainty-in-the-answer-to-a-yesno-question-by-an-approximate-probability" class="nav-link active" data-scroll-target="#communicating-uncertainty-in-the-answer-to-a-yesno-question-by-an-approximate-probability">Communicating uncertainty in the answer to a Yes/No question by an approximate probability</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Uncertainty analysis for case-specific assessments</h1>
+<h1 class="title d-none d-lg-block">Approximate probability</h1>
 </div>
 
 
@@ -129,6 +246,12 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="communicating-uncertainty-in-the-answer-to-a-yesno-question-by-an-approximate-probability" class="level1">
+<h1>Communicating uncertainty in the answer to a Yes/No question by an approximate probability</h1>
+<p>Any range of probabilities (e.g.&nbsp;10–20% probability) providing an approximate quantification of likelihood for either: - A specified answer to a question (e.g.&nbsp;a ‘yes’ answer to a ‘yes/no’ question) - A specified quantity lying in a specified range of values, or above or below a specified value (e.g.&nbsp;1–10% probability that more than 100 infected organisms will enter the EU in 2019)</p>
+<blockquote class="blockquote">
+<p>The probability ranges used in EFSA’s <a href="../pmguidance/pmcommunication_principles.html#tbl-approx-probscale">approximate probability scale</a> are examples of approximate probability expressions. Assessors are not restricted to the ranges in the approximate probability scale and should use whatever ranges best reflect their judgement of the uncertainty (see <a href="https://doi.org/10.2903/j.efsa.2018.5123">UA</a>)</p>
+</blockquote>
 <div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Text</a></li></ul>
 <div class="tab-content">
@@ -137,48 +260,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <blockquote class="blockquote">
-<p>[In prep] Reminder that the UA GD is designed for different types of assessments, where case-specific is one of them. Give a general outline of the UA process for a case-specific assessment, including options to break into parts before combining.</p>
+<p>Remind that implementing UA GD results in different expressions of uncertainty, where approximate probability is one of them. Explain what is an approx prob. Give examples when used. Go through some of the recommendations given by the UC GD.</p>
 </blockquote>
 </div>
 </div>
 </div>
-<div class="column-page-inset">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
-flowchart TD
-  A([&lt; BACK]) --&gt;  B[Plan your&lt;/br&gt;scientific assessment&lt;/br&gt;in your usual manner]
-  B --&gt; C[Identify uncertainties&lt;/br&gt;systematically in all&lt;/br&gt;parts of your assessment]
-  C --&gt; D{Do you want&lt;/br&gt;to evaluate&lt;/br&gt;all uncertainties&lt;/br&gt;collectively in&lt;/br&gt;a single step?}
-  D--Yes--&gt; E([NEXT &gt;])
-  D--No--&gt; F[Divide the uncertainty analysis&lt;/br&gt;into convenient parts,&lt;/br&gt;define the question&lt;/br&gt;or quantity of interest&lt;/br&gt;for each part,&lt;/br&gt;and an appropriate conceptual&lt;/br&gt;model for combining the parts]
-  F--&gt;G{Do all parts&lt;/br&gt;relate to&lt;/br&gt;yes/no questions?}
-  G--Yes--&gt;H([NEXT &gt;])
-  G--No--&gt; I{Do any part&lt;/br&gt;relate to&lt;/br&gt;variable quantities}
-  I --Yes--&gt; K([NEXT &gt;])
-  I --No--&gt; L([NEXT &gt;])
-  click A "../uncertaintyanalysis.html" "Go Back" _self
-  click E "figure6.html" "Go Forward" _self
-  click B callback "See Section 7.1."
-  click C callback "See Section 17 regarding reporting."
-  click H "figure7.html" "Go Forward" _self
-  click L "figure9.html" "Go Forward" _self
-  click K "figure10.html" "Go Forward" _self
-  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
-  class A,E,H,L,K dark
-</pre>
-<div id="mermaid-tooltip-1" class="mermaidTooltip">
-
-</div>
-<p></p>
-</div>
-</div>
-</div>
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

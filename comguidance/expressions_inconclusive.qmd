@@ -1,0 +1,27 @@
+---
+title: "Inconclusive assessment"
+---
+
+# Communicating an inconclusive assessment 
+
+This occurs in two situations:
+  - When decision-makers or legislation require an unqualified conclusion but assessors judge there is too much uncertainty to give one and report that they cannot conclude. The basis for this uncertainty expression should be documented in the body of the assessment report or an annex, and may include one or more uncertainty expressions 
+  - When it is not required that conclusions must be unqualified, but the assessors are unable to give any quantitative expression of uncertainty or, where they judge that their probability for a conclusion could be anywhere between 0% and 100%. This should be accompanied by a qualitative description of the uncertainties (see description of 'A precise probability' below)
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Explain that when the experts are not able to conclude, the conclusion of an assessment is inconclusive and that this is a way to express uncertainty. Go through the recommendations given by the UC GD on how to report an inconclusive assessment.  
+
+:::: 
+ 
+
+
+
+
+
