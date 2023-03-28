@@ -24,21 +24,6 @@ Partial quantitative expression requires less information or judgements but may 
 
 ## Examples
 <!-- Box 1 SO p18 -->
-*Descriptive expression:* Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition. 
-
-*Ordinal scale:* Uncertainty described by ordered categories, where the magnitude of the difference between categories is not quantified.
-::::
-:::
-
-::: {.callout-tip collapse="true" appearance="minimal"}
-# Qualitative approaches express them using words, categories or labels.
-:::: {.panel-tabset}
-## General
-<!-- SO p18 -->
- They may rank the magnitudes of different uncertainties, and are sometimes given numeric labels, but they do not quantify the magnitudes of the uncertainties nor their impact on an assessment conclusion.
- 
-## Examples
-<!-- Box 1 SO p18 -->
 *Individual values:* Uncertainty partially quantified by specifying some possible values, without specifying what other values are possible or setting upper or lower limits.
 
 *Bound:* Uncertainty partially quantified by specifying either an upper limit or a lower limit on a quantitative scale, but not both. 
@@ -47,9 +32,27 @@ Partial quantitative expression requires less information or judgements but may 
 
 *Probability:* Uncertainty about a binary outcome (including the answer to a yes/no question) fully quantified by specifying the probability or approximate probability of both possible outcomes. 
 
-*Probability bound:* Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability.
+<!-- Changed from bound to interval to avoid confusion with bounded probability -->
+*Probability interval:* Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability.
 
 *Distribution:* Uncertainty about a non-variable quantity fully quantified by specifying the probability of all possible values on a quantitative scale.
+
+::::
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+# Qualitative approaches express them using words, categories or labels.
+:::: {.panel-tabset}
+
+## General
+<!-- SO p18 -->
+ They may rank the magnitudes of different uncertainties, and are sometimes given numeric labels, but they do not quantify the magnitudes of the uncertainties nor their impact on an assessment conclusion.
+ 
+## Examples
+<!-- Box 1 SO p18 -->
+*Descriptive expression:* Uncertainty described in narrative text or characterised using verbal terms without any quantitative definition. 
+
+*Ordinal scale:* Uncertainty described by ordered categories, where the magnitude of the difference between categories is not quantified.
 
 ::::
 :::
