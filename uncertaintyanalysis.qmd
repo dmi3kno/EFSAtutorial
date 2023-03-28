@@ -48,12 +48,12 @@ Identify which of the following types your assessment most corresponds to and th
 ## Learn more about:
 
 - [Identifying](uaguidance/identifying.qmd) uncertainties affecting the assessment
-- [Prioritizing](uaguidance/prioritizing.qmd) uncertainties within the assessment
+- [Prioritising](uaguidance/prioritizing.qmd) uncertainties within the assessment
 - [Dividing](uaguidance/dividing.qmd) the uncertainty analysis into parts
 - Ensuring that the questions or quantities of interest are [well-defined](uaguidance/welldefined.qmd).
-- [Characterizing](uaguidance/characterizing.qmd) uncertainty for parts of the uncertainty analysis
+- [Characterising uncertainty for parts](uaguidance/characterizing.qmd) of the uncertainty analysis
 - [Combining](uaguidance/combining.qmd) uncertainty from different parts of the uncertainty analysis
-- Characterising [overall](uaguidance/overall.qmd) uncertainty
-- Prioritising uncertainties for [future investigation](uaguidance/futureinvestigation.qmd).
+- [Characterising overall uncertainty](uaguidance/overall.qmd)
+- [Prioritising uncertainties for future investigation](uaguidance/futureinvestigation.qmd).
 - [Reporting](uaguidance/reporting.qmd) uncertainty analysis
 :::

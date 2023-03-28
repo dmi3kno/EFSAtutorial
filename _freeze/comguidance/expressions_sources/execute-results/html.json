@@ -1,0 +1,18 @@
+{
+  "hash": "313e35bf5dfe0077f0b04c8f5078bfed",
+  "result": {
+    "markdown": "---\ntitle: \"Sources of uncertainty\"\n---\n\n\n# Communicating a list of sources of uncertainty \n\nVerbal description of a source or cause of uncertainty. In some areas of EFSA’s work, there are standard terminologies for describing some types of uncertainties, but often descriptions are specific to the assessment in hand (see [SO](https://doi.org/10.2903/j.efsa.2018.5122))\n\n:::: {.panel-tabset}\n\n## Video\n\n![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)\n\n## Text\n\n> Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD. \n\n::::\n\n\n::: {.cell}\n::: {.cell-output-display}\n`````{=html}\n<table>\n <thead>\n  <tr>\n   <th style=\"text-align:left;\"> c1 </th>\n   <th style=\"text-align:left;\"> c2 </th>\n  </tr>\n </thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:left;\"> 1) Ambiguity<br>2) Accuracy and precision of the measures<br>3) Sampling uncertainty<br>4) Missing data within studies<br>5) Missing studies<br>6) Assumptions about inputs<br>7) Statistical estimates<br>8) Extrapolation uncertainty (i.e. limitations in external validity)<br>9) Other uncertainties </td>\n   <td style=\"text-align:left;\"> 1) Ambiguity<br>2) Excluded factors<br>3) Distributional assumptions<br>4) Use of fixed values<br>5) Relationship between parts of the assessment<br>6) Evidence for the structure of the assessment<br>7) Uncertainties relating to the process for dealing with evidence from the literature<br>8) Expert judgement<br>9) Calibration or validation with independent data<br>10) Dependency between sources of uncertainty<br>11) Other uncertainties </td>\n  </tr>\n</tbody>\n</table>\n\n`````\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../site_libs/kePrint-0.0.1/kePrint.js\"></script>\n<link href=\"../site_libs/lightable-0.0.1/lightable.css\" rel=\"stylesheet\" />\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

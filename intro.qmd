@@ -14,48 +14,51 @@ title: "Introduction"
 [in prep] 
 Welcome to this tutorial on how to identify, characterize and communicate uncertainty in EFSA’s scientific assessments.
 
-As part of EFSA’s commitment to transparency, identifying and characterising uncertainties and explaining their implications for assessment conclusions is an important element of EFSA’s risk assessment process. Uncertainty analysis is not new, as consideration of scientific uncertainty has always been a part of EFSA’s assessments. The EFSA guidance on uncertainty analysis in scientific assessments brings more clarity on how it can be performed in a structured, transparent and unambiguous way. 
+Consideration of scientific uncertainty has always been a part of EFSA’s assessments. According to the EFSA's risk assesment process, scientists are required to identify and characterize uncertainites and explain what they mean for the assessment conclusions. The EFSA guidance on uncertainty analysis provides clarity on how to perform it in a structured, transparent and unambiguous way. This tutorial aims to enhance understanding and enable practical implementation of two guidance documents: the Guidance on Uncertainty Analysis in Scientific Assessment and the Guidance on Communication of Uncertainty. 
 
-This tutorial is designed to help you get access to the two EFSA cross-cutting guidances on uncertainty 
-
- - the Guidance on Uncertainty Analysis in Scientific Assessment and 
- - the Guidance on Communication of Uncertainty.
-
-The aim of this tutorial is to enhance the understanding and enable the practical implementation of the two guidance documents. The material presented in this tutorial will help you 
+We hope that this tutorial will enhance your understanding of the two guidance documents and help you put it into practice. You will learn how to
 
  - plan your assessment strategy, 
- - identify and evaluate sources of uncertainty, (both qualitatively and quantitatively)
+ - identify and evaluate sources of uncertainty, 
  - describe uncertainties that have not been quantified, and
- - communicate uncertainty to your target audience with confidence.
+ - communicate uncertainty to the target audience with confidence.
 
-The tutorial is set up as an interactive website where you can explore different topics and learn more by watching, reading and interacting with the material, as well as be referred to other resources on EFSA website, including the past case studies, scientific opinions and reports which showcase how the principles of uncertainty analysis and communication can be applied in practice!
+The tutorial is set up as an interactive website where you can explore and learn by watching, reading and interacting with the material. You can also find links to the selected case studies, opinions and reports which showcase how the principles of uncertainty analysis and communication can be implemented in the assessments!
 
-Look carefully on your screen now. Just above me and across your screen you see the top menu with the sections named
+Look carefully on your screen now. Just above me and across the screen, you see the top menu with the sections named
 
 - Home
 - Introduction
 - Principles and Methods
 - Uncertainty Analysis
-- Communication of Uncertainty and finally
+- Communication of Uncertainty, and
 - Implementation 
 
-Right now you are in the **Introduction** section, were you find me and the text I am reading underneath the video (**points down**). 
+Right now you are in the **Introduction** section, were you find me and the text I am reading underneath this video (||). 
 
-**Principles and Methods** menu item takes you to the section dedicated to this (*pointing right*) very important document called "The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment". This document describes the rationale behind the guidances and contains in-depth discussion of the strategy adopted by EFSA in handling the uncertainty in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about the details of, well, "the principles and methods".
+**Principles and Methods** menu takes you to the section dedicated to this (*->*) very important document called "The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment". This document describes the rationale behind the guidances and contains in-depth discussion of how to handle uncertainties in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about, well, "principles and methods".
 
-The **Uncertainty Analysis** section is dedicated to the respective guidance document (**points to the right**). It contains the workflows EFSA suggests to be followed for Standardized, Case-Specific and Urgent asessments, as well as when developing or revising the exiting guidance documents.
-Check out the flowcharts and learn the details of the suggested process by interacting with them!
+The **Uncertainty Analysis** section is dedicated to the respective guidance document (*->*). It contains the workflows for Standardized, Case-Specific and Urgent asessments, as well as for developing or revising the existing guidance documents. You can use flowcharts to follow each step in the process and learn about the elements of uncertainty analysis in scientific assessments!
 
-The **Communication of Uncertainty** is dedicated to the second guidance document (**points to the right**) and contains the materials for communicators and the assessors presented as checklists for ensuring quality and transparency in communication of uncertainty tailored for various audiences at the Entry level, as well as the Informed and Technical levels. 
+The **Communication of Uncertainty** is dedicated to the second guidance document (*->*). It contains the checklists for communicators and assessors to ensure quality and transparency in communication of uncertainty to various audiences. 
 
-The *Implementation* section contains references to the previously published scientific opinions and reports produced by EFSA panels, applying the principles and methods of uncertainty analysis. The goal is to simplify the search and navigation in the body of published documents and highlight some work which corresponds well to the concepts you learn from the guidances. 
+The *Implementation* section contains references to the previously published scientific opinions, applying the principles and methods of uncertainty analysis. We hope that the interactive tables will simplify the search and navigation and highlight some of the work which corresponds well to the concepts you learn from the guidances. 
 
-The **search** button all the way to the right can help you get to the required page quickly. The *Home* button on the left get you to the top of the website from wherever you are.
- 
 Again, welcome to the tutorial and hope you will find your learning journey fun!
 
 Good luck!
 ::::
+
+
+:::{.callout-note}
+## Guidance documents
+
+This tutorial refers to the three main guidance documents
+
+- The [Principles and Methods](https://doi.org/10.2903/j.efsa.2018.5122) behind EFSA's Guidance on Uncertainty Analysis in Scientific Assessment
+- Guidance on [uncertainty analysis](https://doi.org/10.2903/j.efsa.2018.5123) in scientific assessments
+- Guidance on [communication of uncertainty](https://doi.org/10.2903/j.efsa.2019.5520) in scientific assessments
+:::
 
 ## About
 

@@ -17,3 +17,32 @@ Verbal description of a source or cause of uncertainty. In some areas of EFSA’
 > Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD. 
 
 ::::
+
+# Generic list of common types of uncertainty affecting scientific assessments
+
+:::: {.panel-tabset}
+## Uncertainties associated with assessment inputs
+- Ambiguity 
+- Accuracy and precision of the measures 
+- Sampling uncertainty 
+- Missing data within studies 
+- Missing studies 
+- Assumptions about inputs 
+- Statistical estimates 
+- Extrapolation uncertainty (i.e. limitations in external validity) 
+- Other uncertainties
+
+## Uncertainties associated with assessment methodology
+- Ambiguity 
+- Excluded factors 
+- Distributional assumptions 
+- Use of fixed values 
+- Relationship between parts of the assessment 
+- Evidence for the structure of the assessment 
+- Uncertainties relating to the process for dealing with evidence from the literature 
+- Expert judgement 
+- Calibration or validation with independent data 
+- Dependency between sources of uncertainty 
+- Other uncertainties
+::::
+
