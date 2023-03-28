@@ -18,7 +18,7 @@ title: "Principles of Uncertainty Communication"
 library(kableExtra)
 library(magrittr)
 ptbl <- data.frame(
-  term=c("Almost certain", "Extremely likely", "Very likely", "Likely", "About as likely as", "Unlikely", "Very unlikely", "Extremely unlikely", "Almost impossible"),
+  term=c("Almost certain", "Extremely likely", "Very likely", "Likely", "About as likely as not", "Unlikely", "Very unlikely", "Extremely unlikely", "Almost impossible"),
   range=c("99-100%", "95-99%", "90-95%", "66-90%", "33-66%", "10-33%", "5-10%", "1-5%", "0-1%"),
   addopt=c(rep("More likely than not: >50%", 4), rep(" ", 5)),
   addopt2=rep("Unable to give any probability: range is 0-100%. Report as 'inconclusive', 'cannot conclude' or 'unknown'", 9)
