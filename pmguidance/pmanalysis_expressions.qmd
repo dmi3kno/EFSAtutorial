@@ -32,8 +32,8 @@ Partial quantitative expression requires less information or judgements but may 
 
 *Probability:* Uncertainty about a binary outcome (including the answer to a yes/no question) fully quantified by specifying the probability or approximate probability of both possible outcomes. 
 
-<!-- Changed from bound to interval to avoid confusion with bounded probability -->
-*Probability interval:* Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability.
+*Probability bound:* Uncertainty about a non-variable quantity partially quantified by specifying a bound or range with an accompanying probability or approximate probability. A probability interval, two-sided or one-sided, is according to this definition a probability bound.
+<!-- Added sentence about interval to avoid confusion with bounded probability -->
 
 *Distribution:* Uncertainty about a non-variable quantity fully quantified by specifying the probability of all possible values on a quantitative scale.
 
