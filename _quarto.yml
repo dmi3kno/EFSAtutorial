@@ -89,7 +89,7 @@ website:
     location: navbar
     type: overlay
 execute: 
-  freeze: auto
+  freeze: false
 
 format:
   html:
