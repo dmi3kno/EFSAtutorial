@@ -24,8 +24,8 @@ title: "Guidance on Communication of Uncertainty"
 Use one of the buttons below to proceed to communication checklists!
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[I AM A COMMUNICATOR](comguidance/communicator.qmd){.btn .btn-primary .btn role="button"}
-[I AM AN ASSESSOR](comguidance/assessor.qmd){.btn .btn-primary .btn role="button"}
+[I AM A COMMUNICATOR](comguidance/communicator.qmd){.btn .btn-secondary .btn role="button"}
+[I AM AN ASSESSOR](comguidance/assessor.qmd){.btn .btn-secondary .btn role="button"}
 :::
 
 :::{.callout-tip}

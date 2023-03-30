@@ -26,7 +26,7 @@ ptbl <- data.frame(
 tbl_col_names <- c("Probability term", "Subjective probability range", "Additional options", "")
 ptbl %>% 
   kbl(col.names =tbl_col_names ) %>% 
-  kable_paper(full_width = FALSE) %>%
+  kable_classic(full_width = FALSE) %>%
   column_spec(1:3, width = "10em") %>% 
   collapse_rows(columns = 3:4, valign = "top")
 

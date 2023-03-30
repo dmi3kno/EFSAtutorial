@@ -85,7 +85,9 @@ website:
         - implementation.qmd
         - implementation/implementationmethods.qmd
         - implementation/implementationexpressions.qmd
-
+  search: 
+    location: navbar
+    type: overlay
 execute: 
   freeze: auto
 

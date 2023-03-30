@@ -13,12 +13,10 @@ THIS PAGE IS CURRENTLY UNDER CONSTRUCTION
 
 &nbsp;<br>
 
-![](img/EFSA_logo.svg){.preview-image fig-align="center"}
-
 &nbsp;<br>
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[START HERE](intro.qmd){.btn .btn-primary .btn-lg role="button"}
+[START HERE](intro.qmd){.btn .btn-secondary .btn-lg role="button"}
 :::
 
 &nbsp;<br>

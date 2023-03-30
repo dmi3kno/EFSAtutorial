@@ -214,6 +214,7 @@ When communicating using box or box-and-whisker plots:
 ```{r}
 #| label: fig-boxwhiskers-q8
 #| fig-cap: "Example of a box-and-whiskers plot"
+#| fig-alt: "Figure of box and whiskers plot"
 #| echo: false
 #| warning: false
 #| message: false
@@ -272,6 +273,7 @@ Optional:
 #| warning: false
 #| echo: false
 #| fig-cap: "Example of a PDF graph"
+#| fig-alt: "Example of a PDF graph"
 #| fig-width: 7
 #| fig-height: 5
 #remotes::install_github("dmi3kno/qpd")
@@ -358,6 +360,7 @@ ggplot(cows_df) +
 ```{r}
 #| label: fig-2Dprob-q9
 #| fig-cap: "Example of graphical representation of 2D distribution"
+#| fig-alt: "Example of graphical representation of 2D distribution. Figure showing Carbendazim intake from apples against number of toddler-days per 10000 above the given intake. Both on log10 scale."
 #| fig-width: 7
 #| fig-height: 5
 #| echo: false

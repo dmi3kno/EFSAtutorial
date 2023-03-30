@@ -107,7 +107,7 @@ The recommended approach does not imply a requirement to quantify ‘unknown unk
 Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Common concerns](pmanalysis_concerns.qmd){.btn .btn-primary .btn-lg role="button"}
+[Common concerns](pmanalysis_concerns.qmd){.btn .btn-secondary .btn-lg role="button"}
 :::
 
 # The role of qualitative expressions of uncertainty
