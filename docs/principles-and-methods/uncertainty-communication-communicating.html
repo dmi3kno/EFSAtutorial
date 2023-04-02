@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EFSA Tutorial on Uncertainty - Implementation of uncertainty analysis</title>
+<title>EFSA Tutorial on Uncertainty - Communicating scientific uncertainties</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,13 +62,13 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EFSA Tutorial on Uncertainty</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -77,71 +77,51 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./introduction.html">Introduction</a>
+    <a class="nav-link" href="../introduction.html">Introduction</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./principles-and-methods.html">Principles and Methods</a>
+    <a class="nav-link" href="../principles-and-methods.html">Principles and Methods</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uncertainty-analysis.html">Uncertainty Analysis</a>
+    <a class="nav-link" href="../uncertainty-analysis.html">Uncertainty Analysis</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uncertainty-communication.html">Communication of Uncertainty</a>
+    <a class="nav-link" href="../uncertainty-communication.html">Communication of Uncertainty</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./implementation.html" aria-current="page">Implementation</a>
+    <a class="nav-link" href="../implementation.html">Implementation</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Implementation of uncertainty analysis</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./implementation.html" class="sidebar-item-text sidebar-link active">Implementation of uncertainty analysis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./implementation/implementationmethods.html" class="sidebar-item-text sidebar-link">Methods for Uncertainty Analysis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./implementation/implementationexpressions.html" class="sidebar-item-text sidebar-link">Expressions of Uncertainty</a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#efsas-risk-communication-mandate" id="toc-efsas-risk-communication-mandate" class="nav-link active" data-scroll-target="#efsas-risk-communication-mandate">EFSA’s risk communication mandate</a></li>
+  <li><a href="#risk-perception-and-uncertainty" id="toc-risk-perception-and-uncertainty" class="nav-link" data-scroll-target="#risk-perception-and-uncertainty">Risk perception and uncertainty</a></li>
+  <li><a href="#challenges-of-communicating-uncertainty-in-scientific-assessments" id="toc-challenges-of-communicating-uncertainty-in-scientific-assessments" class="nav-link" data-scroll-target="#challenges-of-communicating-uncertainty-in-scientific-assessments">Challenges of communicating uncertainty in scientific assessments</a></li>
+  <li><a href="#towards-best-practice-for-communicating-uncertainty" id="toc-towards-best-practice-for-communicating-uncertainty" class="nav-link" data-scroll-target="#towards-best-practice-for-communicating-uncertainty">Towards best practice for communicating uncertainty</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Implementation of uncertainty analysis</h1>
+<h1 class="title">Communicating scientific uncertainties</h1>
 </div>
 
 
@@ -155,21 +135,24 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Introduction video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Introduction transcript</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<blockquote class="blockquote">
-<p>[in prep] Introduction to the page. Information about this page collects examples of implementation of the UA and UC GDs. Instructions on how to explore the page. How we have chosen the examples. A reminder that this is an extraction of examples and that there are more on EFSA website.</p>
-</blockquote>
-</div>
-</div>
-</div>
+<section id="efsas-risk-communication-mandate" class="level2">
+<h2 class="anchored" data-anchor-id="efsas-risk-communication-mandate">EFSA’s risk communication mandate</h2>
+<p>The European Food Safety Authority (EFSA) is responsible for providing independent scientific advice, information, and risk communication to improve consumer confidence. The quality, independence, and transparency of EFSA’s scientific advice and information are critical for effective risk communication and ensuring public confidence. EFSA communicates the results of its scientific assessments to decision-makers, stakeholders, and the public at large through various communication channels. To be effective, EFSA’s risk communication must be tailored to the characteristics of the target audience and the perceived sensitivities of the topic.</p>
+</section>
+<section id="risk-perception-and-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="risk-perception-and-uncertainty">Risk perception and uncertainty</h2>
+<p>EFSA’s risk communication plays a crucial role in how audiences perceive the risks and benefits of its assessments, and how they act upon the results. The level of technical knowledge of the target audience affects their understanding of the type and degree of uncertainties identified in the assessment, which is essential for informed decision-making. Communication contextualizes uncertainties in relation to perceived risks, emphasizes the transparency of the process, and explains how scientists can address information gaps in the future. While increased awareness of scientific uncertainties may reduce confidence in decision-making for non-technical audiences, in some cultural contexts, it can increase trust due to greater transparency. The primary roles of risk communication are to contextualize uncertainties, emphasize transparency, and explain how to address information gaps in the future.</p>
+</section>
+<section id="challenges-of-communicating-uncertainty-in-scientific-assessments" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-of-communicating-uncertainty-in-scientific-assessments">Challenges of communicating uncertainty in scientific assessments</h2>
+<p>While there are arguments for and against communicating uncertainty, EFSA sees it as crucial to their mandate of being open and transparent. Communicating uncertainty helps decision-makers make informed decisions and increases transparency in the assessment process. However, communicating uncertainty in qualitative or quantitative terms is equivocal and can be understood differently by different people. EFSA has identified a need to differentiate the level of technicality in communication messages for different target audiences.</p>
+</section>
+<section id="towards-best-practice-for-communicating-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="towards-best-practice-for-communicating-uncertainty">Towards best practice for communicating uncertainty</h2>
+<p>The IPCC recommends reciprocal statements to avoid value-laden interpretations. The European Food Safety Authority (EFSA) conducted two studies to evaluate the understanding and use of different types of uncertainty expressions by different audiences and developed a Companion Guidance document on Communicating Uncertainty in Scientific Assessments to provide practical advice and tools for communicators to explain uncertainty to different target audiences. The Companion Guidance will be implemented simultaneously with the implementation of the Guidance document in EFSA’s scientific assessments.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

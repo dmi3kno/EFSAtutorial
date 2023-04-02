@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EFSA Tutorial on Uncertainty - Implementation of uncertainty analysis</title>
+<title>EFSA Tutorial on Uncertainty - Uncertainty Analysis Guidance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,13 +86,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./principles-and-methods.html">Principles and Methods</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uncertainty-analysis.html">Uncertainty Analysis</a>
+    <a class="nav-link active" href="./uncertainty-analysis.html" aria-current="page">Uncertainty Analysis</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./uncertainty-communication.html">Communication of Uncertainty</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./implementation.html" aria-current="page">Implementation</a>
+    <a class="nav-link" href="./implementation.html">Implementation</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Implementation of uncertainty analysis</h1>
+      <h1 class="quarto-secondary-nav-title">Uncertainty Analysis Guidance</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -116,17 +116,52 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation.html" class="sidebar-item-text sidebar-link active">Implementation of uncertainty analysis</a>
+  <a href="./uncertainty-analysis.html" class="sidebar-item-text sidebar-link active">Uncertainty Analysis Guidance</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation/implementationmethods.html" class="sidebar-item-text sidebar-link">Methods for Uncertainty Analysis</a>
+  <a href="./uncertainty-analysis/identifying.html" class="sidebar-item-text sidebar-link">Identifying uncertainties</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation/implementationexpressions.html" class="sidebar-item-text sidebar-link">Expressions of Uncertainty</a>
+  <a href="./uncertainty-analysis/prioritizing.html" class="sidebar-item-text sidebar-link">Prioritizing uncertainties</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/dividing.html" class="sidebar-item-text sidebar-link">Dividing the assessment into parts</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/well-defined.html" class="sidebar-item-text sidebar-link">Ensuring that the questions or quantities of interest are well-defined</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/characterizing.html" class="sidebar-item-text sidebar-link">Characterising uncertainty for parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/combining.html" class="sidebar-item-text sidebar-link">Combining uncertainty from different parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/overall.html" class="sidebar-item-text sidebar-link">Characterising overall uncertainty</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/future-investigation.html" class="sidebar-item-text sidebar-link">Prioritising uncertainties for future investigation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uncertainty-analysis/reporting.html" class="sidebar-item-text sidebar-link">Reporting uncertainty analysis</a>
   </div>
 </li>
     </ul>
@@ -134,14 +169,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#types-of-assessment" id="toc-types-of-assessment" class="nav-link active" data-scroll-target="#types-of-assessment">Types of assessment</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Implementation of uncertainty analysis</h1>
+<h1 class="title d-none d-lg-block">Uncertainty Analysis Guidance</h1>
 </div>
 
 
@@ -163,13 +204,57 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <blockquote class="blockquote">
-<p>[in prep] Introduction to the page. Information about this page collects examples of implementation of the UA and UC GDs. Instructions on how to explore the page. How we have chosen the examples. A reminder that this is an extraction of examples and that there are more on EFSA website.</p>
+<p>[in prep] Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment.</p>
 </blockquote>
 </div>
 </div>
 </div>
+<section id="types-of-assessment" class="level1">
+<h1>Types of assessment</h1>
+<p>The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand.</p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Text</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<blockquote class="blockquote">
+<p>[In prep] Explanation that to make uncertainty analysis fit for purpose, the UA GD is designed for different types of assessments. Go through the types with associated explanations of what they are and a general outline of the UA for each of them.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p>Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.</p>
+<div id="start-btn" style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;">
+<p><a href="./uncertainty-analysis/figure1.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment.">Standardised Assessments</a> <a href="./uncertainty-analysis/figure5.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches.">Case-specific assessments</a> <br> <br> <a href="./uncertainty-analysis/figure11.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis.">Urgent assessments</a> <a href="./uncertainty-analysis/figure12.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Especially (but not only) those that describe existing standardised procedures or establish new ones.">Development or revision of guidance documents</a></p>
+</div>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Learn more about:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="./uncertainty-analysis/identifying.html">Identifying</a> uncertainties affecting the assessment</li>
+<li><a href="./uncertainty-analysis/prioritizing.html">Prioritising</a> uncertainties within the assessment</li>
+<li><a href="./uncertainty-analysis/dividing.html">Dividing</a> the uncertainty analysis into parts</li>
+<li>Ensuring that the questions or quantities of interest are <a href="./uncertainty-analysis/well-defined.html">well-defined</a>.</li>
+<li><a href="./uncertainty-analysis/characterizing.html">Characterising uncertainty for parts</a> of the uncertainty analysis</li>
+<li><a href="./uncertainty-analysis/combining.html">Combining</a> uncertainty from different parts of the uncertainty analysis</li>
+<li><a href="./uncertainty-analysis/overall.html">Characterising overall uncertainty</a></li>
+<li><a href="./uncertainty-analysis/future-investigation.html">Prioritising uncertainties for future investigation</a>.</li>
+<li><a href="./uncertainty-analysis/reporting.html">Reporting</a> uncertainty analysis</li>
+</ul>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

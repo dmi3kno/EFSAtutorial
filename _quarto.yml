@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "EFSA Tutorial"
+  title: "EFSA Tutorial on Uncertainty"
   page-footer:
     left: "Copyright 2023, EFSA"
     right:
@@ -16,70 +16,70 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Introduction"
-        file: intro.qmd
+        file: introduction.qmd
       - text: "Principles and Methods"
-        file: principles.qmd 
+        file: principles-and-methods.qmd
       - text: "Uncertainty Analysis"
-        file: uncertaintyanalysis.qmd
+        file: uncertainty-analysis.qmd
       - text: "Communication of Uncertainty"
-        file: communication.qmd
+        file: uncertainty-communication.qmd
       - text: "Implementation"
         file: implementation.qmd
 
   sidebar:
     - title: "Principles and Methods"
       contents:
-        - principles.qmd
+        - principles-and-methods.qmd
         - section: "Principles of Uncertainty Analysis"
           contents:
-          - pmguidance/pmanalysis_background.qmd
-          - pmguidance/pmanalysis_expressions.qmd
-          - pmguidance/pmanalysis_keyconcepts.qmd
-          - pmguidance/pmanalysis_mainelements.qmd
-          - pmguidance/pmanalysis_keyprinciples.qmd
+          - principles-and-methods/uncertainty-analysis-background.qmd
+          - principles-and-methods/uncertainty-analysis-expressions.qmd
+          - principles-and-methods/uncertainty-analysis-key-concepts.qmd
+          - principles-and-methods/uncertainty-analysis-main-elements.qmd
+          - principles-and-methods/uncertainty-analysis-key-principles.qmd
         - section: "Principles of Uncertainty Communication"
           contents:
-          - pmguidance/pmcommunication_principles.qmd
-          - pmguidance/pmcommunication_communicating.qmd
-          - pmguidance/pmcommunication_audience.qmd
+          - principles-and-methods/uncertainty-communication-principles.qmd
+          - principles-and-methods/uncertaintu-communication-communicating.qmd
+          - principles-and-methods/uncertainty-communication-audience.qmd
         - section: "Methods for Uncertainty Analysis"
           contents:
-          - pmguidance/methods.qmd
+          - principles-and-methods/methods.qmd
         
     - title: "Uncertainty Analysis"
       contents:
-        - uncertaintyanalysis.qmd
-        - uaguidance/identifying.qmd
-        - uaguidance/prioritizing.qmd
-        - uaguidance/dividing.qmd
-        - uaguidance/welldefined.qmd
-        - uaguidance/characterizing.qmd
-        - uaguidance/combining.qmd
-        - uaguidance/overall.qmd
-        - uaguidance/futureinvestigation.qmd
-        - uaguidance/reporting.qmd
+        - uncertainty-analysis.qmd
+        - uncertainty-analysis/identifying.qmd
+        - uncertainty-analysis/prioritizing.qmd
+        - uncertainty-analysis/dividing.qmd
+        - uncertainty-analysis/well-defined.qmd
+        - uncertainty-analysis/characterizing.qmd
+        - uncertainty-analysis/combining.qmd
+        - uncertainty-analysis/overall.qmd
+        - uncertainty-analysis/future-investigation.qmd
+        - uncertainty-analysis/reporting.qmd
     - title: "Communication of Uncertainty"
       contents:
-        - communication.qmd
+        - uncertainty-communication.qmd
         - section: "Communication Checklists"
           contents:
-          - comguidance/communicator.qmd
-          - comguidance/assessor.qmd
+          - uncertainty-communication/communicator.qmd
+          - uncertainty-communication/assessor.qmd
         - section: "Principles of Uncertainty Communication"
           contents:
-          - pmguidance/pmcommunication_principles.qmd
-          - pmguidance/pmcommunication_communicating.qmd
-          - pmguidance/pmcommunication_audience.qmd
+          - principles-and-methods/pmcommunication-principles.qmd
+          - principles-and-methods/pmcommunication-communicating.qmd
+          - principles-and-methods/pmcommunication-audience.qmd
         - section: "Expressions of Uncertainty"
           contents:
-          - comguidance/expressions_unqualified.qmd
-          - comguidance/expressions_sources.qmd
-          - comguidance/expressions_direction.qmd
-          - comguidance/expressions_inconclusive.qmd
-          - comguidance/expressions_precise.qmd
-          - comguidance/expressions_approximate.qmd
-          - comguidance/expressions_distribution.qmd
-          - comguidance/expressions_2d.qmd
+          - uncertainty-communication/expressions-unqualified.qmd
+          - uncertainty-communication/expressions-sources.qmd
+          - uncertainty-communication/expressions-direction.qmd
+          - uncertainty-communication/expressions-inconclusive.qmd
+          - uncertainty-communication/expressions-precise.qmd
+          - uncertainty-communication/expressions-approximate.qmd
+          - uncertainty-communication/expressions-distribution.qmd
+          - uncertainty-communication/expressions-2d.qmd
     - title: "Implementation"
       contents:
         - implementation.qmd

@@ -1,0 +1,59 @@
+---
+title: "Uncertainty Analysis Guidance"
+---
+
+:::: {.panel-tabset}
+
+## Introduction video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Introduction transcript
+
+> [in prep] Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment. 
+
+::::
+
+
+# Types of assessment
+
+The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. 
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+>[In prep] Explanation that to make uncertainty analysis fit for purpose, the UA GD is designed for different types of assessments. Go through the types with associated explanations of what they are and a general outline of the UA for each of them.
+
+::::
+
+
+Identify which of the following types your assessment most corresponds to and then proceed to the corresponding section for guidance specific to that type.
+
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[Standardised Assessments](uncertainty-analysis/figure1.qmd){.btn .btn-secondary .btn role="button" data-toggle="tooltip" title="A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment."}
+[Case-specific assessments](uncertainty-analysis/figure5.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."}
+</br>
+</br>
+[Urgent assessments](uncertainty-analysis/figure11.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis."}
+[Development or revision of guidance documents](uncertainty-analysis/figure12.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Especially (but not only) those that describe existing standardised procedures or establish new ones."}
+:::
+
+
+:::{.callout-tip}
+## Learn more about:
+
+- [Identifying](uncertainty-analysis/identifying.qmd) uncertainties affecting the assessment
+- [Prioritising](uncertainty-analysis/prioritizing.qmd) uncertainties within the assessment
+- [Dividing](uncertainty-analysis/dividing.qmd) the uncertainty analysis into parts
+- Ensuring that the questions or quantities of interest are [well-defined](uncertainty-analysis/well-defined.qmd).
+- [Characterising uncertainty for parts](uncertainty-analysis/characterizing.qmd) of the uncertainty analysis
+- [Combining](uncertainty-analysis/combining.qmd) uncertainty from different parts of the uncertainty analysis
+- [Characterising overall uncertainty](uncertainty-analysis/overall.qmd)
+- [Prioritising uncertainties for future investigation](uncertainty-analysis/future-investigation.qmd).
+- [Reporting](uncertainty-analysis/reporting.qmd) uncertainty analysis
+:::

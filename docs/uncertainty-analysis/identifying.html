@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EFSA Tutorial on Uncertainty - Methods for Uncertainty Analysis</title>
+<title>EFSA Tutorial on Uncertainty - Identifying uncertainties</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,20 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-<script src="../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
-<link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="../site_libs/datatables-binding-0.27/datatables.js"></script>
-<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../site_libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="../site_libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="../site_libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
-<link href="../site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
-<script src="../site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
-<link href="../site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
-<script src="../site_libs/selectize-0.12.0/selectize.min.js"></script>
-<link href="../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
-<script src="../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
-
 
 </head>
 
@@ -100,13 +86,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../principles-and-methods.html">Principles and Methods</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../uncertainty-analysis.html">Uncertainty Analysis</a>
+    <a class="nav-link active" href="../uncertainty-analysis.html" aria-current="page">Uncertainty Analysis</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../uncertainty-communication.html">Communication of Uncertainty</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../implementation.html" aria-current="page">Implementation</a>
+    <a class="nav-link" href="../implementation.html">Implementation</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -115,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Methods for Uncertainty Analysis</h1>
+      <h1 class="quarto-secondary-nav-title">Identifying uncertainties</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -130,17 +116,52 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../implementation.html" class="sidebar-item-text sidebar-link">Implementation of uncertainty analysis</a>
+  <a href="../uncertainty-analysis.html" class="sidebar-item-text sidebar-link">Uncertainty Analysis Guidance</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../implementation/implementationmethods.html" class="sidebar-item-text sidebar-link active">Methods for Uncertainty Analysis</a>
+  <a href="../uncertainty-analysis/identifying.html" class="sidebar-item-text sidebar-link active">Identifying uncertainties</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../implementation/implementationexpressions.html" class="sidebar-item-text sidebar-link">Expressions of Uncertainty</a>
+  <a href="../uncertainty-analysis/prioritizing.html" class="sidebar-item-text sidebar-link">Prioritizing uncertainties</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/dividing.html" class="sidebar-item-text sidebar-link">Dividing the assessment into parts</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/well-defined.html" class="sidebar-item-text sidebar-link">Ensuring that the questions or quantities of interest are well-defined</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/characterizing.html" class="sidebar-item-text sidebar-link">Characterising uncertainty for parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/combining.html" class="sidebar-item-text sidebar-link">Combining uncertainty from different parts of the uncertainty analysis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/overall.html" class="sidebar-item-text sidebar-link">Characterising overall uncertainty</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/future-investigation.html" class="sidebar-item-text sidebar-link">Prioritising uncertainties for future investigation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../uncertainty-analysis/reporting.html" class="sidebar-item-text sidebar-link">Reporting uncertainty analysis</a>
   </div>
 </li>
     </ul>
@@ -148,14 +169,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#standard-and-non-standard-uncertainties" id="toc-standard-and-non-standard-uncertainties" class="nav-link active" data-scroll-target="#standard-and-non-standard-uncertainties">Standard and non-standard uncertainties</a></li>
+  <li><a href="#procedure-for-identifying-uncertainties" id="toc-procedure-for-identifying-uncertainties" class="nav-link" data-scroll-target="#procedure-for-identifying-uncertainties">Procedure for identifying uncertainties</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Methods for Uncertainty Analysis</h1>
+<h1 class="title d-none d-lg-block">Identifying uncertainties</h1>
 </div>
 
 
@@ -169,29 +197,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="cell">
-
-</div>
-<p>Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:</p>
-<ul>
-<li>Title</li>
-<li>DOI</li>
-<li>Panel</li>
-<li>Expression of uncertainty (from the nine expressions)</li>
-<li>Quantitative method for uncertainty analysis</li>
-<li>Qualitative method for uncertainty analysis</li>
-<li>Description</li>
-</ul>
-<p>The dataframe below is provided as a placeholder.</p>
-<div class="cell">
-<div class="cell-output-display">
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fff5ff21c00e84d8e78f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-fff5ff21c00e84d8e78f">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"10.4\" data-max=\"33.9\" data-scale=\"1\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"4\" data-max=\"8\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"71.1\" data-max=\"472\" data-scale=\"1\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"52\" data-max=\"335\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"2.76\" data-max=\"4.93\" data-scale=\"2\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;automatic&quot;,&quot;manual&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"],[21,21,22.8,21.4,18.7,18.1,14.3,24.4,22.8,19.2,17.8,16.4,17.3,15.2,10.4,10.4,14.7,32.4,30.4,33.9,21.5,15.5,15.2,13.3,19.2,27.3,26,30.4,15.8,19.7,15,21.4],[6,6,4,6,8,6,8,4,4,6,6,8,8,8,8,8,8,4,4,4,4,8,8,8,8,4,4,4,8,6,8,4],[160,160,108,258,360,225,360,146.7,140.8,167.6,167.6,275.8,275.8,275.8,472,460,440,78.7,75.7,71.1,120.1,318,304,350,400,79,120.3,95.1,351,145,301,121],[110,110,93,110,175,105,245,62,95,123,123,180,180,180,205,215,230,66,52,65,97,150,150,245,175,66,91,113,264,175,335,109],[3.9,3.9,3.85,3.08,3.15,2.76,3.21,3.69,3.92,3.92,3.92,3.07,3.07,3.07,2.93,3,3.23,4.08,4.93,4.22,3.7,2.76,3.15,3.73,3.08,4.08,4.43,3.77,4.22,3.62,3.54,4.11],["manual","manual","manual","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","automatic","manual","manual","manual","automatic","automatic","automatic","automatic","automatic","manual","manual","manual","manual","manual","manual","manual"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>model<\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>am<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"search":{"regex":true,"caseInsensitive":false,"search":"M[ae]"},"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5]}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="standard-and-non-standard-uncertainties" class="level2">
+<h2 class="anchored" data-anchor-id="standard-and-non-standard-uncertainties">Standard and non-standard uncertainties</h2>
+<ol type="1">
+<li><p>Standard uncertainties are those that are considered (implicitly or explicitly) to be addressed by the provisions of a standardised procedure or standardised assessment element. For example, uncertainties due to within and between species differences in toxicity are often addressed by a default factor of 100 in chemical risk assessment.</p></li>
+<li><p>All other uncertainties are non-standard uncertainties. These include any deviations from a standardised procedure or standardised assessment element that lead to uncertainty regarding the result of the procedure.</p></li>
+</ol>
+<p>Both standard and non-standard uncertainties may be found in any type of assessment, but the proportions vary. It is recommended that EFSA’s Panels include lists of standard uncertainties within the documentation for standard procedures, as this will help assessors to distinguish standard and non-standard uncertainties.</p>
+</section>
+<section id="procedure-for-identifying-uncertainties" class="level2">
+<h2 class="anchored" data-anchor-id="procedure-for-identifying-uncertainties">Procedure for identifying uncertainties</h2>
+<ol type="1">
+<li>Every assessment must say what sources of uncertainty have been identified.</li>
+<li>Assessors should systematically examine every part of their assessment for uncertainties, including both the inputs to the assessment (e.g.&nbsp;data, estimates, other evidence) and the methods used in the assessment (e.g.&nbsp;statistical methods, calculations or models, reasoning, expert judgement), to minimise the risk that important uncertainties are overlooked.</li>
+<li>Uncertainties affecting assessment inputs are identified when appraising the evidence retrieved from literature or from existing databases.</li>
+<li>Uncertainties affecting the methods used in the assessment are generally not addressed by existing frameworks for evidence appraisal. It is therefore recommended that assessors use the right column of Table 1 (referring to [SO8.1] for details and explanation) as a guide to what types of uncertainty to look for in the methods of their assessment.</li>
+<li>Assessors are advised to avoid spending excessive time trying to match uncertainties to the types listed in Table 1 or other frameworks: the purpose of the lists is to facilitate identification of uncertainties, not to classify them.</li>
+<li>Assessors should determine which of the uncertainties they identify in an assessment are standard and which are non-standard (Section 7.1), as this will affect their treatment in subsequent stages of the uncertainty analysis.</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

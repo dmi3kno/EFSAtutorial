@@ -1,0 +1,29 @@
+---
+title: "Approximate probability"
+---
+
+# Communicating uncertainty in the answer to a Yes/No question by an approximate probability 
+
+Any range of probabilities (e.g. 10–20% probability) providing an approximate quantification of likelihood for either:
+  - A specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question) 
+  - A specified quantity lying in a specified range of values, or above or below a specified value (e.g. 1–10% probability that more than 100 infected organisms will enter the EU in 2019)
+
+> The probability ranges used in EFSA’s [approximate probability scale](../principles-and-methods/uncertainty-communication-principles.qmd#tbl-approx-probscale) are examples of approximate probability expressions. Assessors are not restricted to the ranges in the approximate probability scale and should use whatever ranges best reflect their judgement of the uncertainty (see [UA](https://doi.org/10.2903/j.efsa.2018.5123))
+
+:::: {.panel-tabset}
+
+## Video
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+
+## Text
+
+> Remind that implementing UA GD results in different expressions of uncertainty, where approximate probability is one of them. Explain what is an approx prob. Give examples when used. Go through some of the recommendations given by the UC GD. 
+
+::::
+
+
+
+
+
+
