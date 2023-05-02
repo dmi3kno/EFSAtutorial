@@ -40,7 +40,7 @@ website:
         - section: "Principles of Uncertainty Communication"
           contents:
           - principles-and-methods/uncertainty-communication-principles.qmd
-          - principles-and-methods/uncertaintu-communication-communicating.qmd
+          - principles-and-methods/uncertainty-communication-communicating.qmd
           - principles-and-methods/uncertainty-communication-audience.qmd
         - section: "Methods for Uncertainty Analysis"
           contents:
