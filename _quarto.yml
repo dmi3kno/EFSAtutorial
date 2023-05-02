@@ -67,9 +67,9 @@ website:
           - uncertainty-communication/assessor.qmd
         - section: "Principles of Uncertainty Communication"
           contents:
-          - principles-and-methods/pmcommunication-principles.qmd
-          - principles-and-methods/pmcommunication-communicating.qmd
-          - principles-and-methods/pmcommunication-audience.qmd
+          - principles-and-methods/uncertainty-communication-principles.qmd
+          - principles-and-methods/uncertainty-communication-communicating.qmd
+          - principles-and-methods/uncertainty-communication-audience.qmd
         - section: "Expressions of Uncertainty"
           contents:
           - uncertainty-communication/expressions-unqualified.qmd
