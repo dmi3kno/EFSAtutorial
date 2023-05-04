@@ -200,7 +200,7 @@
     "href": "uncertainty-communication/expressions-distribution.html",
     "title": "Probability distribution",
     "section": "",
-    "text": "A graph showing probabilities for different values of an uncertain quantity that has a single true value (e.g. the average exposure for a population). The graph can be plotted in various formats, most commonly a probability density function (PDF), cumulative distribution function (CDF) or complementary cumulative distribution function (CCDF) (see Section 4.1.4.2 in UC)\n\nVideoText\n\n\n\n\n\n\nRemind that implementing UA GD results in different expressions of uncertainty, where a probability distribution is one of them. Explain what is a probability distribution. Give examples when used. Go through some of the recommendations given by the UC GD."
+    "text": "A graph showing probabilities for different values of an uncertain quantity that has a single true value (e.g. the average exposure for a population). The graph can be plotted in various formats, most commonly a probability density function (PDF), cumulative distribution function (CDF) or complementary cumulative distribution function (CCDF) (see Section 4.1.4.2 in UC)\n\n\n\n\n\n\nVideoText\n\n\n\n\n\n\n\nRemind that implementing UA GD results in different expressions of uncertainty, where a probability distribution is one of them. Explain what is a probability distribution. Give examples when used. Go through some of the recommendations given by the UC GD."
   },
   {
     "objectID": "uncertainty-communication/expressions-2d.html",

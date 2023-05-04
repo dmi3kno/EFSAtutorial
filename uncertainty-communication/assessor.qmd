@@ -315,7 +315,7 @@ ggplot(cows_df) +
      width = 10), size=3)+
   theme_minimal()+
   coord_cartesian(xlim = c(0,100),ylim=c(0,0.07))+
-  labs(y="Probability density (relative likelihodd",
+  labs(y="Probability density (relative likelihood",
        x="Average number of pregnant cows, per 100 slaughtered")+
   theme(axis.text.y = element_blank())
   
