@@ -2,7 +2,7 @@
 title: "Sources of uncertainty"
 ---
 
-# Communicating a list of sources of uncertainty 
+## Communicating a list of sources of uncertainty 
 
 Verbal description of a source or cause of uncertainty. In some areas of EFSA’s work, there are standard terminologies for describing some types of uncertainties, but often descriptions are specific to the assessment in hand (see [SO](https://doi.org/10.2903/j.efsa.2018.5122))
 
@@ -10,18 +10,42 @@ Verbal description of a source or cause of uncertainty. In some areas of EFSA’
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_SU_ListSourcesUncertainty" src="https://lu.instructuremedia.com/embed/59e17fb5-8221-47f7-b9de-23c38fc55652" frameborder="0"></iframe>
 
 ## Text
 
-> Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g. those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD. 
+Uncertainty analysis is part of scientific assessment, so in all cases, it should be reported in a manner consistent with EFSA’s general principles regarding transparency and reporting.
+ 
+The simplest uncertainty analysis consists of two steps. The first is to identify sources of uncertainty. The second step is to evaluate their combined impact on the answer to the assessment question (SO 3.1). 
+ 
+In particular, it is important to list the sources of uncertainty that have been identified. 
+ 
+Sources of uncertainty (or uncertainties) are associated with inputs to an assessment (such as data or estimates) as well as the methodology used to process this input to reach a conclusion (such as statistical models, calculations or expert judgment). 
+ 
+Check with your EFSA Panel for a list of sources of uncertainty which are encountered regularly in their work. 
+ 
+Ensure that the reporting of the assessment includes all sources of uncertainty that you have identified. 
+ 
+Here it is important to distinguish between “additional uncertainties”, i.e. sources of uncertainty that are only taken into account at the last step for the assessment of overall uncertainty
+ 
+and 
+ 
+“unquantified uncertainties”, i.e. identified sources of uncertainty that the assessors are unable to include, or choose not to include, in the assessment of overall uncertainty.  
+ 
+If you are doing a standard assessment, uncertainties are divided into standard and non-standard uncertainties. The standard uncertainties are reported in the guidance for the standard assessment. Pay extra attention to identifying and reporting any non-standard uncertainties, because they are required to be listed in the standardised assessments. 
+ 
+On this page you can find some suggestions for the sources of uncertainty, but the list is by no means exhaustive. The guidance document suggests that you might want to organise the sources of uncertainty in the table to make it easier for you and your readers to have an overview of them. 
+ 
+Sources of uncertainty can be integrated with tables for evidence, data or model outputs to support the characterisation of overall uncertainty.
 
 ::::
 
-# Generic list of common types of uncertainty affecting scientific assessments
+## Generic list of common types of uncertainty affecting scientific assessments
+
+Uncertainties associated with:
 
 :::: {.panel-tabset}
-## Uncertainties associated with assessment inputs
+## Assessment inputs
 - Ambiguity 
 - Accuracy and precision of the measures 
 - Sampling uncertainty 
@@ -32,7 +56,7 @@ Verbal description of a source or cause of uncertainty. In some areas of EFSA’
 - Extrapolation uncertainty (i.e. limitations in external validity) 
 - Other uncertainties
 
-## Uncertainties associated with assessment methodology
+## Assessment methodology
 - Ambiguity 
 - Excluded factors 
 - Distributional assumptions 

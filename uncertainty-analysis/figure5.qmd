@@ -2,15 +2,59 @@
 title: "Uncertainty analysis for case-specific assessments"
 ---
 
+## Introduction to case-specific assessments
+
 :::: {.panel-tabset}
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_CA1_IntroCaseSpecific" src="https://lu.instructuremedia.com/embed/80fa6da7-ee3a-4088-a89c-6056079f4578" frameborder="0"></iframe>
 
 ## Text
 
-> [In prep] Reminder that the UA GD is designed for different types of assessments, where case-specific is one of them. Give a general outline of the UA process for a case-specific assessment, including options to break into parts before combining. 
+The Guidance on uncertainty analysis covers different types of assessment. 
+
+A case-specific assessment is needed when there is no standardised procedure for the type of assessment at hand, so the assessors have to develop a customized assessment plan. 
+
+Certain standardised elements such as, for example, default values, may be used for some parts of the assessment. But for other parts, case-specific approaches may be required. 
+
+In case-specific assessments, the approach to uncertainty analysis should be considered from the very start, as part of assessment planning phase.
+
+The uncertainty analysis should start at the level that is appropriate to the assessment in hand. For assessments where data for quantifying uncertainty is available or where suitable quantitative methods are established, they may be included in the initial assessment. Otherwise, it may be best to start with a simple approach, unless it is evident at the outset that more complex approaches are needed. 
+
+The first step is uncertainty identification. Try to search for uncertainties systematically in all parts of your assessment.
+
+When this is done, you can proceed to assessing the identified uncertainties, preferably step by step, by dividing the uncertainty analysis into convenient parts, or collectively in a single step. 
+
+If you decide to divide the uncertainty analysis into parts, you should think about the question or quantity of interest for each part, and an appropriate conceptual model for combining the parts.
+If you decide to handle all uncertainties in a single step, you will be doing the characterisation of overall uncertainty. 
+
+These options allow uncertainty analysis to be implemented at different level of detail or for refinement suitable for different timescales and levels of resource.
+
+::::
+
+
+
+## Options for case-specific assessment
+
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_CA2_OptionsCaseSpecific" src="https://lu.instructuremedia.com/embed/4d7e6fe4-0f45-431a-81e5-c5f6fd42dc4a" frameborder="0"></iframe>
+
+## Text
+
+Guidance for handling the overall uncertainty in one step or by breaking the assessment into parts is provided by the series of flowcharts. When following the flowcharts, see
+if all parts of an assessment relate to yes/no questions
+if there are parts relating to variable quantities 
+and what expression of uncertainty that is used. 
+
+In all cases, the characterisation of overall uncertainty must integrate the contributions of identified sources of uncertainties that have been expressed in different ways.
+
+A case-specific uncertainty analysis should be refined as far as is needed to inform decision-making. This point is reached either when there is sufficient certainty about the question or quantity of interest for the decision-makers to make a decision with the level of certainty they require, or if it becomes apparent that achieving the desired level of uncertainty is unfeasible or too costly and the decision-makers decide instead to manage the uncertainty without further refinement of the analysis. 
+
+We recommend familiarising yourself with the flowcharts by clicking on them in the tutorial. Note that there is more detailed information in the guidance for uncertainty analysis in the text and footnotes accompanying each flowchart.
 
 ::::
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,12 +12,12 @@
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: 1;}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -68,148 +68,177 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EFSA Tutorial on Uncertainty</span>
-  </a>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">Home</a>
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../introduction.html">Introduction</a>
+    <a class="nav-link" href="../introduction.html" rel="" target="">
+ <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../principles-and-methods.html">Principles and Methods</a>
+    <a class="nav-link" href="../principles-and-methods.html" rel="" target="">
+ <span class="menu-text">Principles and Methods</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../uncertainty-analysis.html">Uncertainty Analysis</a>
+    <a class="nav-link" href="../uncertainty-analysis.html" rel="" target="">
+ <span class="menu-text">Uncertainty Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../uncertainty-communication.html" aria-current="page">Communication of Uncertainty</a>
+    <a class="nav-link active" href="../uncertainty-communication.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Communication of Uncertainty</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../implementation.html">Implementation</a>
+    <a class="nav-link" href="../implementation.html" rel="" target="">
+ <span class="menu-text">Implementation</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Sources of uncertainty</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../uncertainty-communication/expressions-unqualified.html">Expressions of Uncertainty</a></li><li class="breadcrumb-item"><a href="../uncertainty-communication/expressions-sources.html">Sources of uncertainty</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication.html" class="sidebar-item-text sidebar-link">Guidance on Communication of Uncertainty</a>
+  <a href="../uncertainty-communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Guidance on Communication of Uncertainty</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Communication Checklists</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Communication Checklists</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/communicator.html" class="sidebar-item-text sidebar-link">for Communicators</a>
+  <a href="../uncertainty-communication/communicator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">for Communicators</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/assessor.html" class="sidebar-item-text sidebar-link">for Assessors</a>
+  <a href="../uncertainty-communication/assessor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">for Assessors</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Principles of Uncertainty Communication</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Principles of Uncertainty Communication</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../principles-and-methods/uncertainty-communication-principles.html" class="sidebar-item-text sidebar-link">Principles of Uncertainty Communication</a>
+  <a href="../principles-and-methods/uncertainty-communication-principles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Principles of Uncertainty Communication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../principles-and-methods/uncertainty-communication-communicating.html" class="sidebar-item-text sidebar-link">Communicating scientific uncertainties</a>
+  <a href="../principles-and-methods/uncertainty-communication-communicating.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Communicating scientific uncertainties</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../principles-and-methods/uncertainty-communication-audience.html" class="sidebar-item-text sidebar-link">Proper audience targeting</a>
+  <a href="../principles-and-methods/uncertainty-communication-audience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proper audience targeting</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Expressions of Uncertainty</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Expressions of Uncertainty</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-unqualified.html" class="sidebar-item-text sidebar-link">Unqualified conclusion</a>
+  <a href="../uncertainty-communication/expressions-unqualified.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unqualified conclusion</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-sources.html" class="sidebar-item-text sidebar-link active">Sources of uncertainty</a>
+  <a href="../uncertainty-communication/expressions-sources.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Sources of uncertainty</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-direction.html" class="sidebar-item-text sidebar-link">Description of the direction</a>
+  <a href="../uncertainty-communication/expressions-direction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Description of the direction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-inconclusive.html" class="sidebar-item-text sidebar-link">Inconclusive assessment</a>
+  <a href="../uncertainty-communication/expressions-inconclusive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inconclusive assessment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-precise.html" class="sidebar-item-text sidebar-link">Precise probability</a>
+  <a href="../uncertainty-communication/expressions-precise.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Precise probability</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-approximate.html" class="sidebar-item-text sidebar-link">Approximate probability</a>
+  <a href="../uncertainty-communication/expressions-approximate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Approximate probability</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-distribution.html" class="sidebar-item-text sidebar-link">Probability distribution</a>
+  <a href="../uncertainty-communication/expressions-distribution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probability distribution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../uncertainty-communication/expressions-2d.html" class="sidebar-item-text sidebar-link">Two-dimensional probability distribution</a>
+  <a href="../uncertainty-communication/expressions-2d.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Two-dimensional probability distribution</span></a>
   </div>
 </li>
       </ul>
@@ -217,6 +246,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -233,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Sources of uncertainty</h1>
+<h1 class="title">Sources of uncertainty</h1>
 </div>
 
 
@@ -241,33 +271,45 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<section id="communicating-a-list-of-sources-of-uncertainty" class="level1">
-<h1>Communicating a list of sources of uncertainty</h1>
+<section id="communicating-a-list-of-sources-of-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="communicating-a-list-of-sources-of-uncertainty">Communicating a list of sources of uncertainty</h2>
 <p>Verbal description of a source or cause of uncertainty. In some areas of EFSA’s work, there are standard terminologies for describing some types of uncertainties, but often descriptions are specific to the assessment in hand (see <a href="https://doi.org/10.2903/j.efsa.2018.5122">SO</a>)</p>
-<div class="panel-tabset">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Text</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_SU_ListSourcesUncertainty" src="https://lu.instructuremedia.com/embed/59e17fb5-8221-47f7-b9de-23c38fc55652" frameborder="0">
+</iframe>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<blockquote class="blockquote">
-<p>Explain that implementing UA GD implies identifying sources of uncertainty and therefore it can be useful to list them in the assessment. Describe different ways to list sources of uncertainty, e.g.&nbsp;those that have been considered and those that have not been considered. Go through some of the recommendations given by the UC GD.</p>
-</blockquote>
+<p>Uncertainty analysis is part of scientific assessment, so in all cases, it should be reported in a manner consistent with EFSA’s general principles regarding transparency and reporting.</p>
+<p>The simplest uncertainty analysis consists of two steps. The first is to identify sources of uncertainty. The second step is to evaluate their combined impact on the answer to the assessment question (SO 3.1).</p>
+<p>In particular, it is important to list the sources of uncertainty that have been identified.</p>
+<p>Sources of uncertainty (or uncertainties) are associated with inputs to an assessment (such as data or estimates) as well as the methodology used to process this input to reach a conclusion (such as statistical models, calculations or expert judgment).</p>
+<p>Check with your EFSA Panel for a list of sources of uncertainty which are encountered regularly in their work.</p>
+<p>Ensure that the reporting of the assessment includes all sources of uncertainty that you have identified.</p>
+<p>Here it is important to distinguish between “additional uncertainties”, i.e.&nbsp;sources of uncertainty that are only taken into account at the last step for the assessment of overall uncertainty</p>
+<p>and</p>
+<p>“unquantified uncertainties”, i.e.&nbsp;identified sources of uncertainty that the assessors are unable to include, or choose not to include, in the assessment of overall uncertainty.</p>
+<p>If you are doing a standard assessment, uncertainties are divided into standard and non-standard uncertainties. The standard uncertainties are reported in the guidance for the standard assessment. Pay extra attention to identifying and reporting any non-standard uncertainties, because they are required to be listed in the standardised assessments.</p>
+<p>On this page you can find some suggestions for the sources of uncertainty, but the list is by no means exhaustive. The guidance document suggests that you might want to organise the sources of uncertainty in the table to make it easier for you and your readers to have an overview of them.</p>
+<p>Sources of uncertainty can be integrated with tables for evidence, data or model outputs to support the characterisation of overall uncertainty.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="generic-list-of-common-types-of-uncertainty-affecting-scientific-assessments" class="level1">
-<h1>Generic list of common types of uncertainty affecting scientific assessments</h1>
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Uncertainties associated with assessment inputs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Uncertainties associated with assessment methodology</a></li></ul>
+<section id="generic-list-of-common-types-of-uncertainty-affecting-scientific-assessments" class="level2">
+<h2 class="anchored" data-anchor-id="generic-list-of-common-types-of-uncertainty-affecting-scientific-assessments">Generic list of common types of uncertainty affecting scientific assessments</h2>
+<p>Uncertainties associated with:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Assessment inputs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Assessment methodology</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <ul>
@@ -331,9 +373,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -345,7 +401,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -374,31 +447,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
       // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href');
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -406,6 +583,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, EFSA</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

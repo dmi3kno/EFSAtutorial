@@ -2,19 +2,81 @@
 title: "Characterising overall uncertainty"
 ---
 
+## Uncertainty and roles when characterising it
 
 :::: {.panel-tabset}
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_OU1_IntroToOverallUncertainty" src="https://lu.instructuremedia.com/embed/a7172173-8c73-4826-9f02-30bab81e5f3a" frameborder="0"></iframe>
 
 ## Text
 
->[In prep] Explanation of what is meant by an AOU and what role it plays in a UA
+Uncertainty refers to all types of limitations in available knowledge that affect the answer to an assessment question. 
+
+Implementing uncertainty analysis implies that the scientific assessment must say what sources of uncertainty have been identified and characterise their overall impact on the assessment conclusion. 
+
+Overall uncertainty is in the EFSA guidance for uncertainty analysis referred to as the assessors’ uncertainty about the question, or quantity of interest at the time of reporting, taking account of the combined effect of all sources of uncertainty identified by the assessors as being relevant to the assessment. 
+
+The overall uncertainty must be reported clearly and unambiguously, in a form compatible with the requirements of decision-makers and any legislation applicable to the assessment at hand. 
+
+All EFSA scientific assessments require at least a basic analysis of uncertainty since uncertainty is an inherent component of scientific assessment and it is important to reflect it in the conclusions to allow risk managers to make informed decisions
+
+Assessors, not risk managers, are responsible for assessing the impact of uncertainties on EFSA conclusions. This view is adopted from the basic principles for addressing uncertainty in risk analysis as stated in the Codex Working Principles for Risk Analysis: 
+
+- Constraints, uncertainties and assumptions having an impact on the risk assessment should be explicitly considered at each step in the risk assessment and documented in a transparent manner by the risk assessors
+- Responsibility for resolving the impact of uncertainty on the risk management decision lies with the risk manager, not the risk assessors. 
+
+This division is rational: assessing scientific uncertainty requires scientific expertise, while resolving the impact of uncertainty on decision-making involves weighing the scientific assessment against other considerations. 
+
+When producing the Guidance for Uncertainty Analysis, the Scientific Committee considered arguments that uncertainty analysis is not relevant for some types of assessment but then concluded that it applies to all EFSA scientific assessments. You can read more about this in section 1.4 in the supporting opinion. 
 
 ::::
 
+## Assessment of Overall Uncertainty
 
-More text to be added here
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_OU2_AssessmentOverallUncertainty" src="https://lu.instructuremedia.com/embed/ac0b6040-d74d-478c-9a76-b01a6ecacc7c" frameborder="0"></iframe>
+
+## Text
+
+So how is overall uncertainty assessed? 
+
+The guidance includes tiered options for quantifying overall uncertainty, from simple to refined.
+
+In some assessments, it may be sufficient to characterise overall uncertainty for the whole assessment directly. This is done by expert judgement. 
+
+In other cases, it may be preferable to evaluate uncertainty for some or all parts of the assessment separately and then combine them. This can be done by calculation or by expert judgement. 
+
+Assessing overall uncertainty directly is sometimes the quickest, least complex, and most approximate option. The other alternative, to assess overall uncertainty by breaking the assessment into parts and then combine them is sometimes more complex and take more time, but is on the other hand more reliable. 
+
+In practice, even when statistical and mathematical models are used, there will nearly always be some additional uncertainties that need to be taken into account when assessing overall uncertainty. This is done by expert judgement. 
+
+Note that it might happen, that assessors judge all additional sources of uncertainty would make no difference. In that case, the basis for that judgement must be documented and justified.
+
+When assessors are unable to quantify some of the identified uncertainties affecting an assessment, it is essential that they describe them qualitatively and report this together with their quantitative expression of overall uncertainty, as the latter will then be conditional on assumptions made in the assessment regarding the sources of uncertainty that were not quantified.
+
+All the flow charts in the Guidance include an assessment of overall uncertainty as a necessary step in all types of assessment, except for standard assessments with no non-standard uncertainties. 
+
+Assessors should always try to express overall uncertainty quantitatively. The reason is that it avoids the ambiguity of qualitative expression and therefore provides better information for decision-making. (SO 4.2, SO 5.11))
+
+The Guidance recognises that firm conclusions (without probabilities) are required in some types of assessment and describes how to assess overall uncertainty in this case.
+
+The GD includes practical advice for quantifying overall uncertainty (UA GD 16.1])
+
+The conclusion is conditional on any sources of uncertainty that have and have not been included in the quantification of overall uncertainty. 
+
+Conditionality has important implications for decision-making, because it means the assessment conclusion is valid only if the assumptions on which it is conditional are valid.
+It is therefore important to report clearly what sources of uncertainty that have - and have not - been taken into account, and what assumptions are made about those that have not been quantified.
+
+Note that, non-identified sources of uncertainty, or so-called ‘unknown unknowns’, are outside the scope of EFSA uncertainty analysis.
+
+We hope this introduction was helpful and that you get the chance to characterise overall uncertainty in a near future!
+
+
+::::
+
 

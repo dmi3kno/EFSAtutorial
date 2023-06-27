@@ -4,6 +4,7 @@ title: "Standardized Assessments"
 
 ## Assessing non-standard uncertainties for separate parts of the uncertainty analysis using probabilities or distributions
 
+
 :::{.column-page-inset}
 ```{mermaid}
 %%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
@@ -25,3 +26,73 @@ flowchart TB
   class A,Z dark
 ```
 :::
+
+## Options for combining non-standard uncertainties in a standard assessment
+
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_SA2_CombiningNonStandardUncertainties" src="https://lu.instructuremedia.com/embed/87845c5a-b0a2-4c79-91b0-6722ae9a827d" frameborder="0"></iframe>
+
+## Text
+
+The simplest, but also most approximate, option is to evaluate the combined impact of the non-standard uncertainties collectively. This is feasible when there are few uncertainties to consider in the assessment of overall uncertainty. 
+
+In this case, the procedure is to 
+Define the question or quantity of interest. 
+Decide how to express the uncertainty.
+Elicit a probability judgement for the overall uncertainty.
+Check for and describe any unquantified uncertainties.
+Report conclusion in form needed by decision-makers and provide a detailed analysis in opinion or annex.
+
+When there are several non-standard uncertainties related to different parts of an assessment, the guidance recommends to 
+assess non-standard uncertainties for different parts of the uncertainty analysis separately using probability bounds.
+Specifically, the approach is to
+Divide the uncertainty analysis into convenient parts 
+define the question or quantity of interest for each part 
+and an appropriate calculation for combining the parts.
+Elicit probability bounds for each part and combine probability bounds by calculation.
+Take account of the contribution of any additional uncertainties
+Check for and describe any unquantified uncertainties
+
+Then the assessors should ask if the result is expected to be sufficient for decision-making. 
+
+If yes, no further uncertainty analysis is required. 
+
+If the result is not expected to be sufficient for decision making, make a more refined characterisation of uncertainty. Go back to some or all parts of the assessment, and either elicit refined probability bounds or 
+assess non-standard uncertainties for separate parts of the uncertainty analysis using probabilities or distributions instead. 
+The latter option requires fully specified probabilities, distributions and dependencies, and more complex calculations, but usually decreases uncertainty about the answer to the question of interest.
+
+
+::::
+
+
+## Communication of a standard assessment
+
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_SA3_CommStandardAssessment" src="https://lu.instructuremedia.com/embed/8bd5490b-c048-4bc6-9ab9-4ce4e0f1b917" frameborder="0"></iframe>
+
+## Text
+
+When the uncertainty analysis is complete, assessors should report the conclusion in the form needed by decision-makers and provide a detailed analysis in the opinion or as an appendix or annex, including a list of all the non-standard uncertainties that were identified.
+
+There is explicit guidance for communicators on how to communicate information about uncertainty in assessments using standardised procedures, for example in EFSA press releases or social media outputs. 
+
+If the scientific assessment did not identify any non-standard uncertainties - report the conclusion as expressed by assessors and state that a standardised assessment procedure was followed that takes account of standard uncertainties, and no non-standard uncertainties were identified.
+
+If the scientific assessment identified any non-standard uncertainties - report as an unqualified conclusion (if that is required) or state the result of the standardised procedure in the form expressed by the assessors.
+
+Mention the identified non-standard uncertainties in the report. 
+
+This was all for now about the steps of a standard assessment. 
+
+Note that there is more detailed information in the guidance for uncertainty analysis in the text and footnotes accompanying each flowchart.
+
+::::
+
+
+

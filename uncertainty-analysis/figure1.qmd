@@ -2,15 +2,36 @@
 title: "Uncertainty analysis for standardised assessments"
 ---
 
+## Introduction to standardised assessments
+
 :::: {.panel-tabset}
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_SA1_IntroStandardAssessment" src="https://lu.instructuremedia.com/embed/da685799-fd51-4f4e-aaca-41f112af2d06" frameborder="0"></iframe>
 
 ## Text
 
->[In prep] Reminder that the UA GD is designed for different types of assessments, where the standard is one of them. Give a general outline of the UA process for a standard assessment. 
+The Guidance on uncertainty analysis is designed for different types of assessment. 
+
+A standard assessment follows a procedure that specifies every step of assessment for a specified class or products or problems, and is accepted by assessors and decision-makers as providing an appropriate basis for decision-making. 
+
+A standard assessment is judged (implicitly or explicitly) to be sufficiently conservative, providing adequate cover for the standard source of uncertainty affecting the assessment.
+
+For example, uncertainties due to within and between species differences in toxicity are often addressed by a default factor of 100 in chemical risk assessment.
+
+Most standardised procedures involve deterministic calculations using a combination of standard study data, default assessment factors and default values.
+
+Standard sources of uncertainty should in principle have been identified when developing a standard procedure, together with criteria to evaluate when uncertainties are standard. 
+
+An uncertainty analysis for a standard procedure starts with Checking for non-standard uncertainties.
+
+This is done by checking every part of assessment for non-standard uncertainties and listing those identified.
+
+If no non-standard uncertainties are identified - the assessors should document in the opinion that non-standard uncertainties were checked for and none were identified. In this case, no further analysis of the uncertainties is needed.
+
+If one or more non-standard uncertainties are identified, their impact on the final conclusions will have to be assessed. 
+
 
 ::::
 

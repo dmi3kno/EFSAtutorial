@@ -4,26 +4,24 @@ title: "Introduction"
 
 :::: {.panel-tabset}
 
-## Introduction video
+## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_Introduction" src="https://lu.instructuremedia.com/embed/f77815e9-1688-4f1c-a44a-7d0924fabcde" frameborder="0"></iframe>
 
-## Introduction transcript
+## Text
 
-
-[in prep] 
 Welcome to this tutorial on how to identify, characterize and communicate uncertainty in EFSA’s scientific assessments.
 
-Consideration of scientific uncertainty has always been a part of EFSA’s assessments. According to the EFSA's risk assesment process, scientists are required to identify and characterize uncertainites and explain what they mean for the assessment conclusions. The EFSA guidance on uncertainty analysis provides clarity on how to perform it in a structured, transparent and unambiguous way. This tutorial aims to enhance understanding and enable practical implementation of two guidance documents: the Guidance on Uncertainty Analysis in Scientific Assessment and the Guidance on Communication of Uncertainty. 
+Consideration of uncertainty has always been a part of EFSA’s commitment to transparency. According to the EFSA's scientific assessment process, scientists are required to identify and characterise uncertainties and assess their impact on the assessment conclusions. We hope that this tutorial will enhance your understanding of the principles behind the two guidance documents and help you put them into practice.
 
-We hope that this tutorial will enhance your understanding of the two guidance documents and help you put it into practice. You will learn how to
+You will learn how to
 
- - plan your assessment strategy, 
- - identify and evaluate sources of uncertainty, 
+ - plan your uncertainty analysis,
+ - identify and evaluate sources of uncertainty,
  - describe uncertainties that have not been quantified, and
  - communicate uncertainty to the target audience with confidence.
 
-The tutorial is set up as an interactive website where you can explore and learn by watching, reading and interacting with the material. You can also find links to the selected case studies, opinions and reports which showcase how the principles of uncertainty analysis and communication can be implemented in the assessments!
+The tutorial is set up as an interactive website where you can explore and learn by watching, reading, and interacting with the material. You can also find links to selected case studies, opinions and reports which showcase how the principles of uncertainty analysis and communication can be implemented in the assessments!
 
 Look carefully on your screen now. Just above me and across the screen, you see the top menu with the sections named
 
@@ -32,21 +30,19 @@ Look carefully on your screen now. Just above me and across the screen, you see 
 - Principles and Methods
 - Uncertainty Analysis
 - Communication of Uncertainty, and
-- Implementation 
+- Implementation
 
-Right now you are in the **Introduction** section, were you find me and the text I am reading underneath this video (||). 
+Right now you are in the **Introduction** section, where you can find me and the text I am reading underneath this video (||).
 
-**Principles and Methods** menu takes you to the section dedicated to this (*->*) very important document called "The principles and methods behind EFSA’s Guidance on Uncertainty Analysis in Scientific Assessment". This document describes the rationale behind the guidances and contains in-depth discussion of how to handle uncertainties in scienfic assessments. Come back to this section if you are unsure about something or want to learn more about, well, "principles and methods".
+**Principles and Methods** menu takes you to the section dedicated to the (*->*) supporting opinion of the Uncertainty Analysis Guidance and the principles behind the Communication of Uncertainty Guidance. This section describes the rationale behind the two guidances and contains an in-depth discussion of how to handle and communicate uncertainties in scientific assessments. Come back to this section if you are unsure about something or want to learn more about, well, underlying "principles and methods".
 
-The **Uncertainty Analysis** section is dedicated to the respective guidance document (*->*). It contains the workflows for Standardized, Case-Specific and Urgent asessments, as well as for developing or revising the existing guidance documents. You can use flowcharts to follow each step in the process and learn about the elements of uncertainty analysis in scientific assessments!
+The **Uncertainty Analysis** section is dedicated to the first guidance document (*->*). It contains general recommendations for the different steps and workflows of an uncertainty analysis for different types of assessments. You can use the flowcharts to plan the uncertainty analysis for your assessment!
 
-The **Communication of Uncertainty** is dedicated to the second guidance document (*->*). It contains the checklists for communicators and assessors to ensure quality and transparency in communication of uncertainty to various audiences. 
+The **Communication of Uncertainty** section is dedicated to the second guidance document (*->*). It contains checklists for communicators and assessors to ensure quality and transparency in communication with various audiences.
 
-The *Implementation* section contains references to the previously published scientific opinions, applying the principles and methods of uncertainty analysis. We hope that the interactive tables will simplify the search and navigation and highlight some of the work which corresponds well to the concepts you learn from the guidances. 
+The *Implementation* section contains references to the previously published reports and opinions, applying the principles and methods of uncertainty analysis. We hope that the interactive tables will simplify the search and navigation and highlight some of the work which corresponds well to the concepts you’ve learned from the guidance.
 
-Again, welcome to the tutorial and hope you will find your learning journey fun!
-
-Good luck!
+Again, welcome to the tutorial and hope you will find the learning journey fun!
 ::::
 
 

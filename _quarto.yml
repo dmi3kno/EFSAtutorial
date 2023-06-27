@@ -80,11 +80,6 @@ website:
           - uncertainty-communication/expressions-approximate.qmd
           - uncertainty-communication/expressions-distribution.qmd
           - uncertainty-communication/expressions-2d.qmd
-    - title: "Implementation"
-      contents:
-        - implementation.qmd
-        - implementation/implementationmethods.qmd
-        - implementation/implementationexpressions.qmd
   search: 
     location: navbar
     type: overlay

@@ -5,11 +5,63 @@ title: "Implementation of uncertainty analysis"
 
 ## Introduction video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_Implementation" src="https://lu.instructuremedia.com/embed/cda3e254-e10f-41e0-9926-a139e149595f" frameborder="0"></iframe>
 
 ## Introduction transcript
 
-> [in prep] 
-> Introduction to the page. Information about this page collects examples of implementation of the UA and UC GDs. Instructions on how to explore the page. How we have chosen the examples. A reminder that this is an extraction of examples and that there are more on EFSA website. 
+Welcome to the implementation page! 
+
+Here we have collected some examples of scientific opinions and report which demonstrate how the guidances can be put into practice. 
+
+You should not think of this list as recommendations or endorsements, but rather as a list of references or real-life examples of assessments, which contain certain aspects of the implementation of the guidance for uncertainty analysis or the guidance of communication of uncertainty.
+
+The examples are reported in an interactive table which contains a list of scientific opinions organised by the Panel, and the type of assessment. 
+
+This list is not exhaustive.
+
+You can use the search bar to quickly subset this table by the uncertainty expression or the method of uncertainty analysis used in the assessment. 
+
+Lastly, we provide the motivation for including the specific assessment in the list of examples. You can get to the full document text by clicking the link in the last column of the table. The link will take you to the location of the example in the document.
+
+We hope you find these examples useful in your work!
+
+Thank you!
 
 ::::
+
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(DT)
+```
+
+Here we will have the interactive data table of examples. Currently, we plan to have the following fields in the table:
+
+- Title
+- DOI
+- Panel
+- Expression of uncertainty (from the nine expressions)
+- Quantitative method for uncertainty analysis
+- Qualitative method for uncertainty analysis 
+- Description
+
+The dataframe below is provided as a placeholder.
+
+```{r}
+#| echo: false
+mtcars2 = mtcars[, c(1:5, 9)]
+mtcars2$am = factor(mtcars$am, c(0, 1), c('automatic', 'manual'))
+# search for Ma or Me
+datatable(
+  mtcars2, colnames = c('model' = 1),
+  filter = list(position = 'top', clear = FALSE),
+  options = list(
+    search = list(regex = TRUE, caseInsensitive = FALSE, search = 'M[ae]'),
+    pageLength = 5
+  )
+)
+```
+

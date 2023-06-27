@@ -2,7 +2,39 @@
 title: "Approximate probability"
 ---
 
-# Communicating uncertainty in the answer to a Yes/No question by an approximate probability 
+## The meaning of approximate probability
+
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_AP1_ApproximateProbability" src="https://lu.instructuremedia.com/embed/30d206fd-9b8f-4ed6-97ba-c84b284000de" frameborder="0"></iframe>
+
+## Text
+
+An approximate probability is one of the possible expressions of uncertainty that might result from an implementation of EFSAs guidance on uncertainty analysis. 
+
+It is a quantitative expression of uncertainty with partial information on the probability. 
+
+Here, you can think of probability as your uncertainty about a binary outcome, such as your uncertainty about whether the answer to a yes/no question is “yes”. 
+
+An approximate probability is the result of specifying a range for your probability instead of a precise value.
+
+You could for example say that you are at least 70% certain that the answer is yes. 
+
+It is not necessary to express probabilities fully or precisely, and in practice they will always be approximate to some degree.
+
+There are also other reasons EFSA use approximate probabilities. 
+
+One is that uncertainty quantified by an approximate probability is sometimes sufficient for decision-making.
+
+Another reason is that experts might find it easier to express their probability judgment as a range rather than a single value. This range act as an upper or lower bound on their probability judgment. For example, an assessment might say “there is less than 10% probability that the mean exposure exceeds 10 mg per kg of body weight a day”. Here the range is 0 to 10% probability. 
+
+The meaning of such a range is that it is judged that the probability would lie in the range if more time was taken to assess uncertainty and specify the probability precisely.
+
+::::
+
+## Communicating uncertainty in the answer to a Yes/No question by an approximate probability 
 
 Any range of probabilities (e.g. 10–20% probability) providing an approximate quantification of likelihood for either:
   - A specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question) 
@@ -10,20 +42,70 @@ Any range of probabilities (e.g. 10–20% probability) providing an approximate 
 
 > The probability ranges used in EFSA’s [approximate probability scale](../principles-and-methods/uncertainty-communication-principles.qmd#tbl-approx-probscale) are examples of approximate probability expressions. Assessors are not restricted to the ranges in the approximate probability scale and should use whatever ranges best reflect their judgement of the uncertainty (see [UA](https://doi.org/10.2903/j.efsa.2018.5123))
 
+
+## EFSA's Approximate probability scale
+
 :::: {.panel-tabset}
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_AP2_ApproxProbScale" src="https://lu.instructuremedia.com/embed/b2b42568-dcdc-4387-81f0-0a3a61dcf74b" frameborder="0"></iframe>
 
 ## Text
 
-> Remind that implementing UA GD results in different expressions of uncertainty, where approximate probability is one of them. Explain what is an approx prob. Give examples when used. Go through some of the recommendations given by the UC GD. 
+Approximate probabilities are used in EFSA’s approximate probability scale. 
+SHOW THE SCALE
+This scale was introduced by EFSA to harmonise the use of qualitative verbal expressions for uncertainty. 
+
+For example, if uncertainty is quantified as being in the range 66 - 90% (POINT TO RANGE) then the accompanying verbal expression should be “likely” (POINT TO LIKELY).
+
+To avoid ambiguity, the Guidance on communication of uncertainty recommends to always report the expression of uncertainty quantitatively as a probability or as an approximate probability. 
+
+If a verbal expression is also used, present the quantitative probability first, e.g. ‘66–90% certain, and then “likely”, because it has been shown that this order leads to more consistent understanding, compared to if the verbal expression is presented first.
+
+An approximate probability may comprise a range of probabilities chosen by the assessors from the approximate probability scale, or a different range of probabilities specified by the assessors.
+
+To avoid inconsistency and misunderstanding, do not use the verbal terms in the approximate probability scale to refer to any probabilities or ranges of probabilities other than those shown in this table.
 
 ::::
 
 
+## Eliciting approximate expert judgments
+
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_AP3_ElicitApproxProbJudgments" src="https://lu.instructuremedia.com/embed/fac12ebc-0e1b-4e0b-b8cc-7c90f7bbec79" frameborder="0"></iframe>
+
+## Text
+
+The approximate probability scale is also suggested as an aid to elicit judgements from experts using Expert Knowledge Elicitation. EKE is defined by EFSA as “a systematic, documented and reviewable process to retrieve expert judgements from a group of experts, often in the form of a probability distribution”. The EKE guidance recommends three EKE protocols that have been developed to counter psychological biases and to manage the sharing and aggregation of judgements between experts. 
+
+Formal elicitation requires significant time and resources, so it is not feasible to apply it to every source of uncertainty affecting an assessment. The supporting opinion of the Uncertainty analysis guidance describes how to modify the protocol using behavioural aggregation to fit the needs for using expert judgement in uncertainty analysis in an EFSA context. One modification is to allow for judgements expressed with approximate probabilities. 
+
+This is where the approximate probability scale can be used. The experts should be asked to select one or more categories from the table, to represent their probability judgement for the question of interest. 
+
+It is not intended that experts should be restricted to using the approximate probabilities in the table. On the contrary, they should be encouraged to specify other ranges, or precise probabilities, whenever these express better their judgement for the question or quantity under assessment. 
+
+Note that the approximate probability scale is not a replacement of EKE, which means that the principles of EKE should be followed when using it. The supporting opinion of the uncertainty analysis guidance lists minimal requirements for a modified version of EKE (see requirements for semi-formal EKE [In written script add SO 9). 
+
+::::
 
 
+## Combining probability bounds or approximate probabilities
 
+:::: {.panel-tabset}
+
+## Video
+
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_AP4_CombiningApproxProb" src="https://lu.instructuremedia.com/embed/bda33a71-619a-495d-8cf7-d151bd933ad6" frameborder="0"></iframe>
+
+## Text
+
+Finally, the toolbox for uncertainty analysis includes a method to combine approximate probabilities by calculation. Probability bound analysis can be used to combine probability bounds quantifying uncertainty in different parts of an assessment, to support the characterisation of overall uncertainty. 
+
+After this introduction to approximate probability, we recommend you begin with the aspects that are most interesting for you, such as - how to communicate an approximate probability, how to make judgements expressed by approximate probability, or how to perform calculations with approximate probabilities.
+
+::::
 

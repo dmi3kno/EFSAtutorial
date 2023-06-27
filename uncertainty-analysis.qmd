@@ -2,20 +2,51 @@
 title: "Uncertainty Analysis Guidance"
 ---
 
+## Introduction to Uncertainty Analysis
+
 :::: {.panel-tabset}
 
-## Introduction video
+## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_UncertaintyAnalysis" src="https://lu.instructuremedia.com/embed/d1929ab4-2603-4607-89d4-0eba0309aabd" frameborder="0"></iframe>
 
-## Introduction transcript
+## Text
 
-> [in prep] Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment. 
+Welcome to the Uncertainty analysis page 
 
+This page takes you through the guidance on uncertainty analysis for different steps and types of assessment. 
+
+You can access general guidance provided for different steps of an uncertainty analysis, from identifying uncertainties to reporting the results of an uncertainty analysis, using the sidebar menu on the left (*<-*) or links below (||).
+
+- Identifying uncertainties affecting the assessment
+- Prioritising uncertainties within the assessment
+- Dividing the uncertainty analysis into parts
+- Ensuring that the questions or quantities of interest are well-defined.
+- Characterising uncertainty for parts of the uncertainty analysis
+- Combining uncertainty from different parts of the uncertainty analysis
+- Characterising overall uncertainty
+- Prioritising uncertainties for future investigation.
+- Reporting uncertainty analysis
+
+There is also specific guidance for different types of assessment. This guidance is provided through a series of flowcharts where you can learn about the recommended route for the type of assessment you are working with. 
+
+You access the flowcharts by clicking on one of the four assessment types (||). 
+
+There is further information below to help you identify the type that applies to your assessment. 
+
+When you click on an assessment type, you will be taken to a flowchart (*->*). The flowchart guides you through the steps of an uncertainty analysis. It can also help you understand the options to make uncertainty analysis fit for purpose. 
+
+The EFSA guidance on uncertainty analysis (*<-*) is based on the principles and methods described in the scientific opinion supporting the guidance (*->*). You can learn more about the principles on the principles and methods page in this tutorial. 
+
+Note that the text in this tutorial is a condensed extract from the EFSA guidance on Uncertainty Analysis. There is more detailed information in the guidance, in text and in footnotes. 
+
+If something is unclear or feels incomplete, or you want to learn more, we recommend you to consult the original document. Always use the original documents as your primary source.
+
+Good luck and happy cruising!
 ::::
 
 
-# Types of assessment
+## Types of assessment
 
 The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand. 
 
@@ -23,11 +54,43 @@ The recommended approach to uncertainty analysis depends on the nature of the sc
 
 ## Video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_TA_TypesOfAssessment" src="https://lu.instructuremedia.com/embed/0a5b4c3d-7b0a-4492-b23d-697552accc65" frameborder="0"></iframe>
 
 ## Text
 
->[In prep] Explanation that to make uncertainty analysis fit for purpose, the UA GD is designed for different types of assessments. Go through the types with associated explanations of what they are and a general outline of the UA for each of them.
+All aspects of scientific assessment, including uncertainty analysis, must be conducted at a scale and complexity proportionate to the needs of the problem. It also needs to be done  within the time and resources agreed upon with the decision-makers. Achieving this is a fundamental practical requirement in EFSA’s work. (SO p38)
+
+In other words, uncertainty analysis should be scaled to the needs of the scientific assessment and be fit for the purpose. 
+
+The guidance distinguishes between four main types of assessment to help assessors in planning an uncertainty analysis:
+
+- Standardised assessments
+- Case-specific assessments
+- Development or revision of guidance documents
+- Urgent assessments
+
+
+Assessors are asked to identify which of these types most corresponds to their assessment, and then proceed to the corresponding section for guidance specific to that type.
+
+Let us take a closer look at the types of assessment:
+
+A *standardised assessment* follows a pre-established standardised procedure that covers every step of the assessment. Standardised procedures are often used in scientific assessments for regulated products, e.g. for premarket authorisation. The procedures are often set out in guidance documents or legislation and are accepted by the assessors and decision-makers as providing an appropriate basis for decision-making. Standardised procedures generally require data from the studies conducted according to the guidelines. The procedures specify how those data will be used in the assessment. 
+
+The second type, *case-specific assessments* are needed wherever there is no pre-established standardised procedure, and the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require a case-specific approach. 
+
+A third type of assessment where uncertainty analysis is required is the *development or revision of guidance documents*. 
+
+The fourth type, *urgent assessments*, are assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources. Since the time is limited, they require streamlined approaches to both assessment and uncertainty analysis. 
+
+Note that the boundaries between the four types are not sharply defined. For example, there are varying degrees of urgency. (SO p36)
+
+Uncertainty analysis can, in each of these four types of assessment, be planned as a tiered or refined approach. In some areas of EFSA’s work, the result of a standardised assessment may indicate the need for a ‘refined’ or ‘higher tier’ assessment in which one or more standardised elements are replaced by case-specific approaches. 
+
+The conclusion of a scientific assessment must be expressed in a well-defined manner, in order to be a proper scientific statement and useful to decision-makers. The Guidance on Uncertainty Analysis recommend that assessors should always try to express uncertainty in the conclusion quantitatively, using probability. 
+
+An assessment using qualitative methods or a conclusion expressed in qualitative terms does not imply that the uncertainty analysis must be qualitative. This is because any well-defined qualitative conclusion can be considered as an answer to a yes/no question. 
+
+Let me summarise. EFSAs Guidance on uncertainty analysis is designed to help assessors plan and implement their uncertainty analysis in a way that is scalable to the type of assessment while ensuring the scientific rigour and transparency of the results.  
 
 ::::
 

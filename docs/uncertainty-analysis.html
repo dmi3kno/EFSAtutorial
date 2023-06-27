@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,12 +12,12 @@
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: 1;}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -68,112 +68,136 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">EFSA Tutorial on Uncertainty</span>
-  </a>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./introduction.html">Introduction</a>
+    <a class="nav-link" href="./introduction.html" rel="" target="">
+ <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./principles-and-methods.html">Principles and Methods</a>
+    <a class="nav-link" href="./principles-and-methods.html" rel="" target="">
+ <span class="menu-text">Principles and Methods</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./uncertainty-analysis.html" aria-current="page">Uncertainty Analysis</a>
+    <a class="nav-link active" href="./uncertainty-analysis.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Uncertainty Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./uncertainty-communication.html">Communication of Uncertainty</a>
+    <a class="nav-link" href="./uncertainty-communication.html" rel="" target="">
+ <span class="menu-text">Communication of Uncertainty</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./implementation.html">Implementation</a>
+    <a class="nav-link" href="./implementation.html" rel="" target="">
+ <span class="menu-text">Implementation</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Uncertainty Analysis Guidance</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./uncertainty-analysis.html">Uncertainty Analysis Guidance</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis.html" class="sidebar-item-text sidebar-link active">Uncertainty Analysis Guidance</a>
+  <a href="./uncertainty-analysis.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Uncertainty Analysis Guidance</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/identifying.html" class="sidebar-item-text sidebar-link">Identifying uncertainties</a>
+  <a href="./uncertainty-analysis/identifying.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Identifying uncertainties</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/prioritizing.html" class="sidebar-item-text sidebar-link">Prioritizing uncertainties</a>
+  <a href="./uncertainty-analysis/prioritizing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prioritizing uncertainties</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/dividing.html" class="sidebar-item-text sidebar-link">Dividing the assessment into parts</a>
+  <a href="./uncertainty-analysis/dividing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dividing the assessment into parts</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/well-defined.html" class="sidebar-item-text sidebar-link">Ensuring that the questions or quantities of interest are well-defined</a>
+  <a href="./uncertainty-analysis/well-defined.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ensuring that the questions or quantities of interest are well-defined</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/characterizing.html" class="sidebar-item-text sidebar-link">Characterising uncertainty for parts of the uncertainty analysis</a>
+  <a href="./uncertainty-analysis/characterizing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Characterising uncertainty for parts of the uncertainty analysis</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/combining.html" class="sidebar-item-text sidebar-link">Combining uncertainty from different parts of the uncertainty analysis</a>
+  <a href="./uncertainty-analysis/combining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Combining uncertainty from different parts of the uncertainty analysis</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/overall.html" class="sidebar-item-text sidebar-link">Characterising overall uncertainty</a>
+  <a href="./uncertainty-analysis/overall.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Characterising overall uncertainty</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/future-investigation.html" class="sidebar-item-text sidebar-link">Prioritising uncertainties for future investigation</a>
+  <a href="./uncertainty-analysis/future-investigation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prioritising uncertainties for future investigation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uncertainty-analysis/reporting.html" class="sidebar-item-text sidebar-link">Reporting uncertainty analysis</a>
+  <a href="./uncertainty-analysis/reporting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reporting uncertainty analysis</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#types-of-assessment" id="toc-types-of-assessment" class="nav-link active" data-scroll-target="#types-of-assessment">Types of assessment</a></li>
+  <li><a href="#introduction-to-uncertainty-analysis" id="toc-introduction-to-uncertainty-analysis" class="nav-link active" data-scroll-target="#introduction-to-uncertainty-analysis">Introduction to Uncertainty Analysis</a></li>
+  <li><a href="#types-of-assessment" id="toc-types-of-assessment" class="nav-link" data-scroll-target="#types-of-assessment">Types of assessment</a></li>
   </ul>
 </nav>
     </div>
@@ -182,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Uncertainty Analysis Guidance</h1>
+<h1 class="title">Uncertainty Analysis Guidance</h1>
 </div>
 
 
@@ -190,38 +214,80 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Introduction video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Introduction transcript</a></li></ul>
+<section id="introduction-to-uncertainty-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-uncertainty-analysis">Introduction to Uncertainty Analysis</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Text</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_UncertaintyAnalysis" src="https://lu.instructuremedia.com/embed/d1929ab4-2603-4607-89d4-0eba0309aabd" frameborder="0">
+</iframe>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<blockquote class="blockquote">
-<p>[in prep] Introduction to the page. Information about the UA GD and that this is the GD based on the principles and methods in the supporting opinion and that we recommend looking at those before going through the UA GD page. Instructions on how to explore the page. Recommendations when it can be useful to consult it when you are working with an assessment.</p>
-</blockquote>
+<p>Welcome to the Uncertainty analysis page</p>
+<p>This page takes you through the guidance on uncertainty analysis for different steps and types of assessment.</p>
+<p>You can access general guidance provided for different steps of an uncertainty analysis, from identifying uncertainties to reporting the results of an uncertainty analysis, using the sidebar menu on the left (<em>&lt;-</em>) or links below (||).</p>
+<ul>
+<li>Identifying uncertainties affecting the assessment</li>
+<li>Prioritising uncertainties within the assessment</li>
+<li>Dividing the uncertainty analysis into parts</li>
+<li>Ensuring that the questions or quantities of interest are well-defined.</li>
+<li>Characterising uncertainty for parts of the uncertainty analysis</li>
+<li>Combining uncertainty from different parts of the uncertainty analysis</li>
+<li>Characterising overall uncertainty</li>
+<li>Prioritising uncertainties for future investigation.</li>
+<li>Reporting uncertainty analysis</li>
+</ul>
+<p>There is also specific guidance for different types of assessment. This guidance is provided through a series of flowcharts where you can learn about the recommended route for the type of assessment you are working with.</p>
+<p>You access the flowcharts by clicking on one of the four assessment types (||).</p>
+<p>There is further information below to help you identify the type that applies to your assessment.</p>
+<p>When you click on an assessment type, you will be taken to a flowchart (<em>-&gt;</em>). The flowchart guides you through the steps of an uncertainty analysis. It can also help you understand the options to make uncertainty analysis fit for purpose.</p>
+<p>The EFSA guidance on uncertainty analysis (<em>&lt;-</em>) is based on the principles and methods described in the scientific opinion supporting the guidance (<em>-&gt;</em>). You can learn more about the principles on the principles and methods page in this tutorial.</p>
+<p>Note that the text in this tutorial is a condensed extract from the EFSA guidance on Uncertainty Analysis. There is more detailed information in the guidance, in text and in footnotes.</p>
+<p>If something is unclear or feels incomplete, or you want to learn more, we recommend you to consult the original document. Always use the original documents as your primary source.</p>
+<p>Good luck and happy cruising!</p>
 </div>
 </div>
 </div>
-<section id="types-of-assessment" class="level1">
-<h1>Types of assessment</h1>
+</section>
+<section id="types-of-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-assessment">Types of assessment</h2>
 <p>The recommended approach to uncertainty analysis depends on the nature of the scientific assessment in hand.</p>
-<div class="panel-tabset">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Text</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="img-fluid"></p>
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_TA_TypesOfAssessment" src="https://lu.instructuremedia.com/embed/0a5b4c3d-7b0a-4492-b23d-697552accc65" frameborder="0">
+</iframe>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<blockquote class="blockquote">
-<p>[In prep] Explanation that to make uncertainty analysis fit for purpose, the UA GD is designed for different types of assessments. Go through the types with associated explanations of what they are and a general outline of the UA for each of them.</p>
-</blockquote>
+<p>All aspects of scientific assessment, including uncertainty analysis, must be conducted at a scale and complexity proportionate to the needs of the problem. It also needs to be done within the time and resources agreed upon with the decision-makers. Achieving this is a fundamental practical requirement in EFSA’s work. (SO p38)</p>
+<p>In other words, uncertainty analysis should be scaled to the needs of the scientific assessment and be fit for the purpose.</p>
+<p>The guidance distinguishes between four main types of assessment to help assessors in planning an uncertainty analysis:</p>
+<ul>
+<li>Standardised assessments</li>
+<li>Case-specific assessments</li>
+<li>Development or revision of guidance documents</li>
+<li>Urgent assessments</li>
+</ul>
+<p>Assessors are asked to identify which of these types most corresponds to their assessment, and then proceed to the corresponding section for guidance specific to that type.</p>
+<p>Let us take a closer look at the types of assessment:</p>
+<p>A <em>standardised assessment</em> follows a pre-established standardised procedure that covers every step of the assessment. Standardised procedures are often used in scientific assessments for regulated products, e.g.&nbsp;for premarket authorisation. The procedures are often set out in guidance documents or legislation and are accepted by the assessors and decision-makers as providing an appropriate basis for decision-making. Standardised procedures generally require data from the studies conducted according to the guidelines. The procedures specify how those data will be used in the assessment.</p>
+<p>The second type, <em>case-specific assessments</em> are needed wherever there is no pre-established standardised procedure, and the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g.&nbsp;default values) may be used for some parts of the assessment, but other parts require a case-specific approach.</p>
+<p>A third type of assessment where uncertainty analysis is required is the <em>development or revision of guidance documents</em>.</p>
+<p>The fourth type, <em>urgent assessments</em>, are assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources. Since the time is limited, they require streamlined approaches to both assessment and uncertainty analysis.</p>
+<p>Note that the boundaries between the four types are not sharply defined. For example, there are varying degrees of urgency. (SO p36)</p>
+<p>Uncertainty analysis can, in each of these four types of assessment, be planned as a tiered or refined approach. In some areas of EFSA’s work, the result of a standardised assessment may indicate the need for a ‘refined’ or ‘higher tier’ assessment in which one or more standardised elements are replaced by case-specific approaches.</p>
+<p>The conclusion of a scientific assessment must be expressed in a well-defined manner, in order to be a proper scientific statement and useful to decision-makers. The Guidance on Uncertainty Analysis recommend that assessors should always try to express uncertainty in the conclusion quantitatively, using probability.</p>
+<p>An assessment using qualitative methods or a conclusion expressed in qualitative terms does not imply that the uncertainty analysis must be qualitative. This is because any well-defined qualitative conclusion can be considered as an answer to a yes/no question.</p>
+<p>Let me summarise. EFSAs Guidance on uncertainty analysis is designed to help assessors plan and implement their uncertainty analysis in a way that is scalable to the type of assessment while ensuring the scientific rigour and transparency of the results.</p>
 </div>
 </div>
 </div>
@@ -229,12 +295,12 @@ ul.task-list li input[type="checkbox"] {
 <div id="start-btn" style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;">
 <p><a href="./uncertainty-analysis/figure1.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment.">Standardised Assessments</a> <a href="./uncertainty-analysis/figure5.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches.">Case-specific assessments</a> <br> <br> <a href="./uncertainty-analysis/figure11.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis.">Urgent assessments</a> <a href="./uncertainty-analysis/figure12.html" class="btn btn-secondary btn" role="button" data-toggle="tooltip" title="Especially (but not only) those that describe existing standardised procedures or establish new ones.">Development or revision of guidance documents</a></p>
 </div>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Learn more about:
 </div>
 </div>
@@ -284,9 +350,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -298,7 +378,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -327,31 +424,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
       // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href');
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -359,6 +560,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, EFSA</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

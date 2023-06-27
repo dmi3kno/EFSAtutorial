@@ -6,18 +6,23 @@ title: "Guidance on Communication of Uncertainty"
 
 ## Introduction video
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg)
+<iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_UncertaintyCommunication" src="https://lu.instructuremedia.com/embed/80d0207a-7fe7-4f25-bf38-f17c21948716" frameborder="0"></iframe>
 
 ## Introduction transcript
 
->[in prep]
->Welcome to the page on Uncertainty Communication! 
+Welcome to the page for the EFSA guidance on communication of uncertainty
 
->The pupose of the section is to introduce you to the "Guidance on Communication of Uncertainty in Scientific Assessments". The material for this page is heavy based on the [Principles of Uncertainty Communication](principles-and-methods/uncertainty-communication-principles.qmd) and we strongly recomend that you start your journey into the world of uncertainty communication there.
+This page takes you through the suggestions provided for communicators and assessors. 
 
->We divided the material on this page into two sections: there's a section for uncertainty communicators and another one for the assessors. The presentation of the material also varies by the preparation level of the target audience. The material for the Communicators covers the Entry and Informed levels, while the Assessors are encouraged to refer to guidance for communication on the Informed and Technical levels. 
+The guidance consists of a series of questions helping you to tailor the uncertainty communication message targeting the audience at the “entry”, “informed” and “technical” levels (*->*).
 
->Use one of the buttons below to proceed to the next page, where you will be presented with a communication checklist and the corresponding recommendations addressing the various aspects of uncertainty communication for the different audience levels.
+You can access these checklists by clicking one of the buttons below (||). 
+
+You can also learn about the principles behind the EFSA guidance on communication of uncertainty. 
+
+Note that the text in this tutorial is a condensed extract from the EFSA guidance on communication of uncertainty (*->*). If something is unclear or feels incomplete, or if you want to learn more, we recommend you to consult the original document. Always refer to the guidance documents as your primary source! 
+
+We hope you enjoy the material!
 
 ::::
 
