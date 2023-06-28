@@ -48,20 +48,48 @@ Here we will have the interactive data table of examples. Currently, we plan to 
 - Qualitative method for uncertainty analysis 
 - Description
 
-The dataframe below is provided as a placeholder.
+```{r}
+#| label: readsheets
+#| echo: false
+#| warning: false
+#| message: false
+options(tidyverse.quiet=TRUE)
+library(googlesheets4)
+library(tidyverse)
+library(htmltools)
+library(DT)
+sheet_id <- "1Ja2aKHBDSwVYOoaChP2a2apJoNDfUwyvg0TLcOlvlnw"
+ex_df <- googlesheets4::read_sheet(sheet_id, sheet="Examples")
+ex_expr_df <- googlesheets4::read_sheet(sheet_id, sheet="ExamplesExpressions")
+ex_meth_df <- googlesheets4::read_sheet(sheet_id, sheet="ExamplesMethods")
+```
 
 ```{r}
+#| label: impltable
 #| echo: false
-mtcars2 = mtcars[, c(1:5, 9)]
-mtcars2$am = factor(mtcars$am, c(0, 1), c('automatic', 'manual'))
-# search for Ma or Me
-datatable(
-  mtcars2, colnames = c('model' = 1),
-  filter = list(position = 'top', clear = FALSE),
-  options = list(
-    search = list(regex = TRUE, caseInsensitive = FALSE, search = 'M[ae]'),
-    pageLength = 5
-  )
-)
+ex_html_meth_df <- ex_meth_df %>% 
+  mutate(html_Method=purrr::map2_chr(Method, Link, 
+          ~as.character(htmltools::a(.x, href=.y)))) %>% 
+  group_by(DOI) %>% 
+  summarise(html_Method=paste(html_Method, collapse = "</br>")) 
+
+ex_html_expr_df <- ex_expr_df %>% 
+  mutate(html_Expression=purrr::map2_chr(Expression, Link, 
+          ~as.character(htmltools::a(.x, href=.y)))) %>% 
+  group_by(DOI) %>% 
+  summarise(html_Expression=paste(html_Expression, collapse = "</br>"))
+
+ex_df %>% 
+  left_join(ex_html_expr_df, by="DOI") %>% 
+  left_join(ex_html_meth_df, by="DOI") %>% 
+  select(DOI, Title, Panel, Type, 
+         Expression=html_Expression, Method=html_Method, Comment) %>% 
+  DT::datatable(escape = FALSE, plugins = "ellipsis",
+                options=list(scrollX=TRUE,
+                  columnDefs=list(list(
+                    targets=c(2,7),
+                    render=JS("$.fn.dataTable.render.ellipsis( 17, false )"))
+                  )
+                ))
 ```
 

@@ -5,11 +5,11 @@ title: "Principles and methods behind the guidances"
 
 :::: {.panel-tabset}
 
-## Introduction video
+## Video
 
 <iframe width="560px" height="320px" allowfullscreen="true" allow="autoplay *" title="Sequence_01_PrinciplesAndMethods" src="https://lu.instructuremedia.com/embed/2d8edf56-eeb9-4fa6-be68-b1fad7cea742" frameborder="0"></iframe>
 
-## Introduction transcript
+## Text
 
 Welcome to the Principles and Methods page 
 
