@@ -34,3 +34,23 @@ Enjoy the exploration!
 
 
 ::::
+
+
+:::{.callout-note}
+## Learn more about
+
+**Principles of Uncertainty Analysis:**
+
+- [General background](principles-and-methods/uncertainty-analysis-background.qmd), introducing key definitions, roles, information required for decision making, constraints and expressions of uncertainty.
+- [Uncertainty expressions](principles-and-methods/uncertainty-analysis-expressions.qmd), both quantitative and qualitative.
+- [Key concepts](principles-and-methods/uncertainty-analysis-key-concepts.qmd), including uncertainty/variability, model uncertainty, overall uncertainty and expert judgement.
+- [Main elements](principles-and-methods/uncertainty-analysis-main-elements.qmd) of uncertainty analysis.
+- [Key principles](principles-and-methods/uncertainty-analysis-key principles.qmd) for conducting different types of assessments
+
+
+**Principles of Uncertainty Communication:**
+
+- [Principles of Uncertainty Communication](principles-and-methods/uncertainty-communication-principles.qmd) including the Approximate Probability Scale.
+- [Communicating Scientific Uncertainties](principles-and-methods/uncertainty-communication-principles.qmd), covering risk communication mandate, risk perception and the uncertainty communicaiton challenges.
+- Proper [audience targeting](principles-and-methods/uncertainty-communication-principles.qmd).
+:::
