@@ -1,8 +1,8 @@
 ---
-title: "Description of the direction"
+title: "Qualitative description"
 ---
 
-# Qualitative description of the direction and/or magnitude of uncertainty using words or symbols 
+## Qualitative description of the direction and/or magnitude of uncertainty using words or symbols 
 
 Words or an ordinal scale describing how much a source of uncertainty affects the assessment or its conclusion (e.g. low, medium or high uncertainty; conservative, very conservative or non-conservative; unlikely, likely or very likely; or symbols indicating the direction and magnitude of uncertainty: —, –,-,+, ++, +++) Because the meaning of such expressions is ambiguous, EFSA’s Uncertainty Analysis GD recommends that they should not be used unless they are accompanied by a quantitative definition (see [UA](https://doi.org/10.2903/j.efsa.2018.5123))
 

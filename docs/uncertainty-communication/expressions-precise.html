@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../uncertainty-communication/expressions-direction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Description of the direction</span></a>
+ <span class="menu-text">Qualitative description</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -249,7 +249,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-a-probability" id="toc-what-is-a-probability" class="nav-link active" data-scroll-target="#what-is-a-probability">What is a probability</a></li>
+  <li><a href="#frequentist-vs-bayesian-view" id="toc-frequentist-vs-bayesian-view" class="nav-link" data-scroll-target="#frequentist-vs-bayesian-view">Frequentist vs Bayesian view</a>
+  <ul class="collapse">
+  <li><a href="#advantages-of-subjective-probability" id="toc-advantages-of-subjective-probability" class="nav-link" data-scroll-target="#advantages-of-subjective-probability">Advantages of subjective probability</a></li>
+  <li><a href="#combining-uncertainties" id="toc-combining-uncertainties" class="nav-link" data-scroll-target="#combining-uncertainties">Combining uncertainties</a></li>
+  </ul></li>
+  <li><a href="#approximate-probability" id="toc-approximate-probability" class="nav-link" data-scroll-target="#approximate-probability">Approximate probability</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -271,12 +283,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either: - A specified answer to a question (e.g.&nbsp;a ‘yes’ answer to a ‘yes/no’ question) - A specified quantity lying in a specified range of values, or above or below a specified value (e.g.&nbsp;90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).</p>
-<blockquote class="blockquote">
-<p>Note that the term “precise” is used here to refer to how the probability is expressed, as a single number, and does not imply that it is actually known with absolute precision, which is not possible</p>
-</blockquote>
+<section id="what-is-a-probability" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-probability">What is a probability</h2>
+<p>A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either:</p>
+<ul>
+<li>A specified answer to a question (e.g.&nbsp;a ‘yes’ answer to a ‘yes/no’ question)</li>
+<li>A specified quantity lying in a specified range of values, or above or below a specified value (e.g.&nbsp;90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The term ‘precise’ is used here to refer to how the probability is expressed, as a single number, and does not imply that it is actually known with absolute precision, which is not possible.</p>
+</div>
+</div>
+</section>
+<section id="frequentist-vs-bayesian-view" class="level2">
+<h2 class="anchored" data-anchor-id="frequentist-vs-bayesian-view">Frequentist vs Bayesian view</h2>
+<p>There are two major perspectives on the scope of probability as a measure for quantifying uncertainty.</p>
+<p>The first perspective, known as the <strong>frequentist view</strong>, argues that probability should be limited to addressing uncertainties caused by variability and should not be extended to uncertainties arising from limitations in knowledge. In other words, frequentists do not consider probability as a relevant concept for measuring uncertainty associated with imperfect knowledge. Consequently, this viewpoint does not offer a solution for characterizing the many other types of uncertainty, such as data quality and extrapolation, which are frequently significant in EFSA assessments.</p>
+<p>The second perspective, known as the <strong>subjectivist (Bayesian) view</strong>, asserts that probability serves as a direct personal expression of uncertainty. According to this view, any well-defined question or quantity can have its uncertainty quantified using probability. Therefore, it can encompass uncertainties caused by limitations in knowledge, as well as those caused by variability.</p>
+<section id="advantages-of-subjective-probability" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-of-subjective-probability">Advantages of subjective probability</h3>
+<p>Subjective probability enhances comparability among individuals when expressing uncertainties. It allows for intuitive comparisons based on shared understanding, such as coin tosses or dice rolls. An operational definition enables subjective probabilities for well-defined quantities or categorical questions. It also permits the legitimate application of mathematical tools to subjective probabilities, facilitating judgments on combining sources of uncertainty. The Guidance encourages the use of subjective probability to express uncertainty, except when quantification is particularly challenging (see Section 5.12 of the <a href="https://doi.org/10.2903/j.efsa.2018.5122">SO</a>).</p>
+</section>
+<section id="combining-uncertainties" class="level3">
+<h3 class="anchored" data-anchor-id="combining-uncertainties">Combining uncertainties</h3>
+<p>The subjectivist interpretation of probability does not exclude the frequentist interpretation, but it requires reinterpreting frequentist probabilities as subjective probabilities to combine them with other sources of uncertainty. This is particularly relevant when integrating probabilities from statistical data analysis with probabilities derived from expert judgment. Bayesian analysis already yields subjective probabilities, but confidence intervals from frequentist analysis would need reinterpretation. The process and appropriateness of such reinterpretation are discussed in Section 11.2.1, considering that probabilities from statistical analysis may still entail additional uncertainties requiring expert judgment.</p>
+</section>
+</section>
+<section id="approximate-probability" class="level2">
+<h2 class="anchored" data-anchor-id="approximate-probability">Approximate probability</h2>
+<p>Probabilities need not be expressed precisely, and in practice, they are always approximate to some extent. Assessors typically provide approximate probabilities within a specified range instead of specifying them to infinite decimal places. Learn more about <a href="../uncertainty-communication/expressions-approximate.html">approximate probabilities</a> in the respective section of the tutorial.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

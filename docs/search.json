@@ -459,14 +459,42 @@
     "href": "uncertainty-communication/expressions-precise.html",
     "title": "Precise probability",
     "section": "",
-    "text": "A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either: - A specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question) - A specified quantity lying in a specified range of values, or above or below a specified value (e.g. 90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).\n\nNote that the term “precise” is used here to refer to how the probability is expressed, as a single number, and does not imply that it is actually known with absolute precision, which is not possible"
+    "text": "A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either:\n\nA specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question)\nA specified quantity lying in a specified range of values, or above or below a specified value (e.g. 90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).\n\n\n\n\n\n\n\nNote\n\n\n\nThe term ‘precise’ is used here to refer to how the probability is expressed, as a single number, and does not imply that it is actually known with absolute precision, which is not possible."
+  },
+  {
+    "objectID": "uncertainty-communication/expressions-precise.html#what-is-a-probability",
+    "href": "uncertainty-communication/expressions-precise.html#what-is-a-probability",
+    "title": "Precise probability",
+    "section": "",
+    "text": "A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either:\n\nA specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question)\nA specified quantity lying in a specified range of values, or above or below a specified value (e.g. 90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).\n\n\n\n\n\n\n\nNote\n\n\n\nThe term ‘precise’ is used here to refer to how the probability is expressed, as a single number, and does not imply that it is actually known with absolute precision, which is not possible."
+  },
+  {
+    "objectID": "uncertainty-communication/expressions-precise.html#frequentist-vs-bayesian-view",
+    "href": "uncertainty-communication/expressions-precise.html#frequentist-vs-bayesian-view",
+    "title": "Precise probability",
+    "section": "Frequentist vs Bayesian view",
+    "text": "Frequentist vs Bayesian view\nThere are two major perspectives on the scope of probability as a measure for quantifying uncertainty.\nThe first perspective, known as the frequentist view, argues that probability should be limited to addressing uncertainties caused by variability and should not be extended to uncertainties arising from limitations in knowledge. In other words, frequentists do not consider probability as a relevant concept for measuring uncertainty associated with imperfect knowledge. Consequently, this viewpoint does not offer a solution for characterizing the many other types of uncertainty, such as data quality and extrapolation, which are frequently significant in EFSA assessments.\nThe second perspective, known as the subjectivist (Bayesian) view, asserts that probability serves as a direct personal expression of uncertainty. According to this view, any well-defined question or quantity can have its uncertainty quantified using probability. Therefore, it can encompass uncertainties caused by limitations in knowledge, as well as those caused by variability.\n\nAdvantages of subjective probability\nSubjective probability enhances comparability among individuals when expressing uncertainties. It allows for intuitive comparisons based on shared understanding, such as coin tosses or dice rolls. An operational definition enables subjective probabilities for well-defined quantities or categorical questions. It also permits the legitimate application of mathematical tools to subjective probabilities, facilitating judgments on combining sources of uncertainty. The Guidance encourages the use of subjective probability to express uncertainty, except when quantification is particularly challenging (see Section 5.12 of the SO).\n\n\nCombining uncertainties\nThe subjectivist interpretation of probability does not exclude the frequentist interpretation, but it requires reinterpreting frequentist probabilities as subjective probabilities to combine them with other sources of uncertainty. This is particularly relevant when integrating probabilities from statistical data analysis with probabilities derived from expert judgment. Bayesian analysis already yields subjective probabilities, but confidence intervals from frequentist analysis would need reinterpretation. The process and appropriateness of such reinterpretation are discussed in Section 11.2.1, considering that probabilities from statistical analysis may still entail additional uncertainties requiring expert judgment."
+  },
+  {
+    "objectID": "uncertainty-communication/expressions-precise.html#approximate-probability",
+    "href": "uncertainty-communication/expressions-precise.html#approximate-probability",
+    "title": "Precise probability",
+    "section": "Approximate probability",
+    "text": "Approximate probability\nProbabilities need not be expressed precisely, and in practice, they are always approximate to some extent. Assessors typically provide approximate probabilities within a specified range instead of specifying them to infinite decimal places. Learn more about approximate probabilities in the respective section of the tutorial."
   },
   {
     "objectID": "uncertainty-communication/expressions-direction.html",
     "href": "uncertainty-communication/expressions-direction.html",
-    "title": "Description of the direction",
+    "title": "Qualitative description",
     "section": "",
-    "text": "Qualitative description of the direction and/or magnitude of uncertainty using words or symbols\nWords or an ordinal scale describing how much a source of uncertainty affects the assessment or its conclusion (e.g. low, medium or high uncertainty; conservative, very conservative or non-conservative; unlikely, likely or very likely; or symbols indicating the direction and magnitude of uncertainty: —, –,-,+, ++, +++) Because the meaning of such expressions is ambiguous, EFSA’s Uncertainty Analysis GD recommends that they should not be used unless they are accompanied by a quantitative definition (see UA)"
+    "text": "Words or an ordinal scale describing how much a source of uncertainty affects the assessment or its conclusion (e.g. low, medium or high uncertainty; conservative, very conservative or non-conservative; unlikely, likely or very likely; or symbols indicating the direction and magnitude of uncertainty: —, –,-,+, ++, +++) Because the meaning of such expressions is ambiguous, EFSA’s Uncertainty Analysis GD recommends that they should not be used unless they are accompanied by a quantitative definition (see UA)"
+  },
+  {
+    "objectID": "uncertainty-communication/expressions-direction.html#qualitative-description-of-the-direction-andor-magnitude-of-uncertainty-using-words-or-symbols",
+    "href": "uncertainty-communication/expressions-direction.html#qualitative-description-of-the-direction-andor-magnitude-of-uncertainty-using-words-or-symbols",
+    "title": "Qualitative description",
+    "section": "",
+    "text": "Words or an ordinal scale describing how much a source of uncertainty affects the assessment or its conclusion (e.g. low, medium or high uncertainty; conservative, very conservative or non-conservative; unlikely, likely or very likely; or symbols indicating the direction and magnitude of uncertainty: —, –,-,+, ++, +++) Because the meaning of such expressions is ambiguous, EFSA’s Uncertainty Analysis GD recommends that they should not be used unless they are accompanied by a quantitative definition (see UA)"
   },
   {
     "objectID": "principles-and-methods.html",
