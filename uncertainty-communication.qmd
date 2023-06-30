@@ -34,12 +34,22 @@ Use one of the buttons below to proceed to communication checklists!
 :::
 
 :::{.callout-tip}
+## Principles of uncertainty communication
+
+
+- [Principles of Uncertainty Communication](principles-and-methods/uncertainty-communication-principles.qmd) including the Approximate Probability Scale.
+- [Communicating Scientific Uncertainties](principles-and-methods/uncertainty-communication-principles.qmd), covering risk communication mandate, risk perception and the uncertainty communicaiton challenges.
+- Proper [audience targeting](principles-and-methods/uncertainty-communication-principles.qmd).
+:::
+
+
+:::{.callout-tip}
 ## Expressions of uncertainty
 
 Messages about uncertainty need to be based on information that is provided in EFSA’s scientific assessments. Therefore, this section describes the main types of expressions of uncertainty that are expected to result from uncertainty analyses following EFSA’s Uncertainty Analysis GD.
 
 - [Unqualified conclusion](uncertainty-communication/expressions-unqualified.qmd), with no expression of uncertainty
-- Description of a [source of uncertainty](uncertainty-communication/expressions-sources.qmd) 
+- Description of [sources of uncertainty](uncertainty-communication/expressions-sources.qmd) 
 - Qualitative description of the [direction and/or magnitude](uncertainty-communication/expressions-direction.qmd) of uncertainty using words or symbols
 - [Inconclusive assessment](uncertainty-communication/expressions-inconclusive.qmd)
 - A [precise probability](uncertainty-communication/expressions-precise.qmd)

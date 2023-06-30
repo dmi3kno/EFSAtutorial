@@ -3,15 +3,15 @@ title: "Overview of methods for Uncertainty Analysis"
 ---
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Identification of potentially relevant sources of uncertainty
+## Identification of potentially relevant sources of uncertainty
 <!-- Ch 8 SO -->
 :::: {.panel-tabset}
-## How
+### How
 Sources of uncertainty can affect scientific assessment at different levels.
 
 Assessors should be systematic in searching for sources of uncertainty affecting their assessment, by considering every part or component of their assessment in turn and checking whether different types of uncertainty are present.
 
-## Inputs
+### Inputs
 Uncertainties affecting the inputs used in the scientific assessment are normally identified during the process of appraising the evidence, which is an intrinsic part of scientific assessment.
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
@@ -30,10 +30,10 @@ Other sources of uncertainties can be identified in relation to how the evidence
 
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Methods for obtaining expert judgements
+## Methods for obtaining expert judgements
 <!-- Ch 9 SO -->
 :::: {.panel-tabset}
-## Use of expert judgements
+### Use of expert judgements
 All scientific assessment involves the use of expert judgement
 
 Where suitable data are available, this should be used in preference to relying solely on expert judgement. 
@@ -42,7 +42,7 @@ When data are strong, uncertainty may be quantified by statistical analysis, and
 
 When data are weak or diverse, it may be better to quantify uncertainty by expert judgement, supported by consideration of the data.
 
-## Formal to less formal EKE
+### Formal to less formal EKE
 <!-- SO p49 -->
 **Formal expert knowledge elicitation (EKE)** have been developed to counter psychological biases and to manage the sharing and aggregation of judgements between experts.
 
@@ -55,10 +55,10 @@ In practice, there is not a dichotomy between more and less formal approaches to
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Qualitative methods for analysing uncertainty
+## Qualitative methods for analysing uncertainty
 <!-- Ch 10 SO -->
 :::: {.panel-tabset}
-## Use of qualitative methods
+### Use of qualitative methods
 Qualitative methods characterise uncertainty using descriptive expression or ordinal scales, without quantitative definitions
 
 <!-- SO p50 -->
@@ -66,7 +66,7 @@ They rely on careful use of language and expert judgement.
 
 Qualitative methods may provide a useful aid for experts when making quantitative judgements.
 
-## Examples
+### Examples
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
 [Qualitative methods](methods-qualitative.qmd){.btn .btn-secondary .btn-lg role="button"}
 :::
@@ -76,13 +76,13 @@ Qualitative methods may provide a useful aid for experts when making quantitativ
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Methods for quantifying uncertainty
+## Methods for quantifying uncertainty
 <!-- Ch 11 SO -->
 :::: {.panel-tabset}
-## Use 
+### Use 
 text
 
-## Examples
+### Examples
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
 [Methods to quantify](methods-quantitative.qmd){.btn .btn-secondary .btn-lg role="button"}
 :::
@@ -91,7 +91,7 @@ text
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Investigating influence and sensitivity
+### Investigating influence and sensitivity
 <!-- Ch 12 SO -->
 :::: {.panel-tabset}
 
@@ -101,7 +101,7 @@ Sensitivity analysis (Annex B.17)
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Characterisation of overall uncertainty
+### Characterisation of overall uncertainty
 <!-- Ch 14 SO -->
 :::: {.panel-tabset}
 
@@ -126,7 +126,7 @@ knitr::include_graphics("../img/options_for_characterising_overall_uncertainty.p
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
-# Reporting uncertainty analysis in scientific assessments
+### Reporting uncertainty analysis in scientific assessments
 <!-- Ch 15 SO -->
 :::: {.panel-tabset}
 

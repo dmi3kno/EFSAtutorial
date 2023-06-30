@@ -60,4 +60,4 @@ This tutorial refers to the three main guidance documents
 
 This tutorial is provided within OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training.
 
-This page was created by Ullrika Sahlin and Dmytro Perepolkin, Centre of Environmental and Climate Science, Lund University, Sweden.
+This page was created by Ullrika Sahlin and Dmytro Perepolkin, CEC, Lund University, Sweden.

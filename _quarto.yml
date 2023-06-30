@@ -46,6 +46,10 @@ website:
         - section: "Methods for Uncertainty Analysis"
           contents:
           - principles-and-methods/methods.qmd
+          - principles-and-methods/methods-qualitative.qmd
+          - principles-and-methods/methods-quantitative.qmd
+          - principles-and-methods/methods-sources-inputs.qmd
+          - principles-and-methods/methods-sources-methodology.qmd
         
     - title: "Uncertainty Analysis"
       contents:

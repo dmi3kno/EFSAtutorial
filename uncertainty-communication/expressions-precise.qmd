@@ -2,8 +2,6 @@
 title: "Precise probability"
 ---
 
-# A precise probability. 
-
 A single number (in EFSA outputs: a percentage between 0% and 100%) quantifying the likelihood of either: 
   - A specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question) 
   - A specified quantity lying in a specified range of values, or above or below a specified value (e.g. 90% probability that between 10 and 100 infected organisms will enter the EU in 2019; 5% probability that more than 100 infected organisms will enter).

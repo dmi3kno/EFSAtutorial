@@ -3,7 +3,7 @@ title: "Qualitative methods"
 ---
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Descriptive methods
+## Descriptive methods
 :::: {.panel-tabset}
 using narrative phrases or text to describe uncertainties.
 
@@ -12,7 +12,7 @@ using narrative phrases or text to describe uncertainties.
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Ordinal scales
+## Ordinal scales
 :::: {.panel-tabset}
 characterising uncertainties using an ordered scale of categories with qualitative definitions (e.g. high, medium or low uncertainty).
 
@@ -21,7 +21,7 @@ characterising uncertainties using an ordered scale of categories with qualitati
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Matrices for confidence and uncertainty
+## Matrices for confidence and uncertainty
 :::: {.panel-tabset}
 providing standardised rules for combining two or more ordinal scales describing different aspects or dimensions of uncertainty.
 
@@ -30,7 +30,7 @@ providing standardised rules for combining two or more ordinal scales describing
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# NUSAP method
+## NUSAP method
 :::: {.panel-tabset}
 using a set of ordinal scales to characterise different dimensions of each source of uncertainty, and its influence on the assessment conclusion, and plotting these together to indicate which sources of uncertainty contribute most to the uncertainty of the assessment conclusion.
 
@@ -39,7 +39,7 @@ using a set of ordinal scales to characterise different dimensions of each sourc
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Uncertainty tables for quantitative questions
+## Uncertainty tables for quantitative questions
 :::: {.panel-tabset}
 a template for listing sources of uncertainty affecting a quantitative question and assessing their individual and combined impacts on the uncertainty of the assessment conclusion.
 
@@ -48,7 +48,7 @@ a template for listing sources of uncertainty affecting a quantitative question 
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Uncertainty tables for categorical questions
+## Uncertainty tables for categorical questions
 :::: {.panel-tabset}
 a template for listing lines of evidence contributing to answering categorical questions (including yes/no questions), identifying their strengths and weaknesses, and expressing the uncertainty of answers to the questions.
 
@@ -57,7 +57,7 @@ a template for listing lines of evidence contributing to answering categorical q
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
-# Structured tools for evidence appraisal
+## Structured tools for evidence appraisal
 :::: {.panel-tabset}
 which include templates for identifying and evaluating sources of uncertainty affecting validity of a single study and the whole body of evidence retrieved from the literature, and can also be adapted to evaluate studies submitted to EFSA for the assessment regulated products.
 

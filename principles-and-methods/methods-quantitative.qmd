@@ -2,14 +2,14 @@
 title: "Methods to quantify uncertainty"
 ---
 
-# Expressing uncertainty using probability and alternatives to probability
+## Expressing uncertainty using probability and alternatives to probability
 
 including adressing variability
 
 
-# Obtaining probabilities by statistical analysis of data
+## Obtaining probabilities by statistical analysis of data
 :::{.callout-tip collapse="true" appearance="minimal"}
-## Confidence intervals
+### Confidence intervals
 :::: {.panel-tabset}
 Text here
 
@@ -35,7 +35,7 @@ Text here
 ::::
 :::
 
-# Obtaining probabilities by expert judgement
+## Obtaining probabilities by expert judgement
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Semi-formal EKE
@@ -57,7 +57,7 @@ Text here
 
 <!-- approx prob scale is mentioned elsewhere -->
 
-# Combining uncertainties for model inputs by probability calculations
+## Combining uncertainties for model inputs by probability calculations
 
 Logic models
 
@@ -75,7 +75,7 @@ Approximate probability calculations (Annex B.15)
 
 Advanced statistical and probabilistic modelling methodologies
 
-# Deterministic methods for quantifying uncertainty
+## Deterministic methods for quantifying uncertainty
 
 Quantitative uncertainty tables (Annex B.5)
 
