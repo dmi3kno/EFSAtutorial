@@ -32,13 +32,13 @@ Look carefully on your screen now. Just above me and across the screen, you see 
 - Communication of Uncertainty, and
 - Implementation
 
-Right now you are in the **Introduction** section, where you can find me and the text I am reading underneath this video (||).
+Right now you are in the **Introduction** section, where you can find me and the text I am reading underneath this video.
 
-**Principles and Methods** menu takes you to the section dedicated to the (*->*) supporting opinion of the Uncertainty Analysis Guidance and the principles behind the Communication of Uncertainty Guidance. This section describes the rationale behind the two guidances and contains an in-depth discussion of how to handle and communicate uncertainties in scientific assessments. Come back to this section if you are unsure about something or want to learn more about, well, underlying "principles and methods".
+**Principles and Methods** menu takes you to the section dedicated to the supporting opinion of the Uncertainty Analysis Guidance and the principles behind the Communication of Uncertainty Guidance. This section describes the rationale behind the two guidances and contains an in-depth discussion of how to handle and communicate uncertainties in scientific assessments. Come back to this section if you are unsure about something or want to learn more about, well, underlying "principles and methods".
 
-The **Uncertainty Analysis** section is dedicated to the first guidance document (*->*). It contains general recommendations for the different steps and workflows of an uncertainty analysis for different types of assessments. You can use the flowcharts to plan the uncertainty analysis for your assessment!
+The **Uncertainty Analysis** section is dedicated to the first guidance document. It contains general recommendations for the different steps and workflows of an uncertainty analysis for different types of assessments. You can use the flowcharts to plan the uncertainty analysis for your assessment!
 
-The **Communication of Uncertainty** section is dedicated to the second guidance document (*->*). It contains checklists for communicators and assessors to ensure quality and transparency in communication with various audiences.
+The **Communication of Uncertainty** section is dedicated to the second guidance document. It contains checklists for communicators and assessors to ensure quality and transparency in communication with various audiences.
 
 The *Implementation* section contains references to the previously published reports and opinions, applying the principles and methods of uncertainty analysis. We hope that the interactive tables will simplify the search and navigation and highlight some of the work which corresponds well to the concepts you’ve learned from the guidance.
 
@@ -60,4 +60,4 @@ This tutorial refers to the three main guidance documents
 
 This tutorial is provided within OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training.
 
-This page was created by Ullrika Sahlin and Dmytro Perepolkin.
+This page was created by Ullrika Sahlin and Dmytro Perepolkin, Centre of Environmental and Climate Science, Lund University, Sweden.

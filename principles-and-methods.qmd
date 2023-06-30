@@ -17,18 +17,16 @@ Here, you can explore the principles behind EFSAs approach to uncertainty analys
 
 You can find the reasons why analysing and communicating uncertainty is important and learn about the main elements of uncertainty analysis. 
 
-The principles described on this page are primarily coming from the scientific opinion supporting the Uncertainty analysis Guidance (*<-*), as well as the Section 3 in the Communication Guidance (*->*).
+The principles described on this page are primarily coming from the scientific opinion supporting the Uncertainty analysis Guidance, as well as the Section 3 in the Communication Guidance.
 
-On the left hand side (*<-*) you can see the side menu with links to sections where you can learn more about 
-underlying concepts associated with uncertainty and 
-methods for uncertainty analysis. 
+On the left hand side you can see the side menu with links to sections where you can learn more about underlying concepts associated with uncertainty and methods for uncertainty analysis. 
 Look around and make yourself at home on the principles and methods page, because you might come back here after exploring the rest of the tutorial for some in-depth insight! 
 
 The section on methods might be useful, when you want to find an appropriate method to support an uncertainty analysis. 
 
 The sections on concepts and principles might be useful as a reminder on why and how to perform a quality uncertainty analysis. 
 
-Note, that the text in this tutorial is a condensed extract from the two EFSA guidances and the supporting opinion (*<-* *->*). If something is unclear or if you want to learn more, we recommend you to consult the original Guidances. Always use the original documents as your primary source. 
+Note, that the text in this tutorial is a condensed extract from the two EFSA guidances and the supporting opinion. If something is unclear or if you want to learn more, we recommend you to consult the original Guidances. Always use the original documents as your primary source. 
 
 Enjoy the exploration!
 
@@ -43,9 +41,10 @@ Enjoy the exploration!
 
 - [General background](principles-and-methods/uncertainty-analysis-background.qmd), introducing key definitions, roles, information required for decision making, constraints and expressions of uncertainty.
 - [Uncertainty expressions](principles-and-methods/uncertainty-analysis-expressions.qmd), both quantitative and qualitative.
+- [Common concerns and objections](principles-and-methods/uncertainty-analysis-concerns.qmd) to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
 - [Key concepts](principles-and-methods/uncertainty-analysis-key-concepts.qmd), including uncertainty/variability, model uncertainty, overall uncertainty and expert judgement.
 - [Main elements](principles-and-methods/uncertainty-analysis-main-elements.qmd) of uncertainty analysis.
-- [Key principles](principles-and-methods/uncertainty-analysis-key principles.qmd) for conducting different types of assessments
+- [Key principles](principles-and-methods/uncertainty-analysis-key-principles.qmd) for conducting different types of assessments
 
 
 **Principles of Uncertainty Communication:**

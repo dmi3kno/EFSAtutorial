@@ -281,10 +281,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Welcome to the page for the EFSA guidance on communication of uncertainty</p>
 <p>This page takes you through the suggestions provided for communicators and assessors.</p>
-<p>The guidance consists of a series of questions helping you to tailor the uncertainty communication message targeting the audience at the “entry”, “informed” and “technical” levels (<em>-&gt;</em>).</p>
-<p>You can access these checklists by clicking one of the buttons below (||).</p>
+<p>The guidance consists of a series of questions helping you to tailor the uncertainty communication message targeting the audience at the “entry”, “informed” and “technical” levels.</p>
+<p>You can access these checklists by clicking one of the buttons below.</p>
 <p>You can also learn about the principles behind the EFSA guidance on communication of uncertainty.</p>
-<p>Note that the text in this tutorial is a condensed extract from the EFSA guidance on communication of uncertainty (<em>-&gt;</em>). If something is unclear or feels incomplete, or if you want to learn more, we recommend you to consult the original document. Always refer to the guidance documents as your primary source!</p>
+<p>Note that the text in this tutorial is a condensed extract from the EFSA guidance on communication of uncertainty. If something is unclear or feels incomplete, or if you want to learn more, we recommend you to consult the original document. Always refer to the guidance documents as your primary source!</p>
 <p>We hope you enjoy the material!</p>
 </div>
 </div>
@@ -551,6 +551,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Communication of Uncertainty, and</li>
 <li>Implementation</li>
 </ul>
-<p>Right now you are in the <strong>Introduction</strong> section, where you can find me and the text I am reading underneath this video (||).</p>
-<p><strong>Principles and Methods</strong> menu takes you to the section dedicated to the (<em>-&gt;</em>) supporting opinion of the Uncertainty Analysis Guidance and the principles behind the Communication of Uncertainty Guidance. This section describes the rationale behind the two guidances and contains an in-depth discussion of how to handle and communicate uncertainties in scientific assessments. Come back to this section if you are unsure about something or want to learn more about, well, underlying “principles and methods”.</p>
-<p>The <strong>Uncertainty Analysis</strong> section is dedicated to the first guidance document (<em>-&gt;</em>). It contains general recommendations for the different steps and workflows of an uncertainty analysis for different types of assessments. You can use the flowcharts to plan the uncertainty analysis for your assessment!</p>
-<p>The <strong>Communication of Uncertainty</strong> section is dedicated to the second guidance document (<em>-&gt;</em>). It contains checklists for communicators and assessors to ensure quality and transparency in communication with various audiences.</p>
+<p>Right now you are in the <strong>Introduction</strong> section, where you can find me and the text I am reading underneath this video.</p>
+<p><strong>Principles and Methods</strong> menu takes you to the section dedicated to the supporting opinion of the Uncertainty Analysis Guidance and the principles behind the Communication of Uncertainty Guidance. This section describes the rationale behind the two guidances and contains an in-depth discussion of how to handle and communicate uncertainties in scientific assessments. Come back to this section if you are unsure about something or want to learn more about, well, underlying “principles and methods”.</p>
+<p>The <strong>Uncertainty Analysis</strong> section is dedicated to the first guidance document. It contains general recommendations for the different steps and workflows of an uncertainty analysis for different types of assessments. You can use the flowcharts to plan the uncertainty analysis for your assessment!</p>
+<p>The <strong>Communication of Uncertainty</strong> section is dedicated to the second guidance document. It contains checklists for communicators and assessors to ensure quality and transparency in communication with various audiences.</p>
 <p>The <em>Implementation</em> section contains references to the previously published reports and opinions, applying the principles and methods of uncertainty analysis. We hope that the interactive tables will simplify the search and navigation and highlight some of the work which corresponds well to the concepts you’ve learned from the guidance.</p>
 <p>Again, welcome to the tutorial and hope you will find the learning journey fun!</p>
 </div>
@@ -200,7 +200,7 @@ Guidance documents
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
 <p>This tutorial is provided within OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training.</p>
-<p>This page was created by Ullrika Sahlin and Dmytro Perepolkin.</p>
+<p>This page was created by Ullrika Sahlin and Dmytro Perepolkin, Centre of Environmental and Climate Science, Lund University, Sweden.</p>
 
 
 </section>
@@ -437,6 +437,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

@@ -34,6 +34,7 @@ website:
           contents:
           - principles-and-methods/uncertainty-analysis-background.qmd
           - principles-and-methods/uncertainty-analysis-expressions.qmd
+          - principles-and-methods/uncertainty-analysis-concerns.qmd
           - principles-and-methods/uncertainty-analysis-key-concepts.qmd
           - principles-and-methods/uncertainty-analysis-main-elements.qmd
           - principles-and-methods/uncertainty-analysis-key-principles.qmd
@@ -85,7 +86,7 @@ website:
     type: overlay
 execute: 
   freeze: false
-
+  
 format:
   html:
     theme: 
@@ -95,6 +96,8 @@ format:
     anchor-sections: true
     email-obfuscation: javascript
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
 
 
 

@@ -155,6 +155,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./principles-and-methods/uncertainty-analysis-concerns.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Common concerns and objections to quantitative expression of uncertainty</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./principles-and-methods/uncertainty-analysis-key-concepts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Key concepts</span></a>
   </div>
@@ -258,11 +264,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Welcome to the Principles and Methods page</p>
 <p>Here, you can explore the principles behind EFSAs approach to uncertainty analysis and communication of uncertainty.</p>
 <p>You can find the reasons why analysing and communicating uncertainty is important and learn about the main elements of uncertainty analysis.</p>
-<p>The principles described on this page are primarily coming from the scientific opinion supporting the Uncertainty analysis Guidance (<em>&lt;-</em>), as well as the Section 3 in the Communication Guidance (<em>-&gt;</em>).</p>
-<p>On the left hand side (<em>&lt;-</em>) you can see the side menu with links to sections where you can learn more about underlying concepts associated with uncertainty and methods for uncertainty analysis. Look around and make yourself at home on the principles and methods page, because you might come back here after exploring the rest of the tutorial for some in-depth insight!</p>
+<p>The principles described on this page are primarily coming from the scientific opinion supporting the Uncertainty analysis Guidance, as well as the Section 3 in the Communication Guidance.</p>
+<p>On the left hand side you can see the side menu with links to sections where you can learn more about underlying concepts associated with uncertainty and methods for uncertainty analysis. Look around and make yourself at home on the principles and methods page, because you might come back here after exploring the rest of the tutorial for some in-depth insight!</p>
 <p>The section on methods might be useful, when you want to find an appropriate method to support an uncertainty analysis.</p>
 <p>The sections on concepts and principles might be useful as a reminder on why and how to perform a quality uncertainty analysis.</p>
-<p>Note, that the text in this tutorial is a condensed extract from the two EFSA guidances and the supporting opinion (<em>&lt;-</em> <em>-&gt;</em>). If something is unclear or if you want to learn more, we recommend you to consult the original Guidances. Always use the original documents as your primary source.</p>
+<p>Note, that the text in this tutorial is a condensed extract from the two EFSA guidances and the supporting opinion. If something is unclear or if you want to learn more, we recommend you to consult the original Guidances. Always use the original documents as your primary source.</p>
 <p>Enjoy the exploration!</p>
 </div>
 </div>
@@ -281,9 +287,10 @@ Learn more about
 <ul>
 <li><a href="./principles-and-methods/uncertainty-analysis-background.html">General background</a>, introducing key definitions, roles, information required for decision making, constraints and expressions of uncertainty.</li>
 <li><a href="./principles-and-methods/uncertainty-analysis-expressions.html">Uncertainty expressions</a>, both quantitative and qualitative.</li>
+<li><a href="./principles-and-methods/uncertainty-analysis-concerns.html">Common concerns and objections</a> to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.</li>
 <li><a href="./principles-and-methods/uncertainty-analysis-key-concepts.html">Key concepts</a>, including uncertainty/variability, model uncertainty, overall uncertainty and expert judgement.</li>
 <li><a href="./principles-and-methods/uncertainty-analysis-main-elements.html">Main elements</a> of uncertainty analysis.</li>
-<li><a href="principles-and-methods/uncertainty-analysis-key principles.qmd">Key principles</a> for conducting different types of assessments</li>
+<li><a href="./principles-and-methods/uncertainty-analysis-key-principles.html">Key principles</a> for conducting different types of assessments</li>
 </ul>
 <p><strong>Principles of Uncertainty Communication:</strong></p>
 <ul>
@@ -528,6 +535,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

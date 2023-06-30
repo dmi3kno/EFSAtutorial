@@ -16,7 +16,7 @@ Welcome to the Uncertainty analysis page
 
 This page takes you through the guidance on uncertainty analysis for different steps and types of assessment. 
 
-You can access general guidance provided for different steps of an uncertainty analysis, from identifying uncertainties to reporting the results of an uncertainty analysis, using the sidebar menu on the left (*<-*) or links below (||).
+You can access general guidance provided for different steps of an uncertainty analysis, from identifying uncertainties to reporting the results of an uncertainty analysis, using the sidebar menu on the left or links below.
 
 - Identifying uncertainties affecting the assessment
 - Prioritising uncertainties within the assessment
@@ -30,13 +30,13 @@ You can access general guidance provided for different steps of an uncertainty a
 
 There is also specific guidance for different types of assessment. This guidance is provided through a series of flowcharts where you can learn about the recommended route for the type of assessment you are working with. 
 
-You access the flowcharts by clicking on one of the four assessment types (||). 
+You access the flowcharts by clicking on one of the four assessment types. 
 
 There is further information below to help you identify the type that applies to your assessment. 
 
-When you click on an assessment type, you will be taken to a flowchart (*->*). The flowchart guides you through the steps of an uncertainty analysis. It can also help you understand the options to make uncertainty analysis fit for purpose. 
+When you click on an assessment type, you will be taken to a flowchart. The flowchart guides you through the steps of an uncertainty analysis. It can also help you understand the options to make uncertainty analysis fit for purpose. 
 
-The EFSA guidance on uncertainty analysis (*<-*) is based on the principles and methods described in the scientific opinion supporting the guidance (*->*). You can learn more about the principles on the principles and methods page in this tutorial. 
+The EFSA guidance on uncertainty analysis is based on the principles and methods described in the scientific opinion supporting the guidance. You can learn more about the principles on the principles and methods page in this tutorial. 
 
 Note that the text in this tutorial is a condensed extract from the EFSA guidance on Uncertainty Analysis. There is more detailed information in the guidance, in text and in footnotes. 
 

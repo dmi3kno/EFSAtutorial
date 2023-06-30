@@ -106,13 +106,6 @@ The recommended approach does not imply a requirement to quantify ‘unknown unk
 
   - Quantifying uncertainty enables decision-makers to weigh the probabilities of different consequences against other relevant considerations.
 
-## Common concerns and objections to quantitative expression of uncertainty
-Common concerns and objections to quantitative expression of uncertainty and how they are addressed by the approach developed in this document and the accompanying Guidance.
-
-::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Common concerns](uncertainty-analysis-concerns.qmd){.btn .btn-secondary .btn-lg role="button"}
-:::
-
 # The role of qualitative expressions of uncertainty
 
 <!-- SO p22 -->

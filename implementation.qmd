@@ -1,5 +1,8 @@
 ---
 title: "Implementation of uncertainty analysis"
+format: 
+  html:
+    page-layout: full
 ---
 :::: {.panel-tabset}
 
@@ -69,10 +72,10 @@ ex_df %>%
     ~as.character(htmltools::a(.x, href=paste0(url_prefix, .x))))) %>% 
   select(DOI, Title, Panel, Type, 
          Expression=html_Expression, Method=html_Method, Comment) %>% 
-  DT::datatable(escape = FALSE, plugins = "ellipsis",
+  DT::datatable(escape = FALSE, plugins = "ellipsis", rownames=FALSE,
       options=list(scrollX=TRUE,
         columnDefs=list(list(
-          targets=c(2,7),
+          targets=c(1,6),
           render=JS("$.fn.dataTable.render.ellipsis( 17, false )"))
                   )
                 ))

@@ -118,7 +118,7 @@ Decisions on how far to refine the assessment and whether to obtain additional d
 ## Suffient for decision-making
 Ultimately, it is for decision-makers to decide when the characterisation of uncertainty is sufficient for decision-making and when further refinement is needed, taking into account the time and costs involved.
 
-# Expression of uncertainty in assessment conclusions
+# Expression of uncertainty in assessment conclusion
 ## Ranges and probabilities when question well-defined
 <!-- SO p16 -->
 Ranges and probabilities are the natural metric for quantifying uncertainty and can be applied to any well-defined question or quantity of interest.
