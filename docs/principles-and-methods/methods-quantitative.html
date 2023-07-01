@@ -289,12 +289,43 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="expressing-uncertainty-using-probability-and-alternatives-to-probability" class="level2">
 <h2 class="anchored" data-anchor-id="expressing-uncertainty-using-probability-and-alternatives-to-probability">Expressing uncertainty using probability and alternatives to probability</h2>
-<p>including adressing variability</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expressing uncertainty using probability and alternatives to probability
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Summary</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Addressing variability</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Deterministic alternatives to probability</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Expressing uncertainty using possibility</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>For yes/no questions or binary quantities, uncertainty can be quantitatively expressed by assigning probabilities to the two possible answers. The probabilities must sum to 100%, determining the probability for the other answer. Uncertainty for a non-variable quantity can be fully quantified by specifying a probability distribution, indicating the probability of the true value falling within any given range. Partial quantification of uncertainty can be achieved by specifying a credible interval, a range of values of interest along with the probability of the true value lying within that range. Additional ranges and probabilities provide a more complete quantification. Probabilities and distributions can be derived from expert judgment, statistical analysis of data, or calculations involving other probabilities. Approximate probabilities, expressed as ranges, can be used to simplify the specification process. Probability bounds are special cases of credible intervals, allowing for approximate probabilities. Probability bounds are useful for combining uncertainties of multiple quantities in a deterministic model. Expert judgment and statistical analysis are both valid approaches for obtaining probabilities, with statistical analysis preferred when applicable. Combining statistical results with expert judgment is often recommended. Calculations based on models are discussed for combining uncertainties expressed using probabilities.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Quantifying uncertainty about a variable quantity is more challenging than quantifying uncertainty about a quantity with a single uncertain true value. The first step is to define the variable and specify its context or scope. Fully quantifying uncertainty about a variable involves modeling its variability, typically using a statistical model. This model can be a family of probability distributions or a more complex model of variable relationships. Uncertainty about the variability is expressed by using probability distributions to represent uncertainty about parameters in the statistical model. The choice of statistical model also introduces uncertainty, which should be considered in the analysis. For example, in a linear regression model, uncertainty about the parameters affects the uncertainty of percentiles or individual response values. By expressing uncertainty about the parameters using a joint probability distribution, the result is a probability distribution that represents uncertainty about percentiles or individual responses based on the covariate. Partial expression of uncertainty about a variable is possible but may require specialized knowledge and is less commonly used. Full quantification is necessary when the entire distribution of variability is of interest, while partial quantification can be used for specific aspects, such as specified percentiles. The approach taken to address uncertainty about variables has significant implications for calculating uncertainty about the output of a model. This is discussed further in Section 11.4.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>When dealing with a categorical question, if probability is not used to quantify uncertainty, the alternative options are qualitative expression or including the uncertainty in a later expression that combines multiple sources. For an uncertain quantity, the minimum quantitative expression of uncertainty is specifying a range of values, which can be an upper or lower bound. However, a range by itself does not indicate the probability of including the true value or the relative likelihood of different values within the range. To provide a complete expression of uncertainty, a probability or approximate probability for the range must also be provided. If uncertainty is quantified with a range alone, the missing probability information should be provided later in the process, such as when quantifying overall uncertainty. In cases where absolute upper or lower limits are derived from theoretical considerations, such as a concentration not exceeding 100%, a range with absolute limits implies a probability content of 100%. If using such a range, the probability judgment should be explicitly stated, making it a probabilistic expression. Deterministic methods for working with bounds and ranges are discussed in section 11.6.</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Possibility theory, along with fuzzy logic and fuzzy sets, has been proposed as an alternative approach to quantify uncertainty. It has been used in conjunction with probabilistic methods, such as Monte Carlo, in risk assessment applications. While fuzzy methods have been applied in various contexts, their benefits compared to probability-based methods are still uncertain. The IPCS (2014) Guidance Document briefly discusses fuzzy methods, acknowledging their ability to handle uncertainties arising from vagueness or incomplete information but noting their inability to provide precise estimates of uncertainty or handle random sampling error. Furthermore, the fuzzy/possibility measure lacks an operational definition comparable to subjective probability, as defined by de Finetti (1937) and Savage (1954). Consequently, these methods are not included in our comprehensive assessment of methods.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="obtaining-probabilities-by-statistical-analysis-of-data" class="level2">
 <h2 class="anchored" data-anchor-id="obtaining-probabilities-by-statistical-analysis-of-data">Obtaining probabilities by statistical analysis of data</h2>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -303,35 +334,13 @@ Confidence intervals
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-The Bootstrap
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
-</div>
-</div>
+<ol type="1">
+<li>Confidence intervals are suitable for application across EFSA in situations where standard statistical models are used in order to quantify uncertainty separately about individual statistical model parameters using intervals.</li>
+<li>The quantification provided is not directly suitable for combining with other uncertainties in probabilistic calculations although expert judgement may be applied in order to support such uses.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.10</a></p>
 </div>
 </div>
 </div>
@@ -341,18 +350,39 @@ The Bootstrap
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Bayesian inference
+The Bootstrap
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
+<ol type="1">
+<li>The bootstrap is suitable for application across EFSA in situations where data are randomly sampled and it is difficult to apply other methods of statistical inference.</li>
+<li>It provides an approximate quantification of uncertainty in such situations and is often easy to apply using Monte Carlo.</li>
+<li>The results of the bootstrap need to be evaluated carefully, especially when the data sample size is not large or when using an estimator for which the performance of the bootstrap has not been previously considered in detail.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.11</a></p>
 </div>
 </div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Bayesian inference
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>The method is suitable for application across EFSA, subject only to availability of the necessary statistical expertise.</li>
+<li>It can be used for quantification of parameter uncertainty in all parametric statistical models.</li>
+<li>For all except the simplest models, incorporating expert judgements in prior distributions is likely to require the development of further guidance on EKE.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.12</a></p>
 </div>
 </div>
 </div>
@@ -360,7 +390,7 @@ Bayesian inference
 <section id="obtaining-probabilities-by-expert-judgement" class="level2">
 <h2 class="anchored" data-anchor-id="obtaining-probabilities-by-expert-judgement">Obtaining probabilities by expert judgement</h2>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -369,19 +399,26 @@ Semi-formal EKE
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
-</div>
-</div>
+<ol type="1">
+<li>The method has a high applicability in Working Groups and boards of EFSA and should be applied to quantify uncertainties in all situations:
+<ol type="a">
+<li>where empirical data from experiments/surveys, literature are limited;</li>
+<li>where the purpose of the risk assessment does not require the performance of a full formal EKE;</li>
+<li>or where restrictions in the resources (e.g.&nbsp;in urgent situations) forces EFSA to apply a simplified procedure.</li>
+</ol></li>
+<li>The method is applicable in all steps of the risk assessment, esp.&nbsp;to summarise the overall uncertainty of the conclusion. Decisions on the risk assessment methods (e.g.&nbsp;risk models, factors, sources of uncertainties) could be judged qualitatively with quantitative elements (e.g.&nbsp;subjective probabilities on appropriateness, what-if scenarios).</li>
+<li>The method should not substitute the use of empirical data, experiments, surveys or literature, when these are already available or could be retrieved with corresponding resources.</li>
+<li>In order to enable an EFSA Working Group to perform expert elicitations, all experts should have basic knowledge in probabilistic judgements and some experts of the Working Group should be trained in steering expert elicitations according to the EFSA Guidance.</li>
+<li>Detailed guidance for semi-formal EKE should be developed to complement the existing guidance for formal EKE (EFSA, 2014a,b), applicable to a range of judgement types (quantitative and categorical questions, approximate probabilities, probability bounds, etc.).</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.8</a></p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -390,14 +427,16 @@ Formal EKE
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
-</div>
-</div>
+<ol type="1">
+<li>The method has a high applicability in Working Groups and boards of EFSA and should be applied to quantify uncertainties in situations where empirical data from experiments/surveys, literature are limited and the purpose of the risk assessment is sensitive and need the performance of a full formal EKE.</li>
+<li>The method is applicable in steps of the risk assessment, where quantitative parameters have to be obtained.</li>
+<li>The method should not substitute the use of empirical data, experiments, surveys or literature, when these are already available or could be retrieved with corresponding resources.</li>
+<li>In order to initiate a formal EKE, some experts of the Working Group should be trained in steering expert elicitations according to the EFSA Guidance. In case of complex or sensitive questions, the elicitation should be performed by professional elicitation groups.</li>
+<li>Further guidance is needed on formal methods for types of expert elicitation not covered by <a href="https://doi.org/10.2903/j.efsa.2014.3734">Guidance on expert knowledge elicitation</a> and <a href="https://doi.org/10.2903/j.efsa.2014.3908">Guidance on statistical reporting</a> (e.g.&nbsp;for variables, dependencies, qualitative questions, approximate probabilities and probability bounds), as well as on semi-formal methods.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.9</a></p>
 </div>
 </div>
 </div>
@@ -405,20 +444,234 @@ Formal EKE
 </section>
 <section id="combining-uncertainties-for-model-inputs-by-probability-calculations" class="level2">
 <h2 class="anchored" data-anchor-id="combining-uncertainties-for-model-inputs-by-probability-calculations">Combining uncertainties for model inputs by probability calculations</h2>
-<p>Logic models</p>
-<p>Deterministic models (calculations)</p>
-<p>Probabilistic models</p>
-<p>Probability calculations for logic models (Annex B.18)</p>
-<p>Probability Bounds Analysis (Annex B.13)</p>
-<p>Monte Carlo simulation for uncertainty analysis (1D-MC and 2D-MC) (Annex B.14)</p>
-<p>Approximate probability calculations (Annex B.15)</p>
-<p>Advanced statistical and probabilistic modelling methodologies</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deterministic models (calculations)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The methods described in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122">SO Sections 9, 11.2 and 11.3</a> can be used to quantify uncertainty about inputs to the model in the form of probability distributions or probability bounds. The mathematics of probability then leads in principle to an expression of uncertainty about the output using probability. Calculating that expression is easier in some situations than others.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Probabilistic models
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Some probabilistic models are really just deterministic models with variable inputs. They can be handled as described in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122">SO Section 11.4.2</a>. Other models are more innately probabilistic and Monte Carlo simulation has a fundamental role in representing the processes involved, as well as quantifying variable inputs. Examples of this might include models of disease transmission, infection and recovery in a mixed population of susceptible and resistant individuals, or probabilistic modelling of cumulative exposures in a population of individuals to multiple contaminants via multiple routes. While there may be possibilities for some special form of Probability Bounds Analysis in such cases, it is likely to be easier to embed the model in a 2D Monte Carlo analysis or a Bayesian graphical model (see <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122">Section 11.5.2</a>) in order to calculate uncertainty for the output of the model from uncertainties expressed about inputs using probability distributions.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Probability calculations for logic models
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>This is potentially an important tool for EFSA as it provides a way to structure logical arguments involving yes/no conclusions and to calculate the combined uncertainty about a conclusion based on uncertainty about underlying yes/no questions expressed using probability.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.18</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Structured tools for evidence appraisal
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Structured approaches for appraising the evidence are valuable methods that should be used in EFSA when assessments include evidence retrieved from the literature and when evaluating studies submitted for regulated products. Several critical appraisal tools are available and there is a need to choose the one that is more appropriate to the study design and adapt it where needed to the specific topic and domain. These approaches enhance consistency and transparency in the evaluation of the risk of bias and other types of uncertainties across a body of evidence. However, they need to be used in conjunction with other methods in the guidance to express the impact of the identified uncertainties on assessment conclusions.</p>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.19</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Sensitivity analysis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Sensitivity analysis can represent a valuable complement of uncertainty analysis in EFSA. It helps assessors in providing risk managers with information about most influential factors on which to focus actions and further research.</li>
+<li>It has potential for applicability in any area of work in EFSA.</li>
+<li>Obstacles to application of the method could be technical complexity and the need to involve an experienced statistician in the computation and interpretation of some specific methods. Training should be provided to staff and experts in order to facilitate the performance of sensitivity analysis.</li>
+<li>It is necessary to clarify prior to start the sensitivity analysis which question it is intended to reply, otherwise its value could be limited and not addressing the informative needs.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.17</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Probability Bounds Analysis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>This is potentially an important tool for EFSA as it provides a way to incorporate probabilistic judgements without requiring the specification of full probability distributions and without making assumptions about dependence. In so doing, it provides a bridge between interval analysis and Monte Carlo. It allows the consideration of less extreme cases than interval analysis and involves less work than full EKE for distributions followed by Monte Carlo.</li>
+<li>Judgements and concept are rather similar to what EFSA experts do already when using assessment factors and conservative assumptions. Probability bounds analysis provides a transparent and mathematically rigorous calculation which results in an unambiguous quantitative probability statement for the output.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.13</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Monte Carlo simulation for uncertainty analysis (1D-MC and 2D-MC)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>MC is the most practical way to carry fully probabilistic assessments of uncertainty and uncertainty about variability and is therefore a very important tool.</li>
+<li>Application of MC is demanding because it requires full probability distributions. Twodimensional MC is particularly demanding because it requires modelling choices (distribution families) and quantification of uncertainty about distribution parameters using statistical inference from data and/or expert knowledge elicitation.</li>
+<li>It is likely that MC will be used to quantify key uncertainties in some assessments, especially in assessments where variability is modelled, with other methods being used to address other uncertainties.</li>
+<li>MC output can be used to make partial probability statements concerning selected parameters which can then be combined with other partial probability statements using probability bounds analysis.</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.14</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Approximate probability calculations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The method is potentially useful, especially as a quick way to approximately combine uncertainties. However, the fact that the accuracy of the method is generally unknown may limit its usefulness.</p>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.15</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advanced statistical and probabilistic modelling methodologies
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Statistical model averaging provides a partial solution to the problem of addressing model uncertainty. Both Bayesian and non-Bayesian versions exist which have, respectively, many of the same strengths and weaknesses identified above for Bayesian inference (<a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0078-title">Section 11.2.3</a>) and confidence intervals (<a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0076-title">Section 11.2.1</a>). See details in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0093-title">Sections 11.5.2</a>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="deterministic-methods-for-quantifying-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="deterministic-methods-for-quantifying-uncertainty">Deterministic methods for quantifying uncertainty</h2>
-<p>Quantitative uncertainty tables (Annex B.5)</p>
-<p>Interval analysis (Annex B.7)</p>
-<p>Calculations with conservative assumptions (Annex B.16)</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Uncertainty tables for quantitative questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A template for listing sources of uncertainty affecting a quantitative question and assessing their individual and combined impacts on the uncertainty of the assessment conclusion.</p>
+<ol type="1">
+<li>This method is applicable to all types of uncertainty affecting quantities of interest, in all areas of scientific assessment. It is flexible and can be adapted to fit within the time available, including urgent situations.</li>
+<li>The method is a framework for documenting expert judgements and making them transparent. It is generally used for semi-formal expert judgements, but formal techniques (see <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0247-title">SO Annex B.9</a>) could be incorporated where appropriate, e.g.&nbsp;when the uncertainties considered are critical to decision-making.</li>
+<li>The method uses expert judgement to combine multiple uncertainties. The results of this will be less reliable than calculation, it would be better to use uncertainty tables as a technique for facilitating and documenting expert judgement of quantitative ranges for combination by interval analysis. However, uncertainty tables using +/- symbols are a useful option for two important purposes: the need for an initial prioritisation of uncertainties, and to inform probability judgements in the characterisation of overall uncertainty (see <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0102-title">SO Section 14</a>).</li>
+</ol>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0191-title">SO Annex B.5</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Interval analysis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A method to compute a range of values for the output of an assessment calculation based on specified ranges for the individual inputs.</p>
+<ol type="1">
+<li>Interval analysis provides a simple and rigorous calculation of bounds for the output. However, it provides only extreme upper and lower values for the output resulting from combinations of inputs and gives no information on probability of values within the output range.</li>
+<li>It has the potential to be very useful because it can be used to check quickly whether the output range includes both acceptable and unacceptable consequences. If it does, a more sophisticated analysis of uncertainty is needed.</li>
+</ol>
+<p><a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.7</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Calculations with conservative assumptions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Assessment factors, conservative assumptions and decision criteria are widely used to account for uncertainty, variability and extrapolation in many areas of EFSA assessment. Some are defaults that can be used in many assessments, while others are specific to particular assessments. They are simple to use and communicate. When well specified and justified they are a valuable tool, providing an appropriate degree of conservatism for the issues they address. They are more reliable when it is possible to calibrate them by statistical analysis of relevant data. Most assessments involve a combination of multiple factors and assumptions, some default and some specific. Conservatism needs to be evaluated for the assessment as a whole, taking account of all the elements involved. Assessing the combined effect of multiple factors and assumptions is much more reliable when done by probabilistic analysis than by expert judgement. In order to be transparent and avoid implying risk management judgements, the degree of conservatism needs to be quantified and agreed with decision-makers. This can be done by providing a probability or approximate probability that the result of the calculation is conservative relative to the quantity of interest. For deterministic calculations that are part of a standardised procedure, this should be done when calibrating the procedure (<a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0152-title#efs25122-sec-0050-title">SO Section 7.1.3</a>). Where deterministic calculations are used in case-specific or urgent assessments, their conservatism could be quantified by expert judgement when characterising overall uncertainty, or the deterministic calculation could be replaced by a probability bounds analysis.</p>
+<p>Read more in <a href="https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#">SO Annex B.16</a></p>
+</div>
+</div>
+</div>
 
 
 </section>

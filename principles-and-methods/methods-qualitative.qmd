@@ -4,63 +4,76 @@ title: "Qualitative methods"
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Descriptive methods
-:::: {.panel-tabset}
-using narrative phrases or text to describe uncertainties.
 
-[SO Annex B.1](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0139-title)
-::::
+Using narrative phrases or text to describe uncertainties.
+
+1) Descriptive expression is currently the main approach to characterising uncertainty in EFSA and elsewhere. However, there are reasons to move towards more quantitative forms of expression. 
+1) When a descriptive expression of uncertainty is used, the inherent ambiguity of language means that care is needed to avoid misinterpretation. Ambiguity can be reduced by providing precise definitions that are consistently used across Panels, and by increased dialogue between assessors and decision-makers. 
+1) When uncertainty is quantified, it may be useful to accompany it with descriptive expression, as the intuitive nature and general acceptance of descriptive expression make it a useful part of the overall communication. 
+1) Special care is required to avoid using language that implies value judgements, unless accompanied by objective scientific definitions. 
+1) Descriptive expression should be used to communicate the nature and causes of uncertainty. This is especially important for any uncertainties that are not included in the quantitative assessment.
+
+Read more in [SO Annex B.1](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0139-title)
+
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Ordinal scales
-:::: {.panel-tabset}
-characterising uncertainties using an ordered scale of categories with qualitative definitions (e.g. high, medium or low uncertainty).
 
-[SO Annex B.2](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0152-title)
-::::
+Characterising uncertainties using an ordered scale of categories with qualitative definitions (e.g. high, medium or low uncertainty).
+
+1) Ordinal scales are often defined in terms of the nature, amount, quality and consistency of evidence or the degree of agreement between experts. When used in this way, they should be described as scales for evidence or agreement and not as scales for uncertainty, as they do not describe uncertainty directly. However, they may help to inform subsequent judgements about the degree of uncertainty. 
+1) Ordinal scales can also be used to describe the degree of uncertainty, if they are defined in terms of the range or probability of different answers. 
+1) Calculations which treat ordinal scales as if they were quantitative are invalid and should not be used. 
+1) Ordinal scales provide a useful way of summarising multiple sources of uncertainty to inform quantitative judgements about their combined impact, e.g. when assessing the combined effect of uncertainties which are for whatever reason not quantified individually in the assessment.
+
+Read more in [SO Annex B.2](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0152-title)
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Matrices for confidence and uncertainty
-:::: {.panel-tabset}
-providing standardised rules for combining two or more ordinal scales describing different aspects or dimensions of uncertainty.
 
-[SO Annex B.3](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0165-title)
-::::
+Providing standardised rules for combining two or more ordinal scales describing different aspects or dimensions of uncertainty.
+
+1) Matrices with ordinal input and output scales that lack quantitative definitions are ambiguous and will be interpreted in different ways by different users. 
+1) Matrices that specify a fixed relation between input and output should not be used unless a clear justification, based on theory or expert judgement, can be provided for the relationships involved. 
+1) Matrices that do not specify a fixed relation between input and output might be regarded as a guide for expert judgement, reminding the user of the factors that should be considered when making judgements. However, users may be tempted to apply them as if they represented fixed rules, leading to inappropriate conclusions. 
+1) Even when the above issues are avoided, matrices become cumbersome when more than two sources or aspects of uncertainty are involved, which is usual in EFSA assessment. The issues in (1–4) above are likely to limit the usefulness of matrices as a tool for assessing uncertainty in EFSA’s work.
+
+Read more in [SO Annex B.3](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0165-title)
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## NUSAP method
-:::: {.panel-tabset}
-using a set of ordinal scales to characterise different dimensions of each source of uncertainty, and its influence on the assessment conclusion, and plotting these together to indicate which sources of uncertainty contribute most to the uncertainty of the assessment conclusion.
 
-[SO Annex B.4](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0178-title)
-::::
-:::
+Using a set of ordinal scales to characterise different dimensions of each source of uncertainty, and its influence on the assessment conclusion, and plotting these together to indicate which sources of uncertainty contribute most to the uncertainty of the assessment conclusion.
 
-:::{.callout-tip collapse="true" appearance="minimal"}
-## Uncertainty tables for quantitative questions
-:::: {.panel-tabset}
-a template for listing sources of uncertainty affecting a quantitative question and assessing their individual and combined impacts on the uncertainty of the assessment conclusion.
+1) The NUSAP method can be used as a qualitative approach to help prioritise uncertain elements in risk assessment for quantitative analysis by other methods. 
+1) NUSAP may be especially useful as a structured approach for qualitative characterisation of uncertainties which are not included in quantitative assessment.
+1) NUSAP practitioners encourage its use in a structured workshop format with groups of experts. As for other formal approaches, this requires additional time and resources but increases the chance of detecting relevant uncertainties and provides a more considered characterisation of their impact on the assessment. 
+1) The NUSAP method should be further evaluated in a series of case studies for EFSA. 
+1) A common terminology should be developed for use in NUSAP assessments, which is understood by all involved.
 
-[SO Annex B.5](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0191-title)
-::::
+Read more in [SO Annex B.4](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0178-title)
+
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Uncertainty tables for categorical questions
-:::: {.panel-tabset}
-a template for listing lines of evidence contributing to answering categorical questions (including yes/no questions), identifying their strengths and weaknesses, and expressing the uncertainty of answers to the questions.
 
-[SO Annex B.6](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0204-title)
-::::
+A template for listing lines of evidence contributing to answering categorical questions (including yes/no questions), identifying their strengths and weaknesses, and expressing the uncertainty of answers to the questions.
+
+1) This approach is potentially applicable to any type of binary question in all areas of EFSA’s work, and to all types of uncertainty affecting those questions. 
+1) The approach is new and would benefit from further case studies to evaluate its usefulness and identify improvements.
+
+
+Read more in [SO Annex B.6](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0204-title)
 :::
 
 :::{.callout-tip collapse="true" appearance="minimal"}
 ## Structured tools for evidence appraisal
-:::: {.panel-tabset}
-which include templates for identifying and evaluating sources of uncertainty affecting validity of a single study and the whole body of evidence retrieved from the literature, and can also be adapted to evaluate studies submitted to EFSA for the assessment regulated products.
+
+Including the templates for identifying and evaluating sources of uncertainty affecting validity of a single study and the whole body of evidence retrieved from the literature, and can also be adapted to evaluate studies submitted to EFSA for the assessment regulated products.
 
 [SO Annex B.19](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0377-title)
-::::
 :::
