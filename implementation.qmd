@@ -57,27 +57,49 @@ ex_html_meth_df <- ex_meth_df %>%
   mutate(html_Method=purrr::map2_chr(Method, Link, 
           ~as.character(htmltools::a(.x, href=.y)))) %>% 
   group_by(DOI) %>% 
-  summarise(html_Method=paste(html_Method, collapse = "</br>")) 
+  summarise(html_Method=paste(html_Method, collapse = "</br>"),
+            html_MethodComment=paste(Comment, collapse = "</br>")) 
 
 ex_html_expr_df <- ex_expr_df %>% 
   mutate(html_Expression=purrr::map2_chr(Expression, Link, 
           ~as.character(htmltools::a(.x, href=.y)))) %>% 
   group_by(DOI) %>% 
-  summarise(html_Expression=paste(html_Expression, collapse = "</br>"))
+  summarise(html_Expression=paste(html_Expression, collapse = "</br>"),
+            html_ExpressionComment=paste(Comment, collapse = "</br>"))
 
 ex_df %>% 
   left_join(ex_html_expr_df, by="DOI") %>% 
   left_join(ex_html_meth_df, by="DOI") %>% 
   mutate(DOI=map_chr(DOI, 
-    ~as.character(htmltools::a(.x, href=paste0(url_prefix, .x))))) %>% 
+    ~as.character(htmltools::a(.x, href=paste0(url_prefix, .x)))),
+    Comment=paste0("<b>Method:</b></br>", html_MethodComment,
+                  "</br><b>Expression:</b></br>",html_ExpressionComment)) %>% 
   select(DOI, Title, Panel, Type, 
          Expression=html_Expression, Method=html_Method, Comment) %>% 
+  cbind(' ' = '&oplus;', .) %>% 
   DT::datatable(escape = FALSE, plugins = "ellipsis", rownames=FALSE,
       options=list(scrollX=TRUE,
-        columnDefs=list(list(
-          targets=c(1,6),
-          render=JS("$.fn.dataTable.render.ellipsis( 17, false )"))
-                  )
+        columnDefs=list(
+          list(visible = FALSE, targets = c(7)),
+          list(orderable = FALSE, className = 'details-control', targets = 0),
+          list(targets=c(2), render=JS("$.fn.dataTable.render.ellipsis( 17, false )"))
+                  )),
+        callback=JS("
+  table.column(1).nodes().to$().css({cursor: 'pointer'});
+  var format = function(d) {
+    return '<div style=\"background-color:#eee; padding: .5em;\">' +
+            d[7] + '</div>';
+  };
+  table.on('click', 'td.details-control', function() {
+    var td = $(this), row = table.row(td.closest('tr'));
+    if (row.child.isShown()) {
+      row.child.hide();
+      td.html('&oplus;');
+    } else {
+      row.child(format(row.data())).show();
+      td.html('&CircleMinus;');
+    }
+  });"
                 ))
 ```
 
