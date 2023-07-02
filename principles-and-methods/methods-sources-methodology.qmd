@@ -6,78 +6,78 @@ General types of uncertainty affecting assessment methodology, including how the
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 1. Ambiguity
-:::: {.panel-tabset}
+
 If the assessment combines inputs using mathematical or statistical model(s) that were developed by others, are all aspects of them adequately described, or are multiple interpretations possible?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 2. Excluded factors
-:::: {.panel-tabset}
+
 Are any potentially relevant factors or processes excluded? (e.g. excluded modifying factors, omitted sources of additional exposure or risk).
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 3. Distribution choice
-:::: {.panel-tabset}
+
 Are distributions used to represent variable quantities? If so, how closely does the chosen form of distribution (normal, lognormal, etc.) represent the real pattern of variation? What alternative distributions could be considered?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 4. Use of fixed values
-:::: {.panel-tabset}
+
 Does the assessment include fixed values representing quantities that are variable or uncertain, e.g. default values or conservative assumptions? If so, are the chosen values appropriate for the needs of the assessment, such that when considered together they provide an appropriate and known degree of conservatism in the overall assessment?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 5. Relationship between parts of the assessment
-:::: {.panel-tabset}
+
 If the assessment model or reasoning represents a real process, how well does it represent it? If it is a reasoned argument, how strong is the reasoning? Are there alternative structures that could be considered? Are there dependencies between variables affecting the question or quantity of interest? How different might they be from what is assumed in the assessment?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 6. Evidence for the structure of the assessment
-:::: {.panel-tabset}
+
 What is the nature, quantity, relevance, reliability and quality of data or evidence available to support the structure of the model or reasoning used in the assessment? Where the assessment or uncertainty analysis is divided into parts, is the division into parts and the way they are subsequently combined appropriate?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 7. Uncertainties relating to the process for dealing with evidence from the literature
-:::: {.panel-tabset}
+
 Was a structured approach used to identify relevant literature? How appropriate were the search criteria and the list of sources examined? Was a structured approach used to appraise evidence? How appropriate were the criteria used for this? How consistently were they applied? Were studies filtered or prioritised for detailed appraisal? Was any potentially relevant evidence set aside or excluded? If so, its potential contribution should be considered as part of the characterisation of overall uncertainty.
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 8. Expert judgement
-:::: {.panel-tabset}
+
 Identify where expert judgement was used: in obtaining and interpreting estimates based on statistical analysis of data, in obtaining estimates by expert elicitation, in choices about assessment methods, models and reasoning? How many experts participated, how relevant and extensive was their expertise and experience for making them, and to what extent did they agree? Was a structured elicitation methodology used and, if so, how formal and rigorous was the procedure?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 9. Calibration or validation with independent data
-:::: {.panel-tabset}
+
 Has the assessment, or any component of it, been calibrated or validated by comparison with independent information? If so, consider the following: What uncertainties affect the independent information? Assess this by considering all the questions listed above for assessing the uncertainty of inputs How closely does the independent information agree with the assessment output or component to which it pertains, taking account of the uncertainty of each? What are the implications of this for your uncertainty about the assessment?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 10. Dependency between sources of uncertainty
-:::: {.panel-tabset}
+
 Are there dependencies between any of the sources of uncertainty affecting the assessment and/or its inputs, or regarding factors that are excluded? If you learned more about any of them, would it alter your uncertainty about one or more of the others?
-::::
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## 11. Other uncertainties
-:::: {.panel-tabset}
+
 Are there any uncertainties about assessment methods or structure, due to lack of data or knowledge gaps, which are not covered by other categories above?
-::::
+
 :::
 

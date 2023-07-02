@@ -14,16 +14,12 @@ Assessors should be systematic in searching for sources of uncertainty affecting
 ### Inputs
 Uncertainties affecting the inputs used in the scientific assessment are normally identified during the process of appraising the evidence, which is an intrinsic part of scientific assessment.
 
-::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Questions to identify sources of uncertainty affecting inputs](methods-sources-inputs.qmd){.btn .btn-secondary .btn-lg role="button"}
-:::
+See [questions to identify sources of uncertainty affecting inputs](methods-sources-inputs.qmd)
 
-## Assessment methodology
+### Assessment methodology
 Other sources of uncertainties can be identified in relation to how the evidence is used in the assessment, including any models or reasoning that are used to draw conclusions.
 
-::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Questions to identify sources of uncertainty affecting assessment methodolgoy](methods-sources-methodology.qmd){.btn .btn-secondary .btn-lg role="button"}
-:::
+See [questions to identify sources of uncertainty affecting assessment methodolgoy](methods-sources-methodology.qmd)
 
 ::::
 :::
@@ -57,45 +53,56 @@ In practice, there is not a dichotomy between more and less formal approaches to
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## Qualitative methods for analysing uncertainty
 <!-- Ch 10 SO -->
-:::: {.panel-tabset}
 ### Use of qualitative methods
 Qualitative methods characterise uncertainty using descriptive expression or ordinal scales, without quantitative definitions
 
 <!-- SO p50 -->
 They rely on careful use of language and expert judgement.
 
-Qualitative methods may provide a useful aid for experts when making quantitative judgements.
-
-### Examples
-::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Qualitative methods](methods-qualitative.qmd){.btn .btn-secondary .btn-lg role="button"}
+Qualitative methods may provide a useful aid for experts when making quantitative judgements. Please see examples of [qualitative methods](methods-qualitative.qmd).
 :::
 
-
-::::
-:::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## Methods for quantifying uncertainty
 <!-- Ch 11 SO -->
-:::: {.panel-tabset}
-### Use 
-text
 
-### Examples
-::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Methods to quantify](methods-quantitative.qmd){.btn .btn-secondary .btn-lg role="button"}
-:::
+[SO Section 11](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0070-title) provides an overview of probabilistic and deterministic approaches for quantifying uncertainty. More detailed information on each method can be found in [SO Annex B](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-1002-title). While data play a crucial role, expert judgment should be complemented by statistical analysis whenever possible. The guidance emphasizes the use of probability as the preferred measure for quantifying uncertainty, since it offers a well-defined scale and allows for comparability between different uncertainties. Furthermore, probability enables the quantification of combined uncertainties in model outputs based on the probabilistic representation of input uncertainties. Another advantage of probability is its compatibility with Bayesian statistical analysis and the potential integration of results from non-Bayesian methods, facilitating uncertainty analysis. 
 
-::::
+When the quantity of interest is variable, determining how to address variability in the assessment is crucial. The decision-maker should specify the aspect of variability they are interested in, whether it's the entire distribution or a particular aspect such as the worst case or a specific percentile. The choice of quantifying uncertainty depends on the aspect of interest and any models used to relate the quantity of interest to other variables.
+
+Please, see the examples of [quantitative methods](methods-quantitative.qmd).
+
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ### Investigating influence and sensitivity
+
+Sensitivity analysis (SA) is a set of methods used to assess the impact of model inputs and uncertainty expressions on the output of a quantitative model. Its objectives include prioritizing sources of uncertainty, identifying inputs for refined quantification or additional data collection, investigating the sensitivity of assumptions, and examining the sensitivity of overall uncertainty.
+
 <!-- Ch 12 SO -->
 :::: {.panel-tabset}
 
-Sensitivity analysis (Annex B.17)
+### Influence
+
+
+The term "influence" refers to the overall impact of changes in the structure, parameters, and assumptions on assessment results. Sensitivity specifically refers to the quantitative impact of input uncertainties on output uncertainties in a quantitative model. Sensitivity analysis tools are discussed in [SO Section 12.1](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0099-title). Other forms of influence can be explored by testing different scenarios and observing their effects on the assessment conclusion. Qualitative methods like the [NUSAP approach](methods-qualitative.qmd) and [uncertainty tables](methods-qualitative.qmd) can also be used. Expert judgment and formal/semi-formal elicitation techniques are valuable for assessing influence, particularly in determining which parameters should undergo formal sensitivity analysis.
+
+### Sensitivity analysis
+
+SA is typically performed for quantitative models but can also be applied to logic models to assess the sensitivity of conclusions. Expert judgments are crucial for defining the ranges of values to be investigated and choosing the analysis method.
+
+SA helps allocate uncertainty about the output to sources of uncertainty in the inputs, identifying the main contributors to output uncertainty. Two main approaches exist: local SA, which examines infinitesimal changes in inputs, and global SA, which explores the effects of input changes over their entire range. Global SA methods are more relevant for EFSA assessments due to the need to consider the full range of possible values.
+
+SA involves changing one parameter at a time (Nominal Range SA) or examining the combined effects of multiple changes, especially when interactions between inputs exist. However, SA cannot guide initial model design or the selection of sources of uncertainty for quantitative uncertainty analysis; expert judgment is necessary for these decisions. Subjective considerations of sensitivity should be carefully documented, and semi-formal expert elicitation may be appropriate when their impact on the assessment is significant.
+
+### Methods
+
+Methods for SA can be categorized as mathematical (deterministic), statistical (probabilistic), or graphical. They provide insights into which data sets, assumptions, or expert judgments require closer examination. Simple methods can be applied to assess the relative sensitivity of the output to individual variables and parameters. Separating the contributions of uncertainty and variability is an important issue in SA, and ongoing development is needed for situations where both components are present.
+
+SA contributes to uncertainty analysis by analyzing the contributions of individual sources of uncertainty to the overall uncertainty of the assessment conclusion. It expresses the sensitivity of the assessment output quantitatively and/or graphically to input changes. Its strengths include structured identification of influential sources of uncertainty/variability, but it faces challenges in separately assessing the sensitivity to sources of uncertainty and variability.
+
+Read more in [SO Annex B.17](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0351-title)
 
 ::::
 :::
@@ -103,7 +110,6 @@ Sensitivity analysis (Annex B.17)
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ### Characterisation of overall uncertainty
 <!-- Ch 14 SO -->
-:::: {.panel-tabset}
 
 There are three options for quantifying the overall uncertainty, depending on the context: 
 
@@ -121,15 +127,30 @@ There are three options for quantifying the overall uncertainty, depending on th
 knitr::include_graphics("../img/options_for_characterising_overall_uncertainty.png")
 ```
 
-
-::::
 :::
 
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ### Reporting uncertainty analysis in scientific assessments
 <!-- Ch 15 SO -->
-:::: {.panel-tabset}
 
-add text
-::::
+## Types of assessment
+
+In reporting uncertainty analysis, EFSA's guidelines state that standardized assessments should mention the standard procedure followed and confirm the absence of non-standard uncertainties. If the applicability of the standard procedure is unclear, an explanation should be provided. For other assessments, uncertainty analysis should be reported with consideration for time constraints in urgent cases. In standardized assessments with non-standard uncertainties, the analysis should focus on those specific to the assessment.
+
+## Sources of uncertainty
+
+Transparency and consistency with EFSA's principles are essential in reporting uncertainty analysis. Sources of uncertainty should be identified, documented, evaluated, and combined, including the use of data, expert judgment, and chosen methodologies. Reference to other documents may suffice for described methods. The location of uncertainty analysis information should maximize accessibility in the assessment report.
+
+Assessments must clearly identify sources of uncertainty and characterize their impact on the conclusion. Depending on the type of assessment, decision-makers or legislation may require specific reporting formats, such as qualitative descriptors or unqualified conclusions. In cases where practical certainty cannot be achieved, assessors should report inconclusive findings and comply with documentation requirements.
+
+## Unquantified uncertainties
+
+The assessment conclusion should include a clear statement of quantified uncertainty and a description of unquantified uncertainties. Quantified uncertainty can be expressed using probabilities or probability distributions. Unquantified uncertainties should be described in terms of their nature, cause, effects, difficulty in quantification, assumptions made, and suggestions for reduction or better characterization. Words implying magnitude or likelihood should be avoided.
+
+## Overall uncertainty
+
+A concise summary of the overall uncertainty characterization, suitable for the executive summary, should provide a simplified quantitative expression of the combined effect of quantified uncertainties and a brief description of unquantified uncertainties. Assessors should ensure compatibility between the reporting of uncertainty analysis and the assessment conclusions, revising both if necessary.
+
+In some assessments, information on the main contributors to uncertainty may be useful for decision-makers, informing further actions such as data gathering and refinement of the assessment. Prioritization methods can be employed to identify these main contributors.
+
 :::
