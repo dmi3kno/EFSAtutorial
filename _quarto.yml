@@ -58,8 +58,7 @@ website:
         - uncertainty-analysis/prioritizing.qmd
         - uncertainty-analysis/dividing.qmd
         - uncertainty-analysis/well-defined.qmd
-        - uncertainty-analysis/characterizing.qmd
-        - uncertainty-analysis/combining.qmd
+        - uncertainty-analysis/characterising-and-combining.qmd
         - uncertainty-analysis/overall.qmd
         - uncertainty-analysis/future-investigation.qmd
         - uncertainty-analysis/reporting.qmd

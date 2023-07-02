@@ -1,6 +1,0 @@
----
-title: "Combining uncertainty from different parts of the uncertainty analysis"
----
-
-Section 13-15
-

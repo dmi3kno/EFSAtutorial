@@ -114,8 +114,7 @@ Identify which of the following types your assessment most corresponds to and th
 - [Prioritising](uncertainty-analysis/prioritizing.qmd) uncertainties within the assessment
 - [Dividing](uncertainty-analysis/dividing.qmd) the uncertainty analysis into parts
 - Ensuring that the questions or quantities of interest are [well-defined](uncertainty-analysis/well-defined.qmd).
-- [Characterising uncertainty for parts](uncertainty-analysis/characterizing.qmd) of the uncertainty analysis
-- [Combining](uncertainty-analysis/combining.qmd) uncertainty from different parts of the uncertainty analysis
+- [Characterising uncertainty for parts of the uncertainty analysis and combining them](uncertainty-analysis/characterising-and-combining.qmd) 
 - [Characterising overall uncertainty](uncertainty-analysis/overall.qmd)
 - [Prioritising uncertainties for future investigation](uncertainty-analysis/future-investigation.qmd).
 - [Reporting](uncertainty-analysis/reporting.qmd) uncertainty analysis
