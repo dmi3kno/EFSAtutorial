@@ -2,5 +2,22 @@
 title: "Prioritising uncertainties for future investigation"
 ---
 
-Section 8
+Prioritising sources of uncertainty may be useful at different stages of the assessment and uncertainty analysis. 
+
+In the early stages, it can be used to select more important uncertainties to be analysed by more refined methods. 
+
+Prioritisation can also be used during the course of an assessment, to identify parts of the assessment where it might be beneficial to search for more data, use more complex models, or invite additional experts. 
+
+At the end of the assessment, it may be useful to prioritise uncertainties to identify potential areas for further research. 
+
+Prioritisation, at any stage of the assessment, should be based on the contribution of individual sources of uncertainty to the uncertainty of the assessment as a whole.
+
+The relative influence of different uncertainties can be assessed in a simple and approximate way using qualitative methods based on expert judgement. An ordinal scale can be used to express expert judgements of the magnitude and/or direction of impact of each uncertainty on the question or quantity of interest.
+
+When the assessment involves a calculation or quantitative model, the contributions of uncertainties about the model inputs can be assessed rigorously by sensitivity analysis. These range from simple ‘what if’ calculations to sophisticated global sensitivity analyses. 
+
+The influence of uncertainties relating to choices regarding the structure of the model or assessment may need to be addressed by repeating the assessment with alternative choices. 
+
+Prioritisation at the early stages of an assessment must necessarily be done by expert judgement or by sensitivity analysis using a preliminary model, as the assessment model is still under development.
+
 
