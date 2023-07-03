@@ -2,7 +2,50 @@
 title: "Two-dimensional probability distribution"
 ---
 
-In this guidance, the term ‘two-dimensional (or 2D) probability distribution’ refers to a distribution that quantifies the uncertainty of a quantity that is variable, i.e. takes multiple true values (e.g. the exposure of different individuals in a population). This is most often plotted as a CDF or CCDF representing the median estimate of the variability, with uncertainty intervals quantifying uncertainty around the CDF or CCDF.
+In this guidance, the term ‘two-dimensional (or 2D) probability distribution’ refers to a distribution that quantifies the uncertainty of a quantity that is variable, i.e. takes multiple true values (e.g. the exposure of different individuals in a population). This is most often plotted as a CDF or CCDF representing the median estimate of the variability, with uncertainty intervals quantifying uncertainty around the CDF or CCDF (@fig-2dmc).
 
+```{r}
+#| label: fig-2dmc
+#| fig-cap: "Estimated cumulative distribution of ratio of exposure to the TDI for melamine, for 1-year-olds consuming contaminated chocolate from China"
+#| fig-width: 7
+#| fig-height: 5
+#| echo: false
+options(tidyverse.quiet = TRUE)
+#remotes::install_github("dmi3kno/qpd")
+library(qpd)
+library(tidyverse)
+ps <- c(0.025, 0.25, 0.5, 0.75, 0.975)
+pgrd <- ppoints(300)
+
+pars_df <- tibble::tibble(
+  ps=ps,
+  q0025=qJQPDS(ps, 3.7e-7, 2e-5, 9e-5, alpha=0.025),
+  q0500=qJQPDS(ps, 0.0023, 0.0045, 0.0054, alpha = 0.025),
+  q0975=qJQPDS(ps, 0.154, 0.527, 1.037, alpha=0.025)
+)
+
+obs_df <- pars_df %>% tibble::rowid_to_column() %>% 
+  mutate(dat=pmap(list(q0025, q0500, q0975), ~tibble(p=pgrd, q=qJQPDS(p, ..1, ..2, ..3, alpha=0.025)))) %>% unnest(dat) %>% 
+  mutate(ps_txt=paste0("P",ps)) %>% 
+  select(ps_txt, p, q) %>% 
+  pivot_wider(names_from = ps_txt, values_from = q)
+
+ggplot(obs_df)+
+  geom_ribbon(aes(xmin=`P0.025`, xmax=`P0.975`, y=p), fill="grey70")+
+  geom_ribbon(aes(xmin=`P0.25`, xmax=`P0.75`, y=p), fill="grey30")+
+  geom_line(aes(x=`P0.5`, y=p), color="black")+
+  geom_vline(xintercept=1)+
+  scale_x_log10()+
+  theme_minimal()+
+  labs(
+    x="r",
+    y="fraction of child-days with risk ration less than r",
+    caption="Uncertainty about the cumulative distribution is indicated: 
+    the light grey band corresponds to 95% uncertainty range, 
+    and dark grey band corresponds to 50% uncertainty range"
+  )
+
+
+```
 
 
