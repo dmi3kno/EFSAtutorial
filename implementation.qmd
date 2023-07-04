@@ -32,6 +32,8 @@ Thank you!
 
 ::::
 
+The table provided below contains examples of scientific reports and opinions implementing the Guidances. Please use the &#8853; sign to unfold the comments section. Each line in the comment section corresponds to an expressions or a method indicated in the table for the selected scientific opinion.
+
 
 ```{r}
 #| label: readsheets

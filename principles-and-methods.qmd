@@ -51,5 +51,4 @@ Enjoy the exploration!
 
 - [Principles of Uncertainty Communication](principles-and-methods/uncertainty-communication-principles.qmd) including the Approximate Probability Scale.
 - [Communicating Scientific Uncertainties](principles-and-methods/uncertainty-communication-principles.qmd), covering risk communication mandate, risk perception and the uncertainty communicaiton challenges.
-- Proper [audience targeting](principles-and-methods/uncertainty-communication-principles.qmd).
 :::

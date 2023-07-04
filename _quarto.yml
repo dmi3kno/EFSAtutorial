@@ -42,7 +42,6 @@ website:
           contents:
           - principles-and-methods/uncertainty-communication-principles.qmd
           - principles-and-methods/uncertainty-communication-communicating.qmd
-          - principles-and-methods/uncertainty-communication-audience.qmd
         - section: "Methods for Uncertainty Analysis"
           contents:
           - principles-and-methods/methods.qmd
