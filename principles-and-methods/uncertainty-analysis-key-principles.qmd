@@ -2,7 +2,7 @@
 title: "Key principles"
 ---
 
-**You can read more about different types of assessment on this page - add link to recorded video on the UA page**
+Read more about [different types of assessment](https://dmi3kno.github.io/EFSAtutorial/uncertainty-analysis.html#types-of-assessment).
 
 
 # Key principles when conducting case-specific assessments

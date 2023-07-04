@@ -83,9 +83,16 @@ A scientific assessment can consist of probabilistic models for both uncertainty
 I think we are ready to say something about the distinction between uncertainty and variability.
  
 Uncertainty refers to the state of knowledge, whereas variability refers to actual variation or heterogeneity in the real world. 
-Both uncertainty and variability can be represented by probability distributions, as illustrated in the left and central graphs in Figure 1.
+Both uncertainty and variability can be represented by probability distributions, as illustrated in the left and central graphs in @fig-uncvar.
 
-TALK THROUGH THE FIGURE
+```{r}
+#| label: fig-uncvar
+#| fig-cap: "Uncertainty and variability"
+#| echo: false
+
+knitr::include_graphics("../img/uncvar.png")
+```
+
 
 The left you see a probability distribution for a non-variable quantity - Let us call it parameter P. It is a single true value which is uncertain, and the distribution represents uncertainty about P. 
 
@@ -103,13 +110,13 @@ in management options aimed at influencing variability (e.g. to change exposures
 
 ::::
 
-
-
 ## Communicating uncertainty about a quantity of interest by a probability distribution  
 
-A graph showing probabilities for different values of an uncertain quantity that has a single true value (e.g. the average exposure for a population). The graph can be plotted in various formats, most commonly a probability density function (PDF), cumulative distribution function (CDF) or complementary cumulative distribution function (CCDF) (see [Section 4.1.4.2 in UC](https://doi.org/10.2903/j.efsa.2019.5520))
+A graph showing probabilities for different values of an uncertain quantity that has a single true value (e.g. the average exposure for a population). The graph (@fig-probdistr) can be plotted in various formats, most commonly a probability density function (PDF), cumulative distribution function (CDF) or complementary cumulative distribution function (CCDF) (see [Section 4.1.4.2 in UC](https://doi.org/10.2903/j.efsa.2019.5520))
 
 ```{r}
+#| label: fig-probdistr
+#| fig-cap: "CDF, PDF and boxplot"
 #| message: false
 #| warning: false
 #| echo: false
@@ -214,7 +221,6 @@ patchwork::wrap_plots(p1,p2,p3, ncol=1, guides="collect") &
 #ggsave("prob_dist.png", width=5, height = 7)
 ```
 
-
 ## Common terminology for a probability distribution
 
 :::: {.panel-tabset}
@@ -227,33 +233,22 @@ patchwork::wrap_plots(p1,p2,p3, ncol=1, guides="collect") &
 
 A probability distribution for a discrete or continuous quantity gives the probability that the quantity lies in any specified range of values.
 
-A probability distribution can be represented by its Cumulative Distribution Function (often abbreviated as CDF). The CDF gives the probability that the quantity ls less than or equal to any specified value.
-
-SHOW CDF FOR A SMOOTH VERSION OF THE PROBABILITY DISTRIBUTION IN THE GD
+A probability distribution can be represented by its Cumulative Distribution Function (often abbreviated as CDF). The CDF gives the probability that the quantity ls less than or equal to any specified value (@fig-probdistr).
 
 The CDF contains all the information about probabilities for the quantity: for example, it can be used to calculate the probability that the quantity lies in any specified range of values.
-
-SHOW LINES READING FROM THE CDF STARTING FROM THE x-axis where the probability is highlighted
 
 This is a curve over the possible range of the quantity (on the x-axis) increasing from 0 to 100% probability (on the y-axis).  
 
 To summarise uncertainty, an assessor might want to find values that divide the range of the quantity into parts containing specified amounts of probability. Such values are known as quantiles (or percentiles).
 
-SHOW LINES READING FROM THE CDF STARTING FROM THE y-axis 
-
 The guidance denotes quantiles with the letter P, together with the associated probability that the quantity would take a value below the quantile. For example, the value that divides a probability distribution into two parts with equal probabilities is the P50 quantile. 
-
-STOP BY 50% ON THE CDF
 
 This value is also known as the median. 
 
 Most continuous quantities have a Probability Density Function. 
 
-SHOW PDF
-
 The Probability Density Function express probabilities as area under its curve. The total area under the curve is 1, corresponding to 100% probability.
 
-SHOW LINE WITH COLORED AREA BELOW THE LINE
 The area under the PDF curve to the left of the median is 50%. 
 
 The Probability Density Function can be thought of as a smooth histogram for a continuous quantity. Note that when used for a probability distribution, the area for the histogram should be 1.
@@ -278,15 +273,14 @@ Always state clearly what the probability distribution refers to.
 Graphical representations of distributions are difficult to interpret for non-technical audiences. Therefore, for entry and informed levels, only communicate selected results extracted from the distribution. 
 Provide the central estimate (mean or median), 
 the P5–P95 range (within which it is 90% certain that the true value lies) 
-and/or 
-the P25–P75 range (within which it is 50% certain the true value lies)
+and/or the P25–P75 range (within which it is 50% certain the true value lies)
 If the assessors have provided different quantiles (e.g. P1–P99), use these instead.
 If it is critical for understanding the message, also give an idea about the form of the distribution behind the range.
  
 In addition, or alternatively: if a regulatory (reference) value exists, or a value of particular interest for other reasons (e.g. more than zero occurrence of an adverse outcome), provide the probability of exceeding that value.
  
 For an informed audience, it is recommended to in addition provide information on how the probability distributions have been derived, underlying data or evidence and methods, and use boxplots to visualise the summaries from the distribution. Add labels and explanatory text.
-SHOW BOX PLOT
+
 When using a box plot, explain clearly that it represents uncertainty and not variability. 
  
 More information should be provided for a technical audience: 
@@ -296,9 +290,9 @@ State which sources of uncertainty are considered in the distribution and provid
 State clearly how each distribution was obtained, and in particular whether it was derived by statistical analysis, mechanistic modelling, expert judgement or a combination of these.
  
 If quantiles of the distribution are not enough to communicate something important about the distribution, the assessors can also provide a PDF graph of the distribution.
-SHOW PDF FOR A SMOOTH VERSION OF THE PROBABILITY DISTRIBUTION IN THE GD  
+
 They should accompany the PDF with a CDF graph of the distribution if this is useful for technical readers of the assessment. 
-SHOW PDF UNDER THE CDF 
+
 Use the same horizontal scale, and plot (as shown here to the left) the CDF above the PDF and clearly mark the location of the central estimate.
  
 Explain clearly that the distribution represents uncertainty about the quantity of interest, for which there is a single true value, as distributions are more commonly used to represent variability and people may misinterpret them in that way.
@@ -335,15 +329,3 @@ At the informed level, repeat the certainty statement from the entry level and e
 More tips and recommendations are provided in the guidance of communication of uncertainty.  
 
 ::::
-
-
-
-
-
-
-
-
-
-
-
-
