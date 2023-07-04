@@ -20,7 +20,7 @@ A concise summary of the overall uncertainty, suitable for the executive summary
 
 In some assessments, information on the main contributors to uncertainty may be useful for decision-makers, informing further actions such as data gathering and refinement of the assessment. 
 
-## Unquantified uncertainties
+### Unquantified uncertainties
 
 The assessment conclusion should include a clear statement of quantified uncertainty and, if applicable, a description of any unquantified uncertainties. The latter should be described in terms of their nature, cause, effects, difficulty in quantification, assumptions made, and suggestions for reduction or better characterisation. When there are unquantified uncertainties, words implying magnitude or likelihood should be avoided. 
 
