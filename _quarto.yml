@@ -72,7 +72,6 @@ website:
           contents:
           - principles-and-methods/uncertainty-communication-principles.qmd
           - principles-and-methods/uncertainty-communication-communicating.qmd
-          - principles-and-methods/uncertainty-communication-audience.qmd
         - section: "Expressions of Uncertainty"
           contents:
           - uncertainty-communication/expressions-unqualified.qmd

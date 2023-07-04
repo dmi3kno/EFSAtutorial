@@ -128,29 +128,3 @@ knitr::include_graphics("../img/options_for_characterising_overall_uncertainty.p
 ```
 
 :::
-
-::: {.callout-tip collapse="true" appearance="minimal"}
-### Reporting uncertainty analysis in scientific assessments
-<!-- Ch 15 SO -->
-
-## Types of assessment
-
-In reporting uncertainty analysis, EFSA's guidelines state that standardized assessments should mention the standard procedure followed and confirm the absence of non-standard uncertainties. If the applicability of the standard procedure is unclear, an explanation should be provided. For other assessments, uncertainty analysis should be reported with consideration for time constraints in urgent cases. In standardized assessments with non-standard uncertainties, the analysis should focus on those specific to the assessment.
-
-## Sources of uncertainty
-
-Transparency and consistency with EFSA's principles are essential in reporting uncertainty analysis. Sources of uncertainty should be identified, documented, evaluated, and combined, including the use of data, expert judgment, and chosen methodologies. Reference to other documents may suffice for described methods. The location of uncertainty analysis information should maximize accessibility in the assessment report.
-
-Assessments must clearly identify sources of uncertainty and characterize their impact on the conclusion. Depending on the type of assessment, decision-makers or legislation may require specific reporting formats, such as qualitative descriptors or unqualified conclusions. In cases where practical certainty cannot be achieved, assessors should report inconclusive findings and comply with documentation requirements.
-
-## Unquantified uncertainties
-
-The assessment conclusion should include a clear statement of quantified uncertainty and a description of unquantified uncertainties. Quantified uncertainty can be expressed using probabilities or probability distributions. Unquantified uncertainties should be described in terms of their nature, cause, effects, difficulty in quantification, assumptions made, and suggestions for reduction or better characterization. Words implying magnitude or likelihood should be avoided.
-
-## Overall uncertainty
-
-A concise summary of the overall uncertainty characterization, suitable for the executive summary, should provide a simplified quantitative expression of the combined effect of quantified uncertainties and a brief description of unquantified uncertainties. Assessors should ensure compatibility between the reporting of uncertainty analysis and the assessment conclusions, revising both if necessary.
-
-In some assessments, information on the main contributors to uncertainty may be useful for decision-makers, informing further actions such as data gathering and refinement of the assessment. Prioritization methods can be employed to identify these main contributors.
-
-:::
