@@ -46,6 +46,14 @@ Enjoy the exploration!
 - [Main elements](principles-and-methods/uncertainty-analysis-main-elements.qmd) of uncertainty analysis.
 - [Key principles](principles-and-methods/uncertainty-analysis-key-principles.qmd) for conducting different types of assessments
 
+**Methods for uncertainty analysis**
+
+- [Overview of methods for Uncertainty Analysis](principles-and-methods/methods.qmd)
+- [Qualitative methods](principles-and-methods/methods-qualitative.qmd)
+- [Methods to quantify uncertainty](principles-and-methods/methods-quantitative.qmd)
+- [Questions to identify sources of uncertainty affecting inputs](principles-and-methods/methods-sources-inputs.qmd)
+- [Questions to identify sources of uncertainty affecting assessment methodology](principles-and-methods/methods-sources-methodology.qmd)
+
 
 **Principles of Uncertainty Communication:**
 
