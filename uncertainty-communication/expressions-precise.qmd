@@ -32,6 +32,8 @@ Subjective probability enhances comparability among individuals when expressing 
 
 The subjectivist interpretation of probability does not exclude the frequentist interpretation, but it requires reinterpreting frequentist probabilities as subjective probabilities to combine them with other sources of uncertainty. This is particularly relevant when integrating probabilities from statistical data analysis with probabilities derived from expert judgment. Bayesian analysis already yields subjective probabilities, but confidence intervals from frequentist analysis would need reinterpretation. The process and appropriateness of such reinterpretation are discussed in Section 11.2.1, considering that probabilities from statistical analysis may still entail additional uncertainties requiring expert judgment.
 
+Learn more about [probability distributions in the respective section](expressions-distribution.qmd).
+
 ## Approximate probability
 
 Probabilities need not be expressed precisely, and in practice, they are always approximate to some extent. Assessors typically provide approximate probabilities within a specified range instead of specifying them to infinite decimal places. Learn more about [approximate probabilities](expressions-approximate.qmd) in the respective section of the tutorial.

@@ -34,14 +34,6 @@ The meaning of such a range is that it is judged that the probability would lie 
 
 ::::
 
-## Communicating uncertainty in the answer to a Yes/No question by an approximate probability 
-
-Any range of probabilities (e.g. 10–20% probability) providing an approximate quantification of likelihood for either:
-
-- A specified answer to a question (e.g. a ‘yes’ answer to a ‘yes/no’ question) 
-- A specified quantity lying in a specified range of values, or above or below a specified value (e.g. 1–10% probability that more than 100 infected organisms will enter the EU in 2019)
-
-
 ## EFSA's Approximate probability scale
 
 :::: {.panel-tabset}
@@ -52,11 +44,11 @@ Any range of probabilities (e.g. 10–20% probability) providing an approximate 
 
 ## Text
 
-Approximate probabilities are used in EFSA’s approximate probability scale. 
-SHOW THE SCALE
+Approximate probabilities are used in EFSA’s approximate probability scale (@tbl-approx-probscale). 
+
 This scale was introduced by EFSA to harmonise the use of qualitative verbal expressions for uncertainty. 
 
-For example, if uncertainty is quantified as being in the range 66 - 90% (POINT TO RANGE) then the accompanying verbal expression should be “likely” (POINT TO LIKELY).
+For example, if uncertainty is quantified as being in the range 66 - 90% then the accompanying verbal expression should be “likely”.
 
 To avoid ambiguity, the Guidance on communication of uncertainty recommends to always report the expression of uncertainty quantitatively as a probability or as an approximate probability. 
 

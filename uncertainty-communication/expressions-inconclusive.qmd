@@ -5,8 +5,9 @@ title: "Inconclusive assessment"
 ## Communicating an inconclusive assessment 
 
 This occurs in two situations:
-  - When decision-makers or legislation require an unqualified conclusion but assessors judge there is too much uncertainty to give one and report that they cannot conclude. The basis for this uncertainty expression should be documented in the body of the assessment report or an annex, and may include one or more uncertainty expressions 
-  - When it is not required that conclusions must be unqualified, but the assessors are unable to give any quantitative expression of uncertainty or, where they judge that their probability for a conclusion could be anywhere between 0% and 100%. This should be accompanied by a qualitative description of the uncertainties (see description of a [precise probability](expressions-precise.qmd))
+
+- When decision-makers or legislation require an unqualified conclusion but assessors judge there is too much uncertainty to give one and report that they cannot conclude. The basis for this uncertainty expression should be documented in the body of the assessment report or an annex, and may include one or more uncertainty expressions 
+- When it is not required that conclusions must be unqualified, but the assessors are unable to give any quantitative expression of uncertainty or, where they judge that their probability for a conclusion could be anywhere between 0% and 100%. This should be accompanied by a qualitative description of the uncertainties (see description of a [precise probability](expressions-precise.qmd))
 
 :::: {.panel-tabset}
 
@@ -27,9 +28,16 @@ Another situation where assessment can be declared inconclusive is when decision
 But as we all know, a scientific conclusion cannot be stated with absolute certainty. 
  
 However, sometimes the certainty in the conclusion is “close enough” to 100% and therefore for practical purposes it can be declared as a yes. 
-SHOW THE SCALE
 
-The threshold beyond which the probability can be rounded off to 0 or 100 % is called “practical certainty” in the Uncertainty Analysis Guidance and it should in principle be established by the decision makers. 
+```{r}
+#| label: fig-italian
+#| fig-cap: "Region of practical certatinty"
+#| echo: false
+knitr::include_graphics("../img/Italian4.png")
+```
+
+
+The threshold beyond which the probability can be rounded off to 0 or 100 % is called “practical certainty” in the Uncertainty Analysis Guidance and it should in principle be established by the decision makers (@fig-italian). 
  
 The actual threshold for “practical certainty” may vary depending on the context, available decision options and their respective costs and benefits.
  
