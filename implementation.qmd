@@ -32,8 +32,11 @@ Thank you!
 
 ::::
 
-The table provided below contains examples of scientific reports and opinions implementing the Guidances. Please use the &#8853; sign to unfold the comments section. Each line in the comment section corresponds to an expressions or a method indicated in the table for the selected scientific opinion.
+## Examples of scientific reports and opinions implementing the Guidance on Uncertainty Analysis. 
 
+Please use the &#8853; sign to unfold the comments section. Each line in the comment section corresponds to an expression or a method indicated for the selected scientific opinion. If you click on the method or expression you will be taken to a place in the opinion where this is used or described. 
+
+Methods for uncertainty analysis are described in [Principles and Methods](principles-and-methods/methods.qmd) section. Expressions resulting from applying uncertainty analysis are described in the [Communication of Uncertainty](uncertainty-communication.qmd) section.
 
 ```{r}
 #| label: readsheets
