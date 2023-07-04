@@ -129,7 +129,7 @@ The question for assessment, or at least the eventual conclusion, needs to be we
 <!-- SO p17 -->
 If qualitative terms are used to describe the degree of uncertainty, they should be clearly defined with objective scientific criteria.
 
-Specifically, the definition should identify the quantitative expression of uncertainty associated with the qualitative term as is done, for example, in the [EFSA approximate probability scale](uncertainty-communication-principles.qmd#tbl-approx-probscale)
+Specifically, the definition should identify the quantitative expression of uncertainty associated with the qualitative term as is done, for example, in the [EFSA approximate probability scale](../uncertainty-communication/expressions-approximate.qmd#tbl-approx-probscale)
 
 ### "Firm" conclusion
 <!-- SO p17 -->

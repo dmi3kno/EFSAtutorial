@@ -122,7 +122,7 @@ Qualitative methods in uncertainty analysis are specifically recommended for the
  
  - At intermediate points in an uncertainty analysis, to characterise individual sources of uncertainty qualitatively, as an aid to quantifying their combined impact by probability judgement. This may be useful either for individual parts of the uncertainty analysis, or as a preliminary step when characterising the overall uncertainty of the conclusion.
  
- - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an [approximate probability scale with accompanying qualitative descriptors](uncertainty-communication-principles.qmd#tbl-approx-probscale).
+ - When quantifying uncertainty by expert judgement, and when communicating the results of that, it may in some cases be helpful to use an [approximate probability scale ](../uncertainty-communication/expressions-approximate.qmd#tbl-approx-probscale) with accompanying qualitative descriptors.
  
  - At the end of uncertainty analysis, for describing uncertainties that the assessors are unable to include in their quantitative evaluation.
  

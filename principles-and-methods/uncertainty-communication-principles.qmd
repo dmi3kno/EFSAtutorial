@@ -25,33 +25,3 @@ A concise summary of the overall uncertainty characterization, suitable for the 
 
 In some assessments, information on the main contributors to uncertainty may be useful for decision-makers, informing further actions such as data gathering and refinement of the assessment. Prioritization methods can be employed to identify these main contributors.
 
-### Approximate probability scale
-
-```{r}
-#| label: tbl-approx-probscale
-#| tbl-cap: "Approximate probability scale"
-#| echo: false
-#| message: false
-#| warning: false
-
-# update rvest
-# install.packages("rvest")
-# install the latest version
-# remotes::install_github("haozhu233/kableExtra")
-
-library(kableExtra)
-library(magrittr)
-ptbl <- data.frame(
-  term=c("Almost certain", "Extremely likely", "Very likely", "Likely", "About as likely as not", "Unlikely", "Very unlikely", "Extremely unlikely", "Almost impossible"),
-  range=c("99-100%", "95-99%", "90-95%", "66-90%", "33-66%", "10-33%", "5-10%", "1-5%", "0-1%"),
-  addopt=c(rep("More likely than not: >50%", 4), rep(" ", 5)),
-  addopt2=rep("Unable to give any probability: range is 0-100%. Report as 'inconclusive', 'cannot conclude' or 'unknown'", 9)
-) 
-tbl_col_names <- c("Probability term", "Subjective probability range", "Additional options", "")
-ptbl %>% 
-  kbl(col.names =tbl_col_names ) %>% 
-  kable_classic(full_width = FALSE) %>%
-  column_spec(1:3, width = "10em") %>% 
-  collapse_rows(columns = 3:4, valign = "top")
-
-```

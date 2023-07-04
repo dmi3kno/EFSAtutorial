@@ -165,7 +165,7 @@ As for the entry level, with the following differences:
 ## Entry
 
 - State clearly what the probability refers to, including whether it refers to a numerical estimate or a qualitative conclusion. When the probability refers to a numerical estimate, also state the range of the quantity that the probability refers to. 
-- An approximate probability may comprise a range of probabilities chosen by the assessors from the approximate probability scale [Table 1](../uncertainty-analysis.qmd), or a different range of probabilities specified by the assessors. 
+- An approximate probability may comprise a range of probabilities chosen by the assessors from the [approximate probability scale](../uncertainty-communication/expressions-approximate.qmd#tbl-approx-probscale), or a different range of probabilities specified by the assessors. 
 - Always communicate the quantitative range of probabilities because this expresses the assessors’ conclusion without ambiguity. If a verbal expression is also used, present the quantitative probability first (e.g. '66–90% certain (likely)') because it has been shown that this order leads to more consistent understanding than if the verbal expression is presented first (see [UC Section 3.1](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5520#efs25520-sec-0018-title)) 
 - To avoid inconsistency and misunderstanding, do not use the verbal terms in [Table 1](../uncertainty-analysis.qmd) to refer to any probabilities or ranges of probabilities other than those shown in this table.
 
