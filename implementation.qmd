@@ -77,7 +77,7 @@ panels_txt <- panels_df %>%
 
 **Assessment types:** `r types_txt`
 
-**Panels:** `r panels_txt``
+**Panels:** `r panels_txt`
 
 
 ```{r}

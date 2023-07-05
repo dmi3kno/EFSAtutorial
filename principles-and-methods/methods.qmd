@@ -19,7 +19,7 @@ See [questions to identify sources of uncertainty affecting inputs](methods-sour
 ### Assessment methodology
 Other sources of uncertainties can be identified in relation to how the evidence is used in the assessment, including any models or reasoning that are used to draw conclusions.
 
-See [questions to identify sources of uncertainty affecting assessment methodolgoy](methods-sources-methodology.qmd)
+See [questions to identify sources of uncertainty affecting assessment methodology](methods-sources-methodology.qmd)
 
 ::::
 :::
