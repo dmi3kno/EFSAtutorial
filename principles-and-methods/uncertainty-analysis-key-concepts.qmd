@@ -2,6 +2,8 @@
 title: "Key concepts"
 ---
 
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 5](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0029-title)
+
 ## Well-defined questions and quantities of interest
 <!-- SO p22 -->
 The purpose of most EFSA scientific assessments is to determine what science can say about a quantity, event, proposition or state of the world that is of interest for decision-makers.
@@ -120,7 +122,7 @@ Assessing uncertainty relies on expert judgement, as does science in general. Ju
 
 Expert judgement includes an element of subjectivity because different people have different knowledge and experience. The Scientific Committee emphasises that expert judgement is not guesswork or a substitute for evidence. On the contrary, expert judgement must always be based on reasoned consideration of relevant evidence and expertise, which must be documented transparently, and experts should be knowledgeable or skilled in the topics on which they advise. Well-reasoned judgements are an essential ingredient of good science.
 
-Expert judgment is essential in scientific assessment but can be influenced by cognitive biases and group dynamics. Procedures are in place to manage conflicts of interest and mitigate biases. Formal approaches for expert knowledge elicitation (EKE) address psychological biases and facilitate aggregation of expert judgments. EFSA has published guidance on EKE and recognises the need for streamlined approaches. Selection of experts should represent a wide range of scientific opinions, and consensus should not imply compromise. Differences of opinion and scientific uncertainty should be reflected in the assessment report. 
+Expert judgment is essential in scientific assessment but can be influenced by cognitive biases and group dynamics. Procedures are in place to manage conflicts of interest and mitigate biases. Formal approaches for expert knowledge elicitation (EKE) address psychological biases and facilitate aggregation of expert judgments. EFSA has published [guidance on EKE](https://www.efsa.europa.eu/en/efsajournal/pub/3734) and recognises the need for streamlined approaches. Selection of experts should represent a wide range of scientific opinions, and consensus should not imply compromise. Differences of opinion and scientific uncertainty should be reflected in the assessment report. 
 
 The Scientific Committee stresses that where suitable data provide most of the available information on an issue and are amenable to statistical analysis, this should be used in preference to relying solely on expert judgement. However, as noted above, most data are subject to some limitations in reliability or relevance, and further uncertainties arise in the choice of statistical model; the greater these limitations and uncertainties, the more the results of statistical analysis will need to be interpreted and/or augmented by expert judgement.
 
@@ -139,15 +141,28 @@ There is more information [on probability in this tutorial](https://dmi3kno.gith
 
 ## Overall uncertainty 
 
-The recommendation to quantify uncertainty applies specifically to overall uncertainty, which refers to the assessors' uncertainty about the assessment conclusion, considering all relevant sources of uncertainty. Assessors should attempt to express the overall impact of identified uncertainties quantitatively, documenting qualitatively any uncertainties that cannot be quantified. In cases where qualitative reporting is required, quantitative evaluation of overall uncertainty is still necessary to determine a justified conclusion. However, overall uncertainty does not include information about unknown unknowns. The characterisation of uncertainty is dependent on the assessors, available evidence, time, and resources. Decision-makers should consider these factors when interpreting and using assessment conclusions. Learn more about [overall uncertainty in this section](uncertainty-analysis/overall.qmd) of the tutorial.
+The recommendation to quantify uncertainty applies specifically to overall uncertainty, which refers to the assessors' uncertainty about the assessment conclusion, considering all relevant sources of uncertainty. 
 
+Assessors should attempt to express the overall impact of identified uncertainties quantitatively, documenting qualitatively any uncertainties that cannot be quantified. 
+
+In cases where qualitative reporting is required, quantitative evaluation of overall uncertainty is still necessary to determine a justified conclusion. 
+
+Overall uncertainty should and can not include information about unknown unknowns. 
+
+The characterisation of uncertainty is dependent on the assessors, available evidence, time, and resources. Decision-makers should consider these factors when interpreting and using assessment conclusions. 
+
+Learn more about [overall uncertainty in this section](uncertainty-analysis/overall.qmd) of the tutorial.
 
 ## Unquantified uncertainties 
 
 The term “unquantified uncertainties” refers to uncertainties which the assessors have identified as relevant to their assessment, but are unable to include in their quantitative expression of overall uncertainty. 
+
 Assessors should strive to ensure that all questions or quantities in their assessments are well-defined. If they are unable to achieve this, then the uncertainty of those questions or quantities is literally unquantifiable. 
+
 However, even when a question or quantity is well-defined, an assessor may sometimes be unable to make a quantitative judgement of the impact of one or more sources of uncertainty affecting it. Sources of uncertainty which impact on the conclusion are not quantified for either reason (inability to define or inability to quantify) are sometimes referred to as ‘deep’ uncertainties. Deep uncertainties often arise in complex or novel problems. 
+
 When assessors cannot quantify the impact of some of the identified uncertainties, they should qualitatively describe them and report them alongside the quantitative expression of overall uncertainty. This is because the overall uncertainty will be conditional on assumptions made in the assessment regarding the sources of uncertainty that were not quantified. This has important implications for reporting and decision-making. 
+
 It is therefore important to quantify the overall impact of as many as possible of the identified uncertainties, and identify any that cannot be quantified. The most direct way to achieve this is to try to quantify the overall impact of all identified uncertainties, as this will reveal any that cannot be quantified.
 
 
@@ -161,8 +176,7 @@ Additional conditionality arises when identified uncertainties are not considere
 
 Decision-making should consider the implications of conditionality, recognising that assessments are based on scientific knowledge, do not account for unknown unknowns, and are influenced by the expertise and resources available. 
 
-Assessors must provide a list of identified uncertainties not included in the quantitative assessment, along with descriptions and explanations. They must not use any language that implies a quantitative judgement about the probability of other conditions or their effect on the conclusion (e.g. ‘unlikely’, ‘negligible difference’). If the assessor feels able to use such language, this implies that they are in fact able to make a quantitative judgement. If so, they should express it
-quantitatively or use words with quantitative definitions for transparency, to avoid ambiguity, and to avoid the risk management connotations that verbal expressions often imply. Assessors should communicate clearly that they cannot assign probabilities or make quantitative judgments about the unquantified uncertainties. However, this information is still valuable for decision-makers, as it clarifies the limitations of science and guides further analysis or research.
+Assessors must provide a list of identified uncertainties not included in the quantitative assessment, along with descriptions and explanations. They must not use any language that implies a quantitative judgement about the probability of other conditions or their effect on the conclusion (e.g. ‘unlikely’, ‘negligible difference’). If the assessor feels able to use such language, this implies that they are in fact able to make a quantitative judgement. If so, they should express it quantitatively or use words with quantitative definitions for transparency, to avoid ambiguity, and to avoid the risk management connotations that verbal expressions often imply. Assessors should communicate clearly that they cannot assign probabilities or make quantitative judgments about the unquantified uncertainties. However, this information is still valuable for decision-makers, as it clarifies the limitations of science and guides further analysis or research.
 
 Decision-makers should decide how to address these unquantified uncertainties, potentially through further research or precautionary actions. Decision-makers may have the ability to influence some unquantified uncertainties, such as implementing specific practices or policies.
 

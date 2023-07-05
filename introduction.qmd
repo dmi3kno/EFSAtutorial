@@ -58,6 +58,6 @@ This tutorial refers to the three main guidance documents
 
 ## About
 
-This tutorial is provided within OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training.
+This tutorial is provided within [OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training](https://www.item.fraunhofer.de/en/events/efsa-e-learning-lot2.html).
 
 This page was created by Ullrika Sahlin and Dmytro Perepolkin, CEC, Lund University, Sweden.

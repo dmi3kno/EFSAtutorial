@@ -1,6 +1,10 @@
 ---
 title: "Principles of Uncertainty Communication"
 ---
+
+This text is a summary from the section Reporting uncertainty analysis in scientific assessments [SO 15](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0107-title)
+
+
 Communicating uncertainty aims to increase the transparency of the scientific assessment process and to provide the risk managers with a more informed evidence base by reporting on the strengths and weaknesses of the evidence. 
 
 Transparency is one of EFSA’s basic principles and has important implications for risk communication. A transparent approach to explaining how an organisation works, its governance and how it makes its decisions, is intended to build trust. Communications should clearly convey the most important areas of uncertainty in the scientific assessment, whether and how these can be addressed by the assessors and decision-makers, and the implications of these remaining uncertainties for public health. Messages about uncertainty need to be based on information that is provided in EFSA’s scientific assessments. EFSA’s communications should be designed to ensure the results of its work (including its assessment of risk and uncertainty) are correctly understood by its audience, which is the objective of the Communication of Uncertainty GD.

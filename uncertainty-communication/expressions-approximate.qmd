@@ -111,8 +111,7 @@ This is where the approximate probability scale can be used. The experts should 
 
 It is not intended that experts should be restricted to using the approximate probabilities in the table. On the contrary, they should be encouraged to specify other ranges, or precise probabilities, whenever these express better their judgement for the question or quantity under assessment. 
 
-Note that the approximate probability scale is not a replacement of EKE, which means that the principles of EKE should be followed when using it. The supporting opinion of the uncertainty analysis guidance lists minimal requirements for a modified version of EKE (see requirements for semi-formal EKE [In written script add SO 9). 
-
+Note that the approximate probability scale is not a replacement of EKE, which means that the principles of EKE should be followed when using it. The supporting opinion of the uncertainty analysis guidance lists minimal requirements for a modified version of EKE (see requirements for semi-formal EKE [SO 9](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5122#efs25122-sec-0061-title). 
 ::::
 
 
