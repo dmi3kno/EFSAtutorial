@@ -48,12 +48,37 @@ library(googlesheets4)
 library(tidyverse)
 library(htmltools)
 library(DT)
+
+gs4_deauth() # avoid the need to authenticate
+
 sheet_id <- "1Ja2aKHBDSwVYOoaChP2a2apJoNDfUwyvg0TLcOlvlnw"
 url_prefix <- "https://efsa.onlinelibrary.wiley.com/doi/"
 ex_df <- googlesheets4::read_sheet(sheet_id, sheet="Examples")
 ex_expr_df <- googlesheets4::read_sheet(sheet_id, sheet="ExamplesExpressions")
 ex_meth_df <- googlesheets4::read_sheet(sheet_id, sheet="ExamplesMethods")
+types_df <- googlesheets4::read_sheet(sheet_id, sheet="Types")
+panels_df <- googlesheets4::read_sheet(sheet_id, sheet="Panels")
 ```
+
+```{r}
+#| label: legendtxt
+#| echo: false
+types_txt <- types_df %>% 
+  mutate(types=paste(Type, TypeName, sep=" - ")) %>%
+  summarize(types_txt=paste0(types, collapse = "; ")) %>% pull(types_txt)
+panels_txt <- panels_df %>% 
+    mutate(panels=paste(Panel, PanelName, sep=" - ")) %>%
+  summarize(panels_txt=paste0(panels, collapse = "; ")) %>% pull(panels_txt)
+
+```
+
+
+#### Legend:
+
+**Assessment types:** `r types_txt`
+
+**Panels:** `r panels_txt``
+
 
 ```{r}
 #| label: impltable
