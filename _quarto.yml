@@ -13,8 +13,8 @@ website:
         href: https://twitter.com/EFSA_EU
   navbar:
     left:
-      - text: "Home"
-        file: index.qmd
+      # - text: "Home"
+      #   file: index.qmd
       - text: "Introduction"
         file: introduction.qmd
       - text: "Principles and Methods"
