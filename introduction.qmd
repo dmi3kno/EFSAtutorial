@@ -63,16 +63,16 @@ This tutorial refers to the two guidance documents and a supporting opinion:
 
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Go to Principles and Methods page](../principles-and-methods.qmd){.btn .btn-secondary .btn role="button"}
+[Go to Principles and Methods page](principles-and-methods.qmd){.btn .btn-secondary .btn role="button"}
 </br>
 </br>
-[Go to Uncertainty Analysis page](../uncertainty-analysis.qmd){.btn .btn-secondary .btn role="button"}
+[Go to Uncertainty Analysis page](uncertainty-analysis.qmd){.btn .btn-secondary .btn role="button"}
 </br>
 </br>
-[Go to Uncertainty Communication page](../uncertainty-communication.qmd){.btn .btn-secondary .btn role="button"}
+[Go to Uncertainty Communication page](uncertainty-communication.qmd){.btn .btn-secondary .btn role="button"}
 </br>
 </br>
-[Go to Implementation page](../implementation.qmd){.btn .btn-secondary .btn role="button"}
+[Go to Implementation page](implementation.qmd){.btn .btn-secondary .btn role="button"}
 </br>
 </br>
 :::

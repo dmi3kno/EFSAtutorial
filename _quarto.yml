@@ -13,10 +13,10 @@ website:
         href: https://twitter.com/EFSA_EU
   navbar:
     left:
-      # - text: "Home"
-      #   file: index.qmd
-      - text: "Introduction"
-        file: introduction.qmd
+      - text: "Home"
+        file: index.qmd
+      #- text: "Introduction"
+      #  file: introduction.qmd
       - text: "Principles and Methods"
         file: principles-and-methods.qmd
       - text: "Uncertainty Analysis"
