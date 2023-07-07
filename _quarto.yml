@@ -27,8 +27,8 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Introduction"
-        file: introduction.qmd
+      #- text: "Introduction"
+      #  file: introduction.qmd
       - text: "Principles and Methods"
         file: principles-and-methods.qmd
       - text: "Uncertainty Analysis"

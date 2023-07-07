@@ -60,3 +60,10 @@ Enjoy the exploration!
 - [Principles of Uncertainty Communication](principles-and-methods/uncertainty-communication-principles.qmd).
 - [Communicating Scientific Uncertainties](principles-and-methods/uncertainty-communication-principles.qmd), covering risk communication mandate, risk perception and the uncertainty communicaiton challenges.
 :::
+
+</br>
+</br>
+
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[Return to Home page](index.qmd){.btn .btn-secondary .btn role="button"}
+:::

@@ -60,3 +60,9 @@ It is currently expected that, in many assessments, the conclusion, summary and 
 - A [two-dimensional probability](uncertainty-communication/expressions-2d.qmd) distribution
 :::
 
+</br>
+</br>
+
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+[Return to Home page](index.qmd){.btn .btn-secondary .btn role="button"}
+:::
