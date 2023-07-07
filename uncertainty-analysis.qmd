@@ -99,14 +99,10 @@ Identify which of the following types your assessment most corresponds to and th
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
 [Standardised Assessments](uncertainty-analysis/figure1.qmd){.btn .btn-secondary .btn role="button" data-toggle="tooltip" title="A standardised assessment follows a pre-established standardised procedure that covers every step of the assessment."}
-</br>
-</br>
 [Case-specific assessments](uncertainty-analysis/figure5.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Scientific assessments where there is no pre-established standardised procedure, so the assessors have to develop an assessment plan that is specific to the case in hand. Standardised elements (e.g. default values) may be used for some parts of the assessment, but other parts require case-specific approaches."}
 </br>
 </br>
 [Urgent assessments](uncertainty-analysis/figure11.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Assessments that, for any reason, must be completed within an unusually short period of time or with unusually limited resources, and therefore require streamlined approaches to both assessment and uncertainty analysis."}
-</br>
-</br>
 [Development or revision of guidance documents](uncertainty-analysis/figure12.qmd){.btn .btn-secondary .btn role="button"  data-toggle="tooltip" title="Especially (but not only) those that describe existing standardised procedures or establish new ones."}
 :::
 

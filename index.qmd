@@ -61,20 +61,15 @@ This tutorial refers to the two guidance documents and a supporting opinion:
 - Guidance on [Communication of Uncertainty](https://doi.org/10.2903/j.efsa.2019.5520) in Scientific Assessments
 :::
 
+Select one of the sections below:
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
-[Go to Principles and Methods page](principles-and-methods.qmd){.btn .btn-secondary .btn role="button"}
-</br>
-</br>
-[Go to Uncertainty Analysis page](uncertainty-analysis.qmd){.btn .btn-secondary .btn role="button"}
-</br>
-</br>
-[Go to Uncertainty Communication page](uncertainty-communication.qmd){.btn .btn-secondary .btn role="button"}
-</br>
-</br>
-[Go to Implementation page](implementation.qmd){.btn .btn-secondary .btn role="button"}
-</br>
-</br>
+
+[Principles and Methods](principles-and-methods.qmd){.btn .btn-secondary .btn role="button"}
+[Uncertainty Analysis](uncertainty-analysis.qmd){.btn .btn-secondary .btn role="button"}
+</br></br>
+[Uncertainty Communication](uncertainty-communication.qmd){.btn .btn-secondary .btn role="button"}
+[Implementation](implementation.qmd){.btn .btn-secondary .btn role="button"}
 :::
 
 <!-- ::: {#main-text style="font-size: 1.25rem; font-weight: lighter; text-align: center;"} -->
@@ -83,7 +78,7 @@ This tutorial refers to the two guidance documents and a supporting opinion:
 <!-- The tutorial was created by Ullrika Sahlin (ullrika.sahlin [at] cec.lu.se) and Dmytro Perepolkin, CEC, Lund University, Sweden.   -->
 <!-- ::: -->
 
-## About
+#### About
 
 This tutorial is provided within [OC/EFSA/KNOW/2022/01 Lot 2 Trainings on horizontal scientific assessment methodologies EFSA training](https://www.item.fraunhofer.de/en/events/efsa-e-learning-lot2.html).
 
