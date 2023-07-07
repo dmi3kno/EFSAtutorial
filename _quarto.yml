@@ -6,6 +6,7 @@ website:
   title: "EFSA Tutorial on Uncertainty"
   page-footer:
     left: '"Science, safe food, sustainability"'
+    center: "EFSA tutorial on Uncertainty"
     right:
       - text: "Follow us on  "
       - icon: rss
