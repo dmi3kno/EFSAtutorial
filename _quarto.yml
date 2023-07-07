@@ -114,8 +114,8 @@ format:
     toc: true
     link-external-icon: true
     link-external-newwindow: true
-    #include-in-header: 
-    #  - partials/progress.html
+    include-before-body: 
+      - file: partials/analytics.html
 
 
 
