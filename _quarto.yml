@@ -5,13 +5,25 @@ project:
 website:
   title: "EFSA Tutorial on Uncertainty"
   page-footer:
-    left: "Copyright 2023, EFSA"
+    left: '"Science, safe food sustainability"'
     right:
-      - icon: github
-        href: https://github.com/dmi3kno/EFSAtutorial
+      - text: "Follow us on  "
+      - icon: rss
+        href: https://www.efsa.europa.eu/en/rss
       - icon: twitter
-        href: https://twitter.com/EFSA_EU
+        href: https://twitter.com/efsa_eu
+      - icon: instagram
+        href: https://www.instagram.com/one_healthenv_eu/
+      - icon: linkedin
+        href: https://www.linkedin.com/company/efsa
+      - icon: youtube
+        href: https://www.youtube.com/user/EFSAchannel
+      - icon: spotify
+        href: https://open.spotify.com/show/0PZQtMty4NZbgdo0GLIGHm
   navbar:
+    background: "#D9D9D9"
+    foreground: primary
+    title: false
     left:
       - text: "Home"
         file: index.qmd
@@ -94,11 +106,15 @@ format:
       - zephyr
       - special.scss
     mainfont: "Roboto"
+    backgroundcolor: "#f9f9f9"
+    fontcolor: "#22294D"
     anchor-sections: true
     email-obfuscation: javascript
     toc: true
     link-external-icon: true
     link-external-newwindow: true
+    #include-in-header: 
+    #  - partials/progress.html
 
 
 

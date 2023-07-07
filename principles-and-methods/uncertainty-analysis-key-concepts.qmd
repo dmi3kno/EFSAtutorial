@@ -151,7 +151,7 @@ Overall uncertainty should and can not include information about unknown unknown
 
 The characterisation of uncertainty is dependent on the assessors, available evidence, time, and resources. Decision-makers should consider these factors when interpreting and using assessment conclusions. 
 
-Learn more about [overall uncertainty in this section](uncertainty-analysis/overall.qmd) of the tutorial.
+Learn more about [overall uncertainty in this section](../uncertainty-analysis/overall.qmd) of the tutorial.
 
 ## Unquantified uncertainties 
 
