@@ -1,6 +1,7 @@
 ---
 title: "Uncertainty expressions"
 ---
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 4](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0018)
 
 # Quantitative and qualitative expression
 <!-- SO p17 -->

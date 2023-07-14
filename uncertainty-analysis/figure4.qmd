@@ -7,7 +7,7 @@ title: "Standardized Assessments"
 
 :::{.column-page-inset}
 ```{mermaid}
-%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+%%{init:{"theme":"base", "flowchart": {"htmlLabels": true}, "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
 flowchart TB
   subgraph ov [Characterisation of overall uncertainty]
     direction LR

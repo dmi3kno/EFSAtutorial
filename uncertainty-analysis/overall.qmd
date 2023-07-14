@@ -61,11 +61,11 @@ When assessors are unable to quantify some of the identified uncertainties affec
 
 All the flow charts in the Guidance include an assessment of overall uncertainty as a necessary step in all types of assessment, except for standard assessments with no non-standard uncertainties. 
 
-Assessors should always try to express overall uncertainty quantitatively. The reason is that it avoids the ambiguity of qualitative expression and therefore provides better information for decision-making. (SO 4.2, SO 5.11))
+Assessors should always try to express overall uncertainty quantitatively. The reason is that it avoids the ambiguity of qualitative expression and therefore provides better information for decision-making ([SO 4.2](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0026), [SO 5.11](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0040)).
 
 The Guidance recognises that firm conclusions (without probabilities) are required in some types of assessment and describes how to assess overall uncertainty in this case.
 
-The GD includes practical advice for quantifying overall uncertainty (UA GD 16.1])
+The GD includes practical advice for quantifying overall uncertainty ([UA GD 16.1](https://doi.org/10.2903/j.efsa.2018.5123#efs25123-sec-0050))
 
 The conclusion is conditional on any sources of uncertainty that have and have not been included in the quantification of overall uncertainty. 
 

@@ -190,16 +190,16 @@ tags.async=!0,tags.src="https://efsa.containers.piwik.pro/"+id+".js"+qPString,sc
 <div class="cell-output-display">
 <div>
 <div>
-<pre class="mermaid mermaid-js">%%{init:{"theme":"base", "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
+<pre class="mermaid mermaid-js">%%{init:{"theme":"base", "flowchart": {"htmlLabels": true}, "themeVariables": {"primaryColor":"white", "secondaryColor":"white", "tertiaryColor":"white", "mainBkg":"#f2f2f2", "nodeBorder":"#7F7F7F", "clusterBkg":"#FFF9FB"}}}%%
 flowchart TD
-  A([&lt; BACK]) --&gt; B{Check every part&lt;/br&gt;of assessment&lt;/br&gt;for nonstandard&lt;/br&gt;uncertainties}
+  A([ &lt; BACK]) --&gt; B{Check every part&lt;/br&gt;of assessment&lt;/br&gt;for nonstandard&lt;/br&gt;uncertainties}
   B -- None identified --&gt; C[[Document in the opinion that&lt;/br&gt;non-standard uncertainties&lt;/br&gt;were checked for&lt;/br&gt;and none were identified]]
   B --One or more identified --&gt; Z([NEXT &gt;])
   click A "../uncertaintyanalysis.html" "Go Back" _self
   click B callback "See Section 7.1."
   click C callback "See Section 17 regarding reporting."
   click Z "figure2.html" "Go Forward" _self
-  classDef dark fill:#0d5caa,stroke:#0d5caa,stroke-width:0px,color:#fff
+  classDef dark color:#ffffff,fill:#0d5caa,stroke:#0d5caa,stroke-width:0px
   class A,Z dark
 </pre>
 </div>

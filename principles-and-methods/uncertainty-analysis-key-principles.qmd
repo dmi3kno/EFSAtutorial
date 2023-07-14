@@ -2,6 +2,8 @@
 title: "Key principles"
 ---
 
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 7](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0046) and the Guidance on Uncertainty Analysis [Ch 2](https://doi.org/10.2903/j.efsa.2018.5123#efs25123-sec-0011).
+
 Read more about [different types of assessment](https://dmi3kno.github.io/EFSAtutorial/uncertainty-analysis.html#types-of-assessment).
 
 

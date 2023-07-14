@@ -2,6 +2,8 @@
 title: "Main elements of uncertainty analysis"
 ---
 
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 8](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0061-title)
+
 <!-- Box 3 SO p38 -->
 Some assessments require only some elements, and each element can be implemented in various ways with various methods. 
 

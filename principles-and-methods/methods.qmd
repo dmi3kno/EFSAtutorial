@@ -78,7 +78,7 @@ Please, see the examples of [quantitative methods](methods-quantitative.qmd).
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ### Investigating influence and sensitivity
 
-Sensitivity analysis (SA) is a set of methods used to assess the impact of model inputs and uncertainty expressions on the output of a quantitative model. Its objectives include prioritizing sources of uncertainty, identifying inputs for refined quantification or additional data collection, investigating the sensitivity of assumptions, and examining the sensitivity of overall uncertainty.
+Sensitivity analysis (SA) is a set of methods used to assess the impact of model inputs and uncertainty expressions on the output of a quantitative model. Its objectives include prioritising sources of uncertainty, identifying inputs for refined quantification or additional data collection, investigating the sensitivity of assumptions, and examining the sensitivity of overall uncertainty.
 
 <!-- Ch 12 SO -->
 :::: {.panel-tabset}

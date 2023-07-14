@@ -1,6 +1,8 @@
 ---
 title: "Background"
 ---
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 1-3](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0003-title)
+
 ## Definitions
 ### Uncertainty
 <!-- SO p11 -->
@@ -16,7 +18,7 @@ Sometimes ‘uncertainty’ is used to refer to a source of uncertainty, and som
 ### Uncertainty analysis
 Uncertainty analysis is defined as the process of identifying and characterising uncertainty about questions of interest and/or quantities of interest in a scientific assessment. 
 
-A question or quantity of interest may be the subject of the assessment as a whole, i.e. that which is required by the ToR for the assessment, or it may be the subject of a subsidiary part of the assessment which contributes to addressing the ToR (e.g. exposure and hazard assessment are subsidiary parts of risk assessment).
+A question or quantity of interest may be the subject of the assessment as a whole, i.e. that which is required by the [Terms of Reference (ToR)](https://www.efsa.europa.eu/en/efsajournal/scdocdefinitions) for the assessment, or it may be the subject of a subsidiary part of the assessment which contributes to addressing the ToR (e.g. exposure and hazard assessment are subsidiary parts of risk assessment).
 
 ## Roles of assessors and decision-makers
 ### Questions for assessment by EFSA
