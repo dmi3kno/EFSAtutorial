@@ -2,6 +2,8 @@
 title: "Reporting uncertainty analysis"
 ---
 
+This text is a summary from the Supporting Opinion of the Uncertainty Analysis Guidance [SO 15](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0107) and the Guidance on Uncertainty Analysis [Ch 12](https://doi.org/10.2903/j.efsa.2018.5123#efs25123-sec-0033).
+
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## Requirements on reporting
 

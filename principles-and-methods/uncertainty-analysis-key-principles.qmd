@@ -93,3 +93,9 @@ Every uncertainty analysis should **express in quantitative terms the combined e
  - When time is severely limited, this may have to be done by a streamlined expert judgement procedure in which the contributions of all identified sources of uncertainty are evaluated and combined collectively, without dividing the uncertainty analysis into parts. 
 
 - This initial assessment may need to be followed by more refined assessment and uncertainty analysis, including more detailed consideration of the most important sources of uncertainty, after the initial assessment has been delivered to decision-makers.
+
+
+::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
+
+[Go to Communication of Unertainty](../uncertainty-communication.qmd){.btn .btn-secondary .btn role="button"}
+:::

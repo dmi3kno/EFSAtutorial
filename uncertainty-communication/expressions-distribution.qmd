@@ -15,7 +15,7 @@ title: "Probability distribution"
 
 Before we go into a probability distribution. Let us revisit what is a probability. 
  
-When you work with scientific assessment, you will encounter the two dominating ways to interpret a probability (SO 5.10.). 
+When you work with scientific assessment, you will encounter the two dominating ways to interpret a probability ([SO 5.10](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0039)). 
 The first is to interpret probability as “the frequency with which sampled values arise within a specified range or for a specified category”. 
 An example of this interpretation is the average proportion of times you would get heads up when flipping a coin many times. This is also known as the frequency interpretation. 
  
@@ -80,7 +80,7 @@ A scientific assessment can consist of probabilistic models for both uncertainty
 
 ## Text
 
-I think we are ready to say something about the distinction between uncertainty and variability.
+I think we are ready to say something about the distinction between uncertainty and variability ([SO 5.3](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0032)).
  
 Uncertainty refers to the state of knowledge, whereas variability refers to actual variation or heterogeneity in the real world. 
 Both uncertainty and variability can be represented by probability distributions, as illustrated in the left and central graphs in @fig-uncvar.
@@ -297,7 +297,7 @@ Use the same horizontal scale, and plot (as shown here to the left) the CDF abov
  
 Explain clearly that the distribution represents uncertainty about the quantity of interest, for which there is a single true value, as distributions are more commonly used to represent variability and people may misinterpret them in that way.
  
-Note that there is specific guidance on how to communicate a distribution that quantifies both variability and uncertainty for the same quantity. The term for this is a “2-dimensional probability distribution’. 
+Note that there is specific guidance on how to communicate a distribution that quantifies both variability and uncertainty for the same quantity. The term for this is a “2-dimensional probability distribution". 
 
 ::::
 
