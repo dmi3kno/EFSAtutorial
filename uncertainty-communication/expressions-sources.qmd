@@ -56,7 +56,7 @@ Here is a short list of possible uncertainties associated with:
 - Extrapolation uncertainty (i.e. limitations in external validity) 
 - Other uncertainties
 
-See also [questions to identify sources of uncertainty affecting inputs](../principles-and-methods/methods-sources-inputs.qmd)
+See ([SO 8.1 Table 1](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-tbl-0001)) and also refer to [questions to identify sources of uncertainty affecting inputs](../principles-and-methods/methods-sources-inputs.qmd)
 
 ## Assessment methodology
 - Ambiguity 
@@ -71,6 +71,6 @@ See also [questions to identify sources of uncertainty affecting inputs](../prin
 - Dependency between sources of uncertainty 
 - Other uncertainties
 
-See also [questions to identify sources of uncertainty affecting assessment methodology](../principles-and-methods/methods-sources-methodology.qmd)
+See ([SO 8.1 Table 2](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-tbl-0002)) and also refer to [questions to identify sources of uncertainty affecting assessment methodology](../principles-and-methods/methods-sources-methodology.qmd)
 ::::
 
