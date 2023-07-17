@@ -2,6 +2,8 @@
 title: "Overview of methods for Uncertainty Analysis"
 ---
 
+Section 13 of the supporting Scientific Opinion ([SO 13](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-0101)) contains an overview of all the methods reviewed by the Scientific Committee, indicating what elements of uncertainty analysis they can contribute to and assessing their relative strengths and weaknesses; detailed information and examples for each method are provided in the [Annexes of the Supporting Opinion](https://doi.org/10.2903/j.efsa.2018.5122#efs25122-sec-1001).
+
 ::: {.callout-tip collapse="true" appearance="minimal"}
 ## Identification of potentially relevant sources of uncertainty
 <!-- Ch 8 SO -->
