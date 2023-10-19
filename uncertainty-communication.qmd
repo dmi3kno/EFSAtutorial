@@ -26,6 +26,26 @@ We hope you enjoy the material!
 
 ::::
 
+## General guidance 
+
+```{r}
+#| label: tbl-ucomm-summary
+#| tbl-cap: "General guidance for communicators"
+#| echo: false
+
+tibble::tribble(
+  ~cat,~txt,
+  "Alignment with the assessment", "&bull; Consistency with the degree of certainty &bull; Link uncertainty information to specific event, outcome or quantity &bull;  Any conditions or assumptions related to conclusions",
+  "Describing uncertainty with words", "&bull; Do not replace number used to express uncertainty with words &bull; Use exactly the same words to describe the degree of uncertainty (e.g. low, high)",
+  "Describing uncertainty with numbers", "&bull; Use % certainty (e.g. 'the experts considered it 90% certain that...') &bull; Positively frame the conclusion as % certainty for more likely outcome &bull; If using both, always communicate numbers first and words second, e.g. '66-90% certain (likely)'",
+  "Precautions when using numbers", "&bull; Avoid 'hedging word', such as 'about', 'approximately', and 'up to' &bull; Be clear it's consensus judgment of the experts &bull; Avoid using % of values of interest, e.g. 'The Panel was 90% certain that 3 in 10,000 sheep would be affected by the virus'",
+  "Describing sources of uncertainty", "&bull; Provide for informed/technical audience &bull; Make clear all uncertainties have been taken into account in the overall conclusion",
+  "Addressing the uncertainties","&bull; Give options for addressing uncertaint (differentiate between RM/RA) &bull; For informed audience differentiate formal requirements for applicants from non-statutory options, e.g. future research"
+) |> kableExtra::kbl("html", col.names = NULL, escape = FALSE) |> kableExtra::kable_styling()
+
+```
+
+
 Use one of the buttons below to proceed to communication checklists!
 
 ::: {#start-btn style="font-family: 'Roboto Condensed', Roboto, sans-serif; text-align: center;"}
